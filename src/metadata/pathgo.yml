@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/pathgo
+
+idspace: PATHGO
+base_url: /obo/pathgo
+
+products:
+- pathgo.owl: https://raw.githubusercontent.com/rjacak/pathogenesis-gene-ontology/master/pathgo.owl
+- pathgo.obo: https://raw.githubusercontent.com/rjacak/pathogenesis-gene-ontology/master/pathgo.obo
+
+term_browser: ontobee
+example_terms:
+- PATHGO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/rjacak/pathogenesis-gene-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/rjacak/pathogenesis-gene-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/PATHGO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/rjacak/pathogenesis-gene-ontology/master/
