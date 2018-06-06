@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/rjacak/pathogenesis-gene-ontology.svg?branch=master)](https://travis-ci.org/rjacak/pathogenesis-gene-ontology)
-<!---[![DOI](https://zenodo.org/badge/13996/rjacak/pathogenesis-gene-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/rjacak/pathogenesis-gene-ontology) Re-enable after making this repo public and adding to the Zenodo-->
+<!-- [![DOI](https://zenodo.org/badge/13996/rjacak/pathogenesis-gene-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/rjacak/pathogenesis-gene-ontology) Re-enable after making this repo public and adding to the Zenodo -->
 
 # pathogenesis-gene-ontology
 
