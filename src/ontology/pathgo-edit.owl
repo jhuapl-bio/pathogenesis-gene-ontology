@@ -1,3 +1,4 @@
+Prefix(:=<http://purl.obolibrary.org/obo/PATHGO#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -5,11 +6,1042 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/pathgo.owl>
-Import(<http://purl.obolibrary.org/obo/pathgo/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/pathgo/imports/go_import.owl>)
-Annotation(rdfs:comment "Pathogenesis gene ontology")
+Ontology(<http://purl.obolibrary.org/obo/PATHGO>
+Annotation(rdfs:comment "Pathogenesis gene ontology"^^xsd:string)
 
-Declaration(Class(<http://purl.obolibrary.org/obo/PATHGO_00000000>))
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATHGO_00000000> "pathgo"@en)
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000076>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000078>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000080>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000082>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000083>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000084>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000087>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000088>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000089>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000091>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000093>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000095>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000096>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000097>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000098>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000103>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000104>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000106>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000107>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000109>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000110>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000112>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000115>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000116>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000117>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000118>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000119>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000122>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000123>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000124>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000125>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000126>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000127>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000128>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000129>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000130>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000131>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000132>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000133>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000134>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000135>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000136>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000137>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000138>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000139>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000140>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000142>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000143>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000144>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000145>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000146>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000148>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000149>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000154>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000155>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000156>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000157>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000158>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#NamespaceIdRule>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#date>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#saved-by>))
+Declaration(AnnotationProperty(rdfs:label))
+Declaration(AnnotationProperty(owl:deprecated))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#altLabel>))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#editorialNote>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/pathgo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/IAO_0000115> "definition"^^xsd:string)
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#NamespaceIdRule> (namespace-id-rule)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#NamespaceIdRule> "namespace-id-rule"^^xsd:string)
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference"^^xsd:string)
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> (has_obo_format_version)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "has_obo_format_version"^^xsd:string)
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace"^^xsd:string)
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has_related_synonym)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "has_related_synonym"^^xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001> (determinant of phospholipase activity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001> "determinant of phospholipase activity")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000002> (elongation factor 2 inactivator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000002> "elongation factor 2 inactivator"^^xsd:string)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000002> "examples diphtheria toxin and Pseudomonas exotoxin A"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000002> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000034>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000003> (ion gradient modulation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000003> "ion gradient modulation"^^xsd:string)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000003> "direct action on ion channel (voltage or ligand gated) or ion pump,"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000003> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004> (determinant of toxicity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004> "determinant of toxicity")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000005> (determinant of non-specific T cell activation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000005> "determinant of non-specific T cell activation")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000005> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000035>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006> (protein synthesis inhibition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006> "protein synthesis inhibition")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000007> (disrupt neurotransmitter release)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000007> "disrupt neurotransmitter release")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000007> "example agatoxin, omega conotoxin, dendrotoxin"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000007> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000008> (second messenger pathway modulator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000008> "second messenger pathway modulator")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000008> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000009> (siderophore)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000009> "BVF:0000006"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000009> "siderophore")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000009> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000010> (non-specific T-cell activation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000010> "non-specific T-cell activation"^^xsd:string)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000010> "example SEB (superantigens)"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000010> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000016>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000011> (post-synaptic membrane potential modulator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000011> "post-synaptic membrane potential modulator")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000011> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000012> (determinant of exocytosis blockade)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000012> "determinant of exocytosis blockade")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000012> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000013> (enterotoxin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000013> "enterotoxin")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000013> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000014> (intracellular delivery)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000014> "Mechanism that involves delivery of factors into target cells"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000014> "intracellular delivery")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000014> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015> (signal transduction modulator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015> "signal transduction modulator"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000016> (immune modulation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000016> "immune modulation"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000016> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000017> (cardiotoxin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000017> "cardiotoxin")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000017> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000018> (synaptic vesicle release blockade)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000018> "synaptic vesicle release blockade")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000018> "examples tetanus bot toxin"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000018> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000047>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019> (process or component of toxicity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019> "process or component of toxicity"^^xsd:string)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000020> (myotoxin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000020> "myotoxin")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000020> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000021> (disrupt post-synaptic membrane potential)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000021> "disrupt post-synaptic membrane potential")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000021> "example alpha bungarotoxin; cardiac glycosides (post syn calcium in muscle)"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000021> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000022> (action potential propagation modulator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000022> "action potential propagation modulator")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000022> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000023> (disrupt action potential propagation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000023> "disrupt action potential propagation"^^xsd:string)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000023> "example tetrodotoxin, scorpion toxins"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000023> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000024> (synaptic vesicle release blocker)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000024> "synaptic vesicle release blocker"^^xsd:string)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000024> "example tetanus toxin (synaptobrevin cleavage), bot toxin (snare cleavage)"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000024> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000012>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000025> (elongation factor 2 inactivation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000025> "elongation factor 2 inactivation")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000025> "examples diphtheria toxin and Pseudomonas exotoxin A"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000025> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000026> (hepatotoxin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000026> "hepatotoxin")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000026> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000027> (neurotransmitter release modulator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000027> "neurotransmitter release modulator")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000027> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028> (second messenger pathway modulation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028> "second messenger pathway modulation"^^xsd:string)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028> "intracellular signalling modulation"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000044>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029> (membrane damage)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029> "membrane damage"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000030> (ribosome inactivation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000030> "ribosome inactivation")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000030> "examples ricin"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000030> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000031> (phospholipid cleavage)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000031> "phospholipid cleavage")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000031> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000032> (determinant of pore formation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000032> "determinant of pore formation"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000032> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000033> (pore formation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000033> "pore formation"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000033> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000034> (protein synthesis inhibitor)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000034> "protein synthesis inhibitor")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000034> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000035> (immune modulator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000035> "immune modulator"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000035> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000036> (mechanism of toxicity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000036> "mechanism of toxicity")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000036> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000037> (dermatoxin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000037> "dermatoxin")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000037> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038> (adherence)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038> "adherence")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000039> (ribosome inactivator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000039> "ribosome inactivator")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000039> "example ricin"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000039> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000034>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000040> (ion gradient modulator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000040> "ion gradient modulator"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000040> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000041> (toxin category)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000041> "toxin category")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000041> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000042> (nephrotoxin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000042> "nephrotoxin")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000042> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043> (determinant of membrane damage)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043> "determinant of membrane damage"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000044> (signal transduction modulation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000044> "signal transduction modulation")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000044> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000045> (pulmonary toxin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000045> "pulmonary toxin")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000045> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046> (organ system category)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046> "organ system category")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000041>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000047> (exocytosis blockade)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000047> "exocytosis blockade"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000047> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000048> (neurotoxin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000048> "neurotoxin")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000048> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000046>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000049> (type V secretion system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000049> "type V secretion system")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000049> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000050> (actin-based intracellular motility)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000050> "actin-based intracellular motility")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000050> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000123>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051> (integrin binding protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051> "integrin binding protein"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000052> (surface polysaccharide biosynthesis)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000052> "surface polysaccharide biosynthesis")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000052> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000053> (induction of VEGF secretion)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000053> "induction of VEGF secretion")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000053> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000074>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054> (virulence factor synthesis)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054> "virulence factor synthesis")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000055> (cleavage of membrane phospholipids)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000055> "cleavage of membrane phospholipids")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000055> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000118>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000056> (protease)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000056> "protease")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000056> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000057> (lysin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000057> "lysin")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000057> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000157>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000058> (iron uptake)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000058> "iron uptake")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000058> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000059> (outer membrane protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000059> "outer membrane protein")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000059> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000060> (cytokine response suppression)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000060> "cytokine response suppression")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000060> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000061> (cyclin-dependent kinase 1 inactivator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000061> "cyclin-dependent kinase 1 inactivator"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000061> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000157>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000062> (biofilm formation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000062> "biofilm formation")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000062> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000063> (lysis of host cells)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000063> "lysis of host cells")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000063> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000064> (adenylate cyclase)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000064> "adenylate cyclase")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000064> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000065> (pili biosynthesis)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000065> "pili biosynthesis")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000065> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000071>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000066> (iron acquisition from host)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000066> "iron acquisition from host")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000066> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000058>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067> (nutrient uptake factor)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067> "nutrient uptake factor")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000068> (coagulation cascade modulator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000068> "coagulation cascade modulator")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000068> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000069> (collagen binding protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000069> "collagen binding protein")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000069> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000070> (fimbriae protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000070> "fimbriae protein")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000070> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000071> (usher-chaperone system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000071> "usher-chaperone system"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000071> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000072> (glycoprotein binding)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000072> "glycoprotein binding"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000072> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000118>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073> (determinant of virulence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073> "Any molecule produced by bacteria, viruses, fungi or protozoa enabling them to achieve colonization of a niche in the host, inhibit or evade the host's immune response, enter and exit cells, or obtain nutrition from the host."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073> "CHEBI:72316"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073> "Wikipedia: Virulence factors are molecules produced by bacteria, viruses, fungi, and protozoa that add to their effectiveness and enable them to achieve the following: colonization of a niche in the host (this includes attachment to cells) immunoevasion, evasion of the host's immune response immunosuppression, inhibition of the host's immune response entry into and exit out of cells (if the pathogen is an intracellular one) obtain nutrition from the host Specific pathogens possess a wide array of virulence factors. Some are chromosomally encoded and intrinsic to the bacteria (e.g. capsules and endotoxin), whereas others are obtained from mobile genetic elements like plasmids and bacteriophages (e.g. some exotoxins). Virulence factors encoded on mobile genetic elements spread through horizontal gene transfer, and can convert harmless bacteria into dangerous pathogens. Bacteria like Escherichia coli O157:H7 gain the majority of their virulence from mobile genetic elements. Gram-negative bacteria secrete a variety of virulence factors at host-pathogen interface, via membrane vesicle trafficking as bacterial outer membrane vesicles for invasion, nutrition and other cell-cell communications. It has been found that many pathogens have converged on similar virulence factors to battle against eukaryotic host defenses. These obtained bacterial virulence factors have two different routes used to help them survive and grow: The factors are used to assist and promote colonization of the host. These factors include adhesins, invasins, and antiphagocytic factors. The factors, including toxins, hemolysins, and proteases, bring damage to the host."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073> "determinant of virulence"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000074> (induction of proangiogenic response)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000074> "induction of proangiogenic response")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000074> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000150>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000075> (innate immune system subversion)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000075> "innate immune system subversion")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000075> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000076> (hyaluronidase)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000076> "hyaluronidase")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000076> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077> (extracellular matrix binding protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077> "extracellular matrix binding protein"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000078> (intracellular delivery of effector proteins)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000078> "Intracellular delivery mechanism where the factors being delivered are proteins"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000078> "intracellular delivery of effector proteins")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000078> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000014>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000079> (deoxyribonuclease (DNase))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000079> "deoxyribonuclease (DNase)"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000079> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000157>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000080> (dendritic cell maturation inhibitor)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000080> "dendritic cell maturation inhibitor")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000080> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081> (invasion factor)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081> "Molecules associated with the penetration of pathogens into host cells"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081> "BVF:0000003"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081> "invasin"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081> "invasion factor"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000082> (peptide and protein degradation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000082> "peptide and protein degradation")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000082> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000083> (virulence factor target)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000083> "virulence factor target")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000083> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000084> (inhibition of lymphocyte proliferation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000084> "inhibition of lymphocyte proliferation")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000084> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085> (immune evasion and subversion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085> "Mechanism that involves producing factors that hide a pathogen from the immune system, or that actively counter or subvert host cell immunity"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085> "immune evasion and subversion"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000086> (autoinducer synthase)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000086> "autoinducer synthase")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000086> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000112>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000087> (capsule biosynthesis)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000087> "capsule biosynthesis")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000087> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000088> (regulation of host cell signaling)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000088> "Mechanism that alters host cell signaling for pathogenic purposes, whether adherence and colonization, proliferation and survival, invasion, or some other purpose."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000088> "regulation of host cell signaling"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000088> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000089> (disruption of mitochondrial membrane potential)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000089> "disruption of mitochondrial membrane potential")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000089> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000127>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090> (immune evasion and subversion factor)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090> "immune evasion and subversion factor")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000091> (calcium- and calmodulin-dependent adenylate cyclase)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000091> "calcium- and calmodulin-dependent adenylate cyclase")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000091> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000064>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000092> (type IV pili)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000092> "type IV pili")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000092> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000134>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000093> (coagulation factor V protease)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000093> "coagulation factor V protease")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000093> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000068>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000094> (mitogen-activated protein kinase kinases (MAPKKs) protease)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000094> "mitogen-activated protein kinase kinases (MAPKKs) protease"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000094> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000056>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000095> (surface components)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000095> "BVF:0000004"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000095> "surface components"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000095> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000096> (degradation of polysaccharide)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000096> "degradation of polysaccharide")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000096> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000118>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000097> (evasion of immune effectors by antigenic variation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000097> "evasion of immune effectors by antigenic variation")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000097> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000098> (small GTPase activating protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000098> "small GTPase activating protein")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000098> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000116>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099> (binding to extracellular matrix)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099> "binding to extracellular matrix")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000100> (resistance to complement-mediated killing)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000100> "resistance to complement-mediated killing"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000100> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000075>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000101> (lymphocyte proliferation inhibition factor)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000101> "lymphocyte proliferation inhibition factor")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000101> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102> (secretion system factor)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102> "secretion system factor"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000103> (Toll-like receptor adaptor protein degradation activator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000103> "Toll-like receptor adaptor protein degradation activator")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000103> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000104> (obstruction of antibacterial peptide binding)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000104> "obstruction of antibacterial peptide binding")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000104> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105> (drug resistance (use CARD ARO))
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105> "BVF:0000007"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105> "drug resistance (use CARD ARO)"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000106> (motility)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000106> "Mechanism that allows organisms to move independently, using metabolic energy.  Types of bacterial movement include swimming, swarming, gliding, twitching, and sliding."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000106> "motility")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000106> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000107> (monocyte/macrophage adherence protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000107> "monocyte/macrophage adherence protein")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000107> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108> (inhibition of actin polymerization)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108> "inhibition of actin polymerization")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000109> (sialidase)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000109> "sialidase")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000109> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000110> (secretion of virulence determinants)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000110> "Mechanism that leads to transport of virulence determinants from inside a pathogen to the extracellular space"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000110> "secretion of virulence determinants"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000110> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111> (process or component of virulence)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111> "process or component of virulence"^^xsd:string)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000112> (quorom sensing system factor)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000112> "quorom sensing system factor")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000112> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000119>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113> (nutrient uptake)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113> "Mechanism that facilitates the uptake of nutrients from host cells or the environment"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113> "nutrient uptake")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114> (mechanism of virulence)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114> "mechanism of virulence")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000115> (glycosyltransferase)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000115> "glycosyltransferase")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000117>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000116> (regulator of cell signaling)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000116> "regulator of cell signaling")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000116> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000117> (lipopolysaccharide biosynthesis)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000117> "lipopolysaccharide biosynthesis")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000117> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000052>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000118> (invasion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000118> "Mechanism that allows pathogens to spread within host cells or throughout organisms, and that is distinct from adherence and colonization"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000118> "invasion"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000118> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000119> (biofilm formation factor)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000119> "biofilm formation factor")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000119> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120> (adhesin)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120> "Cell-surface components or appendages of bacteria that facilitate adhesion or adherence to other cells or to surfaces, usually the host they are infecting or living in"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120> "adhesin")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121> (cell killing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121> "Mechanism that results in death of a host orgnanism"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121> "cell killing"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000122> (activator of host cell nitric oxide synthase)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000122> "Leads to high levels of nitric oxide radicals.  Nitric oxide destroys iron-dependent enzymes, eventually inhibiting mitochondrial function and DNA synthesis in nearby host cells."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000122> "activator of host cell nitric oxide synthase")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000122> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000123> (intracellular motility)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000123> "intracellular motility")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000123> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000106>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000124> (iron acquisition from environment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000124> "iron acquisition from environment")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000124> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000058>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000125> (desiccation resistance)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000125> "desiccation resistance")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000125> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000150>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000126> (hemolysin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000126> "hemolysin")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000126> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000057>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000127> (inhibition of mitochondrial function)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000127> "inhibition of mitochondrial function")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000127> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000128> (poly-beta-1-6-N-acetylglucosamine (PNAG))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000128> "poly-beta-1-6-N-acetylglucosamine (PNAG)")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000128> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000095>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000129> (antiphagocytosis)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000129> "antiphagocytosis")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000129> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000130> (mucinase)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000130> "mucinase")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000130> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000131> (tight-junction-associated protein occludin redistribution factor)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000131> "tight-junction-associated protein occludin redistribution factor"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000131> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000132> (inhibition of DNA synthesis)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000132> "inhibition of DNA synthesis")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000132> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000133> (fibronectin binding protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000133> "fibronectin binding protein")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000133> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000134> (type IV secretion system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000134> "type IV secretion system")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000134> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000135> (deoxyribonuclease activity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000135> "deoxyribonuclease activity")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000135> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000136> (integrin αMβ2 binding protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000136> "integrin αMβ2 binding protein")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000136> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000137> (RND-type efflux system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000137> "RND-type efflux system")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000137> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000138> (induction of apoptosis)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000138> "induction of apoptosis")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000138> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000139> (systemic motility)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000139> "systemic motility")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000139> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000106>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000140> (type II secretion system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000140> "type II secretion system")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000140> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000141> (type III secretion system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000141> "type III secretion system")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000141> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000142> (acquisition of cholesterol from membrane)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000142> "acquisition of cholesterol from membrane")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000142> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000143> (disruption of epithelial cell barrier function)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000143> "disruption of epithelial cell barrier function")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000143> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000118>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000144> (mitochondrial membrane potential disruption factor)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000144> "mitochondrial membrane potential disruption factor")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000144> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000157>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000145> (lipopolysaccharide (LPS))
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000145> "Lipid-containing polysaccharides which are endotoxins and important group-specific antigens. They are often derived from the cell wall of gram-negative bacteria and induce immunoglobulin secretion. The lipopolysaccharide molecule consists of three parts: LIPID A, core polysaccharide, and O-specific chains ( O ANTIGENS). When derived from Escherichia coli, lipopolysaccharides serve as polyclonal B-cell mitogens commonly used in laboratory immunology. (From Dorland, 28th ed)."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000145> "BVF:0000028"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000145> "lipopolysaccharide (LPS)"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000145> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000095>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000146> (sialyl Lewis x binding protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000146> "sialyl Lewis x binding protein")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000146> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147> (adherence and colonization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147> "Mechanism that allows viruses and bacteria to attach to host cells and establish growth"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147> "adherence and colonization"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000148> (integrin α2β1 binding protein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000148> "integrin α2β1 binding protein")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000148> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000149> (polysaccharide-degradation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000149> "polysaccharide-degradation")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000149> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000150> (proliferation and survival)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/pathgo/IAO_0000115> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000150> "Mechanism that allows pathogens to grow and multiply, distinct from adherence and colonization and/or invasion"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000150> "proliferation and survival")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000150> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151> (adherence and colonization factor)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151> "BVF:0000002"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151> "adherence and colonization factor")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000152> (induction of cell cycle arrest)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000152> "induction of cell cycle arrest")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000152> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000121>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153> (complement component 1 (C1) protease)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153> "complement component 1 (C1) protease")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000154> (manganese uptake)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000154> "manganese uptake")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000154> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000155> (capsule polymer depolymerization)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000155> "capsule polymer depolymerization")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000155> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000087>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000156> (type VI secretion system)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000156> "type VI secretion system")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000156> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000157> (cell killing factor)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000157> "cell killing factor"^^xsd:string)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#editorialNote> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000157> "Not a very information rich term!"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000157> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073>)
+
+# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000158> (gelatinase)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000158> "gelatinase")
+SubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000158> <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067>)
+
+
 )
