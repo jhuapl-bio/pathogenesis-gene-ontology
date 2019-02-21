@@ -25,7 +25,7 @@ property_value: editorialNote "direct action on ion channel (voltage or ligand g
 id: PATHGO:0000004
 name: determinant of toxicity
 is_a: PATHGO:0000019 ! process or component of toxicity
-property_value: IAO:0000115 "New definition for determinant of toxicity" xsd:string
+property_value: IAO:0000115 "New definition for determinant of toxicity, with more detail" xsd:string
 
 [Term]
 id: PATHGO:0000005

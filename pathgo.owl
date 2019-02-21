@@ -180,7 +180,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New definition for determinant of toxicity</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New definition for determinant of toxicity, with more detail</pathgo:IAO_0000115>
         <rdfs:label>determinant of toxicity</rdfs:label>
     </owl:Class>
     
