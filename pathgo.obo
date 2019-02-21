@@ -1,6 +1,8 @@
 format-version: 1.2
+data-version: pathgo/releases/2019-02-21/pathgo.owl
 remark: Pathogenesis gene ontology
 ontology: PATHGO
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019> (process or component of toxicity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111> (process or component of virulence)\n\nSubClassOf(<http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111> owl:Thing)\n\n\n)
 
 [Term]
 id: PATHGO:0000001
@@ -23,6 +25,7 @@ property_value: editorialNote "direct action on ion channel (voltage or ligand g
 id: PATHGO:0000004
 name: determinant of toxicity
 is_a: PATHGO:0000019 ! process or component of toxicity
+property_value: IAO:0000115 "New definition for determinant of toxicity" xsd:string
 
 [Term]
 id: PATHGO:0000005
