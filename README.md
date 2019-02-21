@@ -25,4 +25,4 @@ Please use this repository's [Issue tracker](https://github.com/rjacak/pathogene
 
 ## Acknowledgements
 
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit).  We thank the developers for putting this utility together.
+This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit).  We thank Chris Mungall and any other developers for putting this utility together.
