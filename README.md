@@ -19,6 +19,12 @@ http://purl.obolibrary.org/obo/pathgo.owl
 
 Those wishing to edit this ontology should use the "-edit" version, [src/ontology/pathgo-edit.owl](src/ontology/pathgo-edit.owl)
 
+Developers are encouraged to use Protege (https://protege.stanford.edu/) for ontology editing, and a git-enabled command line environment for version control.  Changes can also be made using the GitHub interface using the following protocol:
+1. After making changes to the ontology in Protege, export the ontology to a file using the default format (RDF/XML)
+2. Navigate to the 'pathgo-edit.obo' file in Github and click the pencil icon to edit the file
+3. Select-all and paste over the contents there with the contents of the RDF/XML file you exported
+4. Scroll to the bottom and select the radio button that says "Create a new branch for this commit...", and click "Commit changes".  This will create a 'Pull request' for your changes which will be merged by a PathGO developer if approved.
+
 ## Contact
 
 Please use this repository's [Issue tracker](https://github.com/rjacak/pathogenesis-gene-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.  We would love to hear from you!
