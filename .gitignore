@@ -5,3 +5,5 @@ src/ontology/pathgo.obo
 src/ontology/pathgo.owl
 semantic.cache
 bin/
+.DS_Store
+src/.DS_Store
