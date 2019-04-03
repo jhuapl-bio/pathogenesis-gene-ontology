@@ -1705,7 +1705,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates membrane damage by cleavage of membrane lipids.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates membrane damage by cleavage of membrane phospholipids.</pathgo:IAO_0000115>
         <rdfs:label>determinant of phospholipid cleavage</rdfs:label>
     </owl:Class>
     
