@@ -1,7 +1,14 @@
 [![Build Status](https://travis-ci.org/rjacak/pathogenesis-gene-ontology.svg?branch=master)](https://travis-ci.org/rjacak/pathogenesis-gene-ontology)
 [//]: # ([![DOI](https://zenodo.org/badge/13996/rjacak/pathogenesis-gene-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/rjacak/pathogenesis-gene-ontology))
 
-# pathogenesis-gene-ontology
+# PathGO: the Pathogenesis Gene Ontology
+
+| | |
+|---|---|
+| Authors | Ron Jacak ([rjacak](http://github.com/rjacak)) |
+| | Jody Proescher ([jproesch](https://github.com/jproesch)) |
+
+## Description
 
 This ontology contains terms to describe the function of genes and gene products involved in pathogenesis.  Genes that encode toxins, virulence factors, and antimicrobial resistance have functions that are not represented well by the terms contained within the Gene Ontology or any of the other OBO Foundry ontologies.  This ontology will collect and maintain common terms and descriptions of concepts related to pathogenesis, and could help provide more intuitive descriptions of function for these types of sequences.
 
@@ -17,17 +24,22 @@ http://purl.obolibrary.org/obo/pathgo.owl
 
 ### Editors' version
 
-Those wishing to edit this ontology should use the "-edit" version, [src/ontology/pathgo-edit.owl](src/ontology/pathgo-edit.owl)
+PathGO would welcome contributions from the community!  Contributors are encouraged to use Protege (https://protege.stanford.edu/) for ontology editing, and a Git-enabled command line environment for version control and to submit changes for integration.  Note, to edit this ontology, contributors should make changes to the "-edit" file, [src/ontology/pathgo-edit.owl](src/ontology/pathgo-edit.owl).
 
-Developers are encouraged to use Protege (https://protege.stanford.edu/) for ontology editing, and a git-enabled command line environment for version control.  Changes can also be made using the GitHub interface using the following protocol:
-1. After making changes to the ontology in Protege, export the ontology to a file using the default format (RDF/XML)
-2. Navigate to the 'pathgo-edit.obo' file in Github and click the pencil icon to edit the file
-3. Select-all and paste over the contents there with the contents of the RDF/XML file you exported
-4. Scroll to the bottom and select the radio button that says "Create a new branch for this commit...", and click "Commit changes".  This will create a 'Pull request' for your changes which will be merged by a PathGO developer if approved.
+For contributors less experienced with Git and command line environments, we recommend a workflow using GitHub Desktop (https://desktop.github.com/).  Individuals should download and install GitHub Desktop, select the option to "Clone a Repository from the Internet...", search for the "pathogenesis_gene_ontology" repository, and clone it.  When prompted, you will be able to choose where the cloned repository files are saved.  A workflow for viewing the ontology and making changes is as follows:
+
+1. From within GitHub Desktop, ensure that the current repository selected is the 'pathogenesis_gene_ontology' and the current branch is 'master'.  Click "Fetch origin" to pull down the latest version of the ontology. 
+2. From within Protege, open the ontology by navigating to the directory where the repository was cloned, descend into the 'src/ontology' folder, and open the [src/ontology/pathgo-edit.owl](src/ontology/pathgo-edit.owl) file. 
+3. Make desired edits/comments to the ontology in Protege and save the changes.
+4. Switch back to the GitHub Desktop application, and review all of the changes present.  Any changes that you don't want to be retained can be removed by right-clicking on the file and selecting "Discard Changes...".  
+5. Save the changes to your local Git repository by providing a short name and description of the changes at the bottom left corner, and clicking "Commit to master".  Note, this will only save the changes to your filesystem.
+6. Submit the changes for inclusion into PathGO by clicking the 'Push origin' button on the home screen.  This action will trigger a notification, i.e. a pull request, to the maintainers of PathGO who will review the changes and merge them, if approved.
+
+Users are strongly encouraged to "Fetch origin" from within GitHub Desktop prior to viewing and/or editing the ontology, to ensure they are working from the latest version. 
 
 ## Contact
 
-Please use this repository's [Issue tracker](https://github.com/rjacak/pathogenesis-gene-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.  We would love to hear from you!
+Please use this repository's [Issue tracker](https://github.com/rjacak/pathogenesis-gene-ontology/issues) to request provide feedback, recommend new terms/classes, and/or report errors or specific concerns related to the ontology.  We would love to hear from you!
 
 ## Acknowledgements
 
