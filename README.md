@@ -34,8 +34,8 @@ For contributors less experienced with Git and command line environments, we rec
 2. Download and install Protege if not already available (https://protege.stanford.edu/)
 3. From within Protege, open the ontology by navigating to the directory where the repository was cloned, descend into the 'src/ontology' folder, and open the [src/ontology/pathgo-edit.owl](src/ontology/pathgo-edit.owl) file. 
 4. Make desired edits/comments to the ontology in Protege and save the changes.
-5. Switch back to the GitHub Desktop application, and review all of the changes present.  Any changes that you don't want to be retained can be removed by right-clicking on the file and selecting "Discard Changes...".  
-6. Save the changes to your local Git repository by providing a short name and description of the changes at the bottom left corner, and clicking "Commit to master".  Note, this will only save the changes to your filesystem.
+5. Switch back to the GitHub Desktop application, and review all of the changes present.  Any changes that you don't want to be retained should be removed in Protege.  Alternatively, if you want to start back over with the original version of a file, you can right-click on the file and select "Discard Changes...".
+6. Save the changes to your local Git repository by providing a short name and description in the boxes at the bottom left corner, and clicking "Commit to master".  Note, this will only save the changes to your filesystem.
 7. Submit the changes for inclusion into PathGO by clicking the 'Push origin' button on the home screen.  This action will trigger a notification, i.e. a pull request, to the maintainers of PathGO who will review the changes and merge them, if approved.
 
 Users are strongly encouraged to "Fetch origin" from within GitHub Desktop prior to viewing and/or editing the ontology, to ensure they are working from the latest version. 
