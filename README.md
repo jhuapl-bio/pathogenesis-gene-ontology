@@ -28,7 +28,7 @@ PathGO would welcome contributions from the community!  Contributors are encoura
 
 ## Editing workflow
 
-For contributors less experienced with Git and command line environments, we recommend a workflow using GitHub Desktop (https://desktop.github.com/).  Individuals should download and install GitHub Desktop, select the option to "Clone a Repository from the Internet...", search for the "pathogenesis_gene_ontology" repository, and clone it.  When prompted, you will be able to choose where the cloned repository files are saved.  A workflow for viewing the ontology and making changes is as follows:
+For contributors less experienced with Git and command line environments, we recommend a workflow using GitHub Desktop (https://desktop.github.com/).  Individuals should download and install GitHub Desktop, select the option to "Clone a Repository from the Internet...", search for the "pathogenesis_gene_ontology" repository, and clone it.  When prompted, you will be able to choose where the cloned repository files are saved.  **Choose an alternate location or make note of the default location, because you will need this path working with the ontology.**  A workflow for viewing the ontology and making changes is as follows:
 
 1. From within GitHub Desktop, ensure that the current repository selected is the 'pathogenesis_gene_ontology' and the current branch is 'master'.  Click "Fetch origin" to pull down the latest version of the ontology. 
 2. Download and install Protege if not already available (https://protege.stanford.edu/)
