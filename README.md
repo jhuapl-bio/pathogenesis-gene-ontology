@@ -26,7 +26,7 @@ http://purl.obolibrary.org/obo/pathgo.owl
 
 PathGO would welcome contributions from the community!  Contributors are encouraged to use Protege (https://protege.stanford.edu/) for ontology editing, and a Git-enabled command line environment for version control and to submit changes for integration.  Note, to edit this ontology, contributors should make changes to the "-edit" file, [src/ontology/pathgo-edit.owl](src/ontology/pathgo-edit.owl).
 
-### Editing workflow
+## Editing workflow
 
 For contributors less experienced with Git and command line environments, we recommend a workflow using GitHub Desktop (https://desktop.github.com/).  Individuals should download and install GitHub Desktop, select the option to "Clone a Repository from the Internet...", search for the "pathogenesis_gene_ontology" repository, and clone it.  When prompted, you will be able to choose where the cloned repository files are saved.  A workflow for viewing the ontology and making changes is as follows:
 
