@@ -351,6 +351,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000040"/>
+        <pathgo:IAO_0000115>A factor that modulates the propagation of action potentials by disrupting membrane potentials</pathgo:IAO_0000115>
         <rdfs:label>action potential propagation modulator</rdfs:label>
     </owl:Class>
     
