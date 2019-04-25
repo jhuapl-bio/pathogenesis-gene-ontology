@@ -1325,7 +1325,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that enables pathogens to attach to host cells and establish growth.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that enables pathogens to attach to host cells and establish growth.  Here&apos;s some more definition text about adhesion!</pathgo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BVF:0000002</oboInOwl:hasDbXref>
         <rdfs:label>adherence and colonization factor</rdfs:label>
     </owl:Class>
