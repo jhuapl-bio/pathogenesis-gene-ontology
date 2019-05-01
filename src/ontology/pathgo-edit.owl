@@ -152,6 +152,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATHGO#adhesion_appendage_component -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#adhesion_appendage_component">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
+        <pathgo:IAO_0000115>A gene product that mediates adhesion by contributing to the structure of an adhesion appendage.</pathgo:IAO_0000115>
+        <skos:editorialNote>Finbriae protein is an example</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO#cell_surface_binding_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#cell_surface_binding_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
+        <pathgo:IAO_0000115>A gene product that mediates adhesion by enabling binding to cell surface receptors.</pathgo:IAO_0000115>
+        <skos:editorialNote>sialyl Lewis x binding protein is an example</skos:editorialNote>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001">
@@ -535,9 +555,10 @@
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#cell_surface_binding_factor"/>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion through integrin binding.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrin binding protein</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion through integrin binding.</skos:definition>
+        <skos:editorialNote>integrin α2β1 binding protein and integrin αMβ2 binding protein are examples that may be too granular to inlcude</skos:editorialNote>
     </owl:Class>
     
 
@@ -663,17 +684,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion through collagen binding.</pathgo:IAO_0000115>
         <rdfs:label>collagen binding protein</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000070 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000070">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
-        <rdfs:label>fimbriae protein</rdfs:label>
     </owl:Class>
     
 
@@ -732,8 +744,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion by enabling binding to extracellular matrix components such as collagen and fibronectin.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extracellular matrix binding factor</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion by enabling binding to extracellular matrix components.</skos:definition>
+        <skos:editorialNote>Collagen binding protein and fibronectin binding protein are examples.  Including these as subclassess may be too granular.</skos:editorialNote>
     </owl:Class>
     
 
@@ -1114,7 +1127,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that encodes cell-surface components or appendages of bacteria that facilitate adhesion or adherence to other cells or to surfaces, usually the host they are infecting or living in.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that encodes cell-surface or appendage components of bacteria that facilitate adhesion or adherence to other cells or to surfaces, usually the host they are infecting or living in.</pathgo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adhesin</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adhesion factor</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition needs to be rewritten</skos:editorialNote>
@@ -1202,8 +1215,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion through fibronectin binding.</pathgo:IAO_0000115>
         <rdfs:label>fibronectin binding protein</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion through fibronectin binding.</skos:definition>
     </owl:Class>
     
 
@@ -1222,15 +1235,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000135">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
         <rdfs:label>deoxyribonuclease activity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000136 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000136">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051"/>
-        <rdfs:label>integrin αMβ2 binding protein</rdfs:label>
     </owl:Class>
     
 
@@ -1273,30 +1277,12 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000146 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
-        <rdfs:label>sialyl Lewis x binding protein</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables pathogens to attach to host cells and establish growth</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adherence and colonization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000148 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051"/>
-        <rdfs:label>integrin α2β1 binding protein</rdfs:label>
     </owl:Class>
     
 
