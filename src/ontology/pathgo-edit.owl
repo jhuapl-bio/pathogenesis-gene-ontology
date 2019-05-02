@@ -157,7 +157,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#adhesion_appendage_component">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
         <pathgo:IAO_0000115>A gene product that mediates adhesion by contributing to the structure of an adhesion appendage.</pathgo:IAO_0000115>
-        <skos:editorialNote>Finbriae protein is an example</skos:editorialNote>
+        <skos:editorialNote>Finbriae proteins/subunits are examples.  
+
+Intended to capture components that are not directly adhesins, but this class may not be structurally consistent.</skos:editorialNote>
     </owl:Class>
     
 
@@ -835,8 +837,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000112"/>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that contributes to quorum sensing by promoting production of autoinducer molecules.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quorum sensing autoinducer production factor</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that contributes to quorum sensing by promoting production of autoinducer molecules.</skos:definition>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoinducer synthase</skos:editorialNote>
     </owl:Class>
     
@@ -893,8 +895,9 @@
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000194"/>
         <rdfs:label>coagulation factor V protease</rdfs:label>
+        <skos:editorialNote>This is an example.  It should be moved as it does not directly impact platelet aggregation, rather it t inhibits platelet activation to disrupt coagulation.</skos:editorialNote>
     </owl:Class>
     
 
@@ -1009,15 +1012,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000107 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
-        <rdfs:label>monocyte/macrophage adherence protein</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108">
@@ -1059,8 +1053,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000119"/>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that promotes bioflim formation by contributing to quorum sensing.</pathgo:IAO_0000115>
         <rdfs:label>quorom sensing system factor</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that promotes bioflim formation by contributing to quorum sensing.</skos:definition>
     </owl:Class>
     
 
