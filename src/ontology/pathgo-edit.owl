@@ -770,6 +770,7 @@ Intended to capture components that are not directly adhesins, but this class ma
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular metabolism by cleaving DNA.</pathgo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deoxyribonuclease (DNAse)</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA cleavage factor</rdfs:label>
+        <skos:editorialNote>Target is the macromolecule and not process so this term doesn&apos;t fit definition of parent class</skos:editorialNote>
     </owl:Class>
     
 
@@ -877,8 +878,8 @@ Intended to capture components that are not directly adhesins, but this class ma
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081"/>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by modulating immune system components to evade or subvert immune functions.</pathgo:IAO_0000115>
         <rdfs:label>immune evasion and subversion factor</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by modulating immune system components to evade or subvert immune functions.</skos:definition>
     </owl:Class>
     
 
@@ -1094,6 +1095,7 @@ Intended to capture components that are not directly adhesins, but this class ma
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular metabolism by modulating the activity of nitric oxide synthase.</pathgo:IAO_0000115>
         <rdfs:label>regulator of nitric oxide synthase</rdfs:label>
+        <skos:editorialNote>Overlaps with GO (molecular function and regulation of activity terms)</skos:editorialNote>
     </owl:Class>
     
 
@@ -1649,6 +1651,7 @@ Intended to capture components that are not directly adhesins, but this class ma
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular metabolism by mediating enzyme inhibition.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzyme inhibition factor</rdfs:label>
+        <skos:editorialNote>Need examples.  Concept covered by GO.</skos:editorialNote>
     </owl:Class>
     
 
