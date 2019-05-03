@@ -189,7 +189,9 @@ Intended to capture components that are not directly adhesins, but this class ma
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000034"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that inhibits protein synthesis by inactivation of elongation factor 2.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elongation factor 2 inactivator</rdfs:label>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">examples diphtheria toxin and Pseudomonas exotoxin A</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">examples diphtheria toxin and Pseudomonas exotoxin A
+
+Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     </owl:Class>
     
 
@@ -898,7 +900,7 @@ Intended to capture components that are not directly adhesins, but this class ma
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000194"/>
         <rdfs:label>coagulation factor V protease</rdfs:label>
-        <skos:editorialNote>This is an example.  It should be moved as it does not directly impact platelet aggregation, rather it t inhibits platelet activation to disrupt coagulation.</skos:editorialNote>
+        <skos:editorialNote>This is an example.  It should be moved as it does not directly impact platelet aggregation, rather it t inhibits coagulation cascade to disrupt coagulation.</skos:editorialNote>
     </owl:Class>
     
 
@@ -1386,7 +1388,7 @@ Intended to capture components that are not directly adhesins, but this class ma
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that confers toxicity by disruption adhesion between cells.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that confers toxicity by disruption adhesion between cells or between cells.</pathgo:IAO_0000115>
         <rdfs:label>cellular adhesion disruption factor</rdfs:label>
     </owl:Class>
     
