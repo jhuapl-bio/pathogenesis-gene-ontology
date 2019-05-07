@@ -293,25 +293,6 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <rdfs:label>intracellular delivery factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that involves delivery of pathogen-associated factors into host cells</pathgo:IAO_0000115>
-        <rdfs:label>intracellular delivery</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015">
@@ -327,7 +308,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that involves modulating immune responses to pathogens.  Immune responses can be at the cellular level, or the organismal level.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune modulation</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune function modulation</rdfs:label>
     </owl:Class>
     
 
@@ -755,16 +736,6 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000078 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000014"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of Intracellular delivery where the factors being delivered are proteins</pathgo:IAO_0000115>
-        <rdfs:label>intracellular delivery of effector proteins</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000079">
@@ -886,15 +857,6 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000092 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000134"/>
-        <rdfs:label>type IV pili</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000093">
@@ -978,8 +940,19 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by contributing to effector secretion.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of effector secretion</rdfs:label>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by contributing to secretion of protein effectors.</pathgo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of protein effector secretion</rdfs:label>
+        <skos:editorialNote>The secretion pathways are typically described as &quot;types&quot; based on components/structures involved corresponding to variations on a few general strategies involving transport across inner membrane, transport across inner membrane followed by transport across outer membrane (two-step), transport across both membranes. Several types can also tranprot proteins directly across the host cell membrane to deliver effectors directly into cells
+
+Type I- one step to extracelluar
+Type II- two step, first step is independent transport into periplasm
+Type III- spans both membranes, injectosome into host cell
+Type IV- spans both membranes, release of effectors into other cell (conjugation)
+Type V-autotransporter in OM, first step is independent transport into periplasm
+Type VI- spans both membranes, release into other cell
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4804464/
+https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editorialNote>
     </owl:Class>
     
 
@@ -1663,6 +1636,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000191"/>
         <rdfs:label>chloride ion channel activator</rdfs:label>
+        <skos:editorialNote>Concept covered by GO</skos:editorialNote>
     </owl:Class>
     
 
