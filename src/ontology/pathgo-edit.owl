@@ -152,6 +152,43 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Determinant_of_extracellular_matrix_destruction -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Determinant_of_extracellular_matrix_destruction">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Invasion_and_dissemination_factor"/>
+        <pathgo:IAO_0000115>A gene product that mediates invasion and dissemination by promoting destruction of extracellular matrix components.</pathgo:IAO_0000115>
+        <skos:editorialNote>gelatinase, mucinase, sialidase, hyaluronidase, etc.</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Invasion_and_dissemination_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Invasion_and_dissemination_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
+        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by facilitating movement into and through host tissues or cells.</pathgo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>invasin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>spreading factor</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Opsonization_inhibition_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Opsonization_inhibition_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Phagocytosis_inhibition_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Phagocytosis_inhibition_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATHGO#adhesion_appendage_component -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#adhesion_appendage_component">
@@ -250,16 +287,6 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular metabolism by inhibiting the synthesis of DNA.</pathgo:IAO_0000115>
         <rdfs:label>DNA synthesis inhibition factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BVF:0000006</oboInOwl:hasDbXref>
-        <rdfs:label>siderophore</rdfs:label>
     </owl:Class>
     
 
@@ -660,7 +687,11 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
+        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by contribiting to the availability and uptake of nutrients.</pathgo:IAO_0000115>
         <rdfs:label>nutrient uptake factor</rdfs:label>
+        <skos:editorialNote>examples may include: gelatinase, mucinase, sialidase, hyaluronidase - enzymes that are also associated with destruction of extracellular matrix, mucus, etc. to promote invasion and spread in the host
+
+siderophore-chelate and sequester iron from host</skos:editorialNote>
     </owl:Class>
     
 
@@ -997,15 +1028,6 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067"/>
-        <rdfs:label>sialidase</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000110">
@@ -1151,15 +1173,6 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000075"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism that prevents phagocytosis of pathogens by immune system cells like macrophages</pathgo:IAO_0000115>
         <rdfs:label>antiphagocytosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000130 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067"/>
-        <rdfs:label>mucinase</rdfs:label>
     </owl:Class>
     
 
@@ -1333,15 +1346,6 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000156">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of type VI secretion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000158 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000158">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067"/>
-        <rdfs:label>gelatinase</rdfs:label>
     </owl:Class>
     
 
