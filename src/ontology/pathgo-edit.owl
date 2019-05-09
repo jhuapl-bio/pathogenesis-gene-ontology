@@ -173,7 +173,7 @@
     <!-- http://purl.obolibrary.org/obo/PATHGO#Determinant_of_phagosome_escape -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Determinant_of_phagosome_escape">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
     </owl:Class>
     
 
@@ -182,15 +182,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Free_radical_detoxification_determinant">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by manipulating the host cell endomembrane system.</pathgo:IAO_0000115>
     </owl:Class>
     
 
@@ -233,7 +224,7 @@
     <!-- http://purl.obolibrary.org/obo/PATHGO#Phagosome_acidification_disruption_factor -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Phagosome_acidification_disruption_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
     </owl:Class>
     
 
@@ -241,7 +232,7 @@
     <!-- http://purl.obolibrary.org/obo/PATHGO#Phagosome_maturation_disruption_factor -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Phagosome_maturation_disruption_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
     </owl:Class>
     
 
@@ -249,7 +240,7 @@
     <!-- http://purl.obolibrary.org/obo/PATHGO#Phogolysosome_fusion_disruption_factor -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Phogolysosome_fusion_disruption_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
     </owl:Class>
     
 
@@ -276,10 +267,29 @@ Intended to capture components that are not directly adhesins, but this class ma
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
+        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by manipulating the host cell endomembrane system.</pathgo:IAO_0000115>
+        <rdfs:label>host cell endomembrane disruption factor</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATHGO#lysosome_lysis_evasion_factor -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#lysosome_lysis_evasion_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
+        <rdfs:label xml:lang="en">TEST</rdfs:label>
     </owl:Class>
     
 
@@ -1338,8 +1348,10 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables pathogens to attach to host cells and establish growth</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables pathogens to attach to host cells and establish growth.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adherence and colonization</rdfs:label>
+        <skos:editorialNote>&quot;enables adherence and colonization&quot;
+&quot;mediates adherence and colonization&quot;</skos:editorialNote>
     </owl:Class>
     
 
