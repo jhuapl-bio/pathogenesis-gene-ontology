@@ -152,12 +152,53 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Antimicrobial_peptide_evasion_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Antimicrobial_peptide_evasion_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATHGO#Determinant_of_extracellular_matrix_destruction -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Determinant_of_extracellular_matrix_destruction">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Invasion_and_dissemination_factor"/>
         <pathgo:IAO_0000115>A gene product that mediates invasion and dissemination by promoting destruction of extracellular matrix components.</pathgo:IAO_0000115>
         <skos:editorialNote>gelatinase, mucinase, sialidase, hyaluronidase, etc.</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Determinant_of_phagosome_escape -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Determinant_of_phagosome_escape">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Free_radical_detoxification_determinant -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Free_radical_detoxification_determinant">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
+        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by manipulating the host cell endomembrane system.</pathgo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Inflammatory_cytokine_release_suppression_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Inflammatory_cytokine_release_suppression_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
     </owl:Class>
     
 
@@ -189,6 +230,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Phagosome_acidification_disruption_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Phagosome_acidification_disruption_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Phagosome_maturation_disruption_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Phagosome_maturation_disruption_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO#Phogolysosome_fusion_disruption_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Phogolysosome_fusion_disruption_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATHGO#adhesion_appendage_component -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#adhesion_appendage_component">
@@ -207,6 +272,14 @@ Intended to capture components that are not directly adhesins, but this class ma
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
         <pathgo:IAO_0000115>A gene product that mediates adhesion by enabling binding to cell surface receptors.</pathgo:IAO_0000115>
         <skos:editorialNote>sialyl Lewis x binding protein is an example</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO#lysosome_lysis_evasion_factor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#lysosome_lysis_evasion_factor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Host_cell_endomembrane_disruption_factor"/>
     </owl:Class>
     
 
