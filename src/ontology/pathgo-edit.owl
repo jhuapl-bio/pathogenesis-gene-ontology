@@ -35,6 +35,12 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
@@ -290,6 +296,16 @@ Intended to capture components that are not directly adhesins, but this class ma
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000196">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
         <rdfs:label xml:lang="en">TEST</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-09T19:12:13Z</dc:date>
+        <rdfs:label xml:lang="en">test new class name</rdfs:label>
     </owl:Class>
     
 
