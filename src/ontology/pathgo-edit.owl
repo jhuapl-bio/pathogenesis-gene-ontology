@@ -158,114 +158,46 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO#Antimicrobial_peptide_evasion_factor -->
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000196 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Antimicrobial_peptide_evasion_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO:0000210"/>
+        <pathgo:IAO_0000115>A gene product that mediates invasion and dissemination by promoting destruction of extracellular matrix components.</pathgo:IAO_0000115>
+        <rdfs:label>determinant of extracellular matrix destruction</rdfs:label>
+        <skos:editorialNote>gelatinase, mucinase, sialidase, hyaluronidase, etc.</skos:editorialNote>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO#Determinant_of_phagosome_escape -->
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000197 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Determinant_of_phagosome_escape">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO#Free_radical_detoxification_determinant -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Free_radical_detoxification_determinant">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO#Inflammatory_cytokine_release_suppression_factor -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Inflammatory_cytokine_release_suppression_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO#Invasion_and_dissemination_factor -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Invasion_and_dissemination_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by facilitating movement into and through host tissues or cells.</pathgo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>invasin</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>spreading factor</oboInOwl:hasRelatedSynonym>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO#Opsonization_inhibition_factor -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Opsonization_inhibition_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO#Phagocytosis_inhibition_factor -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Phagocytosis_inhibition_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO#Phagosome_acidification_disruption_factor -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Phagosome_acidification_disruption_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO#Phagosome_maturation_disruption_factor -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Phagosome_maturation_disruption_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO#Phogolysosome_fusion_disruption_factor -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#Phogolysosome_fusion_disruption_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO#adhesion_appendage_component -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#adhesion_appendage_component">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000197">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
         <pathgo:IAO_0000115>A gene product that mediates adhesion by contributing to the structure of an adhesion appendage.</pathgo:IAO_0000115>
-        <skos:editorialNote>Finbriae proteins/subunits are examples.  
+        <rdfs:label>adhesion appendage component</rdfs:label>
+        <skos:editorialNote>Fimbriae proteins/subunits are examples.  
 
 Intended to capture components that are not directly adhesins, but this class may not be structurally consistent.</skos:editorialNote>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO#cell_surface_binding_factor -->
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000198 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#cell_surface_binding_factor">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000198">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
-        <pathgo:IAO_0000115>A gene product that mediates adhesion by enabling binding to cell surface receptors.</pathgo:IAO_0000115>
-        <skos:editorialNote>sialyl Lewis x binding protein is an example</skos:editorialNote>
+        <pathgo:IAO_0000115>A gene product that mediates adhesion by enabling binding to cell surface receptors or components.</pathgo:IAO_0000115>
+        <rdfs:label>cell surface binding factor</rdfs:label>
+        <skos:editorialNote>sialyl Lewis x binding protein is an example
+
+build out subclasses</skos:editorialNote>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor -->
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000199 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000199">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
         <pathgo:IAO_0000115>A gene product that mediates pathogenicity by manipulating the host cell endomembrane system.</pathgo:IAO_0000115>
         <rdfs:label>host cell endomembrane disruption factor</rdfs:label>
@@ -273,21 +205,174 @@ Intended to capture components that are not directly adhesins, but this class ma
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO#lysosome_lysis_evasion_factor -->
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000200 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#lysosome_lysis_evasion_factor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#host_cell_endomembrane_disruption_factor"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO:0000199"/>
+        <rdfs:label>determinant of pahgosome escape</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO:0000196 -->
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000201 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000196">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#Invasion_and_dissemination_factor"/>
-        <pathgo:IAO_0000115>A gene product that mediates invasion and dissemination by promoting destruction of extracellular matrix components.</pathgo:IAO_0000115>
-        <rdfs:label>determinant of extracellular matrix destruction</rdfs:label>
-        <skos:editorialNote>gelatinase, mucinase, sialidase, hyaluronidase, etc.</skos:editorialNote>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO:0000199"/>
+        <rdfs:label>lysosome lysis evasion factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO:0000199"/>
+        <rdfs:label>phogosome acidification disruption factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO:0000199"/>
+        <rdfs:label>phagosome maturation disruption factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO:0000199"/>
+        <rdfs:label>phogolysosome fusion disruption factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+        <rdfs:label>antimicrobial peptide evasion factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+        <rdfs:label>free radical detoxification determinant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+        <rdfs:label>inflammatory cytokine release suppression factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+        <rdfs:label>opsonization inhibition factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+        <rdfs:label>phagocytosis inhibition factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
+        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by facilitating movement into and through host tissues or cells.</pathgo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>invasin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>spreading factor</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>invasion and dissemination factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038"/>
+        <pathgo:IAO_0000115>A mechanism that mediates adhesion by enabling binding to cell surface receptors or components.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates cell surface binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000062"/>
+        <pathgo:IAO_0000115>A mechanism that enables biofilm formation by contributing to quorum sensing.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates quorum sensing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
+        <rdfs:label xml:lang="en">platelet aggregation inhibition</rdfs:label>
+        <skos:editorialNote>not an appropriate subclass as this is a specific example,, evaluate for class related to inhibition of intergin mediated adhesion</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular adhesion by modulating formation of tight junctions.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">tight junction modification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating inhibition of metabolic enzymes.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates metabolic enzyme inhibition</rdfs:label>
+        <skos:editorialNote>provide examples</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating actin deploymerization.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates actin depolymerization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO:0000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO:0000217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
+        <rdfs:label xml:lang="en">mediates actin crosslinking</rdfs:label>
     </owl:Class>
     
 
@@ -339,6 +424,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000035"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-specific T cell activation factor</rdfs:label>
+        <skos:editorialNote>superantigens</skos:editorialNote>
     </owl:Class>
     
 
@@ -347,6 +433,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating inhibition of protein synthesis.</pathgo:IAO_0000115>
         <rdfs:label>mediates protein synthesis inhibition</rdfs:label>
     </owl:Class>
     
@@ -387,6 +474,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000040"/>
         <rdfs:label>post-synaptic membrane potential modulator</rdfs:label>
+        <skos:editorialNote>evaluate placement; inconsistent as child class to membrane potential disruption factor</skos:editorialNote>
     </owl:Class>
     
 
@@ -416,7 +504,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that involves modulating immune responses to pathogens.  Immune responses can be at the cellular level, or the organismal level.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modulates immune function</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modulates host immune function</rdfs:label>
     </owl:Class>
     
 
@@ -427,6 +515,9 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000191"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts ion gradients by inhibiting acid-sensing ion channels. Acid-sensing ion channel 1a (ASIC1a) is the primary acid sensor in mammalian brain.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acid-sensing ion channel inhibitor</rdfs:label>
+        <skos:editorialNote>&quot;Acid-sensing ion channel 1a (ASIC1a) is the primary acid sensor in mammalian brain.&quot;  evaluate information
+
+concept possibly covered by GO</skos:editorialNote>
     </owl:Class>
     
 
@@ -495,6 +586,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006"/>
+        <pathgo:IAO_0000115>A mechanism that mediates protein synthesis inhibition by inactivation of elongation factor 2.</pathgo:IAO_0000115>
         <rdfs:label>mediates elongation factor 2 inactivation</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">examples diphtheria toxin and Pseudomonas exotoxin A</skos:editorialNote>
     </owl:Class>
@@ -505,6 +597,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000166"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular structure by altering maintenance of cytoskeleton.</pathgo:IAO_0000115>
         <rdfs:label>disruption of cytoskeleton maintenance</rdfs:label>
     </owl:Class>
     
@@ -514,6 +607,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000166"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular structure by damaging the cell membrane.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates membrane damage</rdfs:label>
         <skos:editorialNote>consider vacuolization</skos:editorialNote>
     </owl:Class>
@@ -524,6 +618,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006"/>
+        <pathgo:IAO_0000115>A mechanism that mediates protein synthesis inhibition by ribosome inactivation.</pathgo:IAO_0000115>
         <rdfs:label>mediates ribosome inactivation</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">examples ricin</skos:editorialNote>
     </owl:Class>
@@ -553,7 +648,8 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pore formation</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that mediates membrane damage by formation of pores.</pathgo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates pore formation</rdfs:label>
     </owl:Class>
     
 
@@ -573,6 +669,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081"/>
         <rdfs:label>non-productive immune system activation factor</rdfs:label>
+        <skos:editorialNote>evaluate class name and intent</skos:editorialNote>
     </owl:Class>
     
 
@@ -581,7 +678,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables pathogens to attach to host cells</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables adhesion and colonization by mediating attachment to other cells or to surfaces.</pathgo:IAO_0000115>
         <rdfs:label>mediates adhesion</rdfs:label>
     </owl:Class>
     
@@ -619,15 +716,6 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000166"/>
-        <rdfs:label>mediates pore formation</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000047">
@@ -649,7 +737,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO#cell_surface_binding_factor"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO:0000198"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion through integrin binding.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrin binding protein</rdfs:label>
         <skos:editorialNote>integrin α2β1 binding protein and integrin αMβ2 binding protein are examples that may be too granular to inlcude</skos:editorialNote>
@@ -662,15 +750,6 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054"/>
         <rdfs:label>surface polysaccharide biosynthesis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000195"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEGF secretion</rdfs:label>
     </owl:Class>
     
 
@@ -688,8 +767,9 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of invasion that involves cleaving membrane phospholipids</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane phospholipids cleavage</rdfs:label>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates membrane damage by membrane phospholipid cleavage.</pathgo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates membrane phospholipid cleavage</rdfs:label>
+        <skos:editorialNote>evaluate for placement in invasion and dissemination</skos:editorialNote>
     </owl:Class>
     
 
@@ -718,9 +798,11 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of colonization that involves synthesis of extracellular polymeric substances in a film.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables adhesion and colonization by promoting synthesis of extracellular polymeric substances to form a biofilm.</pathgo:IAO_0000115>
         <rdfs:label>mediates biofilm formation</rdfs:label>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process whereby microorganisms irreversibly attach to and grow on a surface and produce extracellular polymers that facilitate attachment and matrix formation, resulting in an alteration in the phenotype of the organisms with respect to growth rate and gene transcription. (Donlan, Rodney M. &quot;Biofilm formation: a clinically relevant microbiological process.&quot; Clinical Infectious Diseases 33.8 (2001): 1387-1392.)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process whereby microorganisms irreversibly attach to and grow on a surface and produce extracellular polymers that facilitate attachment and matrix formation, resulting in an alteration in the phenotype of the organisms with respect to growth rate and gene transcription. (Donlan, Rodney M. &quot;Biofilm formation: a clinically relevant microbiological process.&quot; Clinical Infectious Diseases 33.8 (2001): 1387-1392.)
+
+Mechanism of colonization that involves synthesis of extracellular polymeric substances in a film.</skos:editorialNote>
     </owl:Class>
     
 
@@ -730,7 +812,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that allows pathogens to regulate the cell cycle of a host cell</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of cell cycle</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates cell cycle</rdfs:label>
     </owl:Class>
     
 
@@ -768,10 +850,10 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by contribiting to the availability and uptake of nutrients.</pathgo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105"/>
+        <pathgo:IAO_0000115>A gene product that promotes proliferation and survival by contribiting to the availability and uptake of nutrients.</pathgo:IAO_0000115>
         <rdfs:label>nutrient uptake factor</rdfs:label>
-        <skos:editorialNote>examples may include: gelatinase, mucinase, sialidase, hyaluronidase - enzymes that are also associated with destruction of extracellular matrix, mucus, etc. to promote invasion and spread in the host
+        <skos:editorialNote>examples may include: gelatinase, mucinase, sialidase, hyaluronidase - enzymes that are also associated with destruction of extracellular matrix, mucus, etc. to promote invasion and spread in the host 
 
 siderophore-chelate and sequester iron from host</skos:editorialNote>
     </owl:Class>
@@ -800,8 +882,8 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000072 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000072">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of adherence that involves binding to a sugar-modified surface protein on a target cell</pathgo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO:0000211"/>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of adherence that involves binding to a sugar-modified surface protein on a target cell.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycoprotein binding</rdfs:label>
     </owl:Class>
     
@@ -875,8 +957,8 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by modulating immune system components.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune function modulation factor</rdfs:label>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by modulating host immune system components.</pathgo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host immune function modulation factor</rdfs:label>
     </owl:Class>
     
 
@@ -956,6 +1038,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating the alteration of the membrane potential of the mitochondria.</pathgo:IAO_0000115>
         <rdfs:label>disruption of mitochondrial membrane potential</rdfs:label>
     </owl:Class>
     
@@ -994,8 +1077,9 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of invasion that involves degradation of polysaccharides</pathgo:IAO_0000115>
-        <rdfs:label>degradation of polysaccharide</rdfs:label>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates membrane damage by degradation of polysaccharides.</pathgo:IAO_0000115>
+        <rdfs:label>mediates polysaccharide degredation</rdfs:label>
+        <skos:editorialNote>evaluate for placement in invasion and dissemination</skos:editorialNote>
     </owl:Class>
     
 
@@ -1024,8 +1108,9 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of adherence in which attachment occurs to components of the extracellular matrix as opposed to the target cell directly</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables adhesion by mediating binding to extracellular matrix components such as collagen anf fibronectin.</pathgo:IAO_0000115>
         <rdfs:label>mediates extracellular matrix binding</rdfs:label>
+        <skos:editorialNote>Mechanism of adherence in which attachment occurs to components of the extracellular matrix as opposed to the target cell directly</skos:editorialNote>
     </owl:Class>
     
 
@@ -1098,6 +1183,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that enables proliferation and/or survival of a pathogen, especially when environmental conditions are unfavorable, not related to adherence and colonization.</pathgo:IAO_0000115>
         <rdfs:label>proliferation and survival factor</rdfs:label>
+        <skos:editorialNote>evaluate placement and provide examples</skos:editorialNote>
     </owl:Class>
     
 
@@ -1106,6 +1192,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating inhibition of actin polymerization.</pathgo:IAO_0000115>
         <rdfs:label>mediates actin polymerization inhibition</rdfs:label>
     </owl:Class>
     
@@ -1116,7 +1203,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that leads to transport of pathogenic determinants from inside a pathogen to the extracellular space</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secretion of pathogenic determinants</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates secretion of protein effectors</rdfs:label>
     </owl:Class>
     
 
@@ -1145,7 +1232,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that facilitates the uptake of nutrients from host cells or the environment.</pathgo:IAO_0000115>
-        <rdfs:label>nutrient uptake</rdfs:label>
+        <rdfs:label>mediates nutrient uptake</rdfs:label>
     </owl:Class>
     
 
@@ -1175,7 +1262,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular metabolism by modulating the activity of nitric oxide synthase.</pathgo:IAO_0000115>
         <rdfs:label>regulator of nitric oxide synthase</rdfs:label>
-        <skos:editorialNote>Overlaps with GO (molecular function and regulation of activity terms)</skos:editorialNote>
+        <skos:editorialNote>Overlaps with GO (molecular function and regulation of activity terms); evaluate for removal</skos:editorialNote>
     </owl:Class>
     
 
@@ -1203,10 +1290,12 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that encodes cell-surface or appendage components of bacteria that facilitate adhesion or adherence to other cells or to surfaces, usually the host they are infecting or living in.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that facilitates adhesion and colonization by enabling attachment to other cells or to surfaces, usually the host they are infecting or living in.</pathgo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adhesin</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adhesion factor</rdfs:label>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition needs to be rewritten</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition needs to be rewritten
+
+encodes cell-surface or appendage components of bacteria</skos:editorialNote>
     </owl:Class>
     
 
@@ -1217,6 +1306,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000116"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that activates nitric oxide synthase enzyme  leading to high levels of nitric oxide radicals.  Nitric oxide radicals destroy iron-dependent enzymes, eventually inhibiting mitochondrial function and DNA synthesis in nearby host cells.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitric oxide synthase activator</rdfs:label>
+        <skos:editorialNote>Overlaps with GO (molecular function and regulation of activity terms)</skos:editorialNote>
     </owl:Class>
     
 
@@ -1264,6 +1354,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating inhibition of DNA synthesis.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates DNA synthesis inhibition</rdfs:label>
     </owl:Class>
     
@@ -1292,6 +1383,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000135">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating cleavage of DNA.</pathgo:IAO_0000115>
         <rdfs:label>mediates DNA cleavage</rdfs:label>
     </owl:Class>
     
@@ -1341,8 +1433,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables pathogens to attach to host cells and establish growth.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates adherence and colonization</rdfs:label>
-        <skos:editorialNote>&quot;enables adherence and colonization&quot;
-&quot;mediates adherence and colonization&quot;</skos:editorialNote>
+        <skos:editorialNote>&quot;enables adherence and colonization&quot;</skos:editorialNote>
     </owl:Class>
     
 
@@ -1362,7 +1453,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that allows pathogens to grow and multiply, distinct from adherence and colonization</pathgo:IAO_0000115>
-        <rdfs:label>proliferation and survival</rdfs:label>
+        <rdfs:label>mediates proliferation and survival</rdfs:label>
     </owl:Class>
     
 
@@ -1430,9 +1521,9 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that involves disrupting the adherence of cells to other cells and/or extracellular matrix</pathgo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">invasion</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disruption of cellular adhesion</rdfs:label>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the adhesion of cells to other cells and/or extracellular matrix components.</pathgo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts cellular adhesion</rdfs:label>
+        <skos:editorialNote>evaluate for incorporation to invasion and dissemination</skos:editorialNote>
     </owl:Class>
     
 
@@ -1441,8 +1532,9 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that confers toxicity by disruption adhesion between cells or between cells.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that confers toxicity by disrupting adhesion between cells or between cells and extracellular matrix components.</pathgo:IAO_0000115>
         <rdfs:label>cellular adhesion disruption factor</rdfs:label>
+        <skos:editorialNote>evaluate for incorporation into invasion and dissemination</skos:editorialNote>
     </owl:Class>
     
 
@@ -1454,6 +1546,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism that involves compromise of the intestinal mucosal barrier, permitting microbial products and/or microbes entry into the body.  The intestinal mucosal barrier consists of the intestinal epithelial layer, plus additional physical, biochemical, and immunological components.</pathgo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal barrier disruption</oboInOwl:hasRelatedSynonym>
         <rdfs:label>mucosal barrier disruption</rdfs:label>
+        <skos:editorialNote>higher level process, not appropriate subclass</skos:editorialNote>
     </owl:Class>
     
 
@@ -1464,6 +1557,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism that involves compromise of epithelial cell layers, enabling increased permeation of biomolecules and/or bacterial invasion</pathgo:IAO_0000115>
         <rdfs:label>epithelial layer disruption</rdfs:label>
+        <skos:editorialNote>higher level process, not appropriate subclass</skos:editorialNote>
     </owl:Class>
     
 
@@ -1472,8 +1566,8 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that involves disrupting the metabolic pathways of cells.</pathgo:IAO_0000115>
-        <rdfs:label>disruption of cellular metabolism</rdfs:label>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting cellular processes involved in the synthesis or breakdown of cellular constituents or production of energy.</pathgo:IAO_0000115>
+        <rdfs:label>disrupts cellular metabolism</rdfs:label>
     </owl:Class>
     
 
@@ -1483,7 +1577,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that allows pathogens to alter cell signaling for pathogenic purposes, whether adherence and colonization, proliferation and survival, invasion, or some other purpose.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of host cell signaling</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates host cellular signaling</rdfs:label>
     </owl:Class>
     
 
@@ -1492,9 +1586,9 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that involves disrupting the structural integrity of a cell</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the structural integrity of a cell.</pathgo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lysis of host cells</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>disruption of cellular structure</rdfs:label>
+        <rdfs:label>disrupts cellular structure</rdfs:label>
     </owl:Class>
     
 
@@ -1504,7 +1598,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000167">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that involves disrupting transport of products into, out of, and within cells</pathgo:IAO_0000115>
-        <rdfs:label>disruption of cellular transport</rdfs:label>
+        <rdfs:label>disrupts cellular transport</rdfs:label>
     </owl:Class>
     
 
@@ -1512,9 +1606,10 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000168">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism that involves inhibiting cellular enzymes, not related to cellular metabolism.  For inhibition of metabolic enzymes, see terms under &apos;disruption of cellular metabolism&apos;.</pathgo:IAO_0000115>
         <rdfs:label>mediates enzyme inhibition</rdfs:label>
+        <skos:editorialNote>evaluate for placement and provide examples; disambiguate from mediates metabolic enzyme inhibition</skos:editorialNote>
     </owl:Class>
     
 
@@ -1524,7 +1619,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that involves the ability of pathogens to regulate apoptosis in host cells.  Pathogenic microbes may induce apoptosis, or prevent apoptosis to enable growth inside the host.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of apoptosis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates apoptosis</rdfs:label>
     </owl:Class>
     
 
@@ -1535,7 +1630,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism that involves altering the levels of cyclic adenosine monophosphate (cyclic AMP, or cAMP) in cells.  Cyclic AMP is a second messenger molecule that regulates physiological processes in cells, through, for example, activation of intracellular signaling pathways.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disruption of cellular cAMP levels</rdfs:label>
-        <skos:editorialNote>redundant to cellular signaling &quot;second messenger disruption&quot;; should be moved</skos:editorialNote>
+        <skos:editorialNote>redundant to cellular signaling &quot;second messenger disruption&quot;; should be moved; evaluate subclasses</skos:editorialNote>
     </owl:Class>
     
 
@@ -1544,6 +1639,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating production of reactive oxygen species.</pathgo:IAO_0000115>
         <rdfs:label>production of reactive oxygen species</rdfs:label>
         <skos:editorialNote>should be moved</skos:editorialNote>
     </owl:Class>
@@ -1555,6 +1651,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000171"/>
         <rdfs:label>nitric oxide radical production</rdfs:label>
+        <skos:editorialNote>evaluate placement; not approriate subclass</skos:editorialNote>
     </owl:Class>
     
 
@@ -1563,8 +1660,8 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000170"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism that alters cAMP levels in cells through activation of the production or repression of the breakdown of cAMP.</pathgo:IAO_0000115>
-        <rdfs:label>cAMP synthesis</rdfs:label>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism that disrupts cellular cAMP levels through activation of the production or repression of the breakdown of cAMP.</pathgo:IAO_0000115>
+        <rdfs:label>modulation of cAMP synthesis</rdfs:label>
     </owl:Class>
     
 
@@ -1574,6 +1671,7 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000170"/>
         <rdfs:label>regulation of host cell adenylate cyclases/phosphodiesterases</rdfs:label>
+        <skos:editorialNote>evaluate for redundancy with &quot;modulation of cAMP synthesis&quot;</skos:editorialNote>
     </owl:Class>
     
 
@@ -1759,7 +1857,9 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates toxicity by impairing platelet adhesion.</pathgo:IAO_0000115>
         <rdfs:label>platelet aggregation inhibitor</rdfs:label>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example: disintegrins</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example: disintegrins
+
+evaluate as appropriate subclass, this is specific case of disrupting cellular adhesion; more appropriate class may be &quot;integrin-dependent adhesion disruption factor&quot;</skos:editorialNote>
     </owl:Class>
     
 
@@ -1768,7 +1868,11 @@ https://www.sciencedirect.com/science/article/pii/S0167488904000783</skos:editor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105"/>
+        <pathgo:IAO_0000115>A gene product that promotes proliferation and survival by inducing a proangiogenic response.</pathgo:IAO_0000115>
         <rdfs:label>proangiogenic response factor</rdfs:label>
+        <skos:editorialNote>example VEGF
+
+evaluate proangiogenic response as a contribution to pathogenesis</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
 
