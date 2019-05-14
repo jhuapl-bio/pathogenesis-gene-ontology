@@ -1256,7 +1256,7 @@ encodes cell-surface or appendage components of bacteria</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by allows pathogens to grow and multiply, especially when environmental conditions are unfavorable, distinct from adherence and colonization.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by allowing pathogens to grow and multiply, especially when environmental conditions are unfavorable, distinct from adherence and colonization.</pathgo:IAO_0000115>
         <rdfs:label>mediates proliferation and survival</rdfs:label>
     </owl:Class>
     
@@ -1423,8 +1423,9 @@ encodes cell-surface or appendage components of bacteria</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that involves the ability of pathogens to regulate apoptosis in host cells.  Pathogenic microbes may induce apoptosis, or prevent apoptosis to enable growth inside the host.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by impacting host cell apoptosis. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates apoptosis</rdfs:label>
+        <skos:editorialNote>Evaluate for placement in proliferation and survival</skos:editorialNote>
     </owl:Class>
     
 
@@ -1641,7 +1642,7 @@ encodes cell-surface or appendage components of bacteria</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A product that mediates pathogenicity by regulating apoptosis.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by regulating host cell apoptosis. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of apoptosis factor</rdfs:label>
     </owl:Class>
     
