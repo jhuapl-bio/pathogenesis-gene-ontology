@@ -175,7 +175,7 @@ Intended to capture components that are not directly adhesins, but this class ma
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo//pathgo/PATHGO_0000200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <rdfs:label>determinant of pahgosome escape</rdfs:label>
+        <rdfs:label>determinant of phagosome escape</rdfs:label>
     </owl:Class>
     
 
