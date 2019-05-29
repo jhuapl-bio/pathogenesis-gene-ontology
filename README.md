@@ -41,7 +41,7 @@ For contributors less experienced with Git and command line environments, we rec
 9. Switch back to the GitHub Desktop application, and review all of the changes present.  Any changes that you don't want to be retained should be removed in Protege.  Alternatively, if you want to start back over with the original version of a file, you can right-click on the file and select "Discard Changes...".
 10. Save the changes to your local Git repository by providing a short name and description in the boxes at the bottom left corner, and clicking "Commit to -name of your branch-".  Note, this will only save the changes on your computer.
 11. Save the changes to a branch in the GitHub repository by clicking the 'Push origin' button in the main window.
-12. Submit a request for the changes to be included into PathGO.  Under the "Current Branch" menu, click the "Pull requests" tab, and click the link at the bottom to "Create a pull request from the current branch".  This action will trigger a notification, i.e. a pull request, to the maintainers of PathGO who will review the changes and incorporate them, if approved.  If not approved, yoou will have the opportunity to make additional changes, save them in Protege, commit them in GitHub Desktop, push them to the origin, and retry the pull request. 
+12. Submit a request for the changes to be included into PathGO.  Under the "Current Branch" menu, click the "Pull requests" tab, and click the link at the bottom to "Create a pull request from the current branch".  This action will trigger a notification, i.e. a pull request, to the maintainers of PathGO who will review the changes and incorporate them, if approved.  If not approved, you will have the opportunity to make additional changes, save them in Protege, commit them in GitHub Desktop, push them to the origin, and retry the pull request. 
 
 ## Protege Settings
 
@@ -57,3 +57,7 @@ Please use this repository's [Issue tracker](https://github.com/rjacak/pathogene
 ## Acknowledgements
 
 This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit).  We thank Chris Mungall and any other developers for putting this utility together.
+
+## Disclaimer
+
+All information contained herein is, and remains the property of IARPA and JHUAPL.  Dissemination of this information or reproduction of this material is strictly forbidden unless prior written permission is obtained from IARPA and JHUAPL.
