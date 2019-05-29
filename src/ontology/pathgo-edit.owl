@@ -216,7 +216,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by disrupting host cell cycle.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by disrupting the cell cycle of a host cell.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disruption of cell cycle factor</rdfs:label>
         <skos:editorialNote>Elaborate subclasses and document examples</skos:editorialNote>
     </owl:Class>
@@ -620,8 +620,8 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that medaites pathogenicity by regulation of the cell cycle of a host cell.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates cell cycle</rdfs:label>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the cell cycle of a host cell.</pathgo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts cell cycle</rdfs:label>
         <skos:editorialNote>Concept covered by GO; GO:0051726</skos:editorialNote>
     </owl:Class>
     
@@ -1435,7 +1435,7 @@ microtubule mediated transport</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism that involves inhibiting cellular enzymes, not related to cellular metabolism.  For inhibition of metabolic enzymes, see terms under &apos;disruption of cellular metabolism&apos;.</pathgo:IAO_0000115>
         <rdfs:label>mediates enzyme inhibition</rdfs:label>
-        <skos:editorialNote>evaluate for placement and provide examples; disambiguate from mediates metabolic enzyme inhibition</skos:editorialNote>
+        <skos:editorialNote>evaluate for placement and provide examples; disambiguate from mediates metabolic enzyme inhibition; revise definition</skos:editorialNote>
     </owl:Class>
     
 
