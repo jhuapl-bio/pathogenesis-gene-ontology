@@ -1509,7 +1509,7 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000170"/>
         <rdfs:label>regulates host cell adenylate cyclases/phosphodiesterases</rdfs:label>
-        <skos:editorialNote>evaluate for redundancy with &quot;modulaties cAMP synthesis&quot;</skos:editorialNote>
+        <skos:editorialNote>evaluate for redundancy with &quot;modulates cAMP synthesis&quot;</skos:editorialNote>
     </owl:Class>
     
 
