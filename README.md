@@ -73,7 +73,7 @@ Ensure that under "Auto-generated ID", the Prefix is set to "PATHGO\_", the digi
 
 #### Determining the last used numeric id
 
-Instructions on how to determine last used numeric id TO BE COMPLETED.
+Instructions on how to determine last used numeric id are currently being drafted. 
 
 ## Contact
 
