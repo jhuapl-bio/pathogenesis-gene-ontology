@@ -11,10 +11,10 @@ For new term requests, please provide the following information:
 the definition should be understandable even for non-specialists. Include a PubMed ID to refer to any relevant article that provides additional information about the suggested term.
 
 ## Suggested parent term
-Please look at the hierarchy in the Protege browser, and provide the PathGO id or rdfs:label of the suggested parent term
+Please look at the hierarchy in the Protege browser, and provide the PathGO id or rdfs:label of the suggested parent term.
 
 ## Attribution
-If you would like a nanoattribution, please indicate your ORCID id
+If you would like a nanoattribution, please indicate your ORCID id.
 
 If your comment relates to a specific term, please provide the PathGO id or rdfs:label of the term in addition to your comment.
 
