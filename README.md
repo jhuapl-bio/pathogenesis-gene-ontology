@@ -28,7 +28,7 @@ Changes made between official releases of the ontology can be found in the "-edi
 
 ## Workflow for viewing the ontology 
 
-We recommend the use of GitHub Desktop (https://desktop.github.com/) and Protege (https://protege.stanford.edu/ for viewing the ontology. Individuals should download and install GitHub Desktop, select the option to "Clone a Repository from the Internet...", search for the "pathogenesis_gene_ontology" repository, and clone it.  When prompted, you will be able to choose where the cloned repository files are saved.  **Choose an alternate location or make note of the default location, because you will need this path working with the ontology.**  Our recommended workflow for viewing the ontology and making changes is as follows:
+We recommend the use of GitHub Desktop (https://desktop.github.com/) and Protege (https://protege.stanford.edu/) for viewing the ontology. Individuals should download and install GitHub Desktop, select the option to "Clone a Repository from the Internet...", search for the "pathogenesis_gene_ontology" repository, and clone it.  When prompted, you will be able to choose where the cloned repository files are saved.  **Choose an alternate location or make note of the default location, because you will need this path working with the ontology.**  Our recommended workflow for viewing the ontology and making changes is as follows:
 
 1. From within GitHub Desktop, ensure that the current repository selected is 'pathogenesis_gene_ontology'.
 2. At the top of the main window, ensure that the "Current Branch" selected is 'master', and click "Fetch origin" to pull down the latest version of the ontology. 
@@ -38,18 +38,18 @@ We recommend the use of GitHub Desktop (https://desktop.github.com/) and Protege
 
 ## Suggesting edits
 
-PathGO would welcome suggestions and contributions from the community!  Individuals can either 1) recommend changes by creating an issue in the ontology project page on Github.com, or 2) edit the pathgo-edit.owl file in a branch in GitHub Desktop and petition for the changes to be merged into the official PathGO branch.
+PathGO would welcome suggestions and contributions from the community!  Individuals can either A) recommend changes by creating an issue in the ontology project page on Github.com, or B) edit the pathgo-edit.owl file in a new branch in GitHub Desktop and petition for the changes to be merged into the official PathGO branch.
 
-### Suggesting changes via Issues
+### A. Suggesting changes via Creating an Issue
 
 1. From the ontology page in Github.com (https://github.com/jhuapl-bio/pathogenesis-gene-ontology), click the "Issues" tab, and then create a "New Issue". 
-2. Enter suggested changes into the text box and click "Submit new issue".
+2. Enter suggested changes or comments into the text box and click "Submit new issue".
 
-### Directly editing the ontology
+### B. Directly editing the ontology
 
 Contributors are encouraged to use Protege for ontology editing, and a Git-enabled command line environment for version control and for submitting changes for integration.  Note, to edit this ontology, contributors should make changes to the "-edit" file, [src/ontology/pathgo-edit.owl](src/ontology/pathgo-edit.owl) **in a separate branch**, and create a pull request from that branch.
 
-For contributors less experienced with Git and command line environments, we recommend the following workflow using GitHub Desktop (https://desktop.github.com/).  
+For contributors with less or no experience with Git and command line environments, we recommend the following workflow using GitHub Desktop (https://desktop.github.com/).  
 
 1. From within GitHub Desktop, ensure that the current repository selected is 'pathogenesis_gene_ontology'.
 2. At the top of the main window, ensure that the "Current Branch" selected is 'master', and click "Fetch origin" to pull down the latest version of the ontology.
@@ -57,7 +57,7 @@ For contributors less experienced with Git and command line environments, we rec
 4. Click the button in the main window (or at the top menu bar) to publish the branch, which will create this branch in the GitHub repository.
 5. Download and install Protege if not already available (https://protege.stanford.edu/)
 6. From within Protege, open the ontology by navigating to the directory where the repository was cloned, descend into the 'src/ontology' folder, and open the [src/ontology/pathgo-edit.owl](src/ontology/pathgo-edit.owl) file. 
-7. Update the settings for "New entities" in Protege as indicated in the section below.  If you plan to suggest new terms for addition, you will need to determine the last numeric id currently used in the ontology (see below). 
+7. Update the settings for "New entities" in Protege as indicated in the [Protege Settings](#protege-settings) section below.  If you plan to suggest new terms for addition, you will need to determine the last numeric id currently used in the ontology (see [Determining the last used numeric id](#determining-the-last-used-numeric-id) below). 
 8. Make desired edits/comments to the ontology in Protege and save the changes.
 9. Switch back to the GitHub Desktop application, and review all of the changes present.  Any changes that you don't want to be retained should be removed in Protege.  Alternatively, if you want to start back over with the original version of a file, you can right-click on the file and select "Discard Changes...".
 10. Save the changes to your local Git repository by providing a short name and description in the boxes at the bottom left corner, and clicking "Commit to -name of your branch-".  Note, this will only save the changes on your computer.
