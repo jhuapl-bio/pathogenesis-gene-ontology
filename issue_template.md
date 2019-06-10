@@ -1,4 +1,4 @@
-Please enter your suggested changes or comments here.  
+Please enter your suggested changes or comments here.  If your comment relates to a specific term, please provide the PathGO id or rdfs:label of the term in addition to your comment.
 
 For new term requests, please provide the following information:
 ## Preferred term label
@@ -15,6 +15,4 @@ Please look at the hierarchy in the Protege browser, and provide the PathGO id o
 
 ## Attribution
 If you would like a nanoattribution, please indicate your ORCID id.
-
-If your comment relates to a specific term, please provide the PathGO id or rdfs:label of the term in addition to your comment.
 
