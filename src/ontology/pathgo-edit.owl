@@ -812,7 +812,7 @@ A mechanism of cell surface binding that involves binding to a sugar-modified su
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates immune evasion and subversion by preventing lymphocytes from growing via cell division.</pathgo:IAO_0000115>
-        <rdfs:label>inhibitis lymphocyte proliferation</rdfs:label>
+        <rdfs:label>inhibits lymphocyte proliferation</rdfs:label>
     </owl:Class>
     
 
