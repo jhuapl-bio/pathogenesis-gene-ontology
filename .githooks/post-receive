@@ -1,0 +1,4 @@
+#!/bin/bash
+echo 'Running post-receive hook to determine last used numeric id'
+cat src/ontology/pathgo-edit.owl | grep "<owl:Class" | sed 's/">$//' | sed 's/.*PATHGO_/PATHGO_/g' | sort | tail -n1 | sed 's/PATHGO_//' > src/ontology/last_used_id.txt
+
