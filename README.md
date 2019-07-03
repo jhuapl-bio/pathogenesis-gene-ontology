@@ -73,7 +73,10 @@ Ensure that under "Auto-generated ID", the Prefix is set to "PATHGO\_", the digi
 
 #### Determining the last used numeric id
 
-Instructions on how to determine last used numeric id are currently being drafted. 
+Instructions on how to determine last used numeric id are currently being drafted.  Users experienced with git should manually configure their git environment to use the git "hooks" located in .githooks, by executing the following command:
+$ git config core.hooksPath .githooks
+The post-receive hook therein will update the [src/ontology/last_used_id.txt](src/ontology/last_used_id.txt) file after any 'git push' commands.
+
 
 ## Contact
 
