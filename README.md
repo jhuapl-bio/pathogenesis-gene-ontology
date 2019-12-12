@@ -86,7 +86,4 @@ Please use this repository's [Issue tracker](https://github.com/rjacak/pathogene
 
 This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit).  We thank Chris Mungall and any other developers for putting this utility together.
 
-## Disclaimer
-
-All information contained herein is, and remains the property of IARPA and JHUAPL.  Dissemination of this information or reproduction of this material is strictly forbidden unless prior written permission is obtained from IARPA and JHUAPL.
 
