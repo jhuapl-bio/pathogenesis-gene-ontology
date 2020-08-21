@@ -2182,6 +2182,17 @@ build out subclasses</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
         <rdfs:label xml:lang="en">disrupts phagosome maturation</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099"/>
+        <pathgo:IAO_0000115>A mechanism that mediates extracellular matrix binding by adhering specifically to vitronectin</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host vitronectin-binding</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
 </rdf:RDF>
 
 
