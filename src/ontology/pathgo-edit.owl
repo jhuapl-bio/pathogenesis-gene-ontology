@@ -2182,6 +2182,16 @@ build out subclasses</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
         <rdfs:label xml:lang="en">disrupts phagosome maturation</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000188"/>
+        <pathgo:IAO_0000115>A factor that inhibits one or more of the typical fusions between vesicles and other compartments that occur in normal host endosomal dynamics.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">endosomal vesicle fusion inhibitor factor</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
