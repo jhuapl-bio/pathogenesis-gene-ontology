@@ -185,17 +185,6 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO#PATHGO_0000221 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO#PATHGO_0000221">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006"/>
-        <rdfs:label xml:lang="en">mediates elongation factor 1 inactivation</rdfs:label>
-        <skos:definition>A mechanism that mediates protein synthesis inhibition by inactivation of elongation factor 1.</skos:definition>
-        <skos:editorialNote>examples Legionella glycosylating toxins and SidI, SARS-CoV N protein</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001">
@@ -2203,6 +2192,17 @@ build out subclasses</skos:editorialNote>
         <pathgo:IAO_0000115>A mechanism that mediates extracellular matrix binding by adhering specifically to vitronectin</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host vitronectin-binding</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006"/>
+        <rdfs:label xml:lang="en">mediates elongation factor 1 inactivation</rdfs:label>
+        <skos:definition>A mechanism that mediates protein synthesis inhibition by inactivation of elongation factor 1.</skos:definition>
+        <skos:editorialNote>examples Legionella glycosylating toxins and SidI, SARS-CoV N protein</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
 
