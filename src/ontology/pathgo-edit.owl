@@ -2204,6 +2204,17 @@ build out subclasses</skos:editorialNote>
         <skos:definition>A mechanism that mediates protein synthesis inhibition by inactivation of elongation factor 1.</skos:definition>
         <skos:editorialNote>examples Legionella glycosylating toxins and SidI, SARS-CoV N protein</skos:editorialNote>
     </owl:Class>
+    
+
+
+    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000248 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
+        <rdfs:label xml:lang="en">host complement control protein binding factor</rdfs:label>
+        <skos:definition>This parasite protein inhibits host complement activation by recruiting host complement control proteins to the surface of the parasite.</skos:definition>
+        <skos:editorialNote>Attribution: https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
 </rdf:RDF>
 
 
