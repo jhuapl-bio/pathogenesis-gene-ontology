@@ -38,10 +38,11 @@ prepare_release: all
 # after that we annotate the ontology with the release versionInfo
 $(ONT).owl: $(SRC)
 	$(ROBOT) reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
-	cp $^ $(RELEASEDIR)
+	cp $(ONT).owl $(RELEASEDIR)
 $(ONT).obo: $(ONT).owl
+	echo "Making $(ONT).obo file now..."
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
-	cp $^ $(RELEASEDIR)
+	cp $(ONT).obo $(RELEASEDIR)
 
 # ----------------------------------------
 # Import modules
