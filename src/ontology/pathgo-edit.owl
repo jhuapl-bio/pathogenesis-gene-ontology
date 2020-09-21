@@ -1146,17 +1146,6 @@ encodes cell-surface or appendage components of bacteria</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000129 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000129">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000075"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of innate immune system subversion that prevents phagocytosis of pathogens by immune system cells like macrophages.</pathgo:IAO_0000115>
-        <rdfs:label>antiphagocytosis</rdfs:label>
-        <skos:editorialNote>redundant</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000131">
@@ -2094,7 +2083,8 @@ build out subclasses</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085"/>
-        <pathgo:IAO_0000115>A mechanism that mediates immune evasion and subversion by inhibiting phagocytosis.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A mechanism that mediates immune evasion and subversion by inhibiting phagocytosis by immune cells like macrophages.</pathgo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>antiphagocytosis</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">inhibits phagocytosis</rdfs:label>
     </owl:Class>
     
