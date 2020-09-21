@@ -856,8 +856,8 @@ A mechanism of cell surface binding that involves binding to a sugar-modified su
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular adhesion by modification of tight junction formation.</pathgo:IAO_0000115>
-        <rdfs:label>tight junction modifier</rdfs:label>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular adhesion by modification of junctional complexes, including tight junctions or adherens junctions.</pathgo:IAO_0000115>
+        <rdfs:label>host tight or adherens junction modifier</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example: Clostridium perfringens type A toxin (targets claudins)  more info: https://doi.org/10.1016/j.bbamem.2008.10.028; https://www.ncbi.nlm.nih.gov/pubmed/11595640</skos:editorialNote>
     </owl:Class>
     
@@ -1899,8 +1899,9 @@ build out subclasses</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000214">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cellular adhesion by modulating formation of tight junctions.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">tight junction modification</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular adhesion by modifying cellular junctional complexes, including tight junctions and/or adherens junctions.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modifies host tight or adherens junctions</rdfs:label>
+        <skos:editorialNote>Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
