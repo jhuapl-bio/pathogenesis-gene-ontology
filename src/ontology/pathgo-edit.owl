@@ -987,7 +987,7 @@ Evaluate subclass naming/organization</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toll-like receptor signaling disruption factor</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host toll-like receptor signaling disruption factor</rdfs:label>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates immune evasion and subversion by disrupting toll-like receptor signaling.</skos:definition>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adaptor protein degradation activator; research and add others</skos:editorialNote>
     </owl:Class>
@@ -2143,7 +2143,7 @@ Intended to capture components that are not directly adhesins, but this class ma
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085"/>
         <pathgo:IAO_0000115>A mechanism that mediates immune evasion and subversion by disrupting toll-like receptor signaling.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts toll-like receptor signaling</rdfs:label>
+        <rdfs:label xml:lang="en">disrupts host toll-like receptor signaling</rdfs:label>
         <skos:editorialNote>adaptor protein degradation activator; research and add others</skos:editorialNote>
     </owl:Class>
     
@@ -2238,6 +2238,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000244 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000244">
@@ -2247,6 +2248,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>examples Legionella glycosylating toxins and SidI, SARS-CoV N protein</skos:editorialNote>
     </owl:Class>
     
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000245">
@@ -2255,6 +2258,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">vitronectin binding protein</rdfs:label>
     </owl:Class>
     
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000246">
@@ -2263,6 +2268,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">disrupts endosomal vesicle fusion</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000247 -->
@@ -2273,6 +2279,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:definition>A mechanism that mediates protein synthesis inhibition by modification of initiation factor.</skos:definition>
         <skos:editorialNote>Examples include proteinases from the virus family Picornaviridae that cleave eIF4GI and eIF4GII.</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000248 -->
 
@@ -2282,8 +2290,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">endosomal vesicle fusion inhibition factor</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-
-
 </rdf:RDF>
 
 
