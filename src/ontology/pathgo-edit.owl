@@ -1895,10 +1895,9 @@ build out subclasses</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by facilitating movement into and through host tissues or cells.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by facilitating movement into host cells.</pathgo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>invasin</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>spreading factor</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>invasion and dissemination factor</rdfs:label>
+        <rdfs:label>host cell invasion factor</rdfs:label>
     </owl:Class>
     
 
@@ -2164,9 +2163,9 @@ Intended to capture components that are not directly adhesins, but this class ma
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
-        <pathgo:IAO_0000115>A mechanism that mediates pathogenicity by facilitating movement into and through host tissues or cells.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates invasion and dissemination</rdfs:label>
-        <skos:editorialNote>synonyms: invasin spreading factor</skos:editorialNote>
+        <pathgo:IAO_0000115>A mechanism that mediates pathogenicity by facilitating movement into host cells.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host cell invasion</rdfs:label>
+        <skos:editorialNote>synonyms: invasin</skos:editorialNote>
     </owl:Class>
     
 
@@ -2238,6 +2237,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000244 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000244">
@@ -2247,6 +2247,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>examples Legionella glycosylating toxins and SidI, SARS-CoV N protein</skos:editorialNote>
     </owl:Class>
     
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000245">
@@ -2255,6 +2257,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">vitronectin binding protein</rdfs:label>
     </owl:Class>
     
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000246">
@@ -2263,6 +2267,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">disrupts endosomal vesicle fusion</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000247 -->
@@ -2273,6 +2278,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:definition>A mechanism that mediates protein synthesis inhibition by modification of initiation factor.</skos:definition>
         <skos:editorialNote>Examples include proteinases from the virus family Picornaviridae that cleave eIF4GI and eIF4GII.</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000248 -->
 
@@ -2282,8 +2289,54 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">endosomal vesicle fusion inhibition factor</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
+        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by enabling pathogens to spread through host tissues.</pathgo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>spreading factor</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">dissemination factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
+        <pathgo:IAO_0000115>A mechanism that mediates pathogenicity by enabling pathogens to spread through host tissues.</pathgo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>mediates spreading</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">mediates dissemination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249"/>
+        <pathgo:IAO_0000115>A gene product that mediates dissemination by promoting traversal of host barrier layers.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host barrier traversal factor</rdfs:label>
+        <skos:editorialNote>[Examples Macrophage infectivity potentiator from Legionella; Exylysin from Pseudomonas; Pseudomonas exotoxin S; Pseudomonas exotoxin T; Shigella extracellular protease]
+
+attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250"/>
+        <pathgo:IAO_0000115>A mechanism that mediates dissemination by promoting traversal of host barrier layers.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host barrier traversal</rdfs:label>
+        <skos:editorialNote>[Examples Macrophage infectivity potentiator from Legionella; Exylysin from Pseudomonas; Pseudomonas exotoxin S; Pseudomonas exotoxin T; Shigella extracellular protease]
+
+attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
 </rdf:RDF>
 
 
