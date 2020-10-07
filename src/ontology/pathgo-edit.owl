@@ -1288,7 +1288,7 @@ encodes cell-surface or appendage components of bacteria</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000206"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complement system inhibition factor</rdfs:label>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates immune evasion and subversion by inhibiting complement system function.</skos:definition>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example:component 1 (C1) protease</skos:editorialNote>
