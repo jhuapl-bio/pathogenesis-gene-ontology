@@ -1874,8 +1874,8 @@ build out subclasses</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000208 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000208">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by inhibiting opsonization, the process by which particles are targeted for phagocytosis.</pathgo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000209"/>
+        <pathgo:IAO_0000115>A gene product that inhibits phagocytosis by inhibiting opsonization, the process by which particles are targeted for phagocytosis.</pathgo:IAO_0000115>
         <rdfs:label>opsonization inhibition factor</rdfs:label>
     </owl:Class>
     
@@ -2120,9 +2120,10 @@ Intended to capture components that are not directly adhesins, but this class ma
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000231 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000231">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085"/>
-        <pathgo:IAO_0000115>A mechanism that mediates immune evasion and subversion by inhibiting opsonization, the process by which particles are targeted for phagocytosis.</pathgo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000232"/>
+        <pathgo:IAO_0000115>A mechanism that inhibits phagocytosis by inhibiting opsonization, the process by which particles are targeted for phagocytosis.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">inhibits opsonization</rdfs:label>
+        <skos:editorialNote>If a mechanism inhibits opsonization, which is the process of marking foreign particles for phagocytosis by marking them with opsonins, then it necessarily also inhibits phagocytosis.</skos:editorialNote>
     </owl:Class>
     
 
