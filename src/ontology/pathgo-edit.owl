@@ -2399,6 +2399,16 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000260"/>
+        <pathgo:IAO_0000115>Parasite protein that represses host protein translation by modifying a host eukaryotic initiation factor.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">eukaryotic initiation factor repressor</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000249 -->
 
     <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000249">
