@@ -2404,8 +2404,18 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266"/>
         <pathgo:IAO_0000115>A gene product that modulates host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A gene product that modulates host MAPK signaling through downregulation of host MAPK signaling by either directly acting on a member of the p38MAPK, JNK, or ERK1/2 pathway or altering the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host MAPK signaling enhancement factor</rdfs:label>
         <skos:editorialNote>Example includes GRA24 from Toxoplasma gondii. GRA24 targets host p38 alpha causing autophosphorylation and activation of p38. p38 activation leads to the upregulation of proinflammatory cytokine production.</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266"/>
+        <rdfs:label xml:lang="en">host MAPK signaling disruption factor</rdfs:label>
     </owl:Class>
     
 
