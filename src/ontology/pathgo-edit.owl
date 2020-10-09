@@ -2394,7 +2394,7 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
         <pathgo:IAO_0000115>A gene product that modulates host protein translation by modifying a host eukaryotic initiation factor (eIF).</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">eukaryotic initiation factor modulator</rdfs:label>
+        <rdfs:label xml:lang="en">eukaryotic initiation modulator factor</rdfs:label>
     </owl:Class>
     
 
