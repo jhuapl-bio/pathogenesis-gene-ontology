@@ -2359,6 +2359,7 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
         <pathgo:IAO_0000115>A mechanism that disrupts host cellular signaling by mediating  guanine exchange for a host small, monomeric, GTPase (Ras, Rho, Rab, etc.) inducing the expulsion of a bound GDP for a fresh GTP and thereby activating the protein.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates guanine exchange for host small GTPase</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000256 -->
 
@@ -2382,6 +2383,7 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690
 
 [Examples of bacterial proteases: IgA1P, IdeS, EndoS, ZmpC from Streptococcus; InvD from Yersinia pseudotuberculosis; and BatB from Bordetella]</skos:editorialNote>
+    </owl:Class>
 
     <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000258 -->
 
