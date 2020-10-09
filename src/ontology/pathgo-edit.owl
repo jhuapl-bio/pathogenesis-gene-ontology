@@ -2344,6 +2344,7 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
         <skos:editorialNote>[Examples Macrophage infectivity potentiator from Legionella; Exylysin from Pseudomonas; Pseudomonas exotoxin S; Pseudomonas exotoxin T; Shigella extracellular protease]
 
 attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
 
 </rdf:RDF>
 
