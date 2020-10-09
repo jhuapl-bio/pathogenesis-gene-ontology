@@ -2415,7 +2415,39 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000268">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266"/>
+        <pathgo:IAO_0000115>A gene product that modulates host MAPK signaling through downregulation of host MAPK signaling by either directly acting on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host MAPK signaling disruption factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000165"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts host cellular signaling by modulating host MAPK signaling.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates host MAPK signaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269"/>
+        <pathgo:IAO_0000115>A mechansim that modulates host MAPK signaling by disrupting host MAPK signaling.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts host MAPK signaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269"/>
+        <pathgo:IAO_0000115>A mechanism that modulates host MAPK signaling by enhancing host MAPK signaling.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">enhances host MAPK signaling</rdfs:label>
+        <skos:definition>Example includes GRA24 from Toxoplasma gondii. It targets host p38 alpha which leads to autophosphorylation and activation. p38 activation leads to the upregulation of proinflammatory cytokine production.</skos:definition>
     </owl:Class>
     
 
