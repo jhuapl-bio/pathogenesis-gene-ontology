@@ -2309,7 +2309,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000257">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160"/>
         <rdfs:label xml:lang="en">focal adhesion disruption factor</rdfs:label>
-        <skos:definition>A gene product that distrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
+        <skos:definition>A gene product that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2320,7 +2320,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000258">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
         <rdfs:label xml:lang="en">disrupts host cell focal adhesions</rdfs:label>
-        <skos:definition>A mechanism that disrupts cellular adhesion by distrupting or rearranging focal adhesions of host cells.</skos:definition>
+        <skos:definition>A mechanism that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
