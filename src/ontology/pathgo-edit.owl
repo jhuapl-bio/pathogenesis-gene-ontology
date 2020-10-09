@@ -987,7 +987,7 @@ Evaluate subclass naming/organization</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toll-like receptor signaling disruption factor</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host toll-like receptor signaling disruption factor</rdfs:label>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates immune evasion and subversion by disrupting toll-like receptor signaling.</skos:definition>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adaptor protein degradation activator; research and add others</skos:editorialNote>
     </owl:Class>
@@ -2143,7 +2143,7 @@ Intended to capture components that are not directly adhesins, but this class ma
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085"/>
         <pathgo:IAO_0000115>A mechanism that mediates immune evasion and subversion by disrupting toll-like receptor signaling.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts toll-like receptor signaling</rdfs:label>
+        <rdfs:label xml:lang="en">disrupts host toll-like receptor signaling</rdfs:label>
         <skos:editorialNote>adaptor protein degradation activator; research and add others</skos:editorialNote>
     </owl:Class>
     
@@ -2308,7 +2308,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <oboInOwl:hasRelatedSynonym>spreading factor</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">dissemination factor</rdfs:label>
     </owl:Class>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000251 -->
