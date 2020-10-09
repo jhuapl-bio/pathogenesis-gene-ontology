@@ -2301,6 +2301,50 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:definition>A gene product that inhibits host complement system activation by recruiting host complement control proteins to the surface of the parasite.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
+
+    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000263 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000181"/>
+        <rdfs:label xml:lang="en">heterotrimeric GTPase activating protein</rdfs:label>
+        <skos:definition>A gene product that stimulates host heterotrimeric GTPase to hydrolyze bound GTP, ultimately reducing G-protein activity.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000264 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000181"/>
+        <rdfs:label xml:lang="en">small GTPase activating protein</rdfs:label>
+        <skos:definition>A gene product that stimulates small, monomeric host GTPase to hydrolyze bound GTP, ultimately reducing G-protein activity.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000265 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000175"/>
+        <rdfs:label xml:lang="en">disrupts small GTPase activity</rdfs:label>
+        <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating small, monomeric host GTPase to hydrolyze bound GTP.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000266 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000175"/>
+        <rdfs:label xml:lang="en">disrupts heterotrimeric GTPase activity</rdfs:label>
+        <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating host heterotrimeric GTPase to hydrolyze bound GTP.</skos:definition>
+        <skos:definition>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:definition>
+    </owl:Class>
 </rdf:RDF>
 
 
