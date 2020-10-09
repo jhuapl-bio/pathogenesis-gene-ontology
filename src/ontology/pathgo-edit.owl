@@ -2419,6 +2419,36 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating modulation of eukaryotic translation initiation factors.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates modulation of eukaryotic translation initiation factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000263"/>
+        <pathgo:IAO_0000115>A mechanism that mediates modulation of eukaryotic translation initiation by enhancing eukaryotic translation initiation factors.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">enhances eukaryotic translation initiation factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000263"/>
+        <pathgo:IAO_0000115>A mechanism that mediates modulation of eukaryotic translation initiation by suppressing eukaryotic translation initation factors.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">represses eukaryotic translation initiation factors</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000249 -->
 
     <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000249">
