@@ -2321,11 +2321,10 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000252 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000252">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250"/>
         <pathgo:IAO_0000115>A gene product that mediates dissemination by promoting traversal of host barrier layers.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host barrier traversal factor</rdfs:label>
         <skos:editorialNote>[Examples Macrophage infectivity potentiator from Legionella; Exylysin from Pseudomonas; Pseudomonas exotoxin S; Pseudomonas exotoxin T; Shigella extracellular protease]
@@ -2338,7 +2337,7 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000253 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000253">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000251"/>
         <pathgo:IAO_0000115>A mechanism that mediates dissemination by promoting traversal of host barrier layers.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates host barrier traversal</rdfs:label>
         <skos:editorialNote>[Examples Macrophage infectivity potentiator from Legionella; Exylysin from Pseudomonas; Pseudomonas exotoxin S; Pseudomonas exotoxin T; Shigella extracellular protease]
