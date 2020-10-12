@@ -185,6 +185,17 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     
 
 
+    <!-- http://obolibrary.org/obo/pathgo/PATHGO_0000278 -->
+
+    <owl:Class rdf:about="http://obolibrary.org/obo/pathgo/PATHGO_0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000175"/>
+        <rdfs:label xml:lang="en">disrupts small GTPase activity</rdfs:label>
+        <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating small, monomeric host GTPase to hydrolyze bound GTP.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001">
@@ -2303,6 +2314,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250">
@@ -2398,6 +2410,7 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000258">
@@ -2417,6 +2430,8 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
         <skos:definition>A mechanism that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000260 -->
 
@@ -2428,6 +2443,8 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000261 -->
 
@@ -2437,22 +2454,23 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:definition>A mechanism that disrupts cytoskeletal maintenance by mediating host actin polymerization</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
 
 
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000276 -->
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000276 -->
 
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000276">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000276">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000181"/>
         <rdfs:label xml:lang="en">small GTPase activating protein</rdfs:label>
         <skos:definition>A gene product that stimulates small, monomeric host GTPase to hydrolyze bound GTP, ultimately reducing G-protein activity.</skos:definition>
-        <skos:editorialNote>erm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
 
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000277 -->
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000277 -->
 
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000277">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000277">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000181"/>
         <rdfs:label xml:lang="en">heterotrimeric GTPase activating protein</rdfs:label>
         <skos:definition>A gene product that stimulates host heterotrimeric GTPase to hydrolyze bound GTP, ultimately reducing G-protein activity.</skos:definition>
@@ -2461,25 +2479,13 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000278 -->
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000279 -->
 
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000278">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000175"/>
-        <rdfs:label xml:lang="en">disrupts small GTPase activity</rdfs:label>
-        <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating small, monomeric host GTPase to hydrolyze bound GTP.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000279 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000279">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000175"/>
         <rdfs:label xml:lang="en">disrupts heterotrimeric GTPase activity</rdfs:label>
         <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating host heterotrimeric GTPase to hydrolyze bound GTP.</skos:definition>
     </owl:Class>
-
 </rdf:RDF>
 
 
