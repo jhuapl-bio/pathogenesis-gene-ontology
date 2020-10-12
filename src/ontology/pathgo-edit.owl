@@ -2389,6 +2389,72 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
+        <rdfs:label xml:lang="en">mediates microtubule rearrangement</rdfs:label>
+        <skos:definition>A mechanism that disrupts cytoskeleton maintenance by mediating microtubule rearrangement.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
+        <rdfs:label xml:lang="en">microtubule rearrangement factor</rdfs:label>
+        <skos:definition>A gene product that disrupts cytoskeleton structure by rearranging microtubules.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
+        <rdfs:label xml:lang="en">cholesterol binding factor</rdfs:label>
+        <skos:definition>A gene product that mediates cell surface binding through binding to cholesterol.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
+        <rdfs:label xml:lang="en">carbohydrate binding factor</rdfs:label>
+        <skos:definition>A gene product that mediates cell surface binding through binding to the carbohydrate component of a glycolipid or glycoprotein.</skos:definition>
+        <skos:definition>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211"/>
+        <rdfs:label xml:lang="en">mediates cholesterol binding</rdfs:label>
+        <skos:definition>A mechanism that mediates cell surface binding by enabling binding to host cell surface cholesterol.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211"/>
+        <rdfs:label xml:lang="en">mediates carbohydrate binding</rdfs:label>
+        <skos:definition>A mechanism that mediates cell surface binding by enabling binding to host cell surface carbohydrate components of glycolipids or glycoproteins.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
     <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000249 -->
 
     <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000249">
@@ -2417,72 +2483,6 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
         <rdfs:label xml:lang="en">disrupts host cell focal adhesions</rdfs:label>
         <skos:definition>A mechanism that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000280 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <rdfs:label xml:lang="en">mediates microtubule rearrangement</rdfs:label>
-        <skos:definition>A mechanism that disrupts cytoskeleton maintenance by mediating microtubule rearrangement.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000281 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000281">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <rdfs:label xml:lang="en">microtubule rearrangement factor</rdfs:label>
-        <skos:definition>A gene product that disrupts cytoskeleton structure by rearranging microtubules.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000282 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000282">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
-        <rdfs:label xml:lang="en">cholesterol binding factor</rdfs:label>
-        <skos:definition>A gene product that mediates cell surface binding through binding to cholesterol.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000283 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000283">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
-        <rdfs:label xml:lang="en">carbohydrate binding factor</rdfs:label>
-        <skos:definition>A gene product that mediates cell surface binding through binding to the carbohydrate component of a glycolipid or glycoprotein.</skos:definition>
-        <skos:definition>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000284 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000284">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211"/>
-        <rdfs:label xml:lang="en">mediates cholesterol binding</rdfs:label>
-        <skos:definition>A mechanism that mediates cell surface binding by enabling binding to host cell surface cholesterol.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000285 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000285">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211"/>
-        <rdfs:label xml:lang="en">mediates carbohydrate binding</rdfs:label>
-        <skos:definition>A mechanism that mediates cell surface binding by enabling binding to host cell surface carbohydrate components of glycolipids or glycoproteins.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
