@@ -2254,7 +2254,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
-        <pathgo:IAO_0000115>A gene product that mediates adhesion through vitronectin binding.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A gene product that mediates extracellular matrix binding through adherance specifically to vitronectin in the host extracellular matrix.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">vitronectin binding protein</rdfs:label>
     </owl:Class>
     
@@ -2301,8 +2301,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
-
-
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250 -->
