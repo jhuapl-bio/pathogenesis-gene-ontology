@@ -1019,8 +1019,8 @@ Evaluate subclass naming/organization</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating inhibition of actin polymerization.</pathgo:IAO_0000115>
-        <rdfs:label>mediates actin polymerization inhibition</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating inhibition of host actin polymerization.</pathgo:IAO_0000115>
+        <rdfs:label>mediates host actin polymerization inhibition</rdfs:label>
     </owl:Class>
     
 
@@ -1962,8 +1962,8 @@ Need examples.  Concept covered by GO?</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating actin depolymerization.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates actin depolymerization</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating host actin depolymerization.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host actin depolymerization</rdfs:label>
     </owl:Class>
     
 
@@ -1972,8 +1972,8 @@ Need examples.  Concept covered by GO?</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by promoting actin crosslinking.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates actin crosslinking</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by promoting host actin crosslinking.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host actin crosslinking</rdfs:label>
     </owl:Class>
     
 
@@ -2292,6 +2292,18 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
+        <rdfs:label xml:lang="en">host complement control protein binding factor</rdfs:label>
+        <skos:definition>A gene product that inhibits host complement system activation by recruiting host complement control proteins to the surface of the parasite.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250 -->
 
@@ -2389,7 +2401,71 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000274 -->
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160"/>
+        <rdfs:label xml:lang="en">focal adhesion disruption factor</rdfs:label>
+        <skos:definition>A gene product that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
+        <rdfs:label xml:lang="en">disrupts host cell focal adhesions</rdfs:label>
+        <skos:definition>A mechanism that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
+        <rdfs:label xml:lang="en">mediates host actin rearrangement</rdfs:label>
+        <skos:definition>A mechanism that disrupts cytoskeletal maintenance by mediating host actin rearrangement</skos:definition>
+        <skos:editorialNote>Note, in some cases, the extent of actin rearrangement is sufficient to allow for parasitic invasion of a host cell.
+
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
+        <rdfs:label xml:lang="en">mediates host actin polymerization</rdfs:label>
+        <skos:definition>A mechanism that disrupts cytoskeletal maintenance by mediating host actin polymerization</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+</rdf:RDF>
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
+        <rdfs:label xml:lang="en">host glycosaminoglycan- or proteoglycan-binding factor</rdfs:label>
+        <skos:definition>A gene product that mediates extracellular matrix binding by adhering specifically to glycosaminoglycans or proteoglycans in the host extracellular matrix.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099"/>
+        <rdfs:label xml:lang="en">mediates host glycosaminoglycan- or proteoglycan-binding</rdfs:label>
+        <skos:definition>A mechanism that mediates extracellular matrix binding by adherance to glycosaminoglycans or proteoglycans in the host extracellular matrix.</skos:definition>
+    </owl:Class>
+    
+     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000274">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
@@ -2397,7 +2473,6 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
         <skos:definition>A gene product that mediates extracellular matrix binding by adhering specifically to laminin in the host extracellular matrix.</skos:definition>
     </owl:Class>
     
-
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000275 -->
 
@@ -2407,40 +2482,6 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
         <skos:definition>A mechanism that mediates extracellular matrix binding by adherence to laminin in the host extracellular matrix.</skos:definition>
     </owl:Class>
     
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000249 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000249">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
-        <rdfs:label xml:lang="en">host complement control protein binding factor</rdfs:label>
-        <skos:definition>A gene product that inhibits host complement system activation by recruiting host complement control proteins to the surface of the parasite.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000258 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000258">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160"/>
-        <rdfs:label xml:lang="en">focal adhesion disruption factor</rdfs:label>
-        <skos:definition>A gene product that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000259 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000259">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
-        <rdfs:label xml:lang="en">disrupts host cell focal adhesions</rdfs:label>
-        <skos:definition>A mechanism that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-</rdf:RDF>
-
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
