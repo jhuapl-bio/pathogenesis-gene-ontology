@@ -185,17 +185,6 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     
 
 
-    <!-- http://obolibrary.org/obo/pathgo/PATHGO_0000278 -->
-
-    <owl:Class rdf:about="http://obolibrary.org/obo/pathgo/PATHGO_0000278">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000175"/>
-        <rdfs:label xml:lang="en">disrupts small GTPase activity</rdfs:label>
-        <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating small, monomeric host GTPase to hydrolyze bound GTP.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001">
@@ -2574,6 +2563,17 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000181"/>
         <rdfs:label xml:lang="en">heterotrimeric GTPase activating protein</rdfs:label>
         <skos:definition>A gene product that stimulates host heterotrimeric GTPase to hydrolyze bound GTP, ultimately reducing G-protein activity.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000175"/>
+        <rdfs:label xml:lang="en">disrupts small GTPase activity</rdfs:label>
+        <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating small, monomeric host GTPase to hydrolyze bound GTP.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
