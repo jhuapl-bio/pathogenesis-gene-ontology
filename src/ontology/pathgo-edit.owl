@@ -2506,6 +2506,32 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085"/>
+        <pathgo:IAO_0000115>A mechanism that mediates immune evasion and subversion by countering host neutrophil extracellular traps (NETs), which contain processed nuclear DNA that can trap and kill pathogens.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates resistance to host neutrophil extracellular traps (NETs)</rdfs:label>
+        <skos:editorialNote>[Examples: Nuc from N. gonorrhoeae; EndA, Sda1, SpnA from Streptococcus]
+
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by countering host neutrophil extracellular traps (NETs), which contain processed nuclear DNA that can trap and kill pathogens.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host neutrophil extracellular trap (NET) resistance factor</rdfs:label>
+        <skos:editorialNote>[Examples: Nuc from N. gonorrhoeae; EndA, Sda1, SpnA from Streptococcus]
+
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000272 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000272">
