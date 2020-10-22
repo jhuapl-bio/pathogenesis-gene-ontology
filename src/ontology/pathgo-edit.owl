@@ -185,6 +185,10 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     
 
 
+    
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001">
@@ -1019,8 +1023,8 @@ Evaluate subclass naming/organization</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating inhibition of actin polymerization.</pathgo:IAO_0000115>
-        <rdfs:label>mediates actin polymerization inhibition</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating inhibition of host actin polymerization.</pathgo:IAO_0000115>
+        <rdfs:label>mediates host actin polymerization inhibition</rdfs:label>
     </owl:Class>
     
 
@@ -1962,8 +1966,8 @@ Need examples.  Concept covered by GO?</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating actin depolymerization.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates actin depolymerization</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating host actin depolymerization.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host actin depolymerization</rdfs:label>
     </owl:Class>
     
 
@@ -1972,8 +1976,8 @@ Need examples.  Concept covered by GO?</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by promoting actin crosslinking.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates actin crosslinking</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by promoting host actin crosslinking.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host actin crosslinking</rdfs:label>
     </owl:Class>
     
 
@@ -2254,7 +2258,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
-        <pathgo:IAO_0000115>A gene product that mediates adhesion through vitronectin binding.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A gene product that mediates extracellular matrix binding through adherance specifically to vitronectin in the host extracellular matrix.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">vitronectin binding protein</rdfs:label>
     </owl:Class>
     
@@ -2292,8 +2296,17 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249 -->
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
+        <pathgo:IAO_0000115>A gene product that inhibits host complement system activation by recruiting host complement control proteins to the surface of the parasite.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host complement control protein binding factor</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
@@ -2388,89 +2401,9 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000258 -->
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015"/>
-        <pathgo:IAO_0000115>A gene product that disrupts host cellular signaling by modulating host MAPK signaling via direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host MAPK signaling modulation factor</rdfs:label>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000267 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000267">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266"/>
-        <pathgo:IAO_0000115>A gene product that modulates host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host MAPK signaling enhancement factor</rdfs:label>
-        <skos:editorialNote>Example includes GRA24 from Toxoplasma gondii. GRA24 targets host p38 alpha causing autophosphorylation and activation of p38. p38 activation leads to the upregulation of proinflammatory cytokine production.</skos:editorialNote>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000268 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000268">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266"/>
-        <pathgo:IAO_0000115>A gene product that modulates host MAPK signaling through downregulation of host MAPK signaling by either directly acting on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host MAPK signaling disruption factor</rdfs:label>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000165"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts host cellular signaling by modulating host MAPK signaling.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates host MAPK signaling</rdfs:label>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000270 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000270">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269"/>
-        <pathgo:IAO_0000115>A mechansim that modulates host MAPK signaling by disrupting host MAPK signaling through downregulation of host MAPK signaling by either directly acting on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts host MAPK signaling</rdfs:label>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000271 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000271">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269"/>
-        <pathgo:IAO_0000115>A mechanism that modulates host MAPK signaling by enhancing host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">enhances host MAPK signaling</rdfs:label>
-        <skos:editorialNote>Example includes GRA24 from Toxoplasma gondii. It targets host p38 alpha which leads to autophosphorylation and activation. p38 activation leads to the upregulation of proinflammatory cytokine production.</skos:editorialNote>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000249 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000249">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
-        <rdfs:label xml:lang="en">host complement control protein binding factor</rdfs:label>
-        <skos:definition>A gene product that inhibits host complement system activation by recruiting host complement control proteins to the surface of the parasite.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000258 -->
-
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000258">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000258">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160"/>
         <rdfs:label xml:lang="en">focal adhesion disruption factor</rdfs:label>
         <skos:definition>A gene product that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
@@ -2479,17 +2412,286 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     
 
 
-    <!-- http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000259 -->
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000259 -->
 
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/pathgo/PATHGO_0000259">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000259">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
         <rdfs:label xml:lang="en">disrupts host cell focal adhesions</rdfs:label>
         <skos:definition>A mechanism that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
+        <rdfs:label xml:lang="en">mediates host actin rearrangement</rdfs:label>
+        <skos:definition>A mechanism that disrupts cytoskeletal maintenance by mediating host actin rearrangement</skos:definition>
+        <skos:editorialNote>Note, in some cases, the extent of actin rearrangement is sufficient to allow for parasitic invasion of a host cell.
+
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
+        <rdfs:label xml:lang="en">mediates host actin polymerization</rdfs:label>
+        <skos:definition>A mechanism that disrupts cytoskeletal maintenance by mediating host actin polymerization</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
+        <rdfs:label xml:lang="en">eukaryotic initiation modulator factor</rdfs:label>
+        <pathgo:IAO_0000115>A gene product that modulates host protein translation by modifying a host eukaryotic initiation factor (eIF).</pathgo:IAO_0000115>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262"/>
+        <rdfs:label xml:lang="en">host eukaryotic initiation factor repressor</rdfs:label>
+        <pathgo:IAO_0000115>Parasite protein that represses host protein translation by modifying a host eukaryotic initiation factor.</pathgo:IAO_0000115>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262"/>
+        <rdfs:label xml:lang="en">host eukaryotic initiation factor enhancer</rdfs:label>
+        <pathgo:IAO_0000115>Parasite protein that enhances host protein translation by modifying a host eukaryotic initiation factor.</pathgo:IAO_0000115>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <rdfs:label xml:lang="en">mediates modulation of eukaryotic translation initiation factors</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating modulation of eukaryotic translation initiation factors.</pathgo:IAO_0000115>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265"/>
+        <rdfs:label xml:lang="en">enhances eukaryotic translation initiation factors</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that mediates modulation of eukaryotic translation initiation by enhancing eukaryotic translation initiation factors.</pathgo:IAO_0000115>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265"/>
+        <pathgo:IAO_0000115>A mechanism that mediates modulation of eukaryotic translation initiation by suppressing eukaryotic translation initation factors.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">represses eukaryotic translation initiation factors</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
+        <rdfs:label xml:lang="en">host glycosaminoglycan- or proteoglycan-binding factor</rdfs:label>
+        <skos:definition>A gene product that mediates extracellular matrix binding by adhering specifically to glycosaminoglycans or proteoglycans in the host extracellular matrix.</skos:definition>
+    </owl:Class>
+    
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099"/>
+        <rdfs:label xml:lang="en">mediates host glycosaminoglycan- or proteoglycan-binding</rdfs:label>
+        <skos:definition>A mechanism that mediates extracellular matrix binding by adherance to glycosaminoglycans or proteoglycans in the host extracellular matrix.</skos:definition>
+    </owl:Class>
+    
+     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
+        <rdfs:label xml:lang="en">laminin binding protein</rdfs:label>
+        <skos:definition>A gene product that mediates extracellular matrix binding by adhering specifically to laminin in the host extracellular matrix.</skos:definition>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099"/>
+        <rdfs:label xml:lang="en">mediates host laminin binding</rdfs:label>
+        <skos:definition>A mechanism that mediates extracellular matrix binding by adherence to laminin in the host extracellular matrix.</skos:definition>
+    </owl:Class>
+    
+        <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000181"/>
+        <rdfs:label xml:lang="en">small GTPase activating protein</rdfs:label>
+        <skos:definition>A gene product that stimulates small, monomeric host GTPase to hydrolyze bound GTP, ultimately reducing G-protein activity.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000181"/>
+        <rdfs:label xml:lang="en">heterotrimeric GTPase activating protein</rdfs:label>
+        <skos:definition>A gene product that stimulates host heterotrimeric GTPase to hydrolyze bound GTP, ultimately reducing G-protein activity.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+<!-- http://obolibrary.org/obo/pathgo/PATHGO_0000278 -->
+
+    <owl:Class rdf:about="http://obolibrary.org/obo/pathgo/PATHGO_0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000175"/>
+        <rdfs:label xml:lang="en">disrupts small GTPase activity</rdfs:label>
+        <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating small, monomeric host GTPase to hydrolyze bound GTP.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000175"/>
+        <rdfs:label xml:lang="en">disrupts heterotrimeric GTPase activity</rdfs:label>
+        <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating host heterotrimeric GTPase to hydrolyze bound GTP.</skos:definition>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
+        <rdfs:label xml:lang="en">mediates microtubule rearrangement</rdfs:label>
+        <skos:definition>A mechanism that disrupts cytoskeleton maintenance by mediating microtubule rearrangement.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
+        <rdfs:label xml:lang="en">microtubule rearrangement factor</rdfs:label>
+        <skos:definition>A gene product that disrupts cytoskeleton structure by rearranging microtubules.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
+        <rdfs:label xml:lang="en">cholesterol binding factor</rdfs:label>
+        <skos:definition>A gene product that mediates cell surface binding through binding to cholesterol.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
+        <rdfs:label xml:lang="en">carbohydrate binding factor</rdfs:label>
+        <skos:definition>A gene product that mediates cell surface binding through binding to the carbohydrate component of a glycolipid or glycoprotein.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211"/>
+        <rdfs:label xml:lang="en">mediates cholesterol binding</rdfs:label>
+        <skos:definition>A mechanism that mediates cell surface binding by enabling binding to host cell surface cholesterol.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211"/>
+        <rdfs:label xml:lang="en">mediates carbohydrate binding</rdfs:label>
+        <skos:definition>A mechanism that mediates cell surface binding by enabling binding to host cell surface carbohydrate components of glycolipids or glycoproteins.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015"/>
+        <pathgo:IAO_0000115>A gene product that disrupts host cellular signaling by modulating host MAPK signaling via direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host MAPK signaling modulation factor</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000286"/>
+        <pathgo:IAO_0000115>A gene product that modulates host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host MAPK signaling enhancement factor</rdfs:label>
+        <skos:editorialNote>Example includes GRA24 from Toxoplasma gondii. GRA24 targets host p38 alpha causing autophosphorylation and activation of p38. p38 activation leads to the upregulation of proinflammatory cytokine production.</skos:editorialNote>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000286"/>
+        <pathgo:IAO_0000115>A gene product that modulates host MAPK signaling through downregulation of host MAPK signaling by either directly acting on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host MAPK signaling disruption factor</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000165"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts host cellular signaling by modulating host MAPK signaling.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates host MAPK signaling</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000289"/>
+        <pathgo:IAO_0000115>A mechansim that modulates host MAPK signaling by disrupting host MAPK signaling through downregulation of host MAPK signaling by either directly acting on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts host MAPK signaling</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000289"/>
+        <pathgo:IAO_0000115>A mechanism that modulates host MAPK signaling by enhancing host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">enhances host MAPK signaling</rdfs:label>
+        <skos:editorialNote>Example includes GRA24 from Toxoplasma gondii. It targets host p38 alpha which leads to autophosphorylation and activation. p38 activation leads to the upregulation of proinflammatory cytokine production.</skos:editorialNote>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
 </rdf:RDF>
-
-
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
