@@ -2445,6 +2445,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262">
@@ -2570,6 +2571,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000276 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000276">
@@ -2611,6 +2613,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating host heterotrimeric GTPase to hydrolyze bound GTP.</skos:definition>
     </owl:Class>
     
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000280 -->
 
@@ -2677,6 +2680,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000286 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000286">
@@ -2700,6 +2704,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000288 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000288">
@@ -2709,6 +2714,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000289 -->
 
@@ -2720,6 +2726,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000290 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000290">
@@ -2729,6 +2736,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000291 -->
 
@@ -2740,26 +2748,28 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000292 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000292">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085"/>
-        <pathgo:IAO_0000115>A mechanism that mediates immune evasion and subversion by affecting the activity, abundance, or availability of host TNFR ligands or by inhibiting TNFR signaling by binding directly to the receptor.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A mechanism that mediates immune evasion and subversion by affecting the activity, abundance, or availability of host tumor necrosis factor receptor (TNFR) ligands or by inhibiting TNFR signaling by binding directly to the receptor.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts host TNFR signaling</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000293 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000293">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by affecting the activity, abundance, or availability of host TNFR ligands or by inhibiting TNFR signaling by binding directly to the receptor.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by affecting the activity, abundance, or availability of host tumor necrosis factor receptor (TNFR) ligands or by inhibiting TNFR signaling by binding directly to the receptor.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host TNFR signaling disruption factor</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-
-
 </rdf:RDF>
 
 
