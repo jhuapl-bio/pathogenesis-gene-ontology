@@ -2297,8 +2297,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
+        <pathgo:IAO_0000115>A gene product that inhibits host complement system activation by recruiting host complement control proteins to the surface of the parasite.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host complement control protein binding factor</rdfs:label>
-        <skos:definition>A gene product that inhibits host complement system activation by recruiting host complement control proteins to the surface of the parasite.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2445,6 +2445,85 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
+        <pathgo:IAO_0000115>A gene product that modulates host protein translation by modifying a host eukaryotic initiation factor (eIF).</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">eukaryotic initiation modulator factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262"/>
+        <pathgo:IAO_0000115>Parasite protein that represses host protein translation by modifying a host eukaryotic initiation factor.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host eukaryotic initiation factor repressor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262"/>
+        <pathgo:IAO_0000115>Parasite protein that enhances host protein translation by modifying a host eukaryotic initiation factor.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host eukaryotic initiation factor enhancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating modulation of eukaryotic translation initiation factors.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates modulation of eukaryotic translation initiation factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265"/>
+        <pathgo:IAO_0000115>A mechanism that mediates modulation of eukaryotic translation initiation by enhancing eukaryotic translation initiation factors.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">enhances eukaryotic translation initiation factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265"/>
+        <pathgo:IAO_0000115>A mechanism that mediates modulation of eukaryotic translation initiation by suppressing eukaryotic translation initation factors.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">represses eukaryotic translation initiation factors</rdfs:label>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085"/>
+        <pathgo:IAO_0000115>A mechanism that mediates immune evasion and subversion by countering host neutrophil extracellular traps (NETs), which contain processed nuclear DNA that can trap and kill pathogens.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates resistance to host neutrophil extracellular traps (NETs)</rdfs:label>
+        <skos:editorialNote>[Examples: Nuc from N. gonorrhoeae; EndA, Sda1, SpnA from Streptococcus]</skos:editorialNote>
+        <skos:editorialNote>attribution: https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+        
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269 -->
+    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
+        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by countering host neutrophil extracellular traps (NETs), which contain processed nuclear DNA that can trap and kill pathogens.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host neutrophil extracellular trap (NET) resistance factor</rdfs:label>
+        <skos:editorialNote>Attribution: https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+        <skos:editorialNote>[Examples: Nuc from N. gonorrhoeae; EndA, Sda1, SpnA from Streptococcus]</skos:editorialNote>
+    </owl:Class>
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000272 -->
 
@@ -2482,6 +2561,49 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099"/>
         <rdfs:label xml:lang="en">mediates host laminin binding</rdfs:label>
         <skos:definition>A mechanism that mediates extracellular matrix binding by adherence to laminin in the host extracellular matrix.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000181"/>
+        <rdfs:label xml:lang="en">small GTPase activating protein</rdfs:label>
+        <skos:definition>A gene product that stimulates small, monomeric host GTPase to hydrolyze bound GTP, ultimately reducing G-protein activity.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000181"/>
+        <rdfs:label xml:lang="en">heterotrimeric GTPase activating protein</rdfs:label>
+        <skos:definition>A gene product that stimulates host heterotrimeric GTPase to hydrolyze bound GTP, ultimately reducing G-protein activity.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000175"/>
+        <rdfs:label xml:lang="en">disrupts small GTPase activity</rdfs:label>
+        <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating small, monomeric host GTPase to hydrolyze bound GTP.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000175"/>
+        <rdfs:label xml:lang="en">disrupts heterotrimeric GTPase activity</rdfs:label>
+        <skos:definition>A mechanism that disrupts G-protein signaling pathways by stimulating host heterotrimeric GTPase to hydrolyze bound GTP.</skos:definition>
     </owl:Class>
     
 
@@ -2525,7 +2647,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
         <rdfs:label xml:lang="en">carbohydrate binding factor</rdfs:label>
         <skos:definition>A gene product that mediates cell surface binding through binding to the carbohydrate component of a glycolipid or glycoprotein.</skos:definition>
-        <skos:definition>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
@@ -2555,11 +2677,10 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000286 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000286">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085"/>
-        <pathgo:IAO_0000115>A mechanism that mediates immune evasion and subversion by countering host neutrophil extracellular traps (NETs), which contain processed nuclear DNA that can trap and kill pathogens.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates resistance to host neutrophil extracellular traps (NETs)</rdfs:label>
-        <skos:editorialNote>[Examples: Nuc from N. gonorrhoeae; EndA, Sda1, SpnA from Streptococcus]</skos:editorialNote>
-        <skos:editorialNote>attribution: https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015"/>
+        <pathgo:IAO_0000115>A gene product that disrupts host cellular signaling by modulating host MAPK signaling via direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host MAPK signaling modulation factor</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
@@ -2567,11 +2688,58 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000287 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000287">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by countering host neutrophil extracellular traps (NETs), which contain processed nuclear DNA that can trap and kill pathogens.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host neutrophil extracellular trap (NET) resistance factor</rdfs:label>
-        <skos:editorialNote>Attribution: https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
-        <skos:editorialNote>[Examples: Nuc from N. gonorrhoeae; EndA, Sda1, SpnA from Streptococcus]</skos:editorialNote>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000286"/>
+        <pathgo:IAO_0000115>A gene product that modulates host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host MAPK signaling enhancement factor</rdfs:label>
+        <skos:editorialNote>Example includes GRA24 from Toxoplasma gondii. GRA24 targets host p38 alpha causing autophosphorylation and activation of p38. p38 activation leads to the upregulation of proinflammatory cytokine production.
+
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000286"/>
+        <pathgo:IAO_0000115>A gene product that modulates host MAPK signaling through downregulation of host MAPK signaling by either directly acting on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host MAPK signaling disruption factor</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000165"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts host cellular signaling by modulating host MAPK signaling.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates host MAPK signaling</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000289"/>
+        <pathgo:IAO_0000115>A mechansim that modulates host MAPK signaling by disrupting host MAPK signaling through downregulation of host MAPK signaling by either directly acting on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts host MAPK signaling</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000289"/>
+        <pathgo:IAO_0000115>A mechanism that modulates host MAPK signaling by enhancing host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">enhances host MAPK signaling</rdfs:label>
+        <skos:editorialNote>Example includes GRA24 from Toxoplasma gondii. It targets host p38 alpha which leads to autophosphorylation and activation. p38 activation leads to the upregulation of proinflammatory cytokine production.
+
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
 
