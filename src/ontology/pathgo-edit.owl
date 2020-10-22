@@ -2254,7 +2254,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
-        <pathgo:IAO_0000115>A gene product that mediates adhesion through vitronectin binding.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A gene product that mediates extracellular matrix binding through adherance specifically to vitronectin in the host extracellular matrix.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">vitronectin binding protein</rdfs:label>
     </owl:Class>
     
@@ -2292,19 +2292,15 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
+        <pathgo:IAO_0000115>A gene product that inhibits host complement system activation by recruiting host complement control proteins to the surface of the parasite.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host complement control protein binding factor</rdfs:label>
-        <skos:definition>A gene product that inhibits host complement system activation by recruiting host complement control proteins to the surface of the parasite.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
-
-
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000250 -->
 
@@ -2314,7 +2310,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <oboInOwl:hasRelatedSynonym>spreading factor</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">dissemination factor</rdfs:label>
     </owl:Class>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000251 -->
@@ -2401,13 +2396,6 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
 
-
-
-
-
-
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000258">
@@ -2451,57 +2439,51 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:definition>A mechanism that disrupts cytoskeletal maintenance by mediating host actin polymerization</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-</rdf:RDF>
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
-        <pathgo:IAO_0000115>A gene product that modulates host protein translation by modifying a host eukaryotic initiation factor (eIF).</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">eukaryotic initiation modulator factor</rdfs:label>
+        <pathgo:IAO_0000115>A gene product that modulates host protein translation by modifying a host eukaryotic initiation factor (eIF).</pathgo:IAO_0000115>
     </owl:Class>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000263 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000263">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262"/>
-        <pathgo:IAO_0000115>Parasite protein that represses host protein translation by modifying a host eukaryotic initiation factor.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host eukaryotic initiation factor repressor</rdfs:label>
+        <pathgo:IAO_0000115>Parasite protein that represses host protein translation by modifying a host eukaryotic initiation factor.</pathgo:IAO_0000115>
     </owl:Class>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000264 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000262"/>
-        <pathgo:IAO_0000115>Parasite protein that enhances host protein translation by modifying a host eukaryotic initiation factor.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host eukaryotic initiation factor enhancer</rdfs:label>
+        <pathgo:IAO_0000115>Parasite protein that enhances host protein translation by modifying a host eukaryotic initiation factor.</pathgo:IAO_0000115>
     </owl:Class>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating modulation of eukaryotic translation initiation factors.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates modulation of eukaryotic translation initiation factors</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating modulation of eukaryotic translation initiation factors.</pathgo:IAO_0000115>
     </owl:Class>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265"/>
-        <pathgo:IAO_0000115>A mechanism that mediates modulation of eukaryotic translation initiation by enhancing eukaryotic translation initiation factors.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">enhances eukaryotic translation initiation factors</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that mediates modulation of eukaryotic translation initiation by enhancing eukaryotic translation initiation factors.</pathgo:IAO_0000115>
     </owl:Class>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000267 -->
@@ -2511,7 +2493,105 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <pathgo:IAO_0000115>A mechanism that mediates modulation of eukaryotic translation initiation by suppressing eukaryotic translation initation factors.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">represses eukaryotic translation initiation factors</rdfs:label>
     </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
+        <rdfs:label xml:lang="en">host glycosaminoglycan- or proteoglycan-binding factor</rdfs:label>
+        <skos:definition>A gene product that mediates extracellular matrix binding by adhering specifically to glycosaminoglycans or proteoglycans in the host extracellular matrix.</skos:definition>
+    </owl:Class>
     
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099"/>
+        <rdfs:label xml:lang="en">mediates host glycosaminoglycan- or proteoglycan-binding</rdfs:label>
+        <skos:definition>A mechanism that mediates extracellular matrix binding by adherance to glycosaminoglycans or proteoglycans in the host extracellular matrix.</skos:definition>
+    </owl:Class>
+    
+     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
+        <rdfs:label xml:lang="en">laminin binding protein</rdfs:label>
+        <skos:definition>A gene product that mediates extracellular matrix binding by adhering specifically to laminin in the host extracellular matrix.</skos:definition>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099"/>
+        <rdfs:label xml:lang="en">mediates host laminin binding</rdfs:label>
+        <skos:definition>A mechanism that mediates extracellular matrix binding by adherence to laminin in the host extracellular matrix.</skos:definition>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
+        <rdfs:label xml:lang="en">mediates microtubule rearrangement</rdfs:label>
+        <skos:definition>A mechanism that disrupts cytoskeleton maintenance by mediating microtubule rearrangement.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
+        <rdfs:label xml:lang="en">microtubule rearrangement factor</rdfs:label>
+        <skos:definition>A gene product that disrupts cytoskeleton structure by rearranging microtubules.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
+        <rdfs:label xml:lang="en">cholesterol binding factor</rdfs:label>
+        <skos:definition>A gene product that mediates cell surface binding through binding to cholesterol.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
+        <rdfs:label xml:lang="en">carbohydrate binding factor</rdfs:label>
+        <skos:definition>A gene product that mediates cell surface binding through binding to the carbohydrate component of a glycolipid or glycoprotein.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211"/>
+        <rdfs:label xml:lang="en">mediates cholesterol binding</rdfs:label>
+        <skos:definition>A mechanism that mediates cell surface binding by enabling binding to host cell surface cholesterol.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211"/>
+        <rdfs:label xml:lang="en">mediates carbohydrate binding</rdfs:label>
+        <skos:definition>A mechanism that mediates cell surface binding by enabling binding to host cell surface carbohydrate components of glycolipids or glycoproteins.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+</rdf:RDF>
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
