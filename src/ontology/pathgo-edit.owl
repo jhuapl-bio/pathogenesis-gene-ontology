@@ -2764,7 +2764,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000291">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000289"/>
-        <pathgo:IAO_0000115>A mechanism that modulates host MAPK signaling by enhancing host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A mechanism that modulates host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">enhances host MAPK signaling</rdfs:label>
         <skos:editorialNote>Example includes GRA24 from Toxoplasma gondii. It targets host p38 alpha which leads to autophosphorylation and activation. p38 activation leads to the upregulation of proinflammatory cytokine production.
 
@@ -2791,6 +2791,72 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by affecting the activity, abundance, or availability of host tumor necrosis factor receptor (TNFR) ligands or by inhibiting TNFR signaling by binding directly to the receptor.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host TNFR signaling disruption factor</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000165"/>
+        <rdfs:label xml:lang="en">modulates host NF-kappaB signaling</rdfs:label>
+        <skos:definition>A mechanism that disrupts host cellular signaling by modulating host NF-kappaB signaling.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000294"/>
+        <rdfs:label xml:lang="en">disrupts host NF-kappaB signaling</rdfs:label>
+        <skos:definition>A mechanism that modulates host NF-kappaB signaling by disrupting host NF-kappaB signaling so that the effector subunit is not able to initiate transcription in the nucleus.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000294"/>
+        <rdfs:label xml:lang="en">enhances host NF-kappaB signaling</rdfs:label>
+        <skos:definition>A mechanism that modulates host NF-kappaB signaling by enhancing host NF-kappaB signaling by promoting activation.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015"/>
+        <rdfs:label xml:lang="en">host NF-kappaB signaling modulation factor</rdfs:label>
+        <skos:definition>A gene product that disrupts hot cellular signaling by modulating host NF-kappaB signaling by exerting an effect on an NF-kappaB component no farther than proximal to IkappaB, RelA, p50, Ikappakappa, or NEMO.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000297"/>
+        <rdfs:label xml:lang="en">host NF-kappaB signaling disruption factor</rdfs:label>
+        <skos:definition>A gene product that modulates host NF-kappaB signaling by disrupting host NF-kappaB signaling via inhibiting activation so that the effector subunit is not able to initiate transcription in the nucleus.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000297"/>
+        <rdfs:label xml:lang="en">host NF-kappaB signaling enhancement factor</rdfs:label>
+        <skos:definition>A gene product that modulates host NF-kappaB signaling by enhancing host NF-kappaB signaling via promoting activation.</skos:definition>
+        <skos:definition>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:definition>
     </owl:Class>
 </rdf:RDF>
 
