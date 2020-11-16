@@ -2786,6 +2786,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000294">
@@ -2794,6 +2796,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:definition>A mechanism that disrupts host cellular signaling by modulating host NF-kappaB signaling.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000295 -->
 
@@ -2802,9 +2806,10 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">disrupts host NF-kappaB signaling</rdfs:label>
         <skos:definition>A mechanism that modulates host NF-kappaB signaling by disrupting host NF-kappaB signaling so that the effector subunit is not able to initiate transcription in the nucleus.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-
     </owl:Class>
     
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000296">
@@ -2815,6 +2820,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000297">
@@ -2824,7 +2830,9 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
-   <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000298 -->
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000298 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000298">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000297"/>
@@ -2832,6 +2840,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:definition>A gene product that modulates host NF-kappaB signaling by disrupting host NF-kappaB signaling via inhibiting activation so that the effector subunit is not able to initiate transcription in the nucleus.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000299 -->
 
@@ -3008,6 +3018,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000315 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000315">
@@ -3017,58 +3028,92 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
-   <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000316 -->
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000316 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006"/>
         <pathgo:IAO_0000115>A mechanism that modulates protein synthesis by modulating eukaryotic translation elongation factors.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">modulates eukaryotic translation elongation factors</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
-     </owl:Class>
-     
-  <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000317 -->
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000317 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000317">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000034"/>
         <pathgo:IAO_0000115>A gene product that modulates protein synthesis by modulating eukaryotic initiation factors.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">eukaryotic initation factor modulator</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
-     </owl:Class>
-     
-   <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO:0000318 -->
+    </owl:Class>
+    
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO:0000318">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000317"/>
-        <pathgo:IAO_0000115>A gene product that modulates a eukaryotic initation factor by enhancement of that eukaryotic initiation factor.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">eukaryotic initation factor enhancer</rdfs:label>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote> 
-     </owl:Class>
-     
-   <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000319 -->
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000319 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000319">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000317"/>
         <pathgo:IAO_0000115>A gene product that modulates a eukaryotic initation factor by repression of that eukaryotic initiation factor.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">eukaryotic initation factor repressor</rdfs:label>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>     
-     </owl:Class>
-     
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000320 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000002"/>
         <pathgo:IAO_0000115>A gene product that modulates a eukaryotic elongation factor by repression of that eukaryotic elongation factor.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">eukaryotic elongation factor repressor</rdfs:label>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>   
-       </owl:Class>
-       
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts transcription in the host cell.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates transcription in host cell</rdfs:label>
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
+        <pathgo:IAO_0000115>A gene product that disrupts cellular metabolism by modulating host cell transcription.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host cell transcription modulation factor</rdfs:label>
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO:0000318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO:0000318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000317"/>
+        <pathgo:IAO_0000115>A gene product that modulates a eukaryotic initation factor by enhancement of that eukaryotic initiation factor.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">eukaryotic initation factor enhancer</rdfs:label>
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO:0000323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO:0000323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000002"/>
         <pathgo:IAO_0000115>A gene product that modulates a eukaryotic elongation factor by enhancement of that eukaryotic elongation factor.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">eukaryotic elongation factor enhancer</rdfs:label>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote> 
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
 
