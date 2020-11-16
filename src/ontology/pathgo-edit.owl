@@ -245,6 +245,7 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
         <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating inhibition of protein synthesis.</pathgo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>modulates host cell translation</oboInOwl:hasRelatedSynonym>
         <rdfs:label>mediates protein synthesis inhibition</rdfs:label>
     </owl:Class>
     
@@ -485,6 +486,7 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular metabolism by inhibiting protein synthesis.</pathgo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>host cell translation modulator</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein synthesis inhibition factor</rdfs:label>
     </owl:Class>
     
