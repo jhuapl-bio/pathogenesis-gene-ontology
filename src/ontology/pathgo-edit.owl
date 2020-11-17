@@ -220,17 +220,6 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by disrupting the cell cycle of a host cell.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disruption of cell cycle factor</rdfs:label>
-        <skos:editorialNote>Elaborate subclasses and document examples</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000005">
@@ -621,17 +610,6 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process whereby microorganisms irreversibly attach to and grow on a surface and produce extracellular polymers that facilitate attachment and matrix formation, resulting in an alteration in the phenotype of the organisms with respect to growth rate and gene transcription. (Donlan, Rodney M. &quot;Biofilm formation: a clinically relevant microbiological process.&quot; Clinical Infectious Diseases 33.8 (2001): 1387-1392.)
 
 Mechanism of colonization that involves synthesis of extracellular polymeric substances in a film.</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000063 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the cell cycle of a host cell.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts cell cycle</rdfs:label>
-        <skos:editorialNote>Concept covered by GO; GO:0051726; elaborate subclasses</skos:editorialNote>
     </owl:Class>
     
 
@@ -1304,7 +1282,7 @@ Target is the macromolecule and not process so this term doesn&apos;t fit defini
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000152">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000063"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000331"/>
         <rdfs:label>induces cell cycle arrest</rdfs:label>
         <skos:editorialNote>overlap with GO:0007050</skos:editorialNote>
     </owl:Class>
@@ -3068,6 +3046,30 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000015"/>
         <rdfs:label xml:lang="en">host small GTPase dynamics modulation factor</rdfs:label>
         <skos:definition>A gene product that disrupts host cellular signaling by modulating host small GTPase dynamics. This manipulation can occur through direct binding of host small GTPases or by alteration of the activity or abundance of the proximal effectors of small GTPases, including GTPase activating proteins (GAPs), guanine exchange factors (GEFs), or guanine dissociation inhibitors (GDIs).</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
+        <rdfs:label xml:lang="en">host cell cell cycle modulator</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by modulating the cell cycle of a host cell.</skos:definition>
+        <skos:editorialNote>Elaborate subclasses and document examples</skos:editorialNote>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
+        <rdfs:label xml:lang="en">modulates cell cycle in host cell</rdfs:label>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating the cell cycle of a host cell.</skos:definition>
+        <skos:editorialNote>Concept covered by GO; GO:0051726; elaborate subclasses</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
