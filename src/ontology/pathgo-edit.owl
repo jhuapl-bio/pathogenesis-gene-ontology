@@ -2785,7 +2785,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">host TNFR signaling disruption factor</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-    
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000294">
@@ -2865,7 +2865,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000302 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000302">
@@ -2873,9 +2872,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">disrupts host JAK-STAT signaling</rdfs:label>
         <skos:definition>A mechanism that disrupts host cellular signaling by disrupting host Janus kinase signal transducer and activator of transcription (JAK-STAT) signaling via targeting a sequence proximal to JAKs, STATs, protein inhibitors of activated STATs (PIAS), or suppressors of cytokine signaling (SOCS).</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
 
+    </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000303 -->
 
@@ -3061,7 +3059,27 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">eukaryotic elongation factor repressor</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>   
        </owl:Class>
-       
+    
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts the host cell endomembrane system by modulating trafficking of vesicles to other cellular compartments that occur as part of normal host function.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modules endosomal vesicle trafficking</rdfs:label>
+        <skos:editorialNote>Many parasite proteins, particularly from intracellular bacteria pathogens, inhibit or redirect host vesicle trafficking.
+
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>   
+    </owl:Class>
+    
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
+        <pathgo:IAO_0000115>A gene product that disrupts the host endomembrane system by modulating the trafficking of vesicles to other cellular compartments that occur as part of normal host function.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">endosomal vesicle trafficking modulation factor</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO:0000323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO:0000323">
@@ -3070,6 +3088,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">eukaryotic elongation factor enhancer</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote> 
     </owl:Class>
+
 </rdf:RDF>
 
 
