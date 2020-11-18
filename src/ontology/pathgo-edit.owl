@@ -712,20 +712,7 @@ A mechanism of cell surface binding that involves binding to a sugar-modified su
 
 evaluate proangiogenic response as a contribution to pathogenesis</skos:editorialNote>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000075 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000075">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of immune evasion and subversion that involves producing factors that hide a pathogen from the innate immune system, or subvert the ability of the innate immune system to respond to the pathogen.</pathgo:IAO_0000115>
-        <rdfs:label>innate immune system subversion</rdfs:label>
-        <skos:editorialNote>not consistent as a subclass-evaluate for removal; all subclasses to this class are represented as subclasses of &apos;mediates immune evasion and subversion&apos;</skos:editorialNote>
-    </owl:Class>
-    
-
-
+   
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077">
@@ -2718,8 +2705,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">host TNFR signaling disruption factor</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-    
-
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000294 -->
 
@@ -2808,7 +2793,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000302 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000302">
@@ -2816,9 +2800,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">disrupts host JAK-STAT signaling</rdfs:label>
         <skos:definition>A mechanism that disrupts host cellular signaling by disrupting host Janus kinase signal transducer and activator of transcription (JAK-STAT) signaling via targeting a sequence proximal to JAKs, STATs, protein inhibitors of activated STATs (PIAS), or suppressors of cytokine signaling (SOCS).</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
 
+    </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000303 -->
 
@@ -2983,7 +2966,16 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
+    
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO:0000318 -->
 
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO:0000318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000317"/>
+        <pathgo:IAO_0000115>A gene product that modulates a eukaryotic initation factor by enhancement of that eukaryotic initiation factor.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">eukaryotic initation factor enhancer</rdfs:label>
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+    
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000319 -->
 
@@ -3005,8 +2997,72 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000321 -->
 
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts the host cell endomembrane system by modulating trafficking of vesicles to other cellular compartments that occur as part of normal host function.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modules endosomal vesicle trafficking</rdfs:label>
+        <skos:editorialNote>Many parasite proteins, particularly from intracellular bacteria pathogens, inhibit or redirect host vesicle trafficking.
 
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>   
+    </owl:Class>
+    
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
+        <pathgo:IAO_0000115>A gene product that disrupts the host endomembrane system by modulating the trafficking of vesicles to other cellular compartments that occur as part of normal host function.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">endosomal vesicle trafficking modulation factor</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+       <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO:0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO:0000323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000002"/>
+        <pathgo:IAO_0000115>A gene product that modulates a eukaryotic elongation factor by enhancement of that eukaryotic elongation factor.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">eukaryotic elongation factor enhancer</rdfs:label>
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+    
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
+        <pathgo:IAO_0000115>A gene product that disrupts cellular metabolism by altering host ubiquitin dynamics through modulation or redirection of E3 ubiquitin ligase, E3 ubiquitin ligase activity, E2 enzymes, or removal of ubiquitin from a target protein.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host cell ubiquitin dynamics modulator</rdfs:label>
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism through modulation or redirection of E3 ubiquitin ligase, E3 ubiquitin ligase activity, E2 enzymes, or removal of ubiquitin from a target protein.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates ubiquitin dynamics in host cell</rdfs:label>
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by modulating transcription in the host cell.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates transcription in host cell</rdfs:label>
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000179"/>
+        <pathgo:IAO_0000115>A gene product that disrupts cellular metabolism by modulating host cell transcription.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host cell transcription modulation factor</rdfs:label>
+        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
+    </owl:Class>
+    
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000328">
@@ -3017,7 +3073,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000329 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000329">
@@ -3027,7 +3082,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
-
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000330 -->
 
@@ -3040,7 +3094,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000331 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000331">
@@ -3051,7 +3104,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
-
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000332 -->
 
@@ -3066,7 +3118,6 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
     </owl:Class>
     
 
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000333 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000333">
@@ -3076,7 +3127,6 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
-
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000334 -->
 
@@ -3088,7 +3138,6 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
     </owl:Class>
     
 
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000335 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000335">
@@ -3098,7 +3147,6 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
-
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000336 -->
 
@@ -3110,7 +3158,6 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
     </owl:Class>
     
 
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000337 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000337">
@@ -3119,30 +3166,9 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
         <skos:definition>A gene product that modulates host cell apoptosis by inducing host cell apoptosis.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-    
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO:0000318 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO:0000318">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000317"/>
-        <pathgo:IAO_0000115>A gene product that modulates a eukaryotic initation factor by enhancement of that eukaryotic initiation factor.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">eukaryotic initation factor enhancer</rdfs:label>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO:0000323 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO:0000323">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000002"/>
-        <pathgo:IAO_0000115>A gene product that modulates a eukaryotic elongation factor by enhancement of that eukaryotic elongation factor.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">eukaryotic elongation factor enhancer</rdfs:label>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
-    </owl:Class>
 </rdf:RDF>
-
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
