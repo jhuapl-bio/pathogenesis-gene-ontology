@@ -3184,7 +3184,7 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000338">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
         <rdfs:label xml:lang="en">direct host complement inactivation factor</rdfs:label>
-        <skos:definition>A gene product that mediates complement system inhibition by directly inactivating the host complement through enzymatic activity that inheres in the parasite sequence.</skos:definition>
+        <skos:definition>A gene product that mediates complement system inhibition by direct host complement inactivation via enzymatic activity that inheres in the parasite sequence.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -3195,7 +3195,29 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000339">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000100"/>
         <rdfs:label xml:lang="en">direct host complement inactivation</rdfs:label>
-        <skos:definition>A mechanism that mediates resistance to the host complement system by directly inactivating the host complement through enzymatic activity that inheres in the parasite sequence.</skos:definition>
+        <skos:definition>A mechanism that mediates resistance to the host complement system by direct host complement inactivation via enzymatic activity that inheres in the parasite sequence.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
+        <rdfs:label xml:lang="en">indirect host complement inactivation factor</rdfs:label>
+        <skos:definition>A gene product that mediates complement system inhibition by indirect host complement inactivation via recruiting a host enzyme, typically a proteinase, to the parasite surface.</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000100"/>
+        <rdfs:label xml:lang="en">indirect host complement inactivation</rdfs:label>
+        <skos:definition>A mechanism that mediates resistance to the host complement system by indirect host complement inactivation via recruiting a host enzyme, typically a proteinase, to the parasite surface.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
