@@ -2049,7 +2049,8 @@ Intended to capture components that are not directly adhesins, but this class ma
     </owl:Class>
     
 
- <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000231 -->
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000231 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000232"/>
@@ -2068,6 +2069,7 @@ Intended to capture components that are not directly adhesins, but this class ma
         <oboInOwl:hasRelatedSynonym>antiphagocytosis</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">inhibits phagocytosis</rdfs:label>
     </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000233 -->
@@ -3229,6 +3231,28 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
         <rdfs:label xml:lang="en">indirect host complement inactivation</rdfs:label>
         <skos:definition>A mechanism that mediates resistance to the host complement system by indirect host complement inactivation via recruiting a host enzyme, typically a proteinase, to the parasite surface.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
+        <pathgo:IAO_0000115>A gene product that modulates host enedomembrane dynamics by modulating autophage or xenophagy.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">Host cell autophagy or xenophagy modulator</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
+        <pathgo:IAO_0000115>A mechanism that modulates host enedomembrane dynamics by modulating autophage or xenophagy.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates autophagy or xenophagy in host cell</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
