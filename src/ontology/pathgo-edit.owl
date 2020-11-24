@@ -1724,8 +1724,8 @@ build out subclasses</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by manipulating the host cell endomembrane system.</pathgo:IAO_0000115>
-        <rdfs:label>host cell endomembrane system disruption factor</rdfs:label>
+        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by manipulating the host cell endomembrane dynamics.</pathgo:IAO_0000115>
+        <rdfs:label>host cell endomembrane dynamics modulation factor</rdfs:label>
     </owl:Class>
     
 
@@ -1734,7 +1734,7 @@ build out subclasses</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <rdfs:label>determinant of phagosome escape</rdfs:label>
+        <rdfs:label>determinant of escape from host phagosome</rdfs:label>
     </owl:Class>
     
 
@@ -1761,7 +1761,7 @@ build out subclasses</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <rdfs:label>phagosome maturation disruption factor</rdfs:label>
+        <rdfs:label>host cell phagosome maturation disruption factor</rdfs:label>
     </owl:Class>
     
 
@@ -2109,8 +2109,8 @@ Intended to capture components that are not directly adhesins, but this class ma
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
-        <pathgo:IAO_0000115>A mechanism that mediates pathogenicity by manipulating the host cell endomembrane system.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts host cell endomembrane system</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that mediates pathogenicity by manipulating host cell endomembrane dynamics.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates host cell endomembrane dynamics</rdfs:label>
     </owl:Class>
     
 
@@ -2119,7 +2119,7 @@ Intended to capture components that are not directly adhesins, but this class ma
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
-        <rdfs:label xml:lang="en">mediates phagosome escape</rdfs:label>
+        <rdfs:label xml:lang="en">mediates escape from host phagosome</rdfs:label>
     </owl:Class>
     
 
@@ -2155,7 +2155,7 @@ Intended to capture components that are not directly adhesins, but this class ma
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
-        <rdfs:label xml:lang="en">disrupts phagosome maturation</rdfs:label>
+        <rdfs:label xml:lang="en">disrupts phagosome maturation in host cell</rdfs:label>
     </owl:Class>
     
 
@@ -3235,6 +3235,48 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000342">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
+        <pathgo:IAO_0000115>A gene product that modulates host cell endomembrane dynamics by contributing to the formation and/or maintenance of the vacuole.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">pathogen vacuole formation/maintenance factor</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
+        <pathgo:IAO_0000115>A mechanism that modulates host cell endomembrane dynamics by contributing to the formation and/or maintenance of the vacuole.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates pathogen vacuole formation/maintenance</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
+        <pathgo:IAO_0000115>A gene product that modulates host cell endomembrane dynamics by inhibiting autophagosome formation.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host cell autophagosome formation inhibition factor</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000345">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
+        <pathgo:IAO_0000115>A mechanism that modulates host cell endomembrane dynamics by inhibiting autophagosome formation.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">inhibits autophagosome formation in host cell</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000346 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000346">
@@ -3243,7 +3285,6 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
         <rdfs:label xml:lang="en">host cell autophagy or xenophagy modulator</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000347 -->
@@ -3254,8 +3295,6 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
         <rdfs:label xml:lang="en">modulates autophagy or xenophagy in host cell</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-    
-
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO:0000318 -->
 
