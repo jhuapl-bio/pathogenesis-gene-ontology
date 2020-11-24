@@ -3277,7 +3277,24 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000346 -->
 
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
+        <pathgo:IAO_0000115>A gene product that modulates host endomembrane dynamics by modulating autophagy or xenophagy.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host cell autophagy or xenophagy modulator</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
+        <pathgo:IAO_0000115>A mechanism that modulates host endomembrane dynamics by modulating autophagy or xenophagy.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates autophagy or xenophagy in host cell</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO:0000318 -->
 
