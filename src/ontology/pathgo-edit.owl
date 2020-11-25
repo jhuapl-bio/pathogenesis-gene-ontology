@@ -1735,6 +1735,7 @@ build out subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
         <rdfs:label>determinant of escape from host phagosome</rdfs:label>
+        <skos:definition>A gene product that modulates host cell endomembrane dynamics by mediating pathogen escape from host phagosome.</skos:definition>
     </owl:Class>
     
 
@@ -1744,6 +1745,7 @@ build out subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
         <rdfs:label>lysosome lysis evasion factor</rdfs:label>
+        <skos:definition>A gene product that modulates host cell endomembrane dynamics by mediating lysosome lysis evasion.</skos:definition>
     </owl:Class>
     
 
@@ -1753,6 +1755,7 @@ build out subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
         <rdfs:label>phagosome acidification disruption factor</rdfs:label>
+        <skos:definition>A gene product that modulates host cell endomembrane dynamics by dirupting phagosome acidification.</skos:definition>
     </owl:Class>
     
 
@@ -1762,6 +1765,7 @@ build out subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
         <rdfs:label>host cell phagosome maturation disruption factor</rdfs:label>
+        <skos:definition>A gene product that modulates host cell endomembrane dynamics by dirupting host cell phagosome maturation.</skos:definition>
     </owl:Class>
     
 
@@ -1771,6 +1775,7 @@ build out subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000204">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
         <rdfs:label>phagolysosome fusion disruption factor</rdfs:label>
+        <skos:definition>A gene product that modulates host cell endomembrane dynamics by dirupting phagosome fusion.</skos:definition>
     </owl:Class>
     
 
@@ -2210,8 +2215,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000248">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <pathgo:IAO_0000115>A factor that inhibits one or more of the typical fusions between vesicles and other compartments that occur in normal host endosomal dynamics.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">endosomal vesicle fusion inhibition factor</rdfs:label>
+        <skos:definition>A gene product modulates host cell endomembrane dynamics by inhibiting one or more of the typical fusions between vesicles and other compartments that occur in normal host endosomal dynamics.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -3025,7 +3030,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000322">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <pathgo:IAO_0000115>A gene product that disrupts the host endomembrane system by modulating the trafficking of vesicles to other cellular compartments that occur as part of normal host function.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A gene product that modulates host cell endomembrane dynamics by modulating the trafficking of vesicles to other cellular compartments that occur as part of normal host function.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">endosomal vesicle trafficking modulation factor</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
