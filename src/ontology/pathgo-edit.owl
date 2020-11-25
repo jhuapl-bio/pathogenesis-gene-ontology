@@ -2125,6 +2125,7 @@ Intended to capture components that are not directly adhesins, but this class ma
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
         <rdfs:label xml:lang="en">mediates escape from host phagosome</rdfs:label>
+        <skos:definition>A mechanism that modulates host cell endomembrane dynamics by mediating escape from host phagosome.</skos:definition>
     </owl:Class>
     
 
@@ -2134,6 +2135,7 @@ Intended to capture components that are not directly adhesins, but this class ma
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000238">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
         <rdfs:label xml:lang="en">mediates evasion of lysosome lysis</rdfs:label>
+        <skos:definition>A mechanism that modulates host cell endomembrane dynamics by mediating evasion of lysosome lysis.</skos:definition>
     </owl:Class>
     
 
@@ -2143,6 +2145,7 @@ Intended to capture components that are not directly adhesins, but this class ma
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
         <rdfs:label xml:lang="en">disrupts phagolysosome fusion</rdfs:label>
+        <skos:definition>A mechanism that modulates host cell endomembrane dynamics by disrupting phagolysosome fusion.</skos:definition>
     </owl:Class>
     
 
@@ -2152,6 +2155,7 @@ Intended to capture components that are not directly adhesins, but this class ma
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000240">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
         <rdfs:label xml:lang="en">disrupts phagosome acidification</rdfs:label>
+        <skos:definition>A mechanism that modulates host cell endomembrane dynamics by disrupting phagosome acidification.</skos:definition>
     </owl:Class>
     
 
@@ -2161,6 +2165,7 @@ Intended to capture components that are not directly adhesins, but this class ma
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
         <rdfs:label xml:lang="en">disrupts phagosome maturation in host cell</rdfs:label>
+        <skos:definition>A mechanism that modulates host cell endomembrane dynamics by disrupting phagosome maturation in the host cell.</skos:definition>
     </owl:Class>
     
 
