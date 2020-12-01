@@ -1755,7 +1755,7 @@ build out subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
         <rdfs:label>phagosome acidification disruption factor</rdfs:label>
-        <skos:definition>A gene product that modulates host cell endomembrane dynamics by dirupting phagosome acidification.</skos:definition>
+        <skos:definition>A gene product that modulates host cell endomembrane dynamics by disrupting phagosome acidification.</skos:definition>
     </owl:Class>
     
 
@@ -1765,7 +1765,7 @@ build out subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
         <rdfs:label>host cell phagosome maturation disruption factor</rdfs:label>
-        <skos:definition>A gene product that modulates host cell endomembrane dynamics by dirupting host cell phagosome maturation.</skos:definition>
+        <skos:definition>A gene product that modulates host cell endomembrane dynamics by disrupting host cell phagosome maturation.</skos:definition>
     </owl:Class>
     
 
@@ -1775,7 +1775,7 @@ build out subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000204">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
         <rdfs:label>phagolysosome fusion disruption factor</rdfs:label>
-        <skos:definition>A gene product that modulates host cell endomembrane dynamics by dirupting phagosome fusion.</skos:definition>
+        <skos:definition>A gene product that modulates host cell endomembrane dynamics by disrupting phagolysosome fusion.</skos:definition>
     </owl:Class>
     
 
