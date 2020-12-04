@@ -407,8 +407,8 @@ concept possibly covered by GO</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000166"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cellular structure by altering maintenance of cytoskeleton.</pathgo:IAO_0000115>
-        <rdfs:label>disrupts cytoskeleton maintenance</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by altering maintenance of cytoskeleton.</pathgo:IAO_0000115>
+        <rdfs:label>modulates cytoskeleton in host cell</rdfs:label>
     </owl:Class>
     
 
@@ -975,7 +975,7 @@ Evaluate subclass naming/organization</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating inhibition of host actin polymerization.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by mediating inhibition of host actin polymerization.</pathgo:IAO_0000115>
         <rdfs:label>mediates host actin polymerization inhibition</rdfs:label>
     </owl:Class>
     
@@ -1542,8 +1542,8 @@ GTPase activating protein</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000182"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular structure by disrupting components of the cytoskeleton.</pathgo:IAO_0000115>
-        <rdfs:label>cytoskeleton disruption factor</rdfs:label>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular structure by modulating components of the host cell cytoskeleton.</pathgo:IAO_0000115>
+        <rdfs:label>host cell cytoskeleton modulator</rdfs:label>
     </owl:Class>
     
 
@@ -1558,7 +1558,7 @@ GTPase activating protein</skos:editorialNote>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cytoskeleton structure by crosslinking actin.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that modulates the host cell cytoskeleton by crosslinking actin.</pathgo:IAO_0000115>
         <rdfs:label>actin crosslinker</rdfs:label>
     </owl:Class>
     
@@ -1568,7 +1568,7 @@ GTPase activating protein</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cytoskeleton structure by depolymerizing actin.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that modulates the host cell cytoskeleton by depolymerizing actin.</pathgo:IAO_0000115>
         <rdfs:label>actin depolymerization factor</rdfs:label>
     </owl:Class>
     
@@ -1578,7 +1578,7 @@ GTPase activating protein</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cytoskeleton structure by inhibiting actin polymerization.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that modulates the host cell cytoskeleton by inhibiting actin polymerization.</pathgo:IAO_0000115>
         <rdfs:label>actin polymerization inhibition factor</rdfs:label>
     </owl:Class>
     
@@ -1901,7 +1901,7 @@ Need examples.  Concept covered by GO?</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating host actin depolymerization.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by mediating host actin depolymerization.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates host actin depolymerization</rdfs:label>
     </owl:Class>
     
@@ -1911,7 +1911,7 @@ Need examples.  Concept covered by GO?</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by promoting host actin crosslinking.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by promoting host actin crosslinking.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates host actin crosslinking</rdfs:label>
     </owl:Class>
     
@@ -1951,7 +1951,7 @@ Need examples.  Concept covered by GO?</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000221">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating microtubule stabilization.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by mediating microtubule stabilization.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates microtubule stabilization</rdfs:label>
         <skos:editorialNote>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3625037/</skos:editorialNote>
     </owl:Class>
@@ -1962,7 +1962,7 @@ Need examples.  Concept covered by GO?</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cytoskeleton maintenance by mediating microtubule destabilization.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by mediating microtubule destabilization.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates microtubule destabilization</rdfs:label>
         <skos:editorialNote>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3625037/</skos:editorialNote>
     </owl:Class>
@@ -1973,7 +1973,7 @@ Need examples.  Concept covered by GO?</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000223">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <pathgo:IAO_0000115>A gene product that disrupts cytoskeleton structure by stabilizing microtubules.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A gene product that modulates the host cell cytoskeleton by stabilizing microtubules.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">microtubule stabilization factor</rdfs:label>
     </owl:Class>
     
@@ -1983,7 +1983,7 @@ Need examples.  Concept covered by GO?</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <pathgo:IAO_0000115>A gene product that disrupts cytoskeleton structure by destabilizing microtubules.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A gene product that modulates the host cell cytoskeleton by destabilizing microtubules.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">microtubule destabilization factor</rdfs:label>
     </owl:Class>
     
@@ -2361,7 +2361,7 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
         <rdfs:label xml:lang="en">mediates host actin rearrangement</rdfs:label>
-        <skos:definition>A mechanism that disrupts cytoskeletal maintenance by mediating host actin rearrangement</skos:definition>
+        <skos:definition>A mechanism that modulates cytoskeleton in host cell by mediating host actin rearrangement</skos:definition>
         <skos:editorialNote>Note, in some cases, the extent of actin rearrangement is sufficient to allow for parasitic invasion of a host cell.
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -2374,7 +2374,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
         <rdfs:label xml:lang="en">mediates host actin polymerization</rdfs:label>
-        <skos:definition>A mechanism that disrupts cytoskeletal maintenance by mediating host actin polymerization</skos:definition>
+        <skos:definition>A mechanism that modulates cytoskeleton in host cell by mediating host actin polymerization</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2579,7 +2579,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000280">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
         <rdfs:label xml:lang="en">mediates microtubule rearrangement</rdfs:label>
-        <skos:definition>A mechanism that disrupts cytoskeleton maintenance by mediating microtubule rearrangement.</skos:definition>
+        <skos:definition>A mechanism that modulates cytoskeleton in host cell by mediating microtubule rearrangement.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2590,7 +2590,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000281">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
         <rdfs:label xml:lang="en">microtubule rearrangement factor</rdfs:label>
-        <skos:definition>A gene product that disrupts cytoskeleton structure by rearranging microtubules.</skos:definition>
+        <skos:definition>A gene product that modulates the host cell cytoskeleton by rearranging microtubules.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -3329,6 +3329,26 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
         <rdfs:label xml:lang="en">mediates type VII secretion</rdfs:label>
         <skos:definition>A mechanism that mediates secretion of protein effectors as part of a type VII secretion system that can mediate the entry of bacterial effectors into the host cell.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
+        <pathgo:IAO_0000115>A gene product that modulates the host cell cytoskeleton by mediating host actin rearrangement.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host actin rearrangement factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
+        <pathgo:IAO_0000115>A gene product that modulates the host cell cytoskeleton by mediating host actin polymerization.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">host actin polymerization factor</rdfs:label>
     </owl:Class>
     
 
