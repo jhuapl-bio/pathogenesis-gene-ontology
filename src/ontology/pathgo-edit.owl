@@ -3327,7 +3327,7 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000350">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <pathgo:IAO_0000115>A gene product that modulates the host cell cytoskeleton by mediating microtubule rearrangement.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A gene product that modulates the host cell cytoskeleton by mediating host actin rearrangement.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host actin rearrangement factor</rdfs:label>
     </owl:Class>
     
