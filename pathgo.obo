@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pathgo/releases/2020-12-15/pathgo.owl
+data-version: pathgo/releases/2020-09-03/pathgo.owl
 remark: Pathogenesis gene ontology
 remark: This material is licensed to the public under CC BY-NC 4.0.  The U.S. Government has “Unlimited Rights” as granted and defined under FAR 52.227-14.
 remark: ©2020 The Johns Hopkins University Applied Physics Laboratory LLC (JHU/APL).  All Rights Reserved.\n\nThis material may be only be used, modified, or reproduced by or for the U.S. Government pursuant to the license rights granted under the clauses at DFARS 252.227-7013/7014 or FAR 52.227-14. For any other permission, please contact the Office of Technology Transfer at JHU/APL.\n\nNO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES NO REPRESENTATION OR WARRANTY WITH RESPECT TO THE PERFORMANCE OF THE MATERIALS, INCLUDING THEIR SAFETY, EFFECTIVENESS, OR COMMERCIAL VIABILITY, AND DISCLAIMS ALL WARRANTIES IN THE MATERIAL, WHETHER EXPRESS OR IMPLIED, INCLUDING (BUT NOT LIMITED TO) ANY AND ALL IMPLIED WARRANTIES OF PERFORMANCE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY OR OTHER THIRD PARTY RIGHTS. ANY USER OF THE MATERIAL ASSUMES THE ENTIRE RISK AND LIABILITY FOR USING THE MATERIAL. IN NO EVENT SHALL JHU/APL BE LIABLE TO ANY USER OF THE MATERIAL FOR ANY ACTUAL, INDIRECT, CONSEQUENTIAL, SPECIAL OR OTHER DAMAGES ARISING FROM THE USE OF, OR INABILITY TO USE, THE MATERIAL, INCLUDING, BUT NOT LIMITED TO, ANY DAMAGES FOR LOST PROFITS.
@@ -14,11 +14,10 @@ property_value: editorialNote "evaluate for removal, concept covered by GO" xsd:
 
 [Term]
 id: PATHGO:0000002
-name: eukaryotic elongation factor modulator
-is_a: PATHGO:0000034 ! protein synthesis modulation factor
+name: elongation factor 2 inactivator
+is_a: PATHGO:0000034 ! protein synthesis inhibition factor
 property_value: editorialNote "examples diphtheria toxin and Pseudomonas exotoxin A\n\nRegulation of enzyme activity concepts are covered by GO." xsd:string
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A gene product that modulates protein synthesis through modulation of eukaryotic elongation factors." xsd:string
+property_value: IAO:0000115 "A gene product that inhibits protein synthesis by inactivation of elongation factor 2." xsd:string
 
 [Term]
 id: PATHGO:0000003
@@ -28,6 +27,13 @@ property_value: editorialNote "direct action on ion channel (voltage or ligand g
 property_value: IAO:0000115 "A mechanism that disrupts cellular transport by modulating ion channel activity." xsd:string
 
 [Term]
+id: PATHGO:0000004
+name: disruption of cell cycle factor
+is_a: PATHGO:0000073 ! determinant of pathogenicity
+property_value: editorialNote "Elaborate subclasses and document examples" xsd:string
+property_value: IAO:0000115 "A gene product that mediates pathogenicity by disrupting the cell cycle of a host cell." xsd:string
+
+[Term]
 id: PATHGO:0000005
 name: non-specific T cell activation factor
 is_a: PATHGO:0000035 ! non-productive immune system activation factor
@@ -35,9 +41,9 @@ property_value: editorialNote "superantigens" xsd:string
 
 [Term]
 id: PATHGO:0000006
-name: modulates protein synthesis
+name: mediates protein synthesis inhibition
 is_a: PATHGO:0000164 ! disrupts cellular metabolism
-property_value: IAO:0000115 "A mechanism that disrupts cellular metabolism by modulating protein synthesis." xsd:string
+property_value: IAO:0000115 "A mechanism that disrupts cellular metabolism by mediating inhibition of protein synthesis." xsd:string
 
 [Term]
 id: PATHGO:0000007
@@ -94,7 +100,7 @@ property_value: IAO:0000115 "A gene product that disrupts ion transport by inhib
 id: PATHGO:0000018
 name: disrupts synaptic vesicle release
 is_a: PATHGO:0000047 ! disrupts exocytosis
-property_value: editorialNote "examples tetanus bot toxin\n\n tetanus toxin (synaptobrevin cleavage; molecular target synaptobrevin), bot toxin (snare cleavage; molecular target snare protein)" xsd:string
+property_value: editorialNote "examples tetanus bot toxin" xsd:string
 property_value: editorialNote "inconsistent as a subclass as this is a specific case of disrupting exocytosis and not a mechanism by which exocytosis is disrupted" xsd:string
 property_value: IAO:0000115 "A mechanism that prevents exocytosis by blocking release of synaptic vesicles." xsd:string
 
@@ -132,31 +138,30 @@ property_value: IAO:0000115 "A gene product that prevents exocytosis by blocking
 
 [Term]
 id: PATHGO:0000025
-name: mediates elongation factor activation
-is_a: PATHGO:0000316 ! modulates eukaryotic translation elongation factors
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: editorialNote "Regulation of enzyme activity concepts are covered by GO." xsd:string
-property_value: IAO:0000115 "A mechanism that modulates eukaryotic translation elongation factors by activation of eukaryotic translation elongation factors." xsd:string
+name: mediates elongation factor 2 inactivation
+is_a: PATHGO:0000006 ! mediates protein synthesis inhibition
+property_value: editorialNote "examples diphtheria toxin and Pseudomonas exotoxin A" xsd:string
+property_value: IAO:0000115 "A mechanism that mediates protein synthesis inhibition by inactivation of elongation factor 2." xsd:string
 
 [Term]
 id: PATHGO:0000028
-name: modulates cytoskeleton in host cell
+name: disrupts cytoskeleton maintenance
 is_a: PATHGO:0000166 ! disrupts cellular structure
-property_value: IAO:0000115 "A mechanism that modulates cytoskeleton in host cell by altering maintenance of cytoskeleton." xsd:string
+property_value: IAO:0000115 "A mechanism that disrupts cellular structure by altering maintenance of cytoskeleton." xsd:string
 
 [Term]
 id: PATHGO:0000029
 name: mediates membrane damage
 is_a: PATHGO:0000166 ! disrupts cellular structure
-property_value: editorialNote "consider vacuolization\n\nsynonym lysin?" xsd:string
+property_value: editorialNote "consider vacuolization" xsd:string
 property_value: IAO:0000115 "A mechanism that disrupts cellular structure by damaging the cell membrane." xsd:string
 
 [Term]
 id: PATHGO:0000030
 name: mediates ribosome inactivation
-is_a: PATHGO:0000006 ! modulates protein synthesis
+is_a: PATHGO:0000006 ! mediates protein synthesis inhibition
 property_value: editorialNote "examples ricin" xsd:string
-property_value: IAO:0000115 "A mechanism that modulates protein synthesis by ribosome inactivation." xsd:string
+property_value: IAO:0000115 "A mechanism that mediates protein synthesis inhibition by ribosome inactivation." xsd:string
 
 [Term]
 id: PATHGO:0000031
@@ -178,9 +183,9 @@ property_value: IAO:0000115 "A mechanism that mediates membrane damage by format
 
 [Term]
 id: PATHGO:0000034
-name: protein synthesis modulation factor
+name: protein synthesis inhibition factor
 is_a: PATHGO:0000179 ! cellular metabolism disruption factor
-property_value: IAO:0000115 "A gene product that disrupts cellular metabolism by modulating protein synthesis." xsd:string
+property_value: IAO:0000115 "A gene product that disrupts cellular metabolism by inhibiting protein synthesis." xsd:string
 
 [Term]
 id: PATHGO:0000035
@@ -191,16 +196,15 @@ property_value: editorialNote "evaluate class name and intent; determine how to 
 [Term]
 id: PATHGO:0000038
 name: mediates adhesion
-synonym: "adhesin" RELATED []
 is_a: PATHGO:0000147 ! mediates adherence and colonization
 property_value: IAO:0000115 "A mechanism that enables adhesion and colonization by mediating attachment to other cells or to surfaces." xsd:string
 
 [Term]
 id: PATHGO:0000039
 name: ribosome inactivator
-is_a: PATHGO:0000034 ! protein synthesis modulation factor
+is_a: PATHGO:0000034 ! protein synthesis inhibition factor
 property_value: editorialNote "example ricin" xsd:string
-property_value: IAO:0000115 "A gene product that modulates protein synthesis by ribosome inactivation." xsd:string
+property_value: IAO:0000115 "A gene product that inhibits protein synthesis by ribosome inactivation." xsd:string
 
 [Term]
 id: PATHGO:0000040
@@ -257,11 +261,25 @@ is_a: PATHGO:0000113 ! mediates nutrient availability or uptake
 property_value: IAO:0000115 "A mechanism of nutrient avialability or uptake that involves acquisition of iron." xsd:string
 
 [Term]
+id: PATHGO:0000060
+name: cytokine response suppression
+is_a: PATHGO:0000075 ! innate immune system subversion
+property_value: editorialNote "redundant" xsd:string
+property_value: IAO:0000115 "A mechanism of innate immune system subversion that involves decreasing or abolishing the production of immune system cytokines." xsd:string
+
+[Term]
 id: PATHGO:0000062
 name: mediates biofilm formation
 is_a: PATHGO:0000147 ! mediates adherence and colonization
 property_value: editorialNote "Process whereby microorganisms irreversibly attach to and grow on a surface and produce extracellular polymers that facilitate attachment and matrix formation, resulting in an alteration in the phenotype of the organisms with respect to growth rate and gene transcription. (Donlan, Rodney M. \"Biofilm formation: a clinically relevant microbiological process.\" Clinical Infectious Diseases 33.8 (2001): 1387-1392.)\n\nMechanism of colonization that involves synthesis of extracellular polymeric substances in a film." xsd:string
 property_value: IAO:0000115 "A mechanism that enables adhesion and colonization by promoting synthesis of extracellular polymeric substances to form a biofilm." xsd:string
+
+[Term]
+id: PATHGO:0000063
+name: disrupts cell cycle
+is_a: PATHGO:0000114 ! mechanism of pathogenicity
+property_value: editorialNote "Concept covered by GO; GO:0051726; elaborate subclasses" xsd:string
+property_value: IAO:0000115 "A mechanism that mediates pathogenicity by disrupting the cell cycle of a host cell." xsd:string
 
 [Term]
 id: PATHGO:0000064
@@ -317,8 +335,14 @@ property_value: IAO:0000115 "A molecule produced by microbes (bacteria, viruses,
 id: PATHGO:0000074
 name: mediates induction of angiogenesis
 is_a: PATHGO:0000150 ! mediates proliferation and survival
-property_value: editorialNote "example VEGF\n\nevaluate proangiogenic response as a contribution to pathogenesis" xsd:string
 property_value: IAO:0000115 "A mechanism that promotes proliferation and survival by stimulation of host blood vessel generation, or angiogenesis." xsd:string
+
+[Term]
+id: PATHGO:0000075
+name: innate immune system subversion
+is_a: PATHGO:0000085 ! mediates immune evasion and subversion
+property_value: editorialNote "not consistent as a subclass-evaluate for removal; all subclasses to this class are represented as subclasses of 'mediates immune evasion and subversion'" xsd:string
+property_value: IAO:0000115 "A mechanism of immune evasion and subversion that involves producing factors that hide a pathogen from the innate immune system, or subvert the ability of the innate immune system to respond to the pathogen." xsd:string
 
 [Term]
 id: PATHGO:0000077
@@ -385,10 +409,10 @@ is_a: PATHGO:0000054 ! synthesis of pathogenicity determinants
 
 [Term]
 id: PATHGO:0000088
-name: host tight or adherens junction modifier
+name: tight junction modifier
 is_a: PATHGO:0000160 ! cellular adhesion disruption factor
 property_value: editorialNote "example: Clostridium perfringens type A toxin (targets claudins)  more info: https://doi.org/10.1016/j.bbamem.2008.10.028; https://www.ncbi.nlm.nih.gov/pubmed/11595640" xsd:string
-property_value: IAO:0000115 "A gene product that disrupts cellular adhesion by modification of junctional complexes, including tight junctions or adherens junctions." xsd:string
+property_value: IAO:0000115 "A gene product that disrupts cellular adhesion by modification of tight junction formation." xsd:string
 
 [Term]
 id: PATHGO:0000089
@@ -424,14 +448,14 @@ property_value: IAO:0000115 "A mechanism that mediates membrane damage by degrad
 id: PATHGO:0000099
 name: mediates extracellular matrix binding
 is_a: PATHGO:0000038 ! mediates adhesion
-property_value: editorialNote "Mechanism of adherence in which attachment occurs to components of the extracellular matrix as opposed to the target cell directly;\nelaborate subclasses\n\nCollagen binding protein and fibronectin binding protein are examples.  Including these as subclasses may be too granular." xsd:string
+property_value: editorialNote "Mechanism of adherence in which attachment occurs to components of the extracellular matrix as opposed to the target cell directly;\nelaborate subclasses" xsd:string
 property_value: IAO:0000115 "A mechanism that enables adhesion by mediating binding to extracellular matrix components such as collagen and fibronectin." xsd:string
 
 [Term]
 id: PATHGO:0000100
 name: mediates resistance to complement system
 is_a: PATHGO:0000085 ! mediates immune evasion and subversion
-property_value: editorialNote "resistance to complement-mediated killing\n\nexample:component 1 (C1) protease" xsd:string
+property_value: editorialNote "resistance to complement-mediated killing" xsd:string
 property_value: IAO:0000115 "A mechanism that mediates immune evasion and subversion by countering the effects of the complement system, a component of the innate immune system." xsd:string
 
 [Term]
@@ -444,12 +468,12 @@ property_value: definition "A gene product that mediates immune evasion and subv
 id: PATHGO:0000102
 name: determinant of protein effector secretion
 is_a: PATHGO:0000073 ! determinant of pathogenicity
-property_value: editorialNote "The secretion pathways are typically described as \"types\" based on components/structures involved corresponding to variations on a few general strategies involving transport across inner membrane, transport across inner membrane followed by transport across outer membrane (two-step), transport across both membranes. Several types can also transport proteins directly across the host cell membrane to deliver effectors directly into cells\n\nType I- one step to extracellular\nType II- two step, first step is independent transport into periplasm\nType III- spans both membranes, injectosome into host cell\nType IV- spans both membranes, release of effectors into other cell (conjugation)\nType V-autotransporter in OM, first step is independent transport into periplasm\nType VI- spans both membranes, release into other cell\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC48064/\nhttps://www.sciencedirect.com/science/article/pii/S0167488904000783\n\nEvaluate subclass naming/organization" xsd:string
+property_value: editorialNote "The secretion pathways are typically described as \"types\" based on components/structures involved corresponding to variations on a few general strategies involving transport across inner membrane, transport across inner membrane followed by transport across outer membrane (two-step), transport across both membranes. Several types can also transport proteins directly across the host cell membrane to deliver effectors directly into cells\n\nType I- one step to extracellular\nType II- two step, first step is independent transport into periplasm\nType III- spans both membranes, injectosome into host cell\nType IV- spans both membranes, release of effectors into other cell (conjugation)\nType V-autotransporter in OM, first step is independent transport into periplasm\nType VI- spans both membranes, release into other cell\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4804464/\nhttps://www.sciencedirect.com/science/article/pii/S0167488904000783\n\nEvaluate subclass naming/organization" xsd:string
 property_value: IAO:0000115 "A gene product that mediates pathogenicity by contributing to secretion of protein effectors from the bacterial cell into the extracellular environment or directly into the host cell." xsd:string
 
 [Term]
 id: PATHGO:0000103
-name: host toll-like receptor signaling disruption factor
+name: toll-like receptor signaling disruption factor
 is_a: PATHGO:0000090 ! immune evasion and subversion factor
 property_value: definition "A gene product that mediates immune evasion and subversion by disrupting toll-like receptor signaling." xsd:string
 property_value: editorialNote "adaptor protein degradation activator; research and add others" xsd:string
@@ -469,15 +493,15 @@ property_value: IAO:0000115 "A gene product that mediates pathogenicity by enabl
 
 [Term]
 id: PATHGO:0000108
-name: mediates host actin polymerization inhibition
-is_a: PATHGO:0000028 ! modulates cytoskeleton in host cell
-property_value: IAO:0000115 "A mechanism that modulates cytoskeleton in host cell by mediating inhibition of host actin polymerization." xsd:string
+name: mediates actin polymerization inhibition
+is_a: PATHGO:0000028 ! disrupts cytoskeleton maintenance
+property_value: IAO:0000115 "A mechanism that disrupts cytoskeleton maintenance by mediating inhibition of actin polymerization." xsd:string
 
 [Term]
 id: PATHGO:0000110
 name: mediates secretion of protein effectors
 is_a: PATHGO:0000114 ! mechanism of pathogenicity
-property_value: editorialNote "elaborate subclasses and align with determinant branch\n\nThe secretion pathways are typically described as \"types\" based on components/structures involved corresponding to variations on a few general strategies involving transport across inner membrane, transport across inner membrane followed by transport across outer membrane (two-step), transport across both membranes. Several types can also transport proteins directly across the host cell membrane to deliver effectors directly into cells\n\nType I- one step to extracellular\nType II- two step, first step is independent transport into periplasm\nType III- spans both membranes, injectosome into host cell\nType IV- spans both membranes, release of effectors into other cell (conjugation)\nType V-autotransporter in OM, first step is independent transport into periplasm\nType VI- spans both membranes, release into other cell\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4804464/\nhttps://www.sciencedirect.com/science/article/pii/S0167488904000783\n\nEvaluate subclass naming/organization" xsd:string
+property_value: editorialNote "elaborate subclasses and align with determinant branch" xsd:string
 property_value: IAO:0000115 "A mechanism that mediates pathogenicity by contributing to secretion of protein effectors from the bacterial cell into the extracellular environment or directly into the host cell." xsd:string
 
 [Term]
@@ -495,7 +519,7 @@ property_value: IAO:0000115 "A gene product that promotes biofilm formation by c
 id: PATHGO:0000113
 name: mediates nutrient availability or uptake
 is_a: PATHGO:0000150 ! mediates proliferation and survival
-property_value: editorialNote "evaluate and modify subclasses to achieve consistent structure\n\nexamples may include: gelatinase, mucinase, sialidase, hyaluronidase - enzymes that are also associated with destruction of extracellular matrix, mucus, etc. to promote invasion and spread in the host \n\nsiderophore-chelate and sequester iron from host" xsd:string
+property_value: editorialNote "evaluate and modify subclasses to achieve consistent structure; align to determinant branch" xsd:string
 property_value: IAO:0000115 "A mechanism that promotes proliferation and survival by contributing to the availability and/or uptake of nutrients from host cells or the environment." xsd:string
 
 [Term]
@@ -555,9 +579,16 @@ is_a: PATHGO:0000150 ! mediates proliferation and survival
 property_value: IAO:0000115 "A mechanism that promotes proliferation and survival by enabling pathogens to survive periods without water, or drought-like conditions." xsd:string
 
 [Term]
+id: PATHGO:0000129
+name: antiphagocytosis
+is_a: PATHGO:0000075 ! innate immune system subversion
+property_value: editorialNote "redundant" xsd:string
+property_value: IAO:0000115 "A mechanism of innate immune system subversion that prevents phagocytosis of pathogens by immune system cells like macrophages." xsd:string
+
+[Term]
 id: PATHGO:0000131
 name: tight-junction-associated protein occludin redistribution factor
-is_a: PATHGO:0000088 ! host tight or adherens junction modifier
+is_a: PATHGO:0000088 ! tight junction modifier
 
 [Term]
 id: PATHGO:0000132
@@ -580,7 +611,6 @@ is_a: PATHGO:0000102 ! determinant of protein effector secretion
 id: PATHGO:0000135
 name: mediates DNA cleavage
 is_a: PATHGO:0000164 ! disrupts cellular metabolism
-property_value: editorialNote "example deoxyribonuclease (DNAse)\n\nTarget is the macromolecule and not process so this term doesn't fit definition of parent class" xsd:string
 property_value: IAO:0000115 "A mechanism that disrupts cellular metabolism by mediating cleavage of DNA." xsd:string
 
 [Term]
@@ -608,7 +638,6 @@ property_value: IAO:0000115 "A gene product that disrupts cellular metabolism by
 [Term]
 id: PATHGO:0000147
 name: mediates adherence and colonization
-xref: BVF:0000002
 is_a: PATHGO:0000114 ! mechanism of pathogenicity
 property_value: editorialNote "\"enables adherence and colonization\"" xsd:string
 property_value: IAO:0000115 "A mechanism that mediates pathogenicity by enabling pathogens to attach to host cells and establish growth." xsd:string
@@ -624,7 +653,6 @@ property_value: IAO:0000115 "A mechanism of nutrient availability or uptake that
 id: PATHGO:0000150
 name: mediates proliferation and survival
 is_a: PATHGO:0000114 ! mechanism of pathogenicity
-property_value: editorialNote "evaluate placement and provide examples" xsd:string
 property_value: IAO:0000115 "A mechanism that mediates pathogenicity by allowing pathogens to grow and multiply, especially when environmental conditions are unfavorable, distinct from adherence and colonization." xsd:string
 
 [Term]
@@ -637,7 +665,7 @@ property_value: IAO:0000115 "A gene product that mediates pathogenicity by enabl
 [Term]
 id: PATHGO:0000152
 name: induces cell cycle arrest
-is_a: PATHGO:0000331 ! modulates cell cycle in host cell
+is_a: PATHGO:0000063 ! disrupts cell cycle
 property_value: editorialNote "overlap with GO:0007050" xsd:string
 
 [Term]
@@ -702,7 +730,7 @@ property_value: IAO:0000115 "A mechanism that mediates pathogenicity by disrupti
 id: PATHGO:0000165
 name: disrupts host cellular signaling
 is_a: PATHGO:0000114 ! mechanism of pathogenicity
-property_value: editorialNote "refine/build out subclasses" xsd:string
+property_value: editorialNote "refine/build out subclasses and align to determinant branch" xsd:string
 property_value: IAO:0000115 "A mechanism that mediates pathogenicity by disrupting host cellular signaling processes." xsd:string
 
 [Term]
@@ -725,6 +753,13 @@ name: mediates enzyme inhibition
 is_a: PATHGO:0000165 ! disrupts host cellular signaling
 property_value: editorialNote "evaluate for placement and provide examples; disambiguate from mediates metabolic enzyme inhibition; revise definition" xsd:string
 property_value: IAO:0000115 "A mechanism that disrupts host cell signaling by inhibiting cellular enzymes. For inhibition of metabolic enzymes, see terms under 'disruption of cellular metabolism'." xsd:string
+
+[Term]
+id: PATHGO:0000169
+name: regulates apoptosis
+is_a: PATHGO:0000114 ! mechanism of pathogenicity
+property_value: editorialNote "Evaluate for placement in proliferation and survival\n\nConcept covered by GO; GO:0042981" xsd:string
+property_value: IAO:0000115 "A mechanism that mediates pathogenicity by impacting host cell apoptosis. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host." xsd:string
 
 [Term]
 id: PATHGO:0000170
@@ -762,8 +797,7 @@ property_value: editorialNote "evaluate for redundancy with \"modulates cAMP syn
 id: PATHGO:0000175
 name: disrupts G-protein signaling pathways
 is_a: PATHGO:0000165 ! disrupts host cellular signaling
-property_value: editorialNote "consider:\nGTPase activating protein" xsd:string
-property_value: IAO:0000115 "A mechanism that disprupts host cell signaling by interfering with host G-protien signaling pathways." xsd:string
+property_value: IAO:0000115 "A mechanism that disprupts host cell signaling by interfering with host G-protien siignaling pathways." xsd:string
 
 [Term]
 id: PATHGO:0000176
@@ -775,6 +809,11 @@ id: PATHGO:0000177
 name: modulates second messenger molecules
 is_a: PATHGO:0000165 ! disrupts host cellular signaling
 property_value: IAO:0000115 "A mechanism that disrupts host cellular signaling by modulating levels of second messenger molecules." xsd:string
+
+[Term]
+id: PATHGO:0000178
+name: suppression of apoptosis
+is_a: PATHGO:0000169 ! regulates apoptosis
 
 [Term]
 id: PATHGO:0000179
@@ -795,28 +834,28 @@ property_value: IAO:0000115 "A gene product that mediates pathogenicity by disru
 
 [Term]
 id: PATHGO:0000183
-name: host cell cytoskeleton modulator
+name: cytoskeleton disruption factor
 is_a: PATHGO:0000182 ! cellular structure disruption factor
-property_value: IAO:0000115 "A gene product that disrupts cellular structure by modulating components of the host cell cytoskeleton." xsd:string
+property_value: IAO:0000115 "A gene product that disrupts cellular structure by disrupting components of the cytoskeleton." xsd:string
 
 [Term]
 id: PATHGO:0000184
 name: actin crosslinker
-is_a: PATHGO:0000183 ! host cell cytoskeleton modulator
-relationship: PATHGO:0000243 PATHGO:0000217 ! participates_in mediates host actin crosslinking
-property_value: IAO:0000115 "A gene product that modulates the host cell cytoskeleton by crosslinking actin." xsd:string
+is_a: PATHGO:0000183 ! cytoskeleton disruption factor
+relationship: PATHGO:0000243 PATHGO:0000217 ! participates_in mediates actin crosslinking
+property_value: IAO:0000115 "A gene product that disrupts cytoskeleton structure by crosslinking actin." xsd:string
 
 [Term]
 id: PATHGO:0000185
 name: actin depolymerization factor
-is_a: PATHGO:0000183 ! host cell cytoskeleton modulator
-property_value: IAO:0000115 "A gene product that modulates the host cell cytoskeleton by depolymerizing actin." xsd:string
+is_a: PATHGO:0000183 ! cytoskeleton disruption factor
+property_value: IAO:0000115 "A gene product that disrupts cytoskeleton structure by depolymerizing actin." xsd:string
 
 [Term]
 id: PATHGO:0000186
 name: actin polymerization inhibition factor
-is_a: PATHGO:0000183 ! host cell cytoskeleton modulator
-property_value: IAO:0000115 "A gene product that modulates the host cell cytoskeleton by inhibiting actin polymerization." xsd:string
+is_a: PATHGO:0000183 ! cytoskeleton disruption factor
+property_value: IAO:0000115 "A gene product that disrupts cytoskeleton structure by inhibiting actin polymerization." xsd:string
 
 [Term]
 id: PATHGO:0000187
@@ -852,6 +891,12 @@ property_value: editorialNote "not a consistent subclass; evaluate for better al
 property_value: IAO:0000115 "A gene product that disrupts cellular transport by modulating ion channel activity." xsd:string
 
 [Term]
+id: PATHGO:0000192
+name: regulation of apoptosis factor
+is_a: PATHGO:0000073 ! determinant of pathogenicity
+property_value: IAO:0000115 "A gene product that mediates pathogenicity by regulating host cell apoptosis. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host." xsd:string
+
+[Term]
 id: PATHGO:0000193
 name: determinant of phospholipid cleavage
 is_a: PATHGO:0000043 ! determinant of membrane damage
@@ -874,7 +919,7 @@ property_value: IAO:0000115 "A gene product that promotes proliferation and surv
 [Term]
 id: PATHGO:0000196
 name: determinant of extracellular matrix destruction
-is_a: PATHGO:0000210 ! host cell invasion factor
+is_a: PATHGO:0000210 ! invasion and dissemination factor
 property_value: editorialNote "gelatinase, mucinase, sialidase, hyaluronidase, etc." xsd:string
 property_value: IAO:0000115 "A gene product that mediates invasion and dissemination by promoting destruction of extracellular matrix components." xsd:string
 
@@ -894,39 +939,34 @@ property_value: IAO:0000115 "A gene product that mediates adhesion by enabling b
 
 [Term]
 id: PATHGO:0000199
-name: host cell endomembrane dynamics modulation factor
+name: host cell endomembrane system disruption factor
 is_a: PATHGO:0000073 ! determinant of pathogenicity
-property_value: IAO:0000115 "A gene product that mediates pathogenicity by manipulating the host cell endomembrane dynamics." xsd:string
+property_value: IAO:0000115 "A gene product that mediates pathogenicity by manipulating the host cell endomembrane system." xsd:string
 
 [Term]
 id: PATHGO:0000200
-name: determinant of escape from host phagosome
-is_a: PATHGO:0000199 ! host cell endomembrane dynamics modulation factor
-property_value: definition "A gene product that modulates host cell endomembrane dynamics by mediating pathogen escape from host phagosome." xsd:string
+name: determinant of phagosome escape
+is_a: PATHGO:0000199 ! host cell endomembrane system disruption factor
 
 [Term]
 id: PATHGO:0000201
 name: lysosome lysis evasion factor
-is_a: PATHGO:0000199 ! host cell endomembrane dynamics modulation factor
-property_value: definition "A gene product that modulates host cell endomembrane dynamics by mediating lysosome lysis evasion." xsd:string
+is_a: PATHGO:0000199 ! host cell endomembrane system disruption factor
 
 [Term]
 id: PATHGO:0000202
 name: phagosome acidification disruption factor
-is_a: PATHGO:0000199 ! host cell endomembrane dynamics modulation factor
-property_value: definition "A gene product that modulates host cell endomembrane dynamics by disrupting phagosome acidification." xsd:string
+is_a: PATHGO:0000199 ! host cell endomembrane system disruption factor
 
 [Term]
 id: PATHGO:0000203
-name: host cell phagosome maturation disruption factor
-is_a: PATHGO:0000199 ! host cell endomembrane dynamics modulation factor
-property_value: definition "A gene product that modulates host cell endomembrane dynamics by disrupting host cell phagosome maturation." xsd:string
+name: phagosome maturation disruption factor
+is_a: PATHGO:0000199 ! host cell endomembrane system disruption factor
 
 [Term]
 id: PATHGO:0000204
 name: phagolysosome fusion disruption factor
-is_a: PATHGO:0000199 ! host cell endomembrane dynamics modulation factor
-property_value: definition "A gene product that modulates host cell endomembrane dynamics by disrupting phagolysosome fusion." xsd:string
+is_a: PATHGO:0000199 ! host cell endomembrane system disruption factor
 
 [Term]
 id: PATHGO:0000205
@@ -949,8 +989,8 @@ property_value: IAO:0000115 "A gene product that mediates immune evasion and sub
 [Term]
 id: PATHGO:0000208
 name: opsonization inhibition factor
-is_a: PATHGO:0000209 ! phagocytosis inhibition factor
-property_value: IAO:0000115 "A gene product that inhibits phagocytosis by inhibiting opsonization, the process by which particles are targeted for phagocytosis." xsd:string
+is_a: PATHGO:0000090 ! immune evasion and subversion factor
+property_value: IAO:0000115 "A gene product that mediates immune evasion and subversion by inhibiting opsonization, the process by which particles are targeted for phagocytosis." xsd:string
 
 [Term]
 id: PATHGO:0000209
@@ -960,16 +1000,17 @@ property_value: IAO:0000115 "A gene product that mediates immune evasion and sub
 
 [Term]
 id: PATHGO:0000210
-name: host cell invasion factor
+name: invasion and dissemination factor
 synonym: "invasin" RELATED []
+synonym: "spreading factor" RELATED []
 is_a: PATHGO:0000073 ! determinant of pathogenicity
-property_value: IAO:0000115 "A gene product that mediates pathogenicity by facilitating movement into host cells." xsd:string
+property_value: IAO:0000115 "A gene product that mediates pathogenicity by facilitating movement into and through host tissues or cells." xsd:string
 
 [Term]
 id: PATHGO:0000211
 name: mediates cell surface binding
 is_a: PATHGO:0000038 ! mediates adhesion
-property_value: editorialNote "elaborate subclasses\nsialyl Lewis x binding protein is an example" xsd:string
+property_value: editorialNote "elaborate subclasses" xsd:string
 property_value: IAO:0000115 "A mechanism that mediates adhesion by enabling binding to cell surface receptors or components." xsd:string
 
 [Term]
@@ -982,33 +1023,32 @@ property_value: IAO:0000115 "A mechanism that enables biofilm formation by contr
 id: PATHGO:0000213
 name: platelet aggregation inhibition
 is_a: PATHGO:0000159 ! disrupts cellular adhesion
-property_value: editorialNote "not an appropriate subclass as this is a specific example, evaluate for class related to inhibition of integrin mediated adhesion \"disrupts \"integrin-dependent adhesion\"" xsd:string
+property_value: editorialNote "not an appropriate subclass as this is a specific example, evaluate for class related to inhibition of integrin mediated adhesion" xsd:string
 
 [Term]
 id: PATHGO:0000214
-name: modifies host tight or adherens junctions
+name: tight junction modification
 is_a: PATHGO:0000159 ! disrupts cellular adhesion
-property_value: editorialNote "Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechanism that disrupts cellular adhesion by modifying cellular junctional complexes, including tight junctions and/or adherens junctions." xsd:string
+property_value: IAO:0000115 "A mechanism that disrupts cellular adhesion by modulating formation of tight junctions." xsd:string
 
 [Term]
 id: PATHGO:0000215
 name: mediates metabolic enzyme inhibition
 is_a: PATHGO:0000164 ! disrupts cellular metabolism
-property_value: editorialNote "provide examples\n\nNeed examples.  Concept covered by GO?" xsd:string
+property_value: editorialNote "provide examples" xsd:string
 property_value: IAO:0000115 "A mechanism that disrupts cellular metabolism by mediating inhibition of metabolic enzymes." xsd:string
 
 [Term]
 id: PATHGO:0000216
-name: mediates host actin depolymerization
-is_a: PATHGO:0000028 ! modulates cytoskeleton in host cell
-property_value: IAO:0000115 "A mechanism that modulates cytoskeleton in host cell by mediating host actin depolymerization." xsd:string
+name: mediates actin depolymerization
+is_a: PATHGO:0000028 ! disrupts cytoskeleton maintenance
+property_value: IAO:0000115 "A mechanism that disrupts cytoskeleton maintenance by mediating actin depolymerization." xsd:string
 
 [Term]
 id: PATHGO:0000217
-name: mediates host actin crosslinking
-is_a: PATHGO:0000028 ! modulates cytoskeleton in host cell
-property_value: IAO:0000115 "A mechanism that modulates cytoskeleton in host cell by promoting host actin crosslinking." xsd:string
+name: mediates actin crosslinking
+is_a: PATHGO:0000028 ! disrupts cytoskeleton maintenance
+property_value: IAO:0000115 "A mechanism that disrupts cytoskeleton maintenance by promoting actin crosslinking." xsd:string
 
 [Term]
 id: PATHGO:0000218
@@ -1031,41 +1071,39 @@ property_value: IAO:0000115 "A mechanism that mediates immune evasion and subver
 [Term]
 id: PATHGO:0000221
 name: mediates microtubule stabilization
-is_a: PATHGO:0000028 ! modulates cytoskeleton in host cell
+is_a: PATHGO:0000028 ! disrupts cytoskeleton maintenance
 property_value: editorialNote https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3625037/ xsd:string
-property_value: IAO:0000115 "A mechanism that modulates cytoskeleton in host cell by mediating microtubule stabilization." xsd:string
+property_value: IAO:0000115 "A mechanism that disrupts cytoskeleton maintenance by mediating microtubule stabilization." xsd:string
 
 [Term]
 id: PATHGO:0000222
 name: mediates microtubule destabilization
-is_a: PATHGO:0000028 ! modulates cytoskeleton in host cell
+is_a: PATHGO:0000028 ! disrupts cytoskeleton maintenance
 property_value: editorialNote https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3625037/ xsd:string
-property_value: IAO:0000115 "A mechanism that modulates cytoskeleton in host cell by mediating microtubule destabilization." xsd:string
+property_value: IAO:0000115 "A mechanism that disrupts cytoskeleton maintenance by mediating microtubule destabilization." xsd:string
 
 [Term]
 id: PATHGO:0000223
 name: microtubule stabilization factor
-is_a: PATHGO:0000183 ! host cell cytoskeleton modulator
-property_value: IAO:0000115 "A gene product that modulates the host cell cytoskeleton by stabilizing microtubules." xsd:string
+is_a: PATHGO:0000183 ! cytoskeleton disruption factor
+property_value: IAO:0000115 "A gene product that disrupts cytoskeleton structure by stabilizing microtubules." xsd:string
 
 [Term]
 id: PATHGO:0000224
 name: microtubule destabilization factor
-is_a: PATHGO:0000183 ! host cell cytoskeleton modulator
-property_value: IAO:0000115 "A gene product that modulates the host cell cytoskeleton by destabilizing microtubules." xsd:string
+is_a: PATHGO:0000183 ! cytoskeleton disruption factor
+property_value: IAO:0000115 "A gene product that disrupts cytoskeleton structure by destabilizing microtubules." xsd:string
 
 [Term]
 id: PATHGO:0000225
 name: contributes to adhesion appendage formation
 is_a: PATHGO:0000038 ! mediates adhesion
-property_value: editorialNote "Fimbriae proteins/subunits are examples.  \n\nIntended to capture components that are not directly adhesins, but this class may not be structurally consistent." xsd:string
 property_value: IAO:0000115 "A mechanism that mediates adhesion by contributing to the formation of an adhesion appendage." xsd:string
 
 [Term]
 id: PATHGO:0000226
 name: disrupts extracellular matrix
-is_a: PATHGO:0000235 ! mediates host cell invasion
-property_value: editorialNote "gelatinase, mucinase, sialidase, hyaluronidase, etc." xsd:string
+is_a: PATHGO:0000235 ! mediates invasion and dissemination
 property_value: IAO:0000115 "A mechanism that mediates invasion and dissemination by disrupting extracellular matrix components." xsd:string
 
 [Term]
@@ -1078,7 +1116,6 @@ property_value: IAO:0000115 "A gene product that mediates membrane damage by deg
 id: PATHGO:0000228
 name: disrupts second messenger levels
 is_a: PATHGO:0000165 ! disrupts host cellular signaling
-property_value: editorialNote "examples: cyclin-dependent kinase 1 inactivator; calcium- and calmodulin-dependent adenylate cyclase" xsd:string
 property_value: IAO:0000115 "A mechanism that disrupts host cellular signaling by modulating levels of second messenger molecules." xsd:string
 
 [Term]
@@ -1097,22 +1134,19 @@ property_value: IAO:0000115 "A mechanism that mediates immune evasion and subver
 [Term]
 id: PATHGO:0000231
 name: inhibits opsonization
-is_a: PATHGO:0000232 ! inhibits phagocytosis
-property_value: editorialNote "If a mechanism inhibits opsonization, which is the process of marking foreign particles for phagocytosis by marking them with opsonins, then it necessarily also inhibits phagocytosis." xsd:string
-property_value: IAO:0000115 "A mechanism that inhibits phagocytosis by inhibiting opsonization, the process by which particles are targeted for phagocytosis." xsd:string
+is_a: PATHGO:0000085 ! mediates immune evasion and subversion
+property_value: IAO:0000115 "A mechanism that mediates immune evasion and subversion by inhibiting opsonization, the process by which particles are targeted for phagocytosis." xsd:string
 
 [Term]
 id: PATHGO:0000232
 name: inhibits phagocytosis
-synonym: "antiphagocytosis" RELATED []
 is_a: PATHGO:0000085 ! mediates immune evasion and subversion
-property_value: IAO:0000115 "A mechanism that mediates immune evasion and subversion by inhibiting phagocytosis by immune cells like macrophages." xsd:string
+property_value: IAO:0000115 "A mechanism that mediates immune evasion and subversion by inhibiting phagocytosis." xsd:string
 
 [Term]
 id: PATHGO:0000233
-name: disrupts host toll-like receptor signaling
+name: disrupts toll-like receptor signaling
 is_a: PATHGO:0000085 ! mediates immune evasion and subversion
-property_value: editorialNote "adaptor protein degradation activator; research and add others" xsd:string
 property_value: IAO:0000115 "A mechanism that mediates immune evasion and subversion by disrupting toll-like receptor signaling." xsd:string
 
 [Term]
@@ -1120,781 +1154,57 @@ id: PATHGO:0000234
 name: mediates integrin binding
 comment: A mechanism that mediates cell surface binding through integrins.
 is_a: PATHGO:0000211 ! mediates cell surface binding
-property_value: editorialNote "integrin α2β1 binding protein and integrin αMβ2 binding protein are examples that may be too granular to include" xsd:string
 
 [Term]
 id: PATHGO:0000235
-name: mediates host cell invasion
+name: mediates invasion and dissemination
+comment: A mechanism that mediates pathogenicity by facilitating movement into and through host tissues or cells.
 is_a: PATHGO:0000114 ! mechanism of pathogenicity
-property_value: editorialNote "synonyms: invasin" xsd:string
-property_value: IAO:0000115 "A mechanism that mediates pathogenicity by facilitating movement into host cells." xsd:string
 
 [Term]
 id: PATHGO:0000236
-name: modulates host cell endomembrane dynamics
+name: disrupts host cell endomembrane system
 is_a: PATHGO:0000114 ! mechanism of pathogenicity
-property_value: IAO:0000115 "A mechanism that mediates pathogenicity by manipulating host cell endomembrane dynamics." xsd:string
+property_value: IAO:0000115 "A mechanism that mediates pathogenicity by manipulating the host cell endomembrane system." xsd:string
 
 [Term]
 id: PATHGO:0000237
-name: mediates escape from host phagosome
-is_a: PATHGO:0000236 ! modulates host cell endomembrane dynamics
-property_value: definition "A mechanism that modulates host cell endomembrane dynamics by mediating escape from host phagosome." xsd:string
+name: mediates phagosome escape
+is_a: PATHGO:0000236 ! disrupts host cell endomembrane system
 
 [Term]
 id: PATHGO:0000238
 name: mediates evasion of lysosome lysis
-is_a: PATHGO:0000236 ! modulates host cell endomembrane dynamics
-property_value: definition "A mechanism that modulates host cell endomembrane dynamics by mediating evasion of lysosome lysis." xsd:string
+is_a: PATHGO:0000236 ! disrupts host cell endomembrane system
 
 [Term]
 id: PATHGO:0000239
 name: disrupts phagolysosome fusion
-is_a: PATHGO:0000236 ! modulates host cell endomembrane dynamics
-property_value: definition "A mechanism that modulates host cell endomembrane dynamics by disrupting phagolysosome fusion." xsd:string
+is_a: PATHGO:0000236 ! disrupts host cell endomembrane system
 
 [Term]
 id: PATHGO:0000240
 name: disrupts phagosome acidification
-is_a: PATHGO:0000236 ! modulates host cell endomembrane dynamics
-property_value: definition "A mechanism that modulates host cell endomembrane dynamics by disrupting phagosome acidification." xsd:string
+is_a: PATHGO:0000236 ! disrupts host cell endomembrane system
 
 [Term]
 id: PATHGO:0000241
-name: disrupts phagosome maturation in host cell
-is_a: PATHGO:0000236 ! modulates host cell endomembrane dynamics
-property_value: definition "A mechanism that modulates host cell endomembrane dynamics by disrupting phagosome maturation in the host cell." xsd:string
+name: disrupts phagosome maturation
+is_a: PATHGO:0000236 ! disrupts host cell endomembrane system
 
 [Term]
 id: PATHGO:0000242
-name: mediates host vitronectin binding
+name: host vitronectin-binding
 is_a: PATHGO:0000099 ! mediates extracellular matrix binding
-property_value: editorialNote "For example, Candida albicans uses its cell surface protein Gpm1 to attach to human endothelial cells through its interaction with vitronectin (PMID: 24625558). \n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechanism that mediates extracellular matrix binding by adhering specifically to vitronectin.  Vitronectin is a multifunctional glycoprotein present in blood and in the extracellular matrix." xsd:string
+property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
+property_value: IAO:0000115 "A mechanism that mediates extracellular matrix binding by adhering specifically to vitronectin" xsd:string
 
 [Term]
 id: PATHGO:0000244
-name: mediates elongation factor repression
-is_a: PATHGO:0000316 ! modulates eukaryotic translation elongation factors
-property_value: definition "A mechanism that modulates eukaryotic translation elongation factors by repression of eukaryotic translation elongation factors." xsd:string
+name: mediates elongation factor 1 inactivation
+is_a: PATHGO:0000006 ! mediates protein synthesis inhibition
+property_value: definition "A mechanism that mediates protein synthesis inhibition by inactivation of elongation factor 1." xsd:string
 property_value: editorialNote "examples Legionella glycosylating toxins and SidI, SARS-CoV N protein" xsd:string
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-
-[Term]
-id: PATHGO:0000245
-name: vitronectin binding protein
-is_a: PATHGO:0000077 ! extracellular matrix binding factor
-property_value: IAO:0000115 "A gene product that mediates extracellular matrix binding through adherance specifically to vitronectin in the host extracellular matrix." xsd:string
-
-[Term]
-id: PATHGO:0000246
-name: disrupts endosomal vesicle fusion
-is_a: PATHGO:0000236 ! modulates host cell endomembrane dynamics
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechanism that disrupts the host cell endomembrane system by disrupting fusion between vesicles and other cellular compartments that occur as part of normal host function." xsd:string
-
-[Term]
-id: PATHGO:0000248
-name: endosomal vesicle fusion inhibition factor
-is_a: PATHGO:0000199 ! host cell endomembrane dynamics modulation factor
-property_value: definition "A gene product modulates host cell endomembrane dynamics by inhibiting one or more of the typical fusions between vesicles and other compartments that occur in normal host endosomal dynamics." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000249
-name: host complement control protein binding factor
-is_a: PATHGO:0000153 ! complement system inhibition factor
-property_value: editorialNote "Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A gene product that inhibits host complement system activation by recruiting host complement control proteins to the surface of the parasite." xsd:string
-
-[Term]
-id: PATHGO:0000250
-name: dissemination factor
-synonym: "spreading factor" RELATED []
-is_a: PATHGO:0000073 ! determinant of pathogenicity
-property_value: IAO:0000115 "A gene product that mediates pathogenicity by enabling pathogens to spread through host tissues." xsd:string
-
-[Term]
-id: PATHGO:0000251
-name: mediates dissemination
-synonym: "mediates spreading" RELATED []
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
-property_value: IAO:0000115 "A mechanism that mediates pathogenicity by enabling pathogens to spread through host tissues." xsd:string
-
-[Term]
-id: PATHGO:0000252
-name: host barrier traversal factor
-is_a: PATHGO:0000250 ! dissemination factor
-property_value: editorialNote "[Examples Macrophage infectivity potentiator from Legionella; Exylysin from Pseudomonas; Pseudomonas exotoxin S; Pseudomonas exotoxin T; Shigella extracellular protease]\n\nattribution https://orcid.org/0000-0002-5702-4690" xsd:string
-property_value: IAO:0000115 "A gene product that mediates dissemination by promoting traversal of host barrier layers." xsd:string
-
-[Term]
-id: PATHGO:0000253
-name: mediates host barrier traversal
-is_a: PATHGO:0000251 ! mediates dissemination
-property_value: editorialNote "[Examples Macrophage infectivity potentiator from Legionella; Exylysin from Pseudomonas; Pseudomonas exotoxin S; Pseudomonas exotoxin T; Shigella extracellular protease]\n\nattribution https://orcid.org/0000-0002-5702-4690" xsd:string
-property_value: IAO:0000115 "A mechanism that mediates dissemination by promoting traversal of host barrier layers." xsd:string
-
-[Term]
-id: PATHGO:0000254
-name: host small GTPase guanine exchange factor
-is_a: PATHGO:0000015 ! cellular signaling disruption factor
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A gene product that disrupts host cellular signaling by acting as a guanine exchange factor (GEF) for a host small, monomeric, GTPase (Ras, Rho, Rab, etc.) inducing the expulsion of a bound GDP for a fresh GTP and thereby activating the protein." xsd:string
-
-[Term]
-id: PATHGO:0000255
-name: mediates guanine exchange for host small GTPase
-is_a: PATHGO:0000165 ! disrupts host cellular signaling
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A mechanism that disrupts host cellular signaling by mediating  guanine exchange for a host small, monomeric, GTPase (Ras, Rho, Rab, etc.) inducing the expulsion of a bound GDP for a fresh GTP and thereby activating the protein." xsd:string
-
-[Term]
-id: PATHGO:0000256
-name: host immunoglobulin neutralization factor
-is_a: PATHGO:0000090 ! immune evasion and subversion factor
-property_value: editorialNote "https://orcid.org/0000-0002-5702-4690\n\n[Examples of bacterial proteases: IgA1P, IdeS, EndoS, ZmpC from Streptococcus; InvD from Yersinia pseudotuberculosis; and BatB from Bordetella]" xsd:string
-property_value: IAO:0000115 "A gene product that mediates immune evasion and subversion by proteolytic destruction of host immunoglobulins." xsd:string
-
-[Term]
-id: PATHGO:0000257
-name: mediates host immunoglobulin neutralization
-is_a: PATHGO:0000085 ! mediates immune evasion and subversion
-property_value: editorialNote "https://orcid.org/0000-0002-5702-4690\n\n[Examples of bacterial proteases: IgA1P, IdeS, EndoS, ZmpC from Streptococcus; InvD from Yersinia pseudotuberculosis; and BatB from Bordetella]" xsd:string
-property_value: IAO:0000115 "A mechanism that mediates immune evasion and subversion by proteolytic destruction of host immunoglobulins." xsd:string
-
-[Term]
-id: PATHGO:0000258
-name: focal adhesion disruption factor
-is_a: PATHGO:0000160 ! cellular adhesion disruption factor
-property_value: definition "A gene product that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000259
-name: disrupts host cell focal adhesions
-is_a: PATHGO:0000159 ! disrupts cellular adhesion
-property_value: definition "A mechanism that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000260
-name: mediates host actin rearrangement
-is_a: PATHGO:0000028 ! modulates cytoskeleton in host cell
-property_value: definition "A mechanism that modulates cytoskeleton in host cell by mediating host actin rearrangement" xsd:string
-property_value: editorialNote "Note, in some cases, the extent of actin rearrangement is sufficient to allow for parasitic invasion of a host cell.\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000261
-name: mediates host actin polymerization
-is_a: PATHGO:0000028 ! modulates cytoskeleton in host cell
-property_value: definition "A mechanism that modulates cytoskeleton in host cell by mediating host actin polymerization" xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000265
-name: modulates eukaryotic translation initiation factors
-is_a: PATHGO:0000006 ! modulates protein synthesis
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A mechanism that modulates protein synthesis by modulating eukaryotic translation initiation factors." xsd:string
-
-[Term]
-id: PATHGO:0000266
-name: mediates translation initiation factor activation
-is_a: PATHGO:0000265 ! modulates eukaryotic translation initiation factors
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A mechanism that modulates eukaryotic translation initiation by enhancing eukaryotic translation initiation factors." xsd:string
-
-[Term]
-id: PATHGO:0000267
-name: mediates translation initiation factor repression
-is_a: PATHGO:0000265 ! modulates eukaryotic translation initiation factors
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A mechanism that modulates eukaryotic translation initiation by repressing eukaryotic translation initation factors." xsd:string
-
-[Term]
-id: PATHGO:0000268
-name: mediates resistance to host neutrophil extracellular traps (NETs)
-is_a: PATHGO:0000085 ! mediates immune evasion and subversion
-property_value: editorialNote "[Examples: Nuc from N. gonorrhoeae; EndA, Sda1, SpnA from Streptococcus]\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechanism that mediates immune evasion and subversion by countering host neutrophil extracellular traps (NETs), which contain processed nuclear DNA that can trap and kill pathogens." xsd:string
-
-[Term]
-id: PATHGO:0000269
-name: host neutrophil extracellular trap (NET) resistance factor
-is_a: PATHGO:0000090 ! immune evasion and subversion factor
-property_value: editorialNote "[Examples: Nuc from N. gonorrhoeae; EndA, Sda1, SpnA from Streptococcus]\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A gene product that mediates immune evasion and subversion by countering host neutrophil extracellular traps (NETs), which contain processed nuclear DNA that can trap and kill pathogens." xsd:string
-
-[Term]
-id: PATHGO:0000270
-name: host oxidative killing resistance factor
-is_a: PATHGO:0000090 ! immune evasion and subversion factor
-property_value: editorialNote "Attribution: https://orcid.org/0000-0002-5702-4690" xsd:string
-property_value: IAO:0000115 "A gene product that mediates immune evasion and subversion by disrupting host oxidative killing through interference with the signaling that triggers production of host reactive oxygen species (ROS) or nitric oxide (NO) or by directly inactivating host ROS or NO." xsd:string
-
-[Term]
-id: PATHGO:0000271
-name: mediates resistance to host oxidative killing
-is_a: PATHGO:0000085 ! mediates immune evasion and subversion
-property_value: editorialNote "Attribution: https://orcid.org/0000-0002-5702-4690" xsd:string
-property_value: IAO:0000115 "A mechanism that mediates immune evasion and subversion by disrupting host oxidative killing through interference with the signaling that triggers production of host reactive oxygen species (ROS) or nitric oxide (NO) or by directly inactivating host ROS or NO." xsd:string
-
-[Term]
-id: PATHGO:0000272
-name: host glycosaminoglycan- or proteoglycan-binding factor
-is_a: PATHGO:0000077 ! extracellular matrix binding factor
-property_value: definition "A gene product that mediates extracellular matrix binding by adhering specifically to glycosaminoglycans or proteoglycans in the host extracellular matrix." xsd:string
-
-[Term]
-id: PATHGO:0000273
-name: mediates host glycosaminoglycan- or proteoglycan-binding
-is_a: PATHGO:0000099 ! mediates extracellular matrix binding
-property_value: definition "A mechanism that mediates extracellular matrix binding by adherance to glycosaminoglycans or proteoglycans in the host extracellular matrix." xsd:string
-
-[Term]
-id: PATHGO:0000274
-name: laminin binding protein
-is_a: PATHGO:0000077 ! extracellular matrix binding factor
-property_value: definition "A gene product that mediates extracellular matrix binding by adhering specifically to laminin in the host extracellular matrix." xsd:string
-
-[Term]
-id: PATHGO:0000275
-name: mediates host laminin binding
-is_a: PATHGO:0000099 ! mediates extracellular matrix binding
-property_value: definition "A mechanism that mediates extracellular matrix binding by adherence to laminin in the host extracellular matrix." xsd:string
-
-[Term]
-id: PATHGO:0000276
-name: small GTPase activating protein
-is_a: PATHGO:0000181 ! GTPase activating protein
-property_value: definition "A gene product that stimulates small, monomeric host GTPase to hydrolyze bound GTP, ultimately reducing G-protein activity." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000277
-name: heterotrimeric GTPase activating protein
-is_a: PATHGO:0000181 ! GTPase activating protein
-property_value: definition "A gene product that stimulates host heterotrimeric GTPase to hydrolyze bound GTP, ultimately reducing G-protein activity." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000278
-name: disrupts small GTPase activity
-is_a: PATHGO:0000175 ! disrupts G-protein signaling pathways
-property_value: definition "A mechanism that disrupts G-protein signaling pathways by stimulating small, monomeric host GTPase to hydrolyze bound GTP." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000279
-name: disrupts heterotrimeric GTPase activity
-is_a: PATHGO:0000175 ! disrupts G-protein signaling pathways
-property_value: definition "A mechanism that disrupts G-protein signaling pathways by stimulating host heterotrimeric GTPase to hydrolyze bound GTP." xsd:string
-
-[Term]
-id: PATHGO:0000280
-name: mediates microtubule rearrangement
-is_a: PATHGO:0000028 ! modulates cytoskeleton in host cell
-property_value: definition "A mechanism that modulates cytoskeleton in host cell by mediating microtubule rearrangement." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000281
-name: microtubule rearrangement factor
-is_a: PATHGO:0000183 ! host cell cytoskeleton modulator
-property_value: definition "A gene product that modulates the host cell cytoskeleton by rearranging microtubules." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000282
-name: cholesterol binding factor
-is_a: PATHGO:0000198 ! cell surface binding factor
-property_value: definition "A gene product that mediates cell surface binding through binding to cholesterol." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000283
-name: carbohydrate binding factor
-is_a: PATHGO:0000198 ! cell surface binding factor
-property_value: definition "A gene product that mediates cell surface binding through binding to the carbohydrate component of a glycolipid or glycoprotein." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000284
-name: mediates cholesterol binding
-is_a: PATHGO:0000211 ! mediates cell surface binding
-property_value: definition "A mechanism that mediates cell surface binding by enabling binding to host cell surface cholesterol." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000285
-name: mediates carbohydrate binding
-is_a: PATHGO:0000211 ! mediates cell surface binding
-property_value: definition "A mechanism that mediates cell surface binding by enabling binding to host cell surface carbohydrate components of glycolipids or glycoproteins." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000286
-name: host MAPK signaling modulation factor
-is_a: PATHGO:0000015 ! cellular signaling disruption factor
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A gene product that disrupts host cellular signaling by modulating host MAPK signaling via direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways." xsd:string
-
-[Term]
-id: PATHGO:0000287
-name: host MAPK signaling enhancement factor
-is_a: PATHGO:0000286 ! host MAPK signaling modulation factor
-property_value: editorialNote "Example includes GRA24 from Toxoplasma gondii. GRA24 targets host p38 alpha causing autophosphorylation and activation of p38. p38 activation leads to the upregulation of proinflammatory cytokine production.\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A gene product that modulates host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways." xsd:string
-
-[Term]
-id: PATHGO:0000288
-name: host MAPK signaling disruption factor
-is_a: PATHGO:0000286 ! host MAPK signaling modulation factor
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A gene product that modulates host MAPK signaling through downregulation of host MAPK signaling by either directly acting on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways." xsd:string
-
-[Term]
-id: PATHGO:0000289
-name: modulates host MAPK signaling
-is_a: PATHGO:0000165 ! disrupts host cellular signaling
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechanism that disrupts host cellular signaling by modulating host MAPK signaling." xsd:string
-
-[Term]
-id: PATHGO:0000290
-name: disrupts host MAPK signaling
-is_a: PATHGO:0000289 ! modulates host MAPK signaling
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechansim that modulates host MAPK signaling by disrupting host MAPK signaling through downregulation of host MAPK signaling by either directly acting on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways." xsd:string
-
-[Term]
-id: PATHGO:0000291
-name: enhances host MAPK signaling
-is_a: PATHGO:0000289 ! modulates host MAPK signaling
-property_value: editorialNote "Example includes GRA24 from Toxoplasma gondii. It targets host p38 alpha which leads to autophosphorylation and activation. p38 activation leads to the upregulation of proinflammatory cytokine production.\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechanism that modulates host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways." xsd:string
-
-[Term]
-id: PATHGO:0000292
-name: disrupts host TNFR signaling
-is_a: PATHGO:0000085 ! mediates immune evasion and subversion
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechanism that mediates immune evasion and subversion by affecting the activity, abundance, or availability of host tumor necrosis factor receptor (TNFR) ligands or by inhibiting TNFR signaling by binding directly to the receptor." xsd:string
-
-[Term]
-id: PATHGO:0000293
-name: host TNFR signaling disruption factor
-is_a: PATHGO:0000090 ! immune evasion and subversion factor
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A gene product that mediates immune evasion and subversion by affecting the activity, abundance, or availability of host tumor necrosis factor receptor (TNFR) ligands or by inhibiting TNFR signaling by binding directly to the receptor." xsd:string
-
-[Term]
-id: PATHGO:0000294
-name: modulates host NF-kappaB signaling
-is_a: PATHGO:0000165 ! disrupts host cellular signaling
-property_value: definition "A mechanism that disrupts host cellular signaling by modulating host NF-kappaB signaling." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000295
-name: disrupts host NF-kappaB signaling
-is_a: PATHGO:0000294 ! modulates host NF-kappaB signaling
-property_value: definition "A mechanism that modulates host NF-kappaB signaling by disrupting host NF-kappaB signaling so that the effector subunit is not able to initiate transcription in the nucleus." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000296
-name: enhances host NF-kappaB signaling
-is_a: PATHGO:0000294 ! modulates host NF-kappaB signaling
-property_value: definition "A mechanism that modulates host NF-kappaB signaling by enhancing host NF-kappaB signaling by promoting activation." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000297
-name: host NF-kappaB signaling modulation factor
-is_a: PATHGO:0000015 ! cellular signaling disruption factor
-property_value: definition "A gene product that disrupts host cellular signaling by modulating host NF-kappaB signaling by exerting an effect on an NF-kappaB component no farther than proximal to IkappaB, RelA, p50, Ikappakappa, or NEMO." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000298
-name: host NF-kappaB signaling disruption factor
-is_a: PATHGO:0000297 ! host NF-kappaB signaling modulation factor
-property_value: definition "A gene product that modulates host NF-kappaB signaling by disrupting host NF-kappaB signaling via inhibiting activation so that the effector subunit is not able to initiate transcription in the nucleus." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000299
-name: host NF-kappaB signaling enhancement factor
-is_a: PATHGO:0000297 ! host NF-kappaB signaling modulation factor
-property_value: definition "A gene product that modulates host NF-kappaB signaling by enhancing host NF-kappaB signaling via promoting activation." xsd:string
-property_value: definition "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000300
-name: disrupts host STING signaling
-is_a: PATHGO:0000165 ! disrupts host cellular signaling
-property_value: definition "A mechanism that disrupts host cellular signaling by disrupting host stimulator of interferon genes (STING) signaling via targeting STING directly or affecting a protein proximal to STING that interferes with the proper recognition of pathogen activity." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000301
-name: host STING signaling distruption factor
-is_a: PATHGO:0000015 ! cellular signaling disruption factor
-property_value: definition "A gene product that disrupts host cellular signaling by disrupting host stimulator of interferon genes (STING) signaling via targeting STING directly or affecting a protein proximal to STING that interferes with the proper recognition of pathogen activity." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000302
-name: disrupts host JAK-STAT signaling
-is_a: PATHGO:0000165 ! disrupts host cellular signaling
-property_value: definition "A mechanism that disrupts host cellular signaling by disrupting host Janus kinase signal transducer and activator of transcription (JAK-STAT) signaling via targeting a sequence proximal to JAKs, STATs, protein inhibitors of activated STATs (PIAS), or suppressors of cytokine signaling (SOCS)." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000303
-name: host JAK-STAT signaling disruption factor
-is_a: PATHGO:0000015 ! cellular signaling disruption factor
-property_value: definition "A gene product that disrupts host cellular signaling by disrupting host Janus kinase signal transducer and activator of transcription (JAK-STAT) signaling via targeting a sequence proximal to JAKs, STATs, protein inhibitors of activated STATs (PIAS), or suppressors of cytokine signaling (SOCS)." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000304
-name: disrupts host PKR activity
-is_a: PATHGO:0000165 ! disrupts host cellular signaling
-property_value: definition "A mechanism that disrupts host cellular signaling by disrupting host protein kinase R (PKR) activity via pre-emptively binding pathogen dsRNA to sequester it from PKR, interfering with the phosphorylation of PKR by proximal effectors, or binding PKR directly." xsd:string
-property_value: definition "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000305
-name: host PKR activity disruption factor
-is_a: PATHGO:0000015 ! cellular signaling disruption factor
-property_value: definition "A gene product that disrupts host cellular signaling by disrupting host protein kinase R (PKR) activity via pre-emptively binding pathogen dsRNA to sequester it from PKR, interfering with the phosphorylation of PKR by proximal effectors, or binding PKR directly." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000306
-name: disrupts host RIG-1 signaling
-is_a: PATHGO:0000165 ! disrupts host cellular signaling
-property_value: definition "A mechanism that disrupts host cellular signaling by disrupting host cytosolic signaling proximal to the pattern recognition receptor retinoic acid-inducible gene I (RIG-1) via altering the ubiquitination of RIG-1, downregulating RIG-1 activity, reducing RIG-1 abundance, or impeding the interaction of RIG-1 with downstream effectors such as MAVS." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000307
-name: host RIG-1 signaling disruption factor
-is_a: PATHGO:0000015 ! cellular signaling disruption factor
-property_value: definition "A gene product that disrupts host cellular signaling by disrupting host cytosolic signaling proximal to the pattern recognition receptor retinoic acid-inducible gene I (RIG-1) via altering the ubiquitination of RIG-1, downregulating RIG-1 activity, reducing RIG-1 abundance, or impeding the interaction of RIG-1 with downstream effectors such as MAVS." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000308
-name: disrupts host antigen presentation
-is_a: PATHGO:0000085 ! mediates immune evasion and subversion
-property_value: definition "A mechanism that mediates immune evasion and subversion by disrupting host antigen presentation via inhibiting MHC I/II production or display, manipulating production or display of the antigen or epitope by altering activity of the proteasome or the TAP complex, or specifically targeting a particular parasite antigen for destruction." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000309
-name: host antigen presentation disruption factor
-is_a: PATHGO:0000090 ! immune evasion and subversion factor
-property_value: definition "A gene product that mediates immune evasion and subversion by disrupting host antigen presentation via inhibiting MHC I/II production or display, manipulating production or display of the antigen or epitope by altering activity of the proteasome or the TAP complex, or specifically targeting a particular parasite antigen for destruction." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000310
-name: inhibits host cytokine activity
-is_a: PATHGO:0000085 ! mediates immune evasion and subversion
-property_value: definition "A mechanism that mediates immune evasion and subversion by inhibiting host cytokine activity via sequestering or destroying the cytokine so it is not available to participate in host signaling." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000311
-name: host cytokine inhibition factor
-is_a: PATHGO:0000090 ! immune evasion and subversion factor
-property_value: definition "A gene product that mediates immune evasion and subversion by inhibiting host cytokine activity via sequestering or destroying the cytokine so it is not available to participate in host signaling." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000312
-name: enables pathogen nucleic acid concealment
-is_a: PATHGO:0000085 ! mediates immune evasion and subversion
-property_value: editorialNote "A mechanism that mediates immune evasion and subversion by enabling pathogen nucleic acid concealment by the viral protein (typically carried out by dsRNA nucleic acid binding) for evasion of host pathogen recognition receptors." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000313
-name: pathogen nucleic acid concealment factor
-is_a: PATHGO:0000090 ! immune evasion and subversion factor
-property_value: definition "A gene product hat mediates immune evasion and subversion by enabling pathogen nucleic acid concealment by the viral protein (typically carried out by dsRNA nucleic acid binding) for evasion of host pathogen recognition receptors." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000314
-name: modulates host TRAF signaling
-is_a: PATHGO:0000165 ! disrupts host cellular signaling
-property_value: definition "A mechanism that disrupts host cellular signaling by modulating host TNF receptor-associated factor (TRAF) signaling." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000315
-name: host TRAF signaling modulation factor
-is_a: PATHGO:0000015 ! cellular signaling disruption factor
-property_value: definition "A gene product that disrupts host cellular signaling by modulating host TNF receptor-associated factor (TRAF) signaling." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000316
-name: modulates eukaryotic translation elongation factors
-is_a: PATHGO:0000006 ! modulates protein synthesis
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A mechanism that modulates protein synthesis by modulating eukaryotic translation elongation factors." xsd:string
-
-[Term]
-id: PATHGO:0000317
-name: eukaryotic initation factor modulator
-is_a: PATHGO:0000034 ! protein synthesis modulation factor
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A gene product that modulates protein synthesis by modulating eukaryotic initiation factors." xsd:string
-
-[Term]
-id: PATHGO:0000319
-name: eukaryotic initation factor repressor
-is_a: PATHGO:0000317 ! eukaryotic initation factor modulator
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A gene product that modulates a eukaryotic initation factor by repression of that eukaryotic initiation factor." xsd:string
-
-[Term]
-id: PATHGO:0000320
-name: eukaryotic elongation factor repressor
-is_a: PATHGO:0000002 ! eukaryotic elongation factor modulator
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A gene product that modulates a eukaryotic elongation factor by repression of that eukaryotic elongation factor." xsd:string
-
-[Term]
-id: PATHGO:0000321
-name: modules endosomal vesicle trafficking
-is_a: PATHGO:0000236 ! modulates host cell endomembrane dynamics
-property_value: editorialNote "Many parasite proteins, particularly from intracellular bacteria pathogens, inhibit or redirect host vesicle trafficking.\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechanism that disrupts the host cell endomembrane system by modulating trafficking of vesicles to other cellular compartments that occur as part of normal host function." xsd:string
-
-[Term]
-id: PATHGO:0000322
-name: endosomal vesicle trafficking modulation factor
-is_a: PATHGO:0000199 ! host cell endomembrane dynamics modulation factor
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A gene product that modulates host cell endomembrane dynamics by modulating the trafficking of vesicles to other cellular compartments that occur as part of normal host function." xsd:string
-
-[Term]
-id: PATHGO:0000324
-name: host cell ubiquitin dynamics modulator
-is_a: PATHGO:0000179 ! cellular metabolism disruption factor
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A gene product that disrupts cellular metabolism by altering host ubiquitin dynamics through modulation or redirection of E3 ubiquitin ligase, E3 ubiquitin ligase activity, E2 enzymes, or removal of ubiquitin from a target protein." xsd:string
-
-[Term]
-id: PATHGO:0000325
-name: modulates ubiquitin dynamics in host cell
-is_a: PATHGO:0000164 ! disrupts cellular metabolism
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A mechanism that disrupts cellular metabolism through modulation or redirection of E3 ubiquitin ligase, E3 ubiquitin ligase activity, E2 enzymes, or removal of ubiquitin from a target protein." xsd:string
-
-[Term]
-id: PATHGO:0000326
-name: modulates transcription in host cell
-is_a: PATHGO:0000164 ! disrupts cellular metabolism
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A mechanism that disrupts cellular metabolism by modulating transcription in the host cell." xsd:string
-
-[Term]
-id: PATHGO:0000327
-name: host cell transcription modulation factor
-is_a: PATHGO:0000179 ! cellular metabolism disruption factor
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A gene product that disrupts cellular metabolism by modulating host cell transcription." xsd:string
-
-[Term]
-id: PATHGO:0000328
-name: modulates host small GTPase dynamics
-is_a: PATHGO:0000165 ! disrupts host cellular signaling
-property_value: definition "A mechanism that disrupts host cellular signaling by modulating host small GTPase dynamics. This manipulation can occur through direct binding of host small GTPases or by alteration of the activity or abundance of the proximal effectors of small GTPases, including GTPase activating proteins (GAPs), guanine exchange factors (GEFs), or guanine dissociation inhibitors (GDIs)." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000329
-name: host small GTPase dynamics modulation factor
-is_a: PATHGO:0000015 ! cellular signaling disruption factor
-property_value: definition "A gene product that disrupts host cellular signaling by modulating host small GTPase dynamics. This manipulation can occur through direct binding of host small GTPases or by alteration of the activity or abundance of the proximal effectors of small GTPases, including GTPase activating proteins (GAPs), guanine exchange factors (GEFs), or guanine dissociation inhibitors (GDIs)." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000330
-name: host cell cell cycle modulator
-is_a: PATHGO:0000073 ! determinant of pathogenicity
-property_value: definition "A gene product that mediates pathogenicity by modulating the cell cycle of a host cell." xsd:string
-property_value: editorialNote "Elaborate subclasses and document examples" xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000331
-name: modulates cell cycle in host cell
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
-property_value: definition "A mechanism that mediates pathogenicity by modulating the cell cycle of a host cell." xsd:string
-property_value: editorialNote "Concept covered by GO; GO:0051726; elaborate subclasses" xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000332
-name: modulates apoptosis in host cell
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
-property_value: definition "A mechanism that mediates pathogenicity by modulating apoptosis in host cell. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host." xsd:string
-property_value: editorialNote "Evaluate for placement in proliferation and survival\n\nConcept covered by GO; GO:0042981" xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000333
-name: host cell apoptosis modulator
-is_a: PATHGO:0000073 ! determinant of pathogenicity
-property_value: definition "A gene product that mediates pathogenicity by modulating host cell apoptosis. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000334
-name: suppresses apoptosis in host cell
-is_a: PATHGO:0000332 ! modulates apoptosis in host cell
-property_value: definition "A mechanism the modulates apoptosis in the host cell by suppressing apoptosis in the host cell." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000335
-name: induces apoptosis in host cell
-is_a: PATHGO:0000332 ! modulates apoptosis in host cell
-property_value: definition "A mechanism the modulates apoptosis in the host cell by inducing apoptosis in the host cell." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000336
-name: host cell apoptosis suppressor
-is_a: PATHGO:0000333 ! host cell apoptosis modulator
-property_value: definition "A gene product that modulates host cell apoptosis by suppressing host cell apoptosis." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000337
-name: host cell apoptosis inducer
-is_a: PATHGO:0000333 ! host cell apoptosis modulator
-property_value: definition "A gene product that modulates host cell apoptosis by inducing host cell apoptosis." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000338
-name: direct host complement inactivation factor
-is_a: PATHGO:0000153 ! complement system inhibition factor
-property_value: definition "A gene product that mediates complement system inhibition by direct host complement inactivation via enzymatic activity that inheres in the parasite sequence." xsd:string
-property_value: editorialNote "Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000339
-name: direct host complement inactivation
-is_a: PATHGO:0000100 ! mediates resistance to complement system
-property_value: definition "A mechanism that mediates resistance to the host complement system by direct host complement inactivation via enzymatic activity that inheres in the parasite sequence." xsd:string
-property_value: editorialNote "Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000340
-name: indirect host complement inactivation factor
-is_a: PATHGO:0000153 ! complement system inhibition factor
-property_value: definition "A gene product that mediates complement system inhibition by indirect host complement inactivation via recruiting a host enzyme, typically a proteinase, to the parasite surface." xsd:string
-property_value: editorialNote "Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000341
-name: indirect host complement inactivation
-is_a: PATHGO:0000100 ! mediates resistance to complement system
-property_value: definition "A mechanism that mediates resistance to the host complement system by indirect host complement inactivation via recruiting a host enzyme, typically a proteinase, to the parasite surface." xsd:string
-property_value: editorialNote "Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000342
-name: pathogen vacuole formation/maintenance factor
-is_a: PATHGO:0000199 ! host cell endomembrane dynamics modulation factor
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A gene product that modulates host cell endomembrane dynamics by contributing to the formation and/or maintenance of the vacuole." xsd:string
-
-[Term]
-id: PATHGO:0000343
-name: mediates pathogen vacuole formation/maintenance
-is_a: PATHGO:0000236 ! modulates host cell endomembrane dynamics
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechanism that modulates host cell endomembrane dynamics by contributing to the formation and/or maintenance of the vacuole." xsd:string
-
-[Term]
-id: PATHGO:0000344
-name: host cell autophagosome formation inhibition factor
-is_a: PATHGO:0000199 ! host cell endomembrane dynamics modulation factor
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A gene product that modulates host cell endomembrane dynamics by inhibiting autophagosome formation." xsd:string
-
-[Term]
-id: PATHGO:0000345
-name: inhibits autophagosome formation in host cell
-is_a: PATHGO:0000236 ! modulates host cell endomembrane dynamics
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechanism that modulates host cell endomembrane dynamics by inhibiting autophagosome formation." xsd:string
-
-[Term]
-id: PATHGO:0000346
-name: host cell autophagy or xenophagy modulator
-is_a: PATHGO:0000199 ! host cell endomembrane dynamics modulation factor
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A gene product that modulates host endomembrane dynamics by modulating autophagy or xenophagy." xsd:string
-
-[Term]
-id: PATHGO:0000347
-name: modulates autophagy or xenophagy in host cell
-is_a: PATHGO:0000236 ! modulates host cell endomembrane dynamics
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-property_value: IAO:0000115 "A mechanism that modulates host endomembrane dynamics by modulating autophagy or xenophagy." xsd:string
-
-[Term]
-id: PATHGO:0000348
-name: determinant of type VII secretion
-is_a: PATHGO:0000102 ! determinant of protein effector secretion
-property_value: definition "A gene product that mediates protein effector secretion as a component of a type VII secretion system that can mediate the entry of bacterial effectors into the host cell." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000349
-name: mediates type VII secretion
-is_a: PATHGO:0000110 ! mediates secretion of protein effectors
-property_value: definition "A mechanism that mediates secretion of protein effectors as part of a type VII secretion system that can mediate the entry of bacterial effectors into the host cell." xsd:string
-property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000350
-name: host actin rearrangement factor
-is_a: PATHGO:0000183 ! host cell cytoskeleton modulator
-property_value: IAO:0000115 "A gene product that modulates the host cell cytoskeleton by mediating host actin rearrangement." xsd:string
-
-[Term]
-id: PATHGO:0000351
-name: host actin polymerization factor
-is_a: PATHGO:0000183 ! host cell cytoskeleton modulator
-property_value: IAO:0000115 "A gene product that modulates the host cell cytoskeleton by mediating host actin polymerization." xsd:string
-
-[Term]
-id: http://purl.obolibrary.org/obo/pathgo/PATHGO:0000318
-name: eukaryotic initation factor enhancer
-is_a: PATHGO:0000317 ! eukaryotic initation factor modulator
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A gene product that modulates a eukaryotic initation factor by enhancement of that eukaryotic initiation factor." xsd:string
-
-[Term]
-id: http://purl.obolibrary.org/obo/pathgo/PATHGO:0000323
-name: eukaryotic elongation factor enhancer
-is_a: PATHGO:0000002 ! eukaryotic elongation factor modulator
-property_value: editorialNote https://orcid.org/0000-0002-5702-4690 xsd:string
-property_value: IAO:0000115 "A gene product that modulates a eukaryotic elongation factor by enhancement of that eukaryotic elongation factor." xsd:string
 
 [Typedef]
 id: PATHGO:0000243
