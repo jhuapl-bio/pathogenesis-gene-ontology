@@ -1033,12 +1033,10 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000135 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000135">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating cleavage of DNA.</pathgo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113"/>
+        <pathgo:IAO_0000115>A mechanism that mediates nutrient availability or uptake by mediating cleavage of host DNA.</pathgo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>deoxyribonuclease activity</oboInOwl:hasRelatedSynonym>
         <rdfs:label>mediates DNA cleavage</rdfs:label>
-        <skos:editorialNote>example deoxyribonuclease (DNAse)
-
-Target is the macromolecule and not process so this term doesn&apos;t fit definition of parent class</skos:editorialNote>
     </owl:Class>
     
 
