@@ -493,7 +493,7 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000147"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables adhesion and colonization by mediating attachment to other cells or to surfaces.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables adhesion and colonization by mediating attachment to cells or to surfaces, usually the host they are infecting or living in.</pathgo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>adhesin</oboInOwl:hasRelatedSynonym>
         <rdfs:label>mediates adhesion</rdfs:label>
     </owl:Class>
@@ -547,17 +547,6 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of type V secretion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates cell surface binding through integrins.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrin binding protein</rdfs:label>
-        <skos:editorialNote>integrin α2β1 binding protein and integrin αMβ2 binding protein are examples that may be too granular to include</skos:editorialNote>
     </owl:Class>
     
 
@@ -635,9 +624,9 @@ elaborate subclasses; align with mechanism branch</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion through collagen binding.</pathgo:IAO_0000115>
-        <rdfs:label>collagen binding protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099"/>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates extracellular matrix binding by binding to collagen.</pathgo:IAO_0000115>
+        <rdfs:label>mediates host collagen binding</rdfs:label>
     </owl:Class>
     
 
@@ -646,11 +635,8 @@ elaborate subclasses; align with mechanism branch</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates cell surface binding through glycoproteins.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycoprotein binding</rdfs:label>
-        <skos:editorialNote>evaluate for organizational consistency
-
-A mechanism of cell surface binding that involves binding to a sugar-modified surface protein on a target cell.</skos:editorialNote>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates cell surface binding by binding to glycoproteins (i.e. sugar-modified proteins) on the surface of a cell</pathgo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates surface glycoprotein binding</rdfs:label>
     </owl:Class>
     
 
@@ -675,17 +661,6 @@ A mechanism of cell surface binding that involves binding to a sugar-modified su
         <skos:editorialNote>example VEGF
 
 evaluate proangiogenic response as a contribution to pathogenesis</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion by enabling binding to extracellular matrix components such as collagen and fibronectin.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extracellular matrix binding factor</rdfs:label>
-        <skos:editorialNote>Collagen binding protein and fibronectin binding protein are examples.  Including these as subclasses may be too granular.</skos:editorialNote>
     </owl:Class>
     
 
@@ -749,17 +724,6 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000016"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating the availability or function of immune system components to evade or subvert host immune functions.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates immune evasion and subversion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000086 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000086">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000112"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that contributes to quorum sensing by promoting production of autoinducer molecules.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quorum sensing autoinducer production factor</rdfs:label>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoinducer synthase</skos:editorialNote>
     </owl:Class>
     
 
@@ -961,16 +925,6 @@ Evaluate subclass naming/organization</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000112 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000119"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that promotes biofilm formation by contributing to quorum sensing.</pathgo:IAO_0000115>
-        <rdfs:label>quorum sensing system factor</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113">
@@ -1003,30 +957,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular metabolism by modulating the activity of nitric oxide synthase.</pathgo:IAO_0000115>
         <rdfs:label>regulator of nitric oxide synthase</rdfs:label>
         <skos:editorialNote>inappropriate placement; Overlaps with GO (molecular function and regulation of activity terms); evaluate for removal</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000119 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adherence and colonization by promoting synthesis of extracellular polymeric substances to form a biofilm.</pathgo:IAO_0000115>
-        <rdfs:label>biofilm formation factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that facilitates adhesion and colonization by enabling attachment to other cells or to surfaces, usually the host they are infecting or living in.</pathgo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adhesin</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adhesion factor</rdfs:label>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition needs to be rewritten
-
-encodes cell-surface or appendage components of bacteria</skos:editorialNote>
     </owl:Class>
     
 
@@ -1084,9 +1014,9 @@ encodes cell-surface or appendage components of bacteria</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000133 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000133">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion through fibronectin binding.</pathgo:IAO_0000115>
-        <rdfs:label>fibronectin binding protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099"/>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates extracellular matrix binding by binding to fibronectin.</pathgo:IAO_0000115>
+        <rdfs:label>mediates host fibronectin binding</rdfs:label>
     </owl:Class>
     
 
@@ -1157,8 +1087,7 @@ Target is the macromolecule and not process so this term doesn&apos;t fit defini
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by enabling pathogens to attach to host cells and establish growth.</pathgo:IAO_0000115>
         <oboInOwl:hasDbXref>BVF:0000002</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates adherence and colonization</rdfs:label>
-        <skos:editorialNote>&quot;enables adherence and colonization&quot;</skos:editorialNote>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enables adherence and colonization</rdfs:label>
     </owl:Class>
     
 
@@ -1181,17 +1110,6 @@ Target is the macromolecule and not process so this term doesn&apos;t fit defini
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by allowing pathogens to grow and multiply, especially when environmental conditions are unfavorable, distinct from adherence and colonization.</pathgo:IAO_0000115>
         <rdfs:label>mediates proliferation and survival</rdfs:label>
         <skos:editorialNote>evaluate placement and provide examples</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by enabling pathogens to attach to host cells and establish growth.</pathgo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BVF:0000002</oboInOwl:hasDbXref>
-        <rdfs:label>adherence and colonization factor</rdfs:label>
     </owl:Class>
     
 
@@ -1599,32 +1517,6 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
         <pathgo:IAO_0000115>A gene product that mediates invasion and dissemination by promoting destruction of extracellular matrix components.</pathgo:IAO_0000115>
         <rdfs:label>determinant of extracellular matrix destruction</rdfs:label>
         <skos:editorialNote>gelatinase, mucinase, sialidase, hyaluronidase, etc.</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000197 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000197">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
-        <pathgo:IAO_0000115>A gene product that mediates adhesion by contributing to the structure of an adhesion appendage.</pathgo:IAO_0000115>
-        <rdfs:label>adhesion appendage component</rdfs:label>
-        <skos:editorialNote>Fimbriae proteins/subunits are examples.  
-
-Intended to capture components that are not directly adhesins, but this class may not be structurally consistent.</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000120"/>
-        <pathgo:IAO_0000115>A gene product that mediates adhesion by enabling binding to cell surface receptors or components.</pathgo:IAO_0000115>
-        <rdfs:label>cell surface binding factor</rdfs:label>
-        <skos:editorialNote>sialyl Lewis x binding protein is an example
-
-build out subclasses</skos:editorialNote>
     </owl:Class>
     
 
@@ -2104,16 +1996,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000245 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000245">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
-        <pathgo:IAO_0000115>A gene product that mediates extracellular matrix binding through adherance specifically to vitronectin in the host extracellular matrix.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">vitronectin binding protein</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000246">
@@ -2370,32 +2252,12 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000272 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000272">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
-        <rdfs:label xml:lang="en">host glycosaminoglycan- or proteoglycan-binding factor</rdfs:label>
-        <skos:definition>A gene product that mediates extracellular matrix binding by adhering specifically to glycosaminoglycans or proteoglycans in the host extracellular matrix.</skos:definition>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000273 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000099"/>
         <rdfs:label xml:lang="en">mediates host glycosaminoglycan- or proteoglycan-binding</rdfs:label>
         <skos:definition>A mechanism that mediates extracellular matrix binding by adherance to glycosaminoglycans or proteoglycans in the host extracellular matrix.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000274 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000274">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
-        <rdfs:label xml:lang="en">laminin binding protein</rdfs:label>
-        <skos:definition>A gene product that mediates extracellular matrix binding by adhering specifically to laminin in the host extracellular matrix.</skos:definition>
     </owl:Class>
     
 
@@ -2470,28 +2332,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
         <rdfs:label xml:lang="en">microtubule rearrangement factor</rdfs:label>
         <skos:definition>A gene product that modulates the host cell cytoskeleton by rearranging microtubules.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000282 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000282">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
-        <rdfs:label xml:lang="en">cholesterol binding factor</rdfs:label>
-        <skos:definition>A gene product that mediates cell surface binding through binding to cholesterol.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000283 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000283">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000198"/>
-        <rdfs:label xml:lang="en">carbohydrate binding factor</rdfs:label>
-        <skos:definition>A gene product that mediates cell surface binding through binding to the carbohydrate component of a glycolipid or glycoprotein.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
