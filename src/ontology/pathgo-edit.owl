@@ -1948,8 +1948,8 @@ Intended to capture components that are not directly adhesins, but this class ma
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000212"/>
         <pathgo:IAO_0000115>A mechanism that contributes to quorum sensing by promoting production of autoinducer molecules.</pathgo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>autoinducer synthase</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">mediates quorum sensing autoinducer production</rdfs:label>
-        <skos:editorialNote>autoinducer synthase</skos:editorialNote>
     </owl:Class>
     
 
