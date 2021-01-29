@@ -315,12 +315,12 @@ Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000191"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts ion transport by inhibiting acid-sensing ion channels. Acid-sensing ion channel 1a (ASIC1a) is the primary acid sensor in mammalian brain.</pathgo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000323"/>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that inhibits ion transport by inhibiting acid-sensing ion channels.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acid-sensing ion channel inhibitor</rdfs:label>
         <skos:editorialNote>&quot;Acid-sensing ion channel 1a (ASIC1a) is the primary acid sensor in mammalian brain.&quot;  evaluate information
 
-concept possibly covered by GO</skos:editorialNote>
+Related to &apos;GO:0044736 - acid-sensing ion channel activity&apos; but this term refers specifically to the inhibition of ASIC1a channels.</skos:editorialNote>
     </owl:Class>
     
 
@@ -1619,9 +1619,9 @@ GTPase activating protein</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000191"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000352"/>
+        <pathgo:IAO_0000115>A gene product that activates ion channel activity by activating chloride ion channels.</pathgo:IAO_0000115>
         <rdfs:label>chloride ion channel activator</rdfs:label>
-        <skos:editorialNote>Concept covered by GO, evaluate for removal</skos:editorialNote>
     </owl:Class>
     
 
@@ -1631,6 +1631,7 @@ GTPase activating protein</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000188"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular transport by modulating ion channel activity.</pathgo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0099106</oboInOwl:hasDbXref>
         <rdfs:label>ion channel activity modulator</rdfs:label>
         <skos:editorialNote>not a consistent subclass; evaluate for better alignment</skos:editorialNote>
     </owl:Class>
@@ -3002,6 +3003,17 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000191"/>
+        <pathgo:IAO_0000115>A gene product that modulates ion channel activity by inhibiting ion channels.</pathgo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0008200</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">ion channel activity inhibitor</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000324 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000324">
@@ -3309,6 +3321,16 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
         <pathgo:IAO_0000115>A gene product that modulates the host cell cytoskeleton by mediating host actin polymerization.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">host actin polymerization factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000191"/>
+        <pathgo:IAO_0000115>A gene product that modulates ion channel activity by activating ion channels.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">ion channel activity activator</rdfs:label>
     </owl:Class>
     
 
