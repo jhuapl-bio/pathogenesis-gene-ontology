@@ -769,15 +769,6 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000083 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000083">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathogenicity target</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000084">
