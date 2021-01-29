@@ -2,8 +2,11 @@
 
 | | |
 |---|---|
-| Authors | Ron Jacak ([rjacak](http://github.com/rjacak)) |
+| Authors | Ron Jacak ([rjacak](https://github.com/rjacak)) |
 | | Jody Proescher ([jproesch](https://github.com/jproesch)) |
+| | Gene Godbold
+| | Amanda Ernlund ([awe220](https://github.com/awe220)) |
+| | Tina Zudock ([kzudock](https://github.com/kzudock)) |
 
 ## Description
 
