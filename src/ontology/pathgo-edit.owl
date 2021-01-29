@@ -562,24 +562,6 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000052 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054"/>
-        <rdfs:label>surface polysaccharide biosynthesis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000111"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synthesis of pathogenicity determinants</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000055">
@@ -625,15 +607,6 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000065 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000071"/>
-        <rdfs:label>pili biosynthesis</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000066">
@@ -665,15 +638,6 @@ elaborate subclasses; align with mechanism branch</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000077"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates adhesion through collagen binding.</pathgo:IAO_0000115>
         <rdfs:label>collagen binding protein</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000071 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000071">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">usher-chaperone system</rdfs:label>
     </owl:Class>
     
 
@@ -796,15 +760,6 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that contributes to quorum sensing by promoting production of autoinducer molecules.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quorum sensing autoinducer production factor</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoinducer synthase</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000087 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000054"/>
-        <rdfs:label>capsule biosynthesis</rdfs:label>
     </owl:Class>
     
 
@@ -1041,15 +996,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000115 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000115">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000117"/>
-        <rdfs:label>glycosyltransferase</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000116">
@@ -1057,15 +1003,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular metabolism by modulating the activity of nitric oxide synthase.</pathgo:IAO_0000115>
         <rdfs:label>regulator of nitric oxide synthase</rdfs:label>
         <skos:editorialNote>inappropriate placement; Overlaps with GO (molecular function and regulation of activity terms); evaluate for removal</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000117 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000117">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000052"/>
-        <rdfs:label>lipopolysaccharide biosynthesis</rdfs:label>
     </owl:Class>
     
 
@@ -1286,15 +1223,6 @@ Target is the macromolecule and not process so this term doesn&apos;t fit defini
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of nutrient availability or uptake that involves acquisition of manganese.</pathgo:IAO_0000115>
         <rdfs:label>mediates manganese uptake</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000155 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000155">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000087"/>
-        <rdfs:label>capsule polymer depolymerization</rdfs:label>
     </owl:Class>
     
 
