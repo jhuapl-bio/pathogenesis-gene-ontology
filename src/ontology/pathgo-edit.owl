@@ -1005,8 +1005,8 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating inhibition of DNA synthesis.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates DNA synthesis inhibition</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by inhibiting DNA synthesis.</pathgo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhibits DNA synthesis</rdfs:label>
     </owl:Class>
     
 
@@ -1687,11 +1687,10 @@ sialyl Lewis x binding protein is an example</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating inhibition of metabolic enzymes.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates metabolic enzyme inhibition</rdfs:label>
-        <skos:editorialNote>provide examples
-
-Need examples.  Concept covered by GO?</skos:editorialNote>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by inhibiting metabolic enzymes.</pathgo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0004857</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">inhibits metabolic enzymes</rdfs:label>
+        <skos:editorialNote>Provide examples.</skos:editorialNote>
     </owl:Class>
     
 
