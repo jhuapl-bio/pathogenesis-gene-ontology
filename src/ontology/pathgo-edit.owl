@@ -196,16 +196,6 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000035"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-specific T cell activation factor</rdfs:label>
-        <skos:editorialNote>superantigens</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006">
@@ -367,16 +357,6 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081"/>
-        <rdfs:label>non-productive immune system activation factor</rdfs:label>
-        <skos:editorialNote>evaluate class name and intent; determine how to capture superantigens</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000038">
@@ -507,16 +487,6 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by modulating host immune system components and processes.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host immune function modulation factor</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000082">
@@ -559,16 +529,6 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by modulating the availability or function of immune system components to evade or subvert host immune functions.</pathgo:IAO_0000115>
-        <rdfs:label>immune evasion and subversion factor</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000096">
@@ -603,27 +563,6 @@ Collagen binding protein and fibronectin binding protein are examples.  Includin
         <skos:editorialNote>resistance to complement-mediated killing
 
 example:component 1 (C1) protease</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000101 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <rdfs:label>lymphocyte proliferation inhibition factor</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates immune evasion and subversion by preventing lymphocytes from growing via cell division.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000103 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host toll-like receptor signaling disruption factor</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates immune evasion and subversion by disrupting toll-like receptor signaling.</skos:definition>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adaptor protein degradation activator; research and add others</skos:editorialNote>
     </owl:Class>
     
 
@@ -807,17 +746,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
         <pathgo:IAO_0000115>A mechanism that modulates the cell cycle of a host cell by inducing cell cycle arrest</pathgo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0007050 - cell cycle arrest</oboInOwl:hasDbXref>
         <rdfs:label>induces cell cycle arrest</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complement system inhibition factor</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates immune evasion and subversion by inhibiting complement system function.</skos:definition>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example:component 1 (C1) protease</skos:editorialNote>
     </owl:Class>
     
 
@@ -1078,56 +1006,6 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000205 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000205">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by enabling evasion of antimicrobial peptides.</pathgo:IAO_0000115>
-        <rdfs:label>antimicrobial peptide evasion factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000206 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000206">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by detoxifying free radicals.</pathgo:IAO_0000115>
-        <rdfs:label>free radical detoxification determinant</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000207 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000207">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by suppressing release of inflammatory cytokines.</pathgo:IAO_0000115>
-        <rdfs:label>inflammatory cytokine release suppression factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000208 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000208">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000209"/>
-        <pathgo:IAO_0000115>A gene product that inhibits phagocytosis by inhibiting opsonization, the process by which particles are targeted for phagocytosis.</pathgo:IAO_0000115>
-        <rdfs:label>opsonization inhibition factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000209 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000209">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by inhibiting phagocytosis.</pathgo:IAO_0000115>
-        <rdfs:label>phagocytosis inhibition factor</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211">
@@ -1203,16 +1081,6 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
         <pathgo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by promoting host actin crosslinking.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates host actin crosslinking</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000218 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000218">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by blocking immature dendritic immune cells from maturing into antigen-presenting, T cell activating cells.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">dendritic cell maturation inhibitor</rdfs:label>
     </owl:Class>
     
 
@@ -1467,17 +1335,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000249">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
-        <pathgo:IAO_0000115>A gene product that inhibits host complement system activation by recruiting host complement control proteins to the surface of the parasite.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host complement control protein binding factor</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000251 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000251">
@@ -1511,19 +1368,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Shouldn&apos;t this term live under &apos;disrupts G-protein signaling pathways&apos;?
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000256 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000256">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by proteolytic destruction of host immunoglobulins.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host immunoglobulin neutralization factor</rdfs:label>
-        <skos:editorialNote>https://orcid.org/0000-0002-5702-4690
-
-[Examples of bacterial proteases: IgA1P, IdeS, EndoS, ZmpC from Streptococcus; InvD from Yersinia pseudotuberculosis; and BatB from Bordetella]</skos:editorialNote>
     </owl:Class>
     
 
@@ -1618,30 +1462,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>[Examples: Nuc from N. gonorrhoeae; EndA, Sda1, SpnA from Streptococcus]
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000269">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by countering host neutrophil extracellular traps (NETs), which contain processed nuclear DNA that can trap and kill pathogens.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host neutrophil extracellular trap (NET) resistance factor</rdfs:label>
-        <skos:editorialNote>[Examples: Nuc from N. gonorrhoeae; EndA, Sda1, SpnA from Streptococcus]
-
-Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000270 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000270">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by disrupting host oxidative killing through interference with the signaling that triggers production of host reactive oxygen species (ROS) or nitric oxide (NO) or by directly inactivating host ROS or NO.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host oxidative killing resistance factor</rdfs:label>
-        <skos:editorialNote>Attribution: https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
 
@@ -1778,17 +1598,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000293 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000293">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by affecting the activity, abundance, or availability of host tumor necrosis factor receptor (TNFR) ligands or by inhibiting TNFR signaling by binding directly to the receptor.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host TNFR signaling disruption factor</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000294">
@@ -1877,17 +1686,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000309 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000309">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <rdfs:label xml:lang="en">host antigen presentation disruption factor</rdfs:label>
-        <skos:definition>A gene product that mediates immune evasion and subversion by disrupting host antigen presentation via inhibiting MHC I/II production or display, manipulating production or display of the antigen or epitope by altering activity of the proteasome or the TAP complex, or specifically targeting a particular parasite antigen for destruction.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000310 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000310">
@@ -1899,34 +1697,12 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000311 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000311">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <rdfs:label xml:lang="en">host cytokine inhibition factor</rdfs:label>
-        <skos:definition>A gene product that mediates immune evasion and subversion by inhibiting host cytokine activity via sequestering or destroying the cytokine so it is not available to participate in host signaling.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000312 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000312">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000085"/>
         <rdfs:label xml:lang="en">enables pathogen nucleic acid concealment</rdfs:label>
         <skos:editorialNote>A mechanism that mediates immune evasion and subversion by enabling pathogen nucleic acid concealment by the viral protein (typically carried out by dsRNA nucleic acid binding) for evasion of host pathogen recognition receptors.</skos:editorialNote>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000313 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000313">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
-        <rdfs:label xml:lang="en">pathogen nucleic acid concealment factor</rdfs:label>
-        <skos:definition>A gene product hat mediates immune evasion and subversion by enabling pathogen nucleic acid concealment by the viral protein (typically carried out by dsRNA nucleic acid binding) for evasion of host pathogen recognition receptors.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2064,34 +1840,12 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000338 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000338">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
-        <rdfs:label xml:lang="en">direct host complement inactivation factor</rdfs:label>
-        <skos:definition>A gene product that mediates complement system inhibition by direct host complement inactivation via enzymatic activity that inheres in the parasite sequence.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000339 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000339">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000100"/>
         <rdfs:label xml:lang="en">direct host complement inactivation</rdfs:label>
         <skos:definition>A mechanism that mediates resistance to the host complement system by direct host complement inactivation via enzymatic activity that inheres in the parasite sequence.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000340 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000340">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000153"/>
-        <rdfs:label xml:lang="en">indirect host complement inactivation factor</rdfs:label>
-        <skos:definition>A gene product that mediates complement system inhibition by indirect host complement inactivation via recruiting a host enzyme, typically a proteinase, to the parasite surface.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
