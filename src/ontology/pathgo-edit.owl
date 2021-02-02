@@ -670,17 +670,6 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000088 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular adhesion by modification of junctional complexes, including tight junctions or adherens junctions.</pathgo:IAO_0000115>
-        <rdfs:label>host tight or adherens junction modifier</rdfs:label>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example: Clostridium perfringens type A toxin (targets claudins)  more info: https://doi.org/10.1016/j.bbamem.2008.10.028; https://www.ncbi.nlm.nih.gov/pubmed/11595640</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000089">
@@ -698,16 +687,6 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000081"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by modulating the availability or function of immune system components to evade or subvert host immune functions.</pathgo:IAO_0000115>
         <rdfs:label>immune evasion and subversion factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000093 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000194"/>
-        <rdfs:label>coagulation factor V protease</rdfs:label>
-        <skos:editorialNote>This is an example.  It should be moved as it does not directly impact platelet aggregation, rather it t inhibits coagulation cascade to disrupt coagulation.</skos:editorialNote>
     </owl:Class>
     
 
@@ -913,15 +892,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000131 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000131">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000088"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tight-junction-associated protein occludin redistribution factor</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000132">
@@ -1076,24 +1046,13 @@ elaborate subclasses</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that confers toxicity by disrupting adhesion between cells or between cells and extracellular matrix components.</pathgo:IAO_0000115>
-        <rdfs:label>cellular adhesion disruption factor</rdfs:label>
-        <skos:editorialNote>evaluate for incorporation into invasion and dissemination; elaborate subclasses</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that compromises the intestinal mucosal barrier, permitting microbial products and/or microbes entry into the body.  The intestinal mucosal barrier consists of the intestinal epithelial layer, plus additional physical, biochemical, and immunological components.</pathgo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal barrier disruption</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>mucosal barrier disruption</rdfs:label>
+        <rdfs:label>disrupts mucosal barriers</rdfs:label>
         <skos:editorialNote>higher level process, not appropriate subclass; evaluate for removal or alternate placement; revise definition</skos:editorialNote>
     </owl:Class>
     
@@ -1104,7 +1063,7 @@ elaborate subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that compromises epithelial cell layers, enabling increased permeation of biomolecules and/or bacterial invasion.</pathgo:IAO_0000115>
-        <rdfs:label>epithelial layer disruption</rdfs:label>
+        <rdfs:label>disrupts epithelial layers</rdfs:label>
         <skos:editorialNote>higher level process, not appropriate subclass; evaluate for removal or alternate placement</skos:editorialNote>
     </owl:Class>
     
@@ -1377,19 +1336,6 @@ GTPase activating protein</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000194 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000194">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates toxicity by impairing platelet adhesion.</pathgo:IAO_0000115>
-        <rdfs:label>platelet aggregation inhibitor</rdfs:label>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example: disintegrins
-
-evaluate as appropriate subclass, this is specific case of disrupting cellular adhesion; more appropriate class may be &quot;integrin-dependent adhesion disruption factor&quot;</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000195">
@@ -1561,8 +1507,10 @@ sialyl Lewis x binding protein is an example</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000213">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
-        <rdfs:label xml:lang="en">platelet aggregation inhibition</rdfs:label>
-        <skos:editorialNote>not an appropriate subclass as this is a specific example, evaluate for class related to inhibition of integrin mediated adhesion &quot;disrupts &quot;integrin-dependent adhesion&quot;</skos:editorialNote>
+        <rdfs:label xml:lang="en">inhibits platelet aggregation</rdfs:label>
+        <skos:editorialNote>for example: coagulation factor V protease, or disintegrins
+
+not an appropriate subclass as this is a specific example, evaluate for class related to inhibition of integrin mediated adhesion &quot;disrupts &quot;integrin-dependent adhesion&quot;</skos:editorialNote>
     </owl:Class>
     
 
@@ -1573,7 +1521,9 @@ sialyl Lewis x binding protein is an example</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
         <pathgo:IAO_0000115>A mechanism that disrupts cellular adhesion by modifying cellular junctional complexes, including tight junctions and/or adherens junctions.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">modifies host tight or adherens junctions</rdfs:label>
-        <skos:editorialNote>Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+        <skos:editorialNote>example: Clostridium perfringens type A toxin (targets claudins)  more info: https://doi.org/10.1016/j.bbamem.2008.10.028; https://www.ncbi.nlm.nih.gov/pubmed/11595640
+
+Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
@@ -2017,23 +1967,12 @@ attribution https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000258 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000258">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000160"/>
-        <rdfs:label xml:lang="en">focal adhesion disruption factor</rdfs:label>
-        <skos:definition>A gene product that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000259">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000159"/>
-        <rdfs:label xml:lang="en">disrupts host cell focal adhesions</rdfs:label>
-        <skos:definition>A mechanism that disrupts cellular adhesion by disrupting or rearranging focal adhesions of host cells.</skos:definition>
+        <rdfs:label xml:lang="en">modifies host cell focal adhesions</rdfs:label>
+        <skos:definition>A mechanism that disrupts cellular adhesion by modifying focal adhesions of host cells.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
