@@ -560,21 +560,6 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105"/>
-        <pathgo:IAO_0000115>A gene product that promotes proliferation and survival by contributing to the availability and/or uptake of nutrients from host cells or the environment.</pathgo:IAO_0000115>
-        <rdfs:label>nutrient availability or uptake factor</rdfs:label>
-        <skos:editorialNote>examples may include: gelatinase, mucinase, sialidase, hyaluronidase - enzymes that are also associated with destruction of extracellular matrix, mucus, etc. to promote invasion and spread in the host 
-
-siderophore-chelate and sequester iron from host
-
-elaborate subclasses; align with mechanism branch</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000069">
@@ -610,7 +595,7 @@ elaborate subclasses; align with mechanism branch</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000150"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that promotes proliferation and survival by stimulation of host blood vessel generation, or angiogenesis.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates proliferation and survival by stimulation of host blood vessel generation, or angiogenesis.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates induction of angiogenesis</rdfs:label>
         <skos:editorialNote>example VEGF
 
@@ -792,17 +777,6 @@ Evaluate subclass naming/organization</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by enabling proliferation and/or survival of a pathogen, especially when environmental conditions are unfavorable, not related to adherence and colonization.</pathgo:IAO_0000115>
-        <rdfs:label>proliferation and survival factor</rdfs:label>
-        <skos:editorialNote>evaluate placement and provide examples</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000108">
@@ -975,9 +949,8 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of nutrient availability or uptake that involves polysaccharide degradation.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates polysaccharide degradation</rdfs:label>
-        <skos:editorialNote>this is not consistent with &quot;mediates uptake&quot;</skos:editorialNote>
+        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates nutrient availability or uptake by mediating polysaccharide degradation.</pathgo:IAO_0000115>
+        <rdfs:label>mediates polysaccharide degradation</rdfs:label>
     </owl:Class>
     
 
@@ -1337,19 +1310,6 @@ GTPase activating protein</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000195 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105"/>
-        <pathgo:IAO_0000115>A gene product that promotes proliferation and survival by inducing a proangiogenic response.</pathgo:IAO_0000115>
-        <rdfs:label>proangiogenic response factor</rdfs:label>
-        <skos:editorialNote>example VEGF
-
-evaluate proangiogenic response as a contribution to pathogenesis</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000196">
@@ -1567,16 +1527,6 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000090"/>
         <pathgo:IAO_0000115>A gene product that mediates immune evasion and subversion by blocking immature dendritic immune cells from maturing into antigen-presenting, T cell activating cells.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">dendritic cell maturation inhibitor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000219 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000219">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000105"/>
-        <pathgo:IAO_0000115>A gene product that promotes proliferation and survival by enabling pathogens to survive periods without water, or drought-like conditions.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">desiccation resistance factor</rdfs:label>
     </owl:Class>
     
 
