@@ -395,9 +395,8 @@ concept possibly covered by GO</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000316"/>
-        <pathgo:IAO_0000115>A mechanism that modulates eukaryotic translation elongation factors by activation of eukaryotic translation elongation factors.</pathgo:IAO_0000115>
-        <rdfs:label>mediates elongation factor activation</rdfs:label>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of enzyme activity concepts are covered by GO.</skos:editorialNote>
+        <pathgo:IAO_0000115>A mechanism that modulates eukaryotic translation elongation factors by activating eukaryotic translation elongation factors.</pathgo:IAO_0000115>
+        <rdfs:label>activates translation elongation factors</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
@@ -432,7 +431,7 @@ synonym lysin?</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006"/>
         <pathgo:IAO_0000115>A mechanism that modulates protein synthesis by ribosome inactivation.</pathgo:IAO_0000115>
         <rdfs:label>mediates ribosome inactivation</rdfs:label>
-        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">examples ricin</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For example, Ricin toxin.</skos:editorialNote>
     </owl:Class>
     
 
@@ -743,8 +742,9 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
-        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating the alteration of mitochondrial membrane potential.</pathgo:IAO_0000115>
+        <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by disrupting the mitochondrial membrane potential.</pathgo:IAO_0000115>
         <rdfs:label>disrupts mitochondrial membrane potential</rdfs:label>
+        <skos:editorialNote>For example, during infection Listeria monocytogenes induces a loss of mitochondrial membrane potential by expressing listeriolysin O (LLO) which causes mitochondrial fission.  This change leads to reduced ATP production.</skos:editorialNote>
     </owl:Class>
     
 
@@ -1277,6 +1277,7 @@ microtubule mediated transport</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
         <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating production of reactive oxygen species.</pathgo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:2000379 - positive regulation of reactive oxygen species metabolic process</oboInOwl:hasDbXref>
         <rdfs:label>mediates reactive oxygen species production</rdfs:label>
         <skos:editorialNote>should be moved as it is not a logical subclass for &apos;disrupts cellular metabolism&apos;</skos:editorialNote>
     </owl:Class>
@@ -1287,8 +1288,12 @@ microtubule mediated transport</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000171"/>
-        <rdfs:label>nitric oxide radical production</rdfs:label>
-        <skos:editorialNote>evaluate placement; not appropriate subclass</skos:editorialNote>
+        <pathgo:IAO_0000115>A mechanism that mediates reactive oxygen species production by producing nitric oxide radicals, through activation of nitric oxide synthase or otherwise.</pathgo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0004517 - nitric-oxide synthase activity</oboInOwl:hasDbXref>
+        <rdfs:label>produces nitric oxide radicals</rdfs:label>
+        <skos:editorialNote>Nitric oxide radicals destroy iron-dependent enzymes, eventually inhibiting mitochondrial function and DNA synthesis in host cells.
+
+evaluate placement; not appropriate subclass</skos:editorialNote>
     </owl:Class>
     
 
@@ -1688,7 +1693,7 @@ sialyl Lewis x binding protein is an example</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000164"/>
         <pathgo:IAO_0000115>A mechanism that disrupts cellular metabolism by inhibiting metabolic enzymes.</pathgo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0004857</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0004857 - enzyme inhibitor activity</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">inhibits metabolic enzymes</rdfs:label>
         <skos:editorialNote>Provide examples.</skos:editorialNote>
     </owl:Class>
@@ -1985,7 +1990,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000244">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000316"/>
-        <rdfs:label xml:lang="en">mediates elongation factor repression</rdfs:label>
+        <rdfs:label xml:lang="en">represses translation elongation factors</rdfs:label>
         <skos:definition>A mechanism that modulates eukaryotic translation elongation factors by repression of eukaryotic translation elongation factors.</skos:definition>
         <skos:editorialNote>examples Legionella glycosylating toxins and SidI, SARS-CoV N protein</skos:editorialNote>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
@@ -2172,8 +2177,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006"/>
-        <pathgo:IAO_0000115>A mechanism that modulates protein synthesis by modulating eukaryotic translation initiation factors.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates eukaryotic translation initiation factors</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that modulates protein synthesis by modulating eukaryotic translation initiation.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates eukaryotic translation initiation</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
@@ -2183,8 +2188,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000266">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265"/>
-        <pathgo:IAO_0000115>A mechanism that modulates eukaryotic translation initiation by enhancing eukaryotic translation initiation factors.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates translation initiation factor activation</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that modulates eukaryotic translation initiation by activating eukaryotic translation initiation factors.</pathgo:IAO_0000115>
+        <rdfs:label xml:lang="en">activates translation initiation factors</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
@@ -2195,7 +2200,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000265"/>
         <pathgo:IAO_0000115>A mechanism that modulates eukaryotic translation initiation by repressing eukaryotic translation initation factors.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates translation initiation factor repression</rdfs:label>
+        <rdfs:label xml:lang="en">represses translation initiation factors</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
@@ -2694,8 +2699,9 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000006"/>
-        <pathgo:IAO_0000115>A mechanism that modulates protein synthesis by modulating eukaryotic translation elongation factors.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates eukaryotic translation elongation factors</rdfs:label>
+        <pathgo:IAO_0000115>A mechanism that modulates protein synthesis by modulating eukaryotic translation elongation.</pathgo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0003746 - translation elongation factor activity</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">modulates eukaryotic translation elongation</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
