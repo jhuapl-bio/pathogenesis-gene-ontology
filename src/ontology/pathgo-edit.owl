@@ -185,16 +185,6 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000193"/>
-        <rdfs:label>determinant of phospholipase activity</rdfs:label>
-        <skos:editorialNote>evaluate for removal, concept covered by GO</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000003">
@@ -337,10 +327,9 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000166"/>
         <pathgo:IAO_0000115>A mechanism that disrupts cellular structure by damaging the cell membrane.</pathgo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>lysis of host cells</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates membrane damage</rdfs:label>
-        <skos:editorialNote>consider vacuolization
-
-synonym lysin?</skos:editorialNote>
+        <skos:editorialNote>consider vacuolization</skos:editorialNote>
     </owl:Class>
     
 
@@ -364,16 +353,6 @@ synonym lysin?</skos:editorialNote>
         <skos:editorialNote>evaluate class name and intent; determine how to capture superantigens
 
 Evaluate changing label to &quot;mediates immune system activation&quot;</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000032 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates membrane damage by formation of pores.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of pore formation</rdfs:label>
     </owl:Class>
     
 
@@ -419,17 +398,6 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000182"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular structure by damaging the cell membrane.</pathgo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lysin</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of membrane damage</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000047">
@@ -445,6 +413,7 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000029"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates membrane damage by cleavage of membrane phospholipids.</pathgo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0009395 - phospholipid catabolic process</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates membrane phospholipid cleavage</rdfs:label>
         <skos:editorialNote>evaluate for placement in invasion and dissemination</skos:editorialNote>
     </owl:Class>
@@ -925,7 +894,6 @@ elaborate subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the structural integrity of a cell.</pathgo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lysis of host cells</oboInOwl:hasRelatedSynonym>
         <rdfs:label>disrupts cellular structure</rdfs:label>
     </owl:Class>
     
@@ -1046,82 +1014,6 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
         <pathgo:IAO_0000115>A mechanism that disrupts host cellular signaling by modulating levels of second messenger molecules.</pathgo:IAO_0000115>
         <rdfs:label>modulates second messenger molecules</rdfs:label>
         <skos:editorialNote>cyclin-dependent kinase 1 inactivator; calcium- and calmodulin-dependent adenylate cyclase</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000182 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000182">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by disrupting structural components of cells.</pathgo:IAO_0000115>
-        <rdfs:label>cellular structure disruption factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000182"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that disrupts cellular structure by modulating components of the host cell cytoskeleton.</pathgo:IAO_0000115>
-        <rdfs:label>host cell cytoskeleton modulator</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000184 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000184">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000217"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that modulates the host cell cytoskeleton by crosslinking actin.</pathgo:IAO_0000115>
-        <rdfs:label>actin crosslinker</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000185 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that modulates the host cell cytoskeleton by depolymerizing actin.</pathgo:IAO_0000115>
-        <rdfs:label>actin depolymerization factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000186 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000186">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that modulates the host cell cytoskeleton by inhibiting actin polymerization.</pathgo:IAO_0000115>
-        <rdfs:label>actin polymerization inhibition factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000187 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000187">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000193"/>
-        <rdfs:label>determinant of sphingomyelinase activity</rdfs:label>
-        <skos:editorialNote>evaluate for removal, concept covered by GO</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000193 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000193">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates membrane damage by cleavage of membrane phospholipids.</pathgo:IAO_0000115>
-        <rdfs:label>determinant of phospholipid cleavage</rdfs:label>
     </owl:Class>
     
 
@@ -1357,26 +1249,6 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000223 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000223">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <pathgo:IAO_0000115>A gene product that modulates the host cell cytoskeleton by stabilizing microtubules.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">microtubule stabilization factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000224 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000224">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <pathgo:IAO_0000115>A gene product that modulates the host cell cytoskeleton by destabilizing microtubules.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">microtubule destabilization factor</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000225 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000225">
@@ -1397,16 +1269,6 @@ Intended to capture components that are not directly adhesins, but this class ma
         <pathgo:IAO_0000115>A mechanism that mediates invasion by disrupting extracellular matrix components.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts extracellular matrix</rdfs:label>
         <skos:editorialNote>gelatinase, mucinase, sialidase, hyaluronidase, etc.</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000227 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000227">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000043"/>
-        <pathgo:IAO_0000115>A gene product that mediates membrane damage by degradation of polysaccharides.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">determinant of polysaccharide degradation</rdfs:label>
     </owl:Class>
     
 
@@ -1843,17 +1705,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000028"/>
         <rdfs:label xml:lang="en">mediates microtubule rearrangement</rdfs:label>
         <skos:definition>A mechanism that modulates cytoskeleton in host cell by mediating microtubule rearrangement.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000281 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000281">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <rdfs:label xml:lang="en">microtubule rearrangement factor</rdfs:label>
-        <skos:definition>A gene product that modulates the host cell cytoskeleton by rearranging microtubules.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2332,26 +2183,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Do we want to have subclasses for every single type of secretion system?
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000350 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000350">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <pathgo:IAO_0000115>A gene product that modulates the host cell cytoskeleton by mediating host actin rearrangement.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host actin rearrangement factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000183"/>
-        <pathgo:IAO_0000115>A gene product that modulates the host cell cytoskeleton by mediating host actin polymerization.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host actin polymerization factor</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
