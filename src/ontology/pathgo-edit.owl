@@ -946,66 +946,6 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115>A gene product that mediates pathogenicity by manipulating the host cell endomembrane dynamics.</pathgo:IAO_0000115>
-        <rdfs:label>host cell endomembrane dynamics modulation factor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000200 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000200">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <rdfs:label>determinant of escape from host phagosome</rdfs:label>
-        <skos:definition>A gene product that modulates host cell endomembrane dynamics by mediating pathogen escape from host phagosome.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000201 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000201">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <rdfs:label>lysosome lysis evasion factor</rdfs:label>
-        <skos:definition>A gene product that modulates host cell endomembrane dynamics by mediating lysosome lysis evasion.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000202 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <rdfs:label>phagosome acidification disruption factor</rdfs:label>
-        <skos:definition>A gene product that modulates host cell endomembrane dynamics by disrupting phagosome acidification.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000203 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000203">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <rdfs:label>host cell phagosome maturation disruption factor</rdfs:label>
-        <skos:definition>A gene product that modulates host cell endomembrane dynamics by disrupting host cell phagosome maturation.</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000204 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000204">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <rdfs:label>phagolysosome fusion disruption factor</rdfs:label>
-        <skos:definition>A gene product that modulates host cell endomembrane dynamics by disrupting phagolysosome fusion.</skos:definition>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000211">
@@ -1319,17 +1259,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
         <pathgo:IAO_0000115>A mechanism that disrupts the host cell endomembrane system by disrupting fusion between vesicles and other cellular compartments that occur as part of normal host function.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts endosomal vesicle fusion</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000248 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000248">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <rdfs:label xml:lang="en">endosomal vesicle fusion inhibition factor</rdfs:label>
-        <skos:definition>A gene product modulates host cell endomembrane dynamics by inhibiting one or more of the typical fusions between vesicles and other compartments that occur in normal host endosomal dynamics.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1736,21 +1665,10 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000321">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
         <pathgo:IAO_0000115>A mechanism that disrupts the host cell endomembrane system by modulating trafficking of vesicles to other cellular compartments that occur as part of normal host function.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">modules endosomal vesicle trafficking</rdfs:label>
+        <rdfs:label xml:lang="en">modulates endosomal vesicle trafficking</rdfs:label>
         <skos:editorialNote>Many parasite proteins, particularly from intracellular bacteria pathogens, inhibit or redirect host vesicle trafficking.
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000322 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000322">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <pathgo:IAO_0000115>A gene product that modulates host cell endomembrane dynamics by modulating the trafficking of vesicles to other cellular compartments that occur as part of normal host function.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">endosomal vesicle trafficking modulation factor</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
@@ -1862,17 +1780,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000342 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000342">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <pathgo:IAO_0000115>A gene product that modulates host cell endomembrane dynamics by contributing to the formation and/or maintenance of the vacuole.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">pathogen vacuole formation/maintenance factor</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000343 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000343">
@@ -1884,34 +1791,12 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000344 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000344">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <pathgo:IAO_0000115>A gene product that modulates host cell endomembrane dynamics by inhibiting autophagosome formation.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host cell autophagosome formation inhibition factor</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000345 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000345">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000236"/>
         <pathgo:IAO_0000115>A mechanism that modulates host cell endomembrane dynamics by inhibiting autophagosome formation.</pathgo:IAO_0000115>
         <rdfs:label xml:lang="en">inhibits autophagosome formation in host cell</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000346 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000346">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000199"/>
-        <pathgo:IAO_0000115>A gene product that modulates host endomembrane dynamics by modulating autophagy or xenophagy.</pathgo:IAO_0000115>
-        <rdfs:label xml:lang="en">host cell autophagy or xenophagy modulator</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
