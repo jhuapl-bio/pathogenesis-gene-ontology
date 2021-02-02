@@ -2632,22 +2632,10 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000332">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000114"/>
+        <oboInOwl:hasDbXref>GO:0042981 - regulation of apoptotic process</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates apoptosis in host cell</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating apoptosis in host cell. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host.</skos:definition>
-        <skos:editorialNote>Evaluate for placement in proliferation and survival
-
-Concept covered by GO; GO:0042981</skos:editorialNote>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000333 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000333">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <rdfs:label xml:lang="en">host cell apoptosis modulator</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by modulating host cell apoptosis. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host.</skos:definition>
+        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating apoptosis in host cells. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host.</skos:definition>
+        <skos:editorialNote>Evaluate for placement in proliferation and survival</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2657,6 +2645,7 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000334">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000332"/>
+        <oboInOwl:hasDbXref>GO:0043066 - negative regulation of apoptotic process</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">suppresses apoptosis in host cell</rdfs:label>
         <skos:definition>A mechanism the modulates apoptosis in the host cell by suppressing apoptosis in the host cell.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -2668,30 +2657,9 @@ Concept covered by GO; GO:0042981</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000335">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000332"/>
+        <oboInOwl:hasDbXref>GO:0043065 - positive regulation of apoptotic process</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">induces apoptosis in host cell</rdfs:label>
         <skos:definition>A mechanism the modulates apoptosis in the host cell by inducing apoptosis in the host cell.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000336 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000336">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000333"/>
-        <rdfs:label xml:lang="en">host cell apoptosis suppressor</rdfs:label>
-        <skos:definition>A gene product that modulates host cell apoptosis by suppressing host cell apoptosis.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000337 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000337">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000333"/>
-        <rdfs:label xml:lang="en">host cell apoptosis inducer</rdfs:label>
-        <skos:definition>A gene product that modulates host cell apoptosis by inducing host cell apoptosis.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
