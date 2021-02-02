@@ -279,15 +279,6 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of type I secretion</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000021">
@@ -445,15 +436,6 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000167"/>
         <pathgo:IAO_0000115>A mechanism that disrupts cellular transport by blocking exocytosis.</pathgo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts exocytosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000049 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of type V secretion</rdfs:label>
     </owl:Class>
     
 
@@ -666,29 +648,6 @@ example:component 1 (C1) protease</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000073"/>
-        <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene product that mediates pathogenicity by contributing to secretion of protein effectors from the bacterial cell into the extracellular environment or directly into the host cell.</pathgo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of protein effector secretion</rdfs:label>
-        <skos:editorialNote>The secretion pathways are typically described as &quot;types&quot; based on components/structures involved corresponding to variations on a few general strategies involving transport across inner membrane, transport across inner membrane followed by transport across outer membrane (two-step), transport across both membranes. Several types can also transport proteins directly across the host cell membrane to deliver effectors directly into cells
-
-Type I- one step to extracellular
-Type II- two step, first step is independent transport into periplasm
-Type III- spans both membranes, injectosome into host cell
-Type IV- spans both membranes, release of effectors into other cell (conjugation)
-Type V-autotransporter in OM, first step is independent transport into periplasm
-Type VI- spans both membranes, release into other cell
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC48064/
-https://www.sciencedirect.com/science/article/pii/S0167488904000783
-
-Evaluate subclass naming/organization</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000103">
@@ -819,15 +778,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000134 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000134">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of type IV secretion</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000135 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000135">
@@ -835,24 +785,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
         <pathgo:IAO_0000115>A mechanism that mediates nutrient availability or uptake by mediating cleavage of host DNA.</pathgo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>deoxyribonuclease activity</oboInOwl:hasRelatedSynonym>
         <rdfs:label>mediates DNA cleavage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000140 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000140">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of type II secretion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000141 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of type III secretion</rdfs:label>
     </owl:Class>
     
 
@@ -927,15 +859,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000113"/>
         <pathgo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of nutrient availability or uptake that involves acquisition of manganese.</pathgo:IAO_0000115>
         <rdfs:label>mediates manganese uptake</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000156 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000156">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determinant of type VI secretion</rdfs:label>
     </owl:Class>
     
 
@@ -2400,24 +2323,15 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000102"/>
-        <rdfs:label xml:lang="en">determinant of type VII secretion</rdfs:label>
-        <skos:definition>A gene product that mediates protein effector secretion as a component of a type VII secretion system that can mediate the entry of bacterial effectors into the host cell.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000349 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000349">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000110"/>
         <rdfs:label xml:lang="en">mediates type VII secretion</rdfs:label>
         <skos:definition>A mechanism that mediates secretion of protein effectors as part of a type VII secretion system that can mediate the entry of bacterial effectors into the host cell.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+        <skos:editorialNote>Do we want to have subclasses for every single type of secretion system?
+
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
