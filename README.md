@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.org/rjacak/pathogenesis-gene-ontology.svg?branch=master)](https://travis-ci.org/rjacak/pathogenesis-gene-ontology)
-[//]: # ([![DOI](https://zenodo.org/badge/13996/rjacak/pathogenesis-gene-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/rjacak/pathogenesis-gene-ontology))
-
 # PathGO: the Pathogenesis Gene Ontology
 
 | | |
 |---|---|
-| Authors | Ron Jacak ([rjacak](http://github.com/rjacak)) |
+| Authors | Ron Jacak ([rjacak](https://github.com/rjacak)) |
 | | Jody Proescher ([jproesch](https://github.com/jproesch)) |
+| | Gene Godbold
+| | Amanda Ernlund ([awe220](https://github.com/awe220)) |
+| | Tina Zudock ([kzudock](https://github.com/kzudock)) |
 
 ## Description
 
