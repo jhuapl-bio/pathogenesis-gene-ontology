@@ -1633,6 +1633,19 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000150"/>
+        <pathgo:IAO_0000115>A mechanism that mediates proliferation and survival by mediating resistance to antibiotics.</pathgo:IAO_0000115>
+        <oboInOwl:hasDbXref>ARO:1000001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0046677</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">mediates resistance to antibiotics</rdfs:label>
+        <skos:editorialNote>No subclasses.  Antibiotic resistance is well-covered by the Comprehensive Antibiotic Resistance Database (CARD) Ontology.</skos:editorialNote>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000325 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000325">
