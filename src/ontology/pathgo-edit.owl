@@ -372,10 +372,12 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
 
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000055 -->
 
+
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000029"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates membrane damage by cleavage of membrane phospholipids.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0009395 - phospholipid catabolic process</oboInOwl:hasDbXref>
+
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates membrane phospholipid cleavage</rdfs:label>
         <skos:editorialNote>evaluate for placement in invasion and dissemination</skos:editorialNote>
     </owl:Class>
@@ -702,10 +704,12 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000152 -->
 
+
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000331"/>
         <obo:IAO_0000115>A mechanism that modulates the cell cycle of a host cell by inducing cell cycle arrest</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0007050 - cell cycle arrest</oboInOwl:hasDbXref>
+
         <rdfs:label>induces cell cycle arrest</rdfs:label>
     </owl:Class>
     
@@ -831,10 +835,12 @@ microtubule mediated transport</skos:editorialNote>
 
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000171 -->
 
+
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating production of reactive oxygen species.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:2000379 - positive regulation of reactive oxygen species metabolic process</oboInOwl:hasDbXref>
+
         <rdfs:label>mediates reactive oxygen species production</rdfs:label>
         <skos:editorialNote>should be moved as it is not a logical subclass for &apos;disrupts cellular metabolism&apos;</skos:editorialNote>
     </owl:Class>
@@ -843,10 +849,12 @@ microtubule mediated transport</skos:editorialNote>
 
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000172 -->
 
+
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000171"/>
         <obo:IAO_0000115>A mechanism that mediates reactive oxygen species production by producing nitric oxide radicals, through activation of nitric oxide synthase or otherwise.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0004517 - nitric-oxide synthase activity</oboInOwl:hasDbXref>
+
         <rdfs:label>produces nitric oxide radicals</rdfs:label>
         <skos:editorialNote>Nitric oxide radicals destroy iron-dependent enzymes, eventually inhibiting mitochondrial function and DNA synthesis in host cells.
 
@@ -956,10 +964,12 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
 
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000215 -->
 
+
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by inhibiting metabolic enzymes.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0004857 - enzyme inhibitor activity</oboInOwl:hasDbXref>
+
         <rdfs:label xml:lang="en">inhibits metabolic enzymes</rdfs:label>
         <skos:editorialNote>Provide examples.</skos:editorialNote>
     </owl:Class>
@@ -1611,10 +1621,12 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000316 -->
 
+
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000006"/>
         <obo:IAO_0000115>A mechanism that modulates protein synthesis by modulating eukaryotic translation elongation.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0003746 - translation elongation factor activity</oboInOwl:hasDbXref>
+
         <rdfs:label xml:lang="en">modulates eukaryotic translation elongation</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
@@ -1684,9 +1696,11 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000331 -->
 
+
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <oboInOwl:hasDbXref>GO:0051726 - regulation of cell cycle</oboInOwl:hasDbXref>
+
         <rdfs:label xml:lang="en">modulates cell cycle in host cell</rdfs:label>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating the cell cycle of a host cell.</skos:definition>
         <skos:editorialNote>Elaborate subclasses</skos:editorialNote>
@@ -1697,9 +1711,11 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000332 -->
 
+
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000332">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <oboInOwl:hasDbXref>GO:0042981 - regulation of apoptotic process</oboInOwl:hasDbXref>
+
         <rdfs:label xml:lang="en">modulates apoptosis in host cell</rdfs:label>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating apoptosis in host cells. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host.</skos:definition>
         <skos:editorialNote>Evaluate for placement in proliferation and survival</skos:editorialNote>
@@ -1710,9 +1726,11 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000334 -->
 
+
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000334">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000332"/>
         <oboInOwl:hasDbXref>GO:0043066 - negative regulation of apoptotic process</oboInOwl:hasDbXref>
+
         <rdfs:label xml:lang="en">suppresses apoptosis in host cell</rdfs:label>
         <skos:definition>A mechanism that modulates apoptosis in the host cell by suppressing apoptosis in the host cell.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1725,6 +1743,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000335">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000332"/>
         <oboInOwl:hasDbXref>GO:0043065 - positive regulation of apoptotic process</oboInOwl:hasDbXref>
+
         <rdfs:label xml:lang="en">induces apoptosis in host cell</rdfs:label>
         <skos:definition>A mechanism that modulates apoptosis in the host cell by inducing apoptosis in the host cell.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
