@@ -334,6 +334,7 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000029"/>
         <obo:IAO_0000115>A mechanism that mediates membrane damage by formation of pores.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044658</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates pore formation</rdfs:label>
     </owl:Class>
     
@@ -412,6 +413,7 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000058"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of iron uptake that involves taking iron from a target cell.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044847</oboInOwl:hasDbXref>
         <rdfs:label>mediates iron acquisition from host</rdfs:label>
     </owl:Class>
     
@@ -504,17 +506,6 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000096 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000096">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000029"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates membrane damage by degradation of polysaccharides.</obo:IAO_0000115>
-        <rdfs:label>mediates polysaccharide degradation</rdfs:label>
-        <skos:editorialNote>evaluate for placement in invasion and dissemination</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000099">
@@ -593,6 +584,7 @@ Evaluate subclass naming/organization</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000150"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that promotes proliferation and survival by contributing to the availability and/or uptake of nutrients from host cells or the environment.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044002</oboInOwl:hasDbXref>
         <rdfs:label>mediates nutrient availability or uptake</rdfs:label>
         <skos:editorialNote>evaluate and modify subclasses to achieve consistent structure
 
@@ -617,6 +609,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000058"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of iron uptake that involves using iron in the environment.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0005506</oboInOwl:hasDbXref>
         <rdfs:label>mediates iron acquisition from environment</rdfs:label>
     </owl:Class>
     
