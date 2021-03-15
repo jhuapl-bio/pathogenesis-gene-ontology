@@ -289,6 +289,7 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000166"/>
         <obo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by altering maintenance of cytoskeleton.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0052039</oboInOwl:hasDbXref>
         <rdfs:label>modulates cytoskeleton in host cell</rdfs:label>
     </owl:Class>
     
@@ -299,6 +300,7 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000166"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular structure by damaging the cell membrane.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0052025</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>lysis of host cells</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates membrane damage</rdfs:label>
         <skos:editorialNote>consider vacuolization</skos:editorialNote>
@@ -469,6 +471,7 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of nutrient availability or uptake that involves peptide and protein degradation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0052014</oboInOwl:hasDbXref>
         <rdfs:label>mediates peptide and protein degradation</rdfs:label>
         <skos:editorialNote>overlaps with extracellular matrix destruction under invasion and dissemination</skos:editorialNote>
     </owl:Class>
@@ -500,6 +503,7 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by disrupting the mitochondrial membrane potential.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0033659</oboInOwl:hasDbXref>
         <rdfs:label>disrupts mitochondrial membrane potential</rdfs:label>
         <skos:editorialNote>For example, during infection Listeria monocytogenes induces a loss of mitochondrial membrane potential by expressing listeriolysin O (LLO) which causes mitochondrial fission.  This change leads to reduced ATP production.</skos:editorialNote>
     </owl:Class>
@@ -682,8 +686,9 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates nutrient availability or uptake by mediating polysaccharide degradation.</obo:IAO_0000115>
-        <rdfs:label>mediates polysaccharide degradation</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates nutrient availability or uptake by mediating carbohydrate degradation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0052015</oboInOwl:hasDbXref>
+        <rdfs:label>mediates carbohydrate degradation</rdfs:label>
     </owl:Class>
     
 
@@ -705,6 +710,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000331"/>
         <obo:IAO_0000115>A mechanism that modulates the cell cycle of a host cell by inducing cell cycle arrest</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0007050 - cell cycle arrest</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0044072</oboInOwl:hasDbXref>
         <rdfs:label>induces cell cycle arrest</rdfs:label>
     </owl:Class>
     
@@ -715,6 +721,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of nutrient availability or uptake that involves acquisition of manganese.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0005384</oboInOwl:hasDbXref>
         <rdfs:label>mediates manganese uptake</rdfs:label>
     </owl:Class>
     
@@ -782,6 +789,7 @@ elaborate subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the structural integrity of a cell.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0052111</oboInOwl:hasDbXref>
         <rdfs:label>disrupts cellular structure</rdfs:label>
     </owl:Class>
     
@@ -946,6 +954,7 @@ not an appropriate subclass as this is a specific example, evaluate for class re
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000214">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000159"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular adhesion by modifying cellular junctional complexes, including tight junctions and/or adherens junctions.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0098864</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modifies host tight or adherens junctions</rdfs:label>
         <skos:editorialNote>example: Clostridium perfringens type A toxin (targets claudins)  more info: https://doi.org/10.1016/j.bbamem.2008.10.028; https://www.ncbi.nlm.nih.gov/pubmed/11595640
 
@@ -1654,6 +1663,17 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000167"/>
+        <obo:IAO_0000115>A mechanism that disrupts cellular transport by disrupting intracellular transport</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:1990215</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">disrupts intracellular transport</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000325 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000325">
@@ -1693,7 +1713,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
-        <oboInOwl:hasDbXref>GO:0051726 - regulation of cell cycle</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0044071</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates cell cycle in host cell</rdfs:label>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating the cell cycle of a host cell.</skos:definition>
         <skos:editorialNote>Elaborate subclasses</skos:editorialNote>
@@ -1706,7 +1726,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000332">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
-        <oboInOwl:hasDbXref>GO:0042981 - regulation of apoptotic process</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0052150</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates apoptosis in host cell</rdfs:label>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating apoptosis in host cells. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host.</skos:definition>
         <skos:editorialNote>Evaluate for placement in proliferation and survival</skos:editorialNote>
@@ -1719,7 +1739,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000334">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000332"/>
-        <oboInOwl:hasDbXref>GO:0043066 - negative regulation of apoptotic process</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0033668</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">suppresses apoptosis in host cell</rdfs:label>
         <skos:definition>A mechanism that modulates apoptosis in the host cell by suppressing apoptosis in the host cell.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1731,7 +1751,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000335">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000332"/>
-        <oboInOwl:hasDbXref>GO:0043065 - positive regulation of apoptotic process</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0052151</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">induces apoptosis in host cell</rdfs:label>
         <skos:definition>A mechanism that modulates apoptosis in the host cell by inducing apoptosis in the host cell.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
