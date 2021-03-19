@@ -191,6 +191,7 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000167"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular transport by modulating ion channel activity.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044069</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0099106</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modulates ion channel activity</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">direct action on ion channel (voltage or ligand gated) or ion pump,</skos:editorialNote>
@@ -203,6 +204,7 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by modulating protein synthesis.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044074</oboInOwl:hasDbXref>
         <rdfs:label>modulates protein synthesis</rdfs:label>
     </owl:Class>
     
@@ -212,6 +214,7 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000003"/>
+        <oboInOwl:hasDbXref>GO:0044762</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disruption of neurotransmitter release</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example agatoxin, omega conotoxin, dendrotoxin</skos:editorialNote>
         <skos:editorialNote>inconsistent as a subclass as this is a consequence of ion channel activity modulation; should be moved</skos:editorialNote>
@@ -266,6 +269,7 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000003"/>
+        <oboInOwl:hasDbXref>GO:0044486</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disruption of action potential propagation</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example tetrodotoxin, scorpion toxins</skos:editorialNote>
         <skos:editorialNote>inconsistent as a subclass as this is a consequence of ion channel activity modulation; should be moved</skos:editorialNote>
@@ -300,6 +304,7 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000166"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular structure by damaging the cell membrane.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0051673</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0052025</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>lysis of host cells</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates membrane damage</rdfs:label>
@@ -359,6 +364,8 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the plasma membrane potential of host cells.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0042391</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0044662</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts membrane potential</rdfs:label>
         <skos:editorialNote>Does this fit better anywhere else?</skos:editorialNote>
     </owl:Class>
@@ -370,6 +377,7 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000167"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular transport by blocking exocytosis.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0045920</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts exocytosis</rdfs:label>
     </owl:Class>
     
@@ -402,6 +410,8 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000147"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables adhesion and colonization by promoting synthesis of extracellular polymeric substances to form a biofilm.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:1900190</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:1900230</oboInOwl:hasDbXref>
         <rdfs:label>mediates biofilm formation</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process whereby microorganisms irreversibly attach to and grow on a surface and produce extracellular polymers that facilitate attachment and matrix formation, resulting in an alteration in the phenotype of the organisms with respect to growth rate and gene transcription. (Donlan, Rodney M. &quot;Biofilm formation: a clinically relevant microbiological process.&quot; Clinical Infectious Diseases 33.8 (2001): 1387-1392.)
 
@@ -448,6 +458,7 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000150"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates proliferation and survival by stimulation of host blood vessel generation, or angiogenesis.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0045766</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates induction of angiogenesis</rdfs:label>
         <skos:editorialNote>example VEGF
 
@@ -563,6 +574,8 @@ example:component 1 (C1) protease</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by contributing to secretion of protein effectors from the bacterial cell into the extracellular environment or directly into the host cell.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044417</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0050708</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates secretion of protein effectors</rdfs:label>
         <skos:editorialNote>elaborate subclasses and align with determinant branch
 
@@ -624,6 +637,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000125">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000150"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that promotes proliferation and survival by enabling pathogens to survive periods without water, or drought-like conditions.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0009269</oboInOwl:hasDbXref>
         <rdfs:label>mediates desiccation resistance</rdfs:label>
     </owl:Class>
     
@@ -634,6 +648,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by inhibiting DNA synthesis.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:2000279</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhibits DNA synthesis</rdfs:label>
     </owl:Class>
     
@@ -655,6 +670,10 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000135">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
         <obo:IAO_0000115>A mechanism that mediates nutrient availability or uptake by mediating cleavage of host DNA.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0004536</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0044003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0052013</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:1903626</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>deoxyribonuclease activity</oboInOwl:hasRelatedSynonym>
         <rdfs:label>mediates DNA cleavage</rdfs:label>
     </owl:Class>
@@ -666,6 +685,8 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates nutrient availability or uptake by taking cholesterol from the membranes of target cells.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0051673</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0052006</oboInOwl:hasDbXref>
         <rdfs:label>mediates acquisition of cholesterol from membrane</rdfs:label>
     </owl:Class>
     
@@ -732,6 +753,10 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the adhesion of cells to other cells and/or extracellular matrix components.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0022408</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0044067</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0044364</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:1901889</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts cellular adhesion</rdfs:label>
         <skos:editorialNote>evaluate for incorporation to invasion and dissemination
 
@@ -768,6 +793,7 @@ elaborate subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting cellular processes involved in the synthesis or breakdown of cellular constituents or production of energy.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044068</oboInOwl:hasDbXref>
         <rdfs:label>disrupts cellular metabolism</rdfs:label>
     </owl:Class>
     
@@ -778,6 +804,8 @@ elaborate subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting host cellular signaling processes.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044501</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0052027</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts host cellular signaling</rdfs:label>
         <skos:editorialNote>refine/build out subclasses</skos:editorialNote>
     </owl:Class>
@@ -800,6 +828,7 @@ elaborate subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000167">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting transport of products into, out of, and within host cells.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044068</oboInOwl:hasDbXref>
         <rdfs:label>disrupts cellular transport</rdfs:label>
         <skos:editorialNote>elaborate and restructure subclasses using a consistent organizational principle
 
@@ -867,6 +896,8 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000170"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that disrupts cellular cAMP levels through activation of the production or repression of the breakdown of cAMP.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0051342</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0075106</oboInOwl:hasDbXref>
         <rdfs:label>modulates cAMP synthesis</rdfs:label>
     </owl:Class>
     
@@ -876,6 +907,7 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000170"/>
+        <oboInOwl:hasDbXref>GO:0075106</oboInOwl:hasDbXref>
         <rdfs:label>regulates host cell adenylate cyclases/phosphodiesterases</rdfs:label>
         <skos:editorialNote>evaluate for redundancy with &quot;modulates cAMP synthesis&quot;</skos:editorialNote>
     </owl:Class>
@@ -941,6 +973,7 @@ sialyl Lewis x binding protein is an example</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000213">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000159"/>
+        <oboInOwl:hasDbXref>GO:0035893</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">inhibits platelet aggregation</rdfs:label>
         <skos:editorialNote>for example: coagulation factor V protease, or disintegrins
 
@@ -955,6 +988,7 @@ not an appropriate subclass as this is a specific example, evaluate for class re
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000159"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular adhesion by modifying cellular junctional complexes, including tight junctions and/or adherens junctions.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0098864</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:1903347</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modifies host tight or adherens junctions</rdfs:label>
         <skos:editorialNote>example: Clostridium perfringens type A toxin (targets claudins)  more info: https://doi.org/10.1016/j.bbamem.2008.10.028; https://www.ncbi.nlm.nih.gov/pubmed/11595640
 
@@ -969,6 +1003,7 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by inhibiting metabolic enzymes.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0004857</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0052148</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">inhibits metabolic enzymes</rdfs:label>
         <skos:editorialNote>Provide examples.</skos:editorialNote>
     </owl:Class>
@@ -1135,6 +1170,7 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <obo:IAO_0000115>A mechanism that mediates pathogenicity by facilitating movement into host cells.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044409</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>invasin</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">mediates host cell invasion</rdfs:label>
     </owl:Class>
@@ -1242,6 +1278,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000251">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <obo:IAO_0000115>A mechanism that mediates pathogenicity by enabling pathogens to spread through host tissues.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044000</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>mediates spreading</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">mediates dissemination</rdfs:label>
     </owl:Class>
@@ -1253,6 +1290,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000253">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000251"/>
         <obo:IAO_0000115>A mechanism that mediates dissemination by promoting traversal of host barrier layers.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044001</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mediates host barrier traversal</rdfs:label>
         <skos:editorialNote>[Examples Macrophage infectivity potentiator from Legionella; Exylysin from Pseudomonas; Pseudomonas exotoxin S; Pseudomonas exotoxin T; Shigella extracellular protease]
 
@@ -1291,6 +1329,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000259">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000159"/>
+        <oboInOwl:hasDbXref>GO:0051895</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modifies host cell focal adhesions</rdfs:label>
         <skos:definition>A mechanism that disrupts cellular adhesion by modifying focal adhesions of host cells.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1668,6 +1707,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000167"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular transport by disrupting intracellular transport</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0052038</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:1990215</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">disrupts intracellular transport</rdfs:label>
     </owl:Class>
@@ -1690,6 +1730,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by modulating transcription in the host cell.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0052018</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates transcription in host cell</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
