@@ -1422,7 +1422,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
-        <oboInOwl:hasDbXref>GO:0005539,GO:0043394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0005539</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0043394</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mediates host glycosaminoglycan- or proteoglycan-binding</rdfs:label>
         <skos:definition>A mechanism that mediates extracellular matrix binding by adherance to glycosaminoglycans or proteoglycans in the host extracellular matrix.</skos:definition>
     </owl:Class>
