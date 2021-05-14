@@ -558,31 +558,6 @@ example:component 1 (C1) protease</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000110 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000110">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by contributing to secretion of protein effectors from the bacterial cell into the extracellular environment or directly into the host cell.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates secretion of protein effectors</rdfs:label>
-        <skos:editorialNote>elaborate subclasses and align with determinant branch
-
-The secretion pathways are typically described as &quot;types&quot; based on components/structures involved corresponding to variations on a few general strategies involving transport across inner membrane, transport across inner membrane followed by transport across outer membrane (two-step), transport across both membranes. Several types can also transport proteins directly across the host cell membrane to deliver effectors directly into cells
-
-Type I- one step to extracellular
-Type II- two step, first step is independent transport into periplasm
-Type III- spans both membranes, injectosome into host cell
-Type IV- spans both membranes, release of effectors into other cell (conjugation)
-Type V-autotransporter in OM, first step is independent transport into periplasm
-Type VI- spans both membranes, release into other cell
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4804464/
-https://www.sciencedirect.com/science/article/pii/S0167488904000783
-
-Evaluate subclass naming/organization</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000113">
@@ -1842,19 +1817,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <obo:IAO_0000115>A mechanism that modulates host endomembrane dynamics by modulating autophagy or xenophagy.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">modulates autophagy or xenophagy in host cell</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000349 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000349">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000110"/>
-        <rdfs:label xml:lang="en">mediates type VII secretion</rdfs:label>
-        <skos:definition>A mechanism that mediates secretion of protein effectors as part of a type VII secretion system that can mediate the entry of bacterial effectors into the host cell.</skos:definition>
-        <skos:editorialNote>Do we want to have subclasses for every single type of secretion system?
-
-Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
 
