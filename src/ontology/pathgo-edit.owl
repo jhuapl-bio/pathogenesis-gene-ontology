@@ -619,16 +619,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000125 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000150"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that promotes proliferation and survival by enabling pathogens to survive periods without water, or drought-like conditions.</obo:IAO_0000115>
-        <rdfs:label>mediates desiccation resistance</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000132">
