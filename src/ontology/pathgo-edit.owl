@@ -1724,6 +1724,32 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by modulating the post-translational modification of ISGylation of host cell proteins.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates ISGylation in host cell</rdfs:label>
+        <skos:editorialNote>For example, interferon-stimulated gene 15 (ISG15), induced by type I inteferon, acts like a ubiquitin-like tag on host proteins.  The consequences of ISGylation are not well understood, but some studies have shown that ISGylated proteins have antiviral functions.
+
+More functions of ISG15 reviewed in PMID: 30428561</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000329"/>
+        <rdfs:label xml:lang="en">deISGylating activity</rdfs:label>
+        <skos:editorialNote>A mechanism that modulates ISGylation in host cells by removing or cleaving ISG15 tags from host proteins</skos:editorialNote>
+        <skos:editorialNote>SARS-CoV2 and Crimean Congo Hemorrhagic fever both have proteases that act as deubiquitinases but also serve to remove ISG15 units from host proteins.
+
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000331 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000331">
