@@ -1806,7 +1806,38 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
         <obo:IAO_0000115>A mechanism of pathogenicity that mediates a damaging effect indirectly</obo:IAO_0000115>
         <rdfs:label xml:lang="en">indirect mechanism of pathogenicity</rdfs:label>
-        <skos:editorialNote>Does the gene product itself cause a pathogenic effect, or does it play a supporting role to other gene products?</skos:editorialNote>
+        <skos:editorialNote>Does the gene product itself cause a pathogenic effect, or does it play a supporting role for pathogenesis to other gene products?  Note, functions related to the normal growth processes of pathogens like &apos;sporulation&apos; should not be annotated with this term.  Only genes that are necessary for pathogenesis, like &apos;secretion systems&apos;, should be annotated with this term.</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by mediating the synthesis of toxins</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates toxin synthesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by modulating the activity of virulence factors.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates virulence factor activity</rdfs:label>
+        <skos:editorialNote>Examples include protecting a virulence factor from degradation, increasing the activity of a virulence factor, or assisting with the folding of a virulence factor (chaperone activity). 
+
+Examples genes:
+
+Phospholipase A2 homolog crotoxin acid subunit CA from Crotalus durissus terrificus (South American rattlesnake): This rattlesnake venom component is not toxic in itself but potentiates the lethal potency of the other two constituents of a heterotrimer: CA and CB which are lethal presynaptic neurotoxins that block neuromuscular transmission [PMID21787789].
+
+Botulinum neurotoxin type C1 nontoxic-nonhemagglutinin component (CST085; NTNHA) from Clostridium botulinum phage: This protein is nearly identical to NTNHA which complexes with the botulinum toxin to protect it from destruction in the gastrointestinal tract, serving as a chaperone [PMID22363010].
+
+Acidic phospholipase A2 RV-7 from Daboia siamensis (Eastern Russel&apos;s viper) (P31100): As a monomer, this snake venom component has low enzymatic activity. It may facilitate the binding of venom component RV-4 to presynaptic binding sites, acting as a chaperone and minimizing the destruction of RV-4 by binding to extraneous targets. The RV-7/RV-4 heterodimer targets presynaptic sites at the neuromuscular junction [PMID8835338].
+
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
