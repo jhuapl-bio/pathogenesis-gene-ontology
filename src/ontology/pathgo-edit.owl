@@ -1209,6 +1209,8 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
         <rdfs:label xml:lang="en">mediates host vitronectin binding</rdfs:label>
         <skos:editorialNote>For example, Candida albicans uses its cell surface protein Gpm1 to attach to human endothelial cells through its interaction with vitronectin (PMID: 24625558). 
 
+For instances where vitronectin binding is used to escape host complement processes, the term &apos;indirect host complement inactivation&apos; should be used instead.
+
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1674,6 +1676,19 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000341"/>
+        <obo:IAO_0000115>A mechanism that mediates indirect host complement inactivation specifically by the recruitment of host vitronectin</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">host complement inactivation by vitronectin recruitment</rdfs:label>
+        <skos:editorialNote>For instances where host vitronectin binding is used to facilitate adhesion and invasion, the term &apos;mediates host vitronectin binding&apos; in the &apos;enables adherence and colonization&apos; branch should be used. 
+
+PMID: 20807208</skos:editorialNote>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000325 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000325">
@@ -1776,6 +1791,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000100"/>
         <rdfs:label xml:lang="en">indirect host complement inactivation</rdfs:label>
         <skos:definition>A mechanism that mediates resistance to the host complement system by indirect host complement inactivation via recruiting a host enzyme, typically a proteinase, to the parasite surface.</skos:definition>
+        <skos:editorialNote>PMID: 26808444</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
