@@ -1137,7 +1137,11 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
         <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by disrupting toll-like receptor signaling.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts host toll-like receptor signaling</rdfs:label>
-        <skos:editorialNote>adaptor protein degradation activator; research and add others</skos:editorialNote>
+        <skos:editorialNote>adaptor protein degradation activator; research and add others
+
+Gene Godbold notes that we may want to add subclasses for &apos;host toll-like receptor agonist&apos; and &apos;host toll-like receptor antagonist&apos; here.  Although these functions could be represented by the GO terms &quot;GO:0034123 positive regulation of toll-like receptor signaling pathway&quot; and &quot;GO:0034122 negative regulation of toll-like receptor signaling pathway&quot;. 
+
+Also, we may also want to distinguish the ones that are acting intracellularly versus the ones that are binding to the receptors extracellularly.</skos:editorialNote>
     </owl:Class>
     
 
