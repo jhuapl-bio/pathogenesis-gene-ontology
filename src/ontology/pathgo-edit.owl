@@ -1776,7 +1776,7 @@ More functions of ISG15 reviewed in PMID: 30428561</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000330">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000329"/>
-        <rdfs:label xml:lang="en">deISGylating activity</rdfs:label>
+        <rdfs:label xml:lang="en">mediates deISGylation host proteins</rdfs:label>
         <skos:editorialNote>A mechanism that modulates ISGylation in host cells by removing or cleaving ISG15 tags from host proteins</skos:editorialNote>
         <skos:editorialNote>SARS-CoV2 and Crimean Congo Hemorrhagic fever both have proteases that act as deubiquitinases but also serve to remove ISG15 units from host proteins.
 
