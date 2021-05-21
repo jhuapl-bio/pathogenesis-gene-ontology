@@ -612,8 +612,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/
-    -->
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000114">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of pathogenicity is a means by which a damaging effect is brought about, and that specifically describes how that effect is exerted.</obo:IAO_0000115>
@@ -1891,6 +1890,19 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">direct host complement inactivation</rdfs:label>
         <skos:definition>A mechanism that mediates resistance to the host complement system by direct host complement inactivation via enzymatic activity that inheres in the parasite sequence.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in host cells by mediating host actin stabilization</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host actin stabilization</rdfs:label>
+        <skos:editorialNote>Cells infected with enterohemorrhagic Escherichia coli (EHEC) lacking the T3SS effectors EspO1-1 and EspO1-2 display cell rounding phenotypes and lose focal adhesions.  These effectors work with host proteins (like GTPases) to stabilize actin and focal adhesions during infection [PMID 23409096].
+
+Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
