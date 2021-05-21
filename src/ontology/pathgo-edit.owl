@@ -1149,7 +1149,7 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000211"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000072"/>
         <oboInOwl:hasDbXref>GO:0005178</oboInOwl:hasDbXref>
         <rdfs:comment>A mechanism that mediates cell surface binding through integrins.</rdfs:comment>
         <rdfs:label xml:lang="en">mediates integrin binding</rdfs:label>
