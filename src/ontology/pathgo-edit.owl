@@ -854,22 +854,10 @@ microtubule mediated transport</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000171 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000171">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
-        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating production of reactive oxygen species.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:2000379</oboInOwl:hasDbXref>
-        <rdfs:label>mediates reactive oxygen species production</rdfs:label>
-        <skos:editorialNote>should be moved as it is not a logical subclass for &apos;disrupts cellular metabolism&apos;</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000172">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353"/>
         <obo:IAO_0000115>A mechanism that mediates reactive oxygen species production by producing nitric oxide radicals, through activation of nitric oxide synthase or otherwise.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0004517</oboInOwl:hasDbXref>
         <rdfs:label>produces nitric oxide radicals</rdfs:label>
@@ -1951,6 +1939,27 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
         <obo:IAO_0000115>A mechanism that modulates host endomembrane dynamics by modulating autophagy or xenophagy.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">modulates autophagy or xenophagy in host cell</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
+        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by modulating levels of reactive oxygen speices.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates reactive oxygen species levels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353"/>
+        <obo:IAO_0000115>A mechanism that modulates reactive oxygen species levels by inhibiting nitric oxide synthase.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">inhibits nitric oxide synthase</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
