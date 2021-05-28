@@ -1953,6 +1953,17 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">modulates autophagy or xenophagy in host cell</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
+        <obo:IAO_0000115>A mechanism that disprupts host cell signaling by disrupting host TRIM or TRIM-like proteins signaling pathways.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts host TRIM/TRIM-like signaling</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
 </rdf:RDF>
 
 
