@@ -1954,9 +1954,33 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348 -->
 
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000031"/>
+        <obo:IAO_0000115>A mechanism that mediates non-productive immune system activation by modulating host inflammasome activation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates host inflammasome activation</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
 
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351 -->
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348"/>
+        <obo:IAO_0000115>A mechanism that mediates modulation of host inflammasome activation by enhancing host inflammasome activation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">enhances host inflammasome activation</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348"/>
+        <obo:IAO_0000115>A mechanism that mediates modulation of host inflammasome activation by inhibiting host inflammasome activation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">inhibits host inflammasome activation</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+ 
+ <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
