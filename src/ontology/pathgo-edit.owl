@@ -1954,8 +1954,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348">
@@ -1964,8 +1962,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">modulates host inflammasome activation</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-    
-
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000349 -->
 
@@ -1975,8 +1971,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">enhances host inflammasome activation</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-    
-
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000350 -->
 
@@ -1985,6 +1979,13 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <obo:IAO_0000115>A mechanism that mediates modulation of host inflammasome activation by inhibiting host inflammasome activation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">inhibits host inflammasome activation</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+ 
+ <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by mediating sequestration of host cytokines.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host cytokine sequestration</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
