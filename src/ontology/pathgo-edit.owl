@@ -740,7 +740,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000159">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000356"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the adhesion of cells to other cells and/or extracellular matrix components.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0022408</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0044067</oboInOwl:hasDbXref>
@@ -757,7 +757,7 @@ elaborate subclasses</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000356"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that disrupts tissue structure by damaging the mucosal barrier, permitting microbial products and/or microbes entry into the body.  The intestinal mucosal barrier consists of the intestinal epithelial layer, plus additional physical, biochemical, and immunological components.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal barrier disruption</oboInOwl:hasRelatedSynonym>
         <rdfs:label>disrupts mucosal barrier</rdfs:label>
@@ -769,7 +769,7 @@ elaborate subclasses</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000162">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000356"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that compromises epithelial cell layers, enabling increased permeation of biomolecules and/or bacterial invasion.</obo:IAO_0000115>
         <rdfs:label>disrupts epithelial layers</rdfs:label>
         <skos:editorialNote>higher level process, not appropriate subclass; evaluate for removal or alternate placement</skos:editorialNote>
@@ -1057,7 +1057,7 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000226 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000226">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000356"/>
         <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting extracellular matrix components in another organism.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts extracellular matrix</rdfs:label>
         <skos:editorialNote>gelatinase, mucinase, sialidase, hyaluronidase, etc.</skos:editorialNote>
@@ -1944,9 +1944,9 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000356 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000356">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
         <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting tissue structure in another organism.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts tissue structure</rdfs:label>
@@ -1954,10 +1954,10 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000358 -->
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000358">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000356"/>
         <obo:IAO_0000115>Amechanism that disrupts tissue structure by mediating release of host cells from extracellular matrix.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates host cell release from extracellular matrix</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
