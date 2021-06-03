@@ -1057,8 +1057,8 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000226 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000226">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000235"/>
-        <obo:IAO_0000115>A mechanism that mediates invasion by disrupting extracellular matrix components.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting extracellular matrix components.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts extracellular matrix</rdfs:label>
         <skos:editorialNote>gelatinase, mucinase, sialidase, hyaluronidase, etc.</skos:editorialNote>
     </owl:Class>
@@ -1941,6 +1941,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">modulates autophagy or xenophagy in host cell</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348 -->
 
@@ -1950,6 +1952,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">modulates host inflammasome activation</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000349 -->
 
@@ -1959,6 +1963,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">enhances host inflammasome activation</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000350 -->
 
@@ -1968,8 +1974,10 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">inhibits host inflammasome activation</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
- 
- <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351 -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000351">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
@@ -1977,7 +1985,9 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">mediates host cytokine sequestration</rdfs:label>
     </owl:Class>
     
- <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000352 -->
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000352 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000352">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
@@ -1985,8 +1995,10 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">disrupts host TRIM/TRIM-like signaling</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
 
-<!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353 -->
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
@@ -1994,7 +2006,9 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">modulates reactive oxygen species levels</rdfs:label>
     </owl:Class>
     
-<!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000354 -->
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000354 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000354">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353"/>
@@ -2002,8 +2016,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">inhibits nitric oxide synthase</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-    
-
 </rdf:RDF>
 
 
