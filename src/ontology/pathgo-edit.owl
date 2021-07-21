@@ -2008,8 +2008,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000366">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
+        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by catalyzing the addition or the removal of SUMO protein tags. This can be the direct result of the activity of the pathogenic gene product or, indirectly, by the gene product hijacking a host effector to modulate SUMOylation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">modulates SUMOylation in host cell</rdfs:label>
-        <skos:editorialNote>A mechanism that disrupts cellular metabolism by catalyzing the addition or the removal of SUMO protein tags. This can be the direct result of the activity of the pathogenic gene product or, indirectly, by the gene product hijacking a host effector to modulate SUMOylation.</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
