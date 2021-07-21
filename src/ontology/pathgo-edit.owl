@@ -1902,7 +1902,117 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <obo:IAO_0000115>A mechanism that modulates host endomembrane dynamics by modulating autophagy or xenophagy.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">modulates autophagy or xenophagy in host cell</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class> 
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting tissue structure in another organism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts tissue structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000358">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
+        <obo:IAO_0000115>Amechanism that disrupts tissue structure by mediating release of host cells from extracellular matrix.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host cell release from extracellular matrix</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by interfering with the blood clotting cascade to promote or suppress coagulation in another organism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts coagulation in other organism</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
+        <obo:IAO_0000115>A mechanism that disrupts coagulation by inhibiting the blood clotting cascade to supress coagulation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Inhibits coagulation in other organism</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
+        <obo:IAO_0000115>A mechanism that disrupts coagulation by activating the blood clotting cascade to promote coagulation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">promotes coagulation in other organism</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000310"/>
+        <obo:IAO_0000115>A mechanism that mediates host cytokine activity inhibition by inhibiting anti-inflammatory cytokine activity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">inhibits host anti-inflammatory cytokine activity</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000310"/>
+        <obo:IAO_0000115>A mechanism that mediates host cytokine activity inhibition by inhibiting pro-inflammatory cytokine activity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">inhibits host pro-inflammatory cytokine activity</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by promoting the production of anti-imflammatory cytokines in the host.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host anti-inflammatory cytokine production</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by removal of ADP-ribose from host proteins.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates de-ADPribosylation of host proteins</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
+        <rdfs:label xml:lang="en">modulates SUMOylation in host cell</rdfs:label>
+        <skos:editorialNote>A mechanism that disrupts cellular metabolism by catalyzing the addition or the removal of SUMO protein tags. This can be the direct result of the activity of the pathogenic gene product or, indirectly, by the gene product hijacking a host effector to modulate SUMOylation.</skos:editorialNote>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348 -->
@@ -1997,92 +2107,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000328"/>
         <obo:IAO_0000115>A mechanism that modulates host small GTPase dynamics by mediating activation of host small GTPase via deamidation or guanine nucleotide exchange.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates activation of host small GTPase</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-    
-        <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
-        <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting tissue structure in another organism.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts tissue structure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000358 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000358">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
-        <obo:IAO_0000115>Amechanism that disrupts tissue structure by mediating release of host cells from extracellular matrix.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host cell release from extracellular matrix</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000359 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000359">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
-        <obo:IAO_0000115>A mechanism that mediates pathogenicity by interfering with the blood clotting cascade to promote or suppress coagulation in another organism.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts coagulation in other organism</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000360 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000360">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
-        <obo:IAO_0000115>A mechanism that disrupts coagulation by inhibiting the blood clotting cascade to supress coagulation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Inhibits coagulation in other organism</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000361 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
-        <obo:IAO_0000115>A mechanism that disrupts coagulation by activating the blood clotting cascade to promote coagulation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">promotes coagulation in other organism</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000362 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000362">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000310"/>
-        <obo:IAO_0000115>A mechanism that mediates host cytokine activity inhibition by inhibiting anti-inflammatory cytokine activity.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inhibits host anti-inflammatory cytokine activity</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000363 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000363">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000310"/>
-        <obo:IAO_0000115>A mechanism that mediates host cytokine activity inhibition by inhibiting pro-inflammatory cytokine activity.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inhibits host pro-inflammatory cytokine activity</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000364 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000364">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by promoting the production of anti-imflammatory cytokines in the host.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host anti-inflammatory cytokine production</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
