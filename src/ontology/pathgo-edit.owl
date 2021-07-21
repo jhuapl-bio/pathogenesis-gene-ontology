@@ -399,8 +399,8 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of nutrient avialability or uptake that involves acquisition of iron.</obo:IAO_0000115>
-        <rdfs:label>mediates iron uptake</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of nutrient availability or uptake that involves acquisition of iron.</obo:IAO_0000115>
+        <rdfs:label>mediates iron acquisition</rdfs:label>
     </owl:Class>
     
 
@@ -424,7 +424,7 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000058"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of iron uptake that involves taking iron from a target cell.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of iron acquisition that involves taking iron from a target cell.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044847</oboInOwl:hasDbXref>
         <rdfs:label>mediates iron acquisition from host</rdfs:label>
     </owl:Class>
@@ -456,11 +456,11 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000150"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates proliferation and survival by stimulation of host blood vessel generation, or angiogenesis.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000251"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates dissemination by stimulation of host blood vessel generation, or angiogenesis.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0045766</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates induction of angiogenesis</rdfs:label>
-        <skos:editorialNote>example VEGF
+        <skos:editorialNote>example Bartonella BafA
 
 evaluate proangiogenic response as a contribution to pathogenesis</skos:editorialNote>
     </owl:Class>
@@ -473,18 +473,6 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates immune evasion and subversion by blocking immature dendritic immune cells from maturing into antigen-presenting, T cell activating cells.</obo:IAO_0000115>
         <rdfs:label>inhibits dendritic cell maturation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000082 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of nutrient availability or uptake that involves peptide and protein degradation.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0052014</oboInOwl:hasDbXref>
-        <rdfs:label>mediates peptide and protein degradation</rdfs:label>
-        <skos:editorialNote>overlaps with extracellular matrix destruction under invasion and dissemination</skos:editorialNote>
     </owl:Class>
     
 
@@ -600,9 +588,9 @@ Evaluate subclass naming/organization</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000150"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that promotes proliferation and survival by contributing to the availability and/or uptake of nutrients from host cells or the environment.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that promotes survival in host by contributing to the availability and/or uptake of nutrients from host cells or the environment.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044002</oboInOwl:hasDbXref>
-        <rdfs:label>mediates nutrient availability or uptake</rdfs:label>
+        <rdfs:label>mediates nutrient acquisition</rdfs:label>
         <skos:editorialNote>evaluate and modify subclasses to achieve consistent structure
 
 examples may include: gelatinase, mucinase, sialidase, hyaluronidase - enzymes that are also associated with destruction of extracellular matrix, mucus, etc. to promote invasion and spread in the host 
@@ -625,7 +613,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000058"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of iron uptake that involves using iron in the environment.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of iron acquisition that involves using iron in the environment.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0005506</oboInOwl:hasDbXref>
         <rdfs:label>mediates iron acquisition from environment</rdfs:label>
     </owl:Class>
@@ -654,26 +642,11 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000135 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000135">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
-        <obo:IAO_0000115>A mechanism that mediates nutrient availability or uptake by mediating cleavage of host DNA.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0004536</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:0044003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:0052013</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:1903626</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym>deoxyribonuclease activity</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>mediates DNA cleavage</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000142 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates nutrient availability or uptake by taking cholesterol from the membranes of target cells.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates nutrient acquisition by taking cholesterol from the membranes of target cells.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0051673</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0052006</oboInOwl:hasDbXref>
         <rdfs:label>mediates acquisition of cholesterol from membrane</rdfs:label>
@@ -692,23 +665,12 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000149 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000149">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates nutrient availability or uptake by mediating carbohydrate degradation.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0052015</oboInOwl:hasDbXref>
-        <rdfs:label>mediates carbohydrate degradation</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by allowing pathogens to grow and multiply, especially when environmental conditions are unfavorable, distinct from adherence and colonization.</obo:IAO_0000115>
-        <rdfs:label>mediates proliferation and survival</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by apromoting survival in the host, especially when environmental conditions are unfavorable, distinct from adherence and colonization.</obo:IAO_0000115>
+        <rdfs:label>promotes survival in host</rdfs:label>
         <skos:editorialNote>evaluate placement and provide examples</skos:editorialNote>
     </owl:Class>
     
@@ -732,7 +694,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of nutrient availability or uptake that involves acquisition of manganese.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0005384</oboInOwl:hasDbXref>
-        <rdfs:label>mediates manganese uptake</rdfs:label>
+        <rdfs:label>mediates manganese acquisition</rdfs:label>
     </owl:Class>
     
 
@@ -1677,7 +1639,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000322">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000150"/>
-        <obo:IAO_0000115>A mechanism that mediates proliferation and survival by mediating resistance to antibiotics.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that promotes survival in host by mediating resistance to antibiotics.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>ARO:1000001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0046677</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mediates resistance to antibiotics</rdfs:label>
@@ -1943,6 +1905,28 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
 
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting tissue structure in another organism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts tissue structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000358">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
+        <obo:IAO_0000115>Amechanism that disrupts tissue structure by mediating release of host cells from extracellular matrix.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host cell release from extracellular matrix</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348">
@@ -2015,6 +1999,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">inhibits nitric oxide synthase</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000355 -->
 
@@ -2035,24 +2021,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">mediates activation of host small GTPase</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
-        <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting tissue structure in another organism.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts tissue structure</rdfs:label>
-    </owl:Class>
-    
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000358 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000358">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
-        <obo:IAO_0000115>Amechanism that disrupts tissue structure by mediating release of host cells from extracellular matrix.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host cell release from extracellular matrix</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-
 </rdf:RDF>
 
 
