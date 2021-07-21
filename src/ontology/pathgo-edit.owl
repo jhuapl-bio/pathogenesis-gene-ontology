@@ -1920,6 +1920,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
+        <obo:IAO_0000115>Amechanism that disrupts tissue structure by mediating release of host cells from extracellular matrix.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates host cell release from extracellular matrix</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
