@@ -1927,6 +1927,39 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by interfering with the blood clotting cascade to promote or suppress coagulation in another organism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts coagulation in other organism</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
+        <obo:IAO_0000115>A mechanism that disrupts coagulation by inhibiting the blood clotting cascade to supress coagulation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Inhibits coagulation in other organism</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
+        <obo:IAO_0000115>A mechanism that disrupts coagulation by activating the blood clotting cascade to promote coagulation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">promotes coagulation in other organism</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348">
