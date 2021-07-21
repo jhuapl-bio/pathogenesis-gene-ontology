@@ -1906,60 +1906,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
-        <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting tissue structure in another organism.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts tissue structure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000358 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000358">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
-        <obo:IAO_0000115>Amechanism that disrupts tissue structure by mediating release of host cells from extracellular matrix.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host cell release from extracellular matrix</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000359 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000359">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
-        <obo:IAO_0000115>A mechanism that mediates pathogenicity by interfering with the blood clotting cascade to promote or suppress coagulation in another organism.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts coagulation in other organism</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000360 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000360">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
-        <obo:IAO_0000115>A mechanism that disrupts coagulation by inhibiting the blood clotting cascade to supress coagulation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Inhibits coagulation in other organism</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000361 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
-        <obo:IAO_0000115>A mechanism that disrupts coagulation by activating the blood clotting cascade to promote coagulation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">promotes coagulation in other organism</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348">
@@ -2052,6 +1998,61 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000328"/>
         <obo:IAO_0000115>A mechanism that modulates host small GTPase dynamics by mediating activation of host small GTPase via deamidation or guanine nucleotide exchange.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates activation of host small GTPase</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting tissue structure in another organism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts tissue structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000358">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
+        <obo:IAO_0000115>Amechanism that disrupts tissue structure by mediating release of host cells from extracellular matrix.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host cell release from extracellular matrix</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by interfering with the blood clotting cascade to promote or suppress coagulation in another organism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts coagulation in other organism</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
+        <obo:IAO_0000115>A mechanism that disrupts coagulation by inhibiting the blood clotting cascade to supress coagulation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Inhibits coagulation in other organism</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
+        <obo:IAO_0000115>A mechanism that disrupts coagulation by activating the blood clotting cascade to promote coagulation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">promotes coagulation in other organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
