@@ -867,8 +867,8 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <obo:IAO_0000115>A mechanism that disrupts host cellular signaling by modulating receptor activity</obo:IAO_0000115>
-        <rdfs:label>modulates receptor activity</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts host cellular signaling by modulating receptor activity in a target or host organism.</obo:IAO_0000115>
+        <rdfs:label>modulates receptor activity in other organism</rdfs:label>
         <skos:editorialNote>Vague; Evaluate for removal</skos:editorialNote>
     </owl:Class>
     
@@ -1895,7 +1895,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000347 -->
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000347 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000347">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
@@ -2002,8 +2002,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
     
-    
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
+       <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
@@ -2107,6 +2106,50 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by catalyzing the addition or the removal of SUMO protein tags. This can be the direct result of the activity of the pathogenic gene product or, indirectly, by the gene product hijacking a host effector to modulate SUMOylation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">modulates SUMOylation in host cell</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
+        <obo:IAO_0000115>A mechanism that disrupts host cellular signaling by ADP-ribosylating host small GTPases thereby preventing them from interacting with downstream effectors.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates ADP-ribosylation of host small GTPase</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000368">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000235"/>
+        <obo:IAO_0000115>A mechanism that mediates host cell invasion by microbes.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host cell invasion by microbe</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000369">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000235"/>
+        <obo:IAO_0000115>A mechanism that mediates host cell invasion by macromolecules.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host cell invasion by macromolecule</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000006"/>
+        <obo:IAO_0000115>A mechanism that modulates protein synthesis by destruction of host mRNA via cleavage, destabalization, etc.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host mRNA destruction</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
