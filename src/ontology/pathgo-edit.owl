@@ -1902,7 +1902,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <obo:IAO_0000115>A mechanism that modulates host endomembrane dynamics by modulating autophagy or xenophagy.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">modulates autophagy or xenophagy in host cell</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class> 
+    </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348 -->
@@ -2001,7 +2002,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
     
-        <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
+    
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
@@ -2015,7 +2017,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
-        <obo:IAO_0000115>Amechanism that disrupts tissue structure by mediating release of host cells from extracellular matrix.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts tissue structure by mediating release of host cells from extracellular matrix.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates host cell release from extracellular matrix</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -2083,6 +2085,28 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
         <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by promoting the production of anti-imflammatory cytokines in the host.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates host anti-inflammatory cytokine production</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by removal of ADP-ribose from host proteins.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates de-ADPribosylation of host proteins</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
+        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by catalyzing the addition or the removal of SUMO protein tags. This can be the direct result of the activity of the pathogenic gene product or, indirectly, by the gene product hijacking a host effector to modulate SUMOylation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates SUMOylation in host cell</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
