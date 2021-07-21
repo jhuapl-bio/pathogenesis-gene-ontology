@@ -1902,8 +1902,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <obo:IAO_0000115>A mechanism that modulates host endomembrane dynamics by modulating autophagy or xenophagy.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">modulates autophagy or xenophagy in host cell</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
+    </owl:Class> 
 
 
     <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000348 -->
@@ -2073,6 +2072,17 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000310"/>
         <obo:IAO_0000115>A mechanism that mediates host cytokine activity inhibition by inhibiting pro-inflammatory cytokine activity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">inhibits host pro-inflammatory cytokine activity</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by promoting the production of anti-imflammatory cytokines in the host.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host anti-inflammatory cytokine production</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
