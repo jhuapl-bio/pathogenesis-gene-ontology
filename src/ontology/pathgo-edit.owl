@@ -2002,9 +2002,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     </owl:Class>
     
     
-    
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
+        <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
@@ -2053,6 +2051,28 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
         <obo:IAO_0000115>A mechanism that disrupts coagulation by activating the blood clotting cascade to promote coagulation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">promotes coagulation in other organism</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000310"/>
+        <obo:IAO_0000115>A mechanism that mediates host cytokine activity inhibition by inhibiting anti-inflammatory cytokine activity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">inhibits host anti-inflammatory cytokine activity</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000310"/>
+        <obo:IAO_0000115>A mechanism that mediates host cytokine activity inhibition by inhibiting pro-inflammatory cytokine activity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">inhibits host pro-inflammatory cytokine activity</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
