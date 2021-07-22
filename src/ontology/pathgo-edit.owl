@@ -1643,7 +1643,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000324">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000341"/>
         <obo:IAO_0000115>A mechanism that mediates indirect host complement inactivation specifically by the recruitment of host vitronectin</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">host complement inactivation by vitronectin recruitment</rdfs:label>
+        <rdfs:label xml:lang="en">inactivates host complement by recruiting vitronectin</rdfs:label>
         <skos:editorialNote>For instances where host vitronectin binding is used to facilitate adhesion and invasion, the term &apos;mediates host vitronectin binding&apos; in the &apos;enables adherence and colonization&apos; branch should be used. 
 
 PMID: 20807208</skos:editorialNote>
@@ -1819,7 +1819,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000339">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000100"/>
-        <rdfs:label xml:lang="en">direct host complement inactivation</rdfs:label>
+        <rdfs:label xml:lang="en">directly inactivates host complement</rdfs:label>
         <skos:definition>A mechanism that mediates resistance to the host complement system by direct host complement inactivation via enzymatic activity that inheres in the parasite sequence.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -1843,7 +1843,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000100"/>
-        <rdfs:label xml:lang="en">indirect host complement inactivation</rdfs:label>
+        <rdfs:label xml:lang="en">indirectly inactivates host complement</rdfs:label>
         <skos:definition>A mechanism that mediates resistance to the host complement system by indirect host complement inactivation via recruiting a host enzyme, typically a proteinase, to the parasite surface.</skos:definition>
         <skos:editorialNote>PMID: 26808444</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -2217,6 +2217,39 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000379"/>
         <obo:IAO_0000115>A mechanism that disrupts host immune signaling by interfering with host Z-DNA binding protein 1 (ZBP1) signaling.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts host ZBP1 signaling</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000379"/>
+        <obo:IAO_0000115>A mechanism that disrupts host immune signaling by modulating interferon signaling in the host cell.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts host interferon signaling</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000381"/>
+        <obo:IAO_0000115>A mechanism that disrupts interferon signaling by enhancing activation through interference with the activation of interferon regulatory factors (IRFs) through IRF kinases such as TANK-binding kinase (TBK1) or with the phosphorylation or abundance of interferon regulatory proteins such as IRF1, IRF3, IRF7, or IRF9, or with the phosphorylation or abundance of JAK-STAT proteins.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">inhibits host interferon signaling</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000381"/>
+        <obo:IAO_0000115>A mechanism that disrupts interferon signaling by inhibition through interference with the activation of interferon regulatory factors (IRFs) through IRF kinases such as TANK-binding kinase (TBK1) or with the phosphorylation or abundance of interferon regulatory proteins such as IRF1, IRF3, IRF7, or IRF9, or with the phosphorylation or abundance of JAK-STAT proteins.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">enhances host interferon signaling</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
