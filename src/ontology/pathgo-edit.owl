@@ -819,7 +819,7 @@ microtubule mediated transport</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000172">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000353"/>
         <obo:IAO_0000115>A mechanism that mediates reactive oxygen species production by producing nitric oxide radicals, through activation of nitric oxide synthase or otherwise.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0004517</oboInOwl:hasDbXref>
         <rdfs:label>produces nitric oxide radicals</rdfs:label>
@@ -2163,14 +2163,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by modulating expression of genes in the parasite that contribute to pathogenesis in the host.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">modulates expression of genes that mediate pathogenesis in host</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353">
-        <skos:editorialNote>test</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
 
