@@ -1062,8 +1062,8 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by disrupting toll-like receptor signaling.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000379"/>
+        <obo:IAO_0000115>A mechanism that disrupts host immune signaling by interfering with host toll-like receptor signaling.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts host toll-like receptor signaling</rdfs:label>
         <skos:editorialNote>adaptor protein degradation activator; research and add others
 
@@ -1459,8 +1459,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000292 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000292">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by affecting the activity, abundance, or availability of host tumor necrosis factor receptor (TNFR) ligands or by inhibiting TNFR signaling by binding directly to the receptor.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000379"/>
+        <obo:IAO_0000115>A mechanism that disrupts host immune signaling by affecting the activity, abundance, or availability of host tumor necrosis factor receptor (TNFR) ligands or by inhibiting TNFR signaling by binding directly to the receptor.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts host TNFR signaling</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -1743,7 +1743,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000333">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
-        <obo:IAO_0000115>A mechanism of pathogenicity that mediates a damaging effect directly</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism of pathogenicity that mediates a damaging effect directly.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">direct mechanism of pathogenicity</rdfs:label>
     </owl:Class>
     
@@ -1777,7 +1777,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000336">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000114"/>
-        <obo:IAO_0000115>A mechanism of pathogenicity that mediates a damaging effect indirectly</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism of pathogenicity that mediates a damaging effect indirectly.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">indirect mechanism of pathogenicity</rdfs:label>
         <skos:editorialNote>Does the gene product itself cause a pathogenic effect, or does it play a supporting role for pathogenesis to other gene products?  Note, functions related to the normal growth processes of pathogens like &apos;sporulation&apos; should not be annotated with this term.  Only genes that are necessary for pathogenesis, like &apos;secretion systems&apos;, should be annotated with this term.</skos:editorialNote>
     </owl:Class>
@@ -1830,7 +1830,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000340">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in host cells by mediating host actin stabilization</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in host cells by mediating host actin stabilization.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates host actin stabilization</rdfs:label>
         <skos:editorialNote>Cells infected with enterohemorrhagic Escherichia coli (EHEC) lacking the T3SS effectors EspO1-1 and EspO1-2 display cell rounding phenotypes and lose focal adhesions.  These effectors work with host proteins (like GTPases) to stabilize actin and focal adhesions during infection [PMID 23409096].
 
@@ -2173,6 +2173,50 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000353"/>
         <obo:IAO_0000115>A mechanism that modulates reactive oxygen species levels by inhibiting nitric oxide radical production.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">inhibits nitric oxide radical production</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by modifying a parasite molecule to reduce recognition by host passive immune system components and thereby passively evade the host immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modifies parasite molecule to decrease host immune recognition</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in host cells by mediating host actin destabilization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host actin destabilization</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by interfering with host immune signaling.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts host immune signaling</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000379"/>
+        <obo:IAO_0000115>A mechanism that disrupts host immune signaling by interfering with host Z-DNA binding protein 1 (ZBP1) signaling.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts host ZBP1 signaling</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
