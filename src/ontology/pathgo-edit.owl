@@ -819,7 +819,7 @@ microtubule mediated transport</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000172">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000353"/>
         <obo:IAO_0000115>A mechanism that mediates reactive oxygen species production by producing nitric oxide radicals, through activation of nitric oxide synthase or otherwise.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0004517</oboInOwl:hasDbXref>
         <rdfs:label>produces nitric oxide radicals</rdfs:label>
