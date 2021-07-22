@@ -2001,8 +2001,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
-    
-    
+
+
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000357 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000357">
@@ -2163,6 +2163,14 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by modulating expression of genes in the parasite that contribute to pathogenesis in the host.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">modulates expression of genes that mediate pathogenesis in host</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353">
+        <skos:editorialNote>test</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
 
