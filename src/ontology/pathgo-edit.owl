@@ -2164,14 +2164,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">modulates expression of genes that mediate pathogenesis in host</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pathgo/PATHGO_0000353">
-        <skos:editorialNote>test</skos:editorialNote>
-    </owl:Class>
 </rdf:RDF>
 
 
