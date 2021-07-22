@@ -874,17 +874,6 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000177 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000177">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <obo:IAO_0000115>A mechanism that disrupts host cellular signaling by modulating levels of second messenger molecules.</obo:IAO_0000115>
-        <rdfs:label>modulates second messenger molecules</rdfs:label>
-        <skos:editorialNote>cyclin-dependent kinase 1 inactivator; calcium- and calmodulin-dependent adenylate cyclase</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000211">
@@ -1023,17 +1012,6 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
         <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting extracellular matrix components in another organism.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts extracellular matrix</rdfs:label>
         <skos:editorialNote>gelatinase, mucinase, sialidase, hyaluronidase, etc.</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000228 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000228">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <obo:IAO_0000115>A mechanism that disrupts host cellular signaling by modulating levels of second messenger molecules.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts second messenger levels</rdfs:label>
-        <skos:editorialNote>examples: cyclin-dependent kinase 1 inactivator; calcium- and calmodulin-dependent adenylate cyclase</skos:editorialNote>
     </owl:Class>
     
 
@@ -1973,8 +1951,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000354 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000354">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000353"/>
-        <obo:IAO_0000115>A mechanism that modulates reactive oxygen species levels by inhibiting nitric oxide synthase.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000376"/>
+        <obo:IAO_0000115>A mechanism that inhibits nitric oxide radical production by inhibiting nitric oxide synthase.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">inhibits nitric oxide synthase</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -2162,6 +2140,39 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
         <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by modulating expression of genes in the parasite that contribute to pathogenesis in the host.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">modulates expression of genes that mediate pathogenesis in host</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000374">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
+        <obo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by binding host actin.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates host actin binding</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000375">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000338"/>
+        <obo:IAO_0000115>A mechanism that modulates virulence factor activity by acting as a chaperone for the virulence factor.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">chaperones virulence factor</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000353"/>
+        <obo:IAO_0000115>A mechanism that modulates reactive oxygen species levels by inhibiting nitric oxide radical production.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">inhibits nitric oxide radical production</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
