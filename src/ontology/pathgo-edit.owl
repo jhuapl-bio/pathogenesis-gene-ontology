@@ -2252,6 +2252,17 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:label xml:lang="en">enhances host interferon signaling</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by causing an effect in another organism following secretion from a parasite.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates effect in other organism following secretion from parasite.</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
 </rdf:RDF>
 
 
