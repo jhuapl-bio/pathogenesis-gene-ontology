@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pathgo/releases/2021-03-22/pathgo.owl
+data-version: pathgo/releases/2021-08-03/pathgo.owl
 remark: Pathogenesis gene ontology
 remark: This material is licensed to the public under CC BY-NC 4.0.  The U.S. Government has “Unlimited Rights” as granted and defined under FAR 52.227-14.
 remark: ©2020 The Johns Hopkins University Applied Physics Laboratory LLC (JHU/APL).  All Rights Reserved.\n\nThis material may be only be used, modified, or reproduced by or for the U.S. Government pursuant to the license rights granted under the clauses at DFARS 252.227-7013/7014 or FAR 52.227-14. For any other permission, please contact the Office of Technology Transfer at JHU/APL.\n\nNO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES NO REPRESENTATION OR WARRANTY WITH RESPECT TO THE PERFORMANCE OF THE MATERIALS, INCLUDING THEIR SAFETY, EFFECTIVENESS, OR COMMERCIAL VIABILITY, AND DISCLAIMS ALL WARRANTIES IN THE MATERIAL, WHETHER EXPRESS OR IMPLIED, INCLUDING (BUT NOT LIMITED TO) ANY AND ALL IMPLIED WARRANTIES OF PERFORMANCE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY OR OTHER THIRD PARTY RIGHTS. ANY USER OF THE MATERIAL ASSUMES THE ENTIRE RISK AND LIABILITY FOR USING THE MATERIAL. IN NO EVENT SHALL JHU/APL BE LIABLE TO ANY USER OF THE MATERIAL FOR ANY ACTUAL, INDIRECT, CONSEQUENTIAL, SPECIAL OR OTHER DAMAGES ARISING FROM THE USE OF, OR INABILITY TO USE, THE MATERIAL, INCLUDING, BUT NOT LIMITED TO, ANY DAMAGES FOR LOST PROFITS.
@@ -40,7 +40,7 @@ property_value: editorialNote "example SEB (superantigens)" xsd:string
 id: PATHGO:0000016
 name: modulates host immune function
 def: "A mechanism that mediates pathogenicity by modulating host immune system components and processes.  Immune responses can be at the cellular level, or the organismal level." []
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 
 [Term]
 id: PATHGO:0000018
@@ -123,7 +123,7 @@ name: disrupts membrane potential
 def: "A mechanism that mediates pathogenicity by disrupting the plasma membrane potential of host cells." []
 xref: GO:0042391
 xref: GO:0044662
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 property_value: editorialNote "Does this fit better anywhere else?" xsd:string
 
 [Term]
@@ -249,10 +249,10 @@ is_a: PATHGO:0000028 ! modulates cytoskeleton in host cell
 [Term]
 id: PATHGO:0000110
 name: mediates secretion of protein effectors
-def: "A mechanism that mediates pathogenicity by contributing to secretion of protein effectors from the bacterial cell into the extracellular environment or directly into the host cell." []
+def: "A mechanism that mediates pathogenicity by contributing to secretion of protein effectors from the pathogen into the extracellular environment or directly into the host cell." []
 xref: GO:0044417
 xref: GO:0050708
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000336 ! indirect mechanism of pathogenicity
 property_value: editorialNote "elaborate subclasses and align with determinant branch\n\nThe secretion pathways are typically described as \"types\" based on components/structures involved corresponding to variations on a few general strategies involving transport across inner membrane, transport across inner membrane followed by transport across outer membrane (two-step), transport across both membranes. Several types can also transport proteins directly across the host cell membrane to deliver effectors directly into cells\n\nType I- one step to extracellular\nType II- two step, first step is independent transport into periplasm\nType III- spans both membranes, injectosome into host cell\nType IV- spans both membranes, release of effectors into other cell (conjugation)\nType V-autotransporter in OM, first step is independent transport into periplasm\nType VI- spans both membranes, release into other cell\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4804464/\nhttps://www.sciencedirect.com/science/article/pii/S0167488904000783\n\nEvaluate subclass naming/organization" xsd:string
 
 [Term]
@@ -266,7 +266,7 @@ property_value: editorialNote "evaluate and modify subclasses to achieve consist
 [Term]
 id: PATHGO:0000114
 name: mechanism of pathogenicity
-def: "Pathogenicity is the ability of microbes to have damaging effects on cells.  A mechanism of pathogenicity is a process that pathogens perform to have damaging effects on cells, and that specifically describes how that effect is exerted." []
+def: "A mechanism of pathogenicity is a means by which a damaging effect is brought about, and that specifically describes how that effect is exerted." []
 
 [Term]
 id: PATHGO:0000124
@@ -274,13 +274,6 @@ name: mediates iron acquisition from environment
 def: "A mechanism of iron uptake that involves using iron in the environment." []
 xref: GO:0005506
 is_a: PATHGO:0000058 ! mediates iron uptake
-
-[Term]
-id: PATHGO:0000125
-name: mediates desiccation resistance
-def: "A mechanism that promotes proliferation and survival by enabling pathogens to survive periods without water, or drought-like conditions." []
-xref: GO:0009269
-is_a: PATHGO:0000150 ! mediates proliferation and survival
 
 [Term]
 id: PATHGO:0000132
@@ -320,7 +313,7 @@ id: PATHGO:0000147
 name: enables adherence and colonization
 def: "A mechanism that mediates pathogenicity by enabling pathogens to attach to host cells and establish growth." []
 xref: BVF:0000002
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000336 ! indirect mechanism of pathogenicity
 
 [Term]
 id: PATHGO:0000149
@@ -333,7 +326,7 @@ is_a: PATHGO:0000113 ! mediates nutrient availability or uptake
 id: PATHGO:0000150
 name: mediates proliferation and survival
 def: "A mechanism that mediates pathogenicity by allowing pathogens to grow and multiply, especially when environmental conditions are unfavorable, distinct from adherence and colonization." []
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000336 ! indirect mechanism of pathogenicity
 property_value: editorialNote "evaluate placement and provide examples" xsd:string
 
 [Term]
@@ -359,7 +352,7 @@ xref: GO:0022408
 xref: GO:0044067
 xref: GO:0044364
 xref: GO:1901889
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 property_value: editorialNote "evaluate for incorporation to invasion and dissemination\n\nelaborate subclasses" xsd:string
 
 [Term]
@@ -382,7 +375,7 @@ id: PATHGO:0000164
 name: disrupts cellular metabolism
 def: "A mechanism that mediates pathogenicity by disrupting cellular processes involved in the synthesis or breakdown of cellular constituents or production of energy." []
 xref: GO:0044068
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 
 [Term]
 id: PATHGO:0000165
@@ -390,7 +383,7 @@ name: disrupts host cellular signaling
 def: "A mechanism that mediates pathogenicity by disrupting host cellular signaling processes." []
 xref: GO:0044501
 xref: GO:0052027
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 property_value: editorialNote "refine/build out subclasses" xsd:string
 
 [Term]
@@ -398,14 +391,14 @@ id: PATHGO:0000166
 name: disrupts cellular structure
 def: "A mechanism that mediates pathogenicity by disrupting the structural integrity of a cell." []
 xref: GO:0052111
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 
 [Term]
 id: PATHGO:0000167
 name: disrupts cellular transport
 def: "A mechanism that mediates pathogenicity by disrupting transport of products into, out of, and within host cells." []
 xref: GO:0044068
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 property_value: editorialNote "elaborate and restructure subclasses using a consistent organizational principle\n\nexample concepts to consider in determining organization:\nmembrane transport\nvesicular transport\nendocytosis/exocytosis\nactive/passive\nintracellular trafficking\nmicrotubule mediated transport" xsd:string
 
 [Term]
@@ -597,14 +590,14 @@ id: PATHGO:0000233
 name: disrupts host toll-like receptor signaling
 def: "A mechanism that mediates immune evasion and subversion by disrupting toll-like receptor signaling." []
 is_a: PATHGO:0000085 ! mediates immune evasion and subversion
-property_value: editorialNote "adaptor protein degradation activator; research and add others" xsd:string
+property_value: editorialNote "adaptor protein degradation activator; research and add others\n\nGene Godbold notes that we may want to add subclasses for 'host toll-like receptor agonist' and 'host toll-like receptor antagonist' here.  Although these functions could be represented by the GO terms \"GO:0034123 positive regulation of toll-like receptor signaling pathway\" and \"GO:0034122 negative regulation of toll-like receptor signaling pathway\". \n\nAlso, we may also want to distinguish the ones that are acting intracellularly versus the ones that are binding to the receptors extracellularly." xsd:string
 
 [Term]
 id: PATHGO:0000234
 name: mediates integrin binding
 comment: A mechanism that mediates cell surface binding through integrins.
 xref: GO:0005178
-is_a: PATHGO:0000211 ! mediates cell surface binding
+is_a: PATHGO:0000072 ! mediates surface glycoprotein binding
 property_value: editorialNote "integrin α2β1 binding protein and integrin αMβ2 binding protein are examples that may be too granular to include" xsd:string
 
 [Term]
@@ -613,13 +606,13 @@ name: mediates host cell invasion
 def: "A mechanism that mediates pathogenicity by facilitating movement into host cells." []
 synonym: "invasin" RELATED []
 xref: GO:0044409
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 
 [Term]
 id: PATHGO:0000236
 name: modulates host cell endomembrane dynamics
 def: "A mechanism that mediates pathogenicity by manipulating host cell endomembrane dynamics." []
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 
 [Term]
 id: PATHGO:0000237
@@ -656,7 +649,7 @@ id: PATHGO:0000242
 name: mediates host vitronectin binding
 def: "A mechanism that mediates extracellular matrix binding by adhering specifically to vitronectin.  Vitronectin is a multifunctional glycoprotein present in blood and in the extracellular matrix." []
 is_a: PATHGO:0000099 ! mediates extracellular matrix binding
-property_value: editorialNote "For example, Candida albicans uses its cell surface protein Gpm1 to attach to human endothelial cells through its interaction with vitronectin (PMID: 24625558). \n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
+property_value: editorialNote "For example, Candida albicans uses its cell surface protein Gpm1 to attach to human endothelial cells through its interaction with vitronectin (PMID: 24625558). \n\nFor instances where vitronectin binding is used to escape host complement processes, the term 'indirect host complement inactivation' should be used instead.\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
 
 [Term]
 id: PATHGO:0000244
@@ -679,7 +672,7 @@ name: mediates dissemination
 def: "A mechanism that mediates pathogenicity by enabling pathogens to spread through host tissues." []
 synonym: "mediates spreading" RELATED []
 xref: GO:0044000
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 
 [Term]
 id: PATHGO:0000253
@@ -763,7 +756,8 @@ property_value: editorialNote "Attribution: https://orcid.org/0000-0002-5702-469
 [Term]
 id: PATHGO:0000273
 name: mediates host glycosaminoglycan- or proteoglycan-binding
-xref: GO:0005539\,GO\:0043394
+xref: GO:0005539
+xref: GO:0043394
 is_a: PATHGO:0000099 ! mediates extracellular matrix binding
 property_value: definition "A mechanism that mediates extracellular matrix binding by adherance to glycosaminoglycans or proteoglycans in the host extracellular matrix." xsd:string
 
@@ -949,6 +943,13 @@ xref: GO:1990215
 is_a: PATHGO:0000167 ! disrupts cellular transport
 
 [Term]
+id: PATHGO:0000324
+name: host complement inactivation by vitronectin recruitment
+def: "A mechanism that mediates indirect host complement inactivation specifically by the recruitment of host vitronectin" []
+is_a: PATHGO:0000341 ! indirect host complement inactivation
+property_value: editorialNote "For instances where host vitronectin binding is used to facilitate adhesion and invasion, the term 'mediates host vitronectin binding' in the 'enables adherence and colonization' branch should be used. \n\nPMID: 20807208" xsd:string
+
+[Term]
 id: PATHGO:0000325
 name: modulates ubiquitin dynamics in host cell
 def: "A mechanism that disrupts cellular metabolism through modulation or redirection of E3 ubiquitin ligase, E3 ubiquitin ligase activity, E2 enzymes, or removal of ubiquitin from a target protein." []
@@ -971,10 +972,24 @@ property_value: definition "A mechanism that disrupts host cellular signaling by
 property_value: editorialNote "Shouldn't this term live under 'disrupts G-protein signaling pathways'?\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
 
 [Term]
+id: PATHGO:0000329
+name: modulates ISGylation in host cell
+def: "A mechanism that mediates immune evasion and subversion by modulating the post-translational modification of ISGylation of host cell proteins." []
+is_a: PATHGO:0000085 ! mediates immune evasion and subversion
+property_value: editorialNote "For example, interferon-stimulated gene 15 (ISG15), induced by type I inteferon, acts like a ubiquitin-like tag on host proteins.  The consequences of ISGylation are not well understood, but some studies have shown that ISGylated proteins have antiviral functions.\n\nMore functions of ISG15 reviewed in PMID: 30428561" xsd:string
+
+[Term]
+id: PATHGO:0000330
+name: mediates deISGylation of host proteins
+is_a: PATHGO:0000329 ! modulates ISGylation in host cell
+property_value: editorialNote "A mechanism that modulates ISGylation in host cells by removing or cleaving ISG15 tags from host proteins" xsd:string
+property_value: editorialNote "SARS-CoV2 and Crimean Congo Hemorrhagic fever both have proteases that act as deubiquitinases but also serve to remove ISG15 units from host proteins.\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
+
+[Term]
 id: PATHGO:0000331
 name: modulates cell cycle in host cell
 xref: GO:0044071
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 property_value: definition "A mechanism that mediates pathogenicity by modulating the cell cycle of a host cell." xsd:string
 property_value: editorialNote "Elaborate subclasses" xsd:string
 property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
@@ -983,10 +998,16 @@ property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org
 id: PATHGO:0000332
 name: modulates apoptosis in host cell
 xref: GO:0052150
-is_a: PATHGO:0000114 ! mechanism of pathogenicity
+is_a: PATHGO:0000333 ! direct mechanism of pathogenicity
 property_value: definition "A mechanism that mediates pathogenicity by modulating apoptosis in host cells. Gene products produced by pathogenic microbes may induce or prevent apoptosis to enable growth inside the host." xsd:string
 property_value: editorialNote "Evaluate for placement in proliferation and survival" xsd:string
 property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
+
+[Term]
+id: PATHGO:0000333
+name: direct mechanism of pathogenicity
+def: "A mechanism of pathogenicity that mediates a damaging effect directly" []
+is_a: PATHGO:0000114 ! mechanism of pathogenicity
 
 [Term]
 id: PATHGO:0000334
@@ -1005,6 +1026,26 @@ property_value: definition "A mechanism that modulates apoptosis in the host cel
 property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
 
 [Term]
+id: PATHGO:0000336
+name: indirect mechanism of pathogenicity
+def: "A mechanism of pathogenicity that mediates a damaging effect indirectly" []
+is_a: PATHGO:0000114 ! mechanism of pathogenicity
+property_value: editorialNote "Does the gene product itself cause a pathogenic effect, or does it play a supporting role for pathogenesis to other gene products?  Note, functions related to the normal growth processes of pathogens like 'sporulation' should not be annotated with this term.  Only genes that are necessary for pathogenesis, like 'secretion systems', should be annotated with this term." xsd:string
+
+[Term]
+id: PATHGO:0000337
+name: mediates toxin synthesis
+def: "A mechanism that mediates pathogenicity by mediating the synthesis of toxins" []
+is_a: PATHGO:0000336 ! indirect mechanism of pathogenicity
+
+[Term]
+id: PATHGO:0000338
+name: modulates virulence factor activity
+def: "A mechanism that mediates pathogenicity by modulating the activity of virulence factors." []
+is_a: PATHGO:0000336 ! indirect mechanism of pathogenicity
+property_value: editorialNote "Examples include protecting a virulence factor from degradation, increasing the activity of a virulence factor, or assisting with the folding of a virulence factor (chaperone activity). \n\nExamples genes:\n\nPhospholipase A2 homolog crotoxin acid subunit CA from Crotalus durissus terrificus (South American rattlesnake): This rattlesnake venom component is not toxic in itself but potentiates the lethal potency of the other two constituents of a heterotrimer: CA and CB which are lethal presynaptic neurotoxins that block neuromuscular transmission [PMID21787789].\n\nBotulinum neurotoxin type C1 nontoxic-nonhemagglutinin component (CST085; NTNHA) from Clostridium botulinum phage: This protein is nearly identical to NTNHA which complexes with the botulinum toxin to protect it from destruction in the gastrointestinal tract, serving as a chaperone [PMID22363010].\n\nAcidic phospholipase A2 RV-7 from Daboia siamensis (Eastern Russel's viper) (P31100): As a monomer, this snake venom component has low enzymatic activity. It may facilitate the binding of venom component RV-4 to presynaptic binding sites, acting as a chaperone and minimizing the destruction of RV-4 by binding to extraneous targets. The RV-7/RV-4 heterodimer targets presynaptic sites at the neuromuscular junction [PMID8835338].\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
+
+[Term]
 id: PATHGO:0000339
 name: direct host complement inactivation
 is_a: PATHGO:0000100 ! mediates resistance to complement system
@@ -1012,10 +1053,18 @@ property_value: definition "A mechanism that mediates resistance to the host com
 property_value: editorialNote "Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
 
 [Term]
+id: PATHGO:0000340
+name: mediates host actin stabilization
+def: "A mechanism that modulates the cytoskeleton in host cells by mediating host actin stabilization" []
+is_a: PATHGO:0000028 ! modulates cytoskeleton in host cell
+property_value: editorialNote "Cells infected with enterohemorrhagic Escherichia coli (EHEC) lacking the T3SS effectors EspO1-1 and EspO1-2 display cell rounding phenotypes and lose focal adhesions.  These effectors work with host proteins (like GTPases) to stabilize actin and focal adhesions during infection [PMID 23409096].\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
+
+[Term]
 id: PATHGO:0000341
 name: indirect host complement inactivation
 is_a: PATHGO:0000100 ! mediates resistance to complement system
 property_value: definition "A mechanism that mediates resistance to the host complement system by indirect host complement inactivation via recruiting a host enzyme, typically a proteinase, to the parasite surface." xsd:string
+property_value: editorialNote "PMID: 26808444" xsd:string
 property_value: editorialNote "Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
 
 [Term]
@@ -1038,13 +1087,6 @@ name: modulates autophagy or xenophagy in host cell
 def: "A mechanism that modulates host endomembrane dynamics by modulating autophagy or xenophagy." []
 is_a: PATHGO:0000236 ! modulates host cell endomembrane dynamics
 property_value: editorialNote "Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
-
-[Term]
-id: PATHGO:0000349
-name: mediates type VII secretion
-is_a: PATHGO:0000110 ! mediates secretion of protein effectors
-property_value: definition "A mechanism that mediates secretion of protein effectors as part of a type VII secretion system that can mediate the entry of bacterial effectors into the host cell." xsd:string
-property_value: editorialNote "Do we want to have subclasses for every single type of secretion system?\n\nTerm suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)" xsd:string
 
 [Typedef]
 id: PATHGO:0000243
