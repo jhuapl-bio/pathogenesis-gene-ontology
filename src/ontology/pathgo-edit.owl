@@ -1674,6 +1674,18 @@ PMID: 20807208</skos:editorialNote>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
+        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating the cleavage of host DNA.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0090305</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>DNase activity</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">mediates host DNA cleavage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000328">
