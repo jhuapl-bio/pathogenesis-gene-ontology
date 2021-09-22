@@ -15,6 +15,7 @@ This ontology contains terms to describe the function of genes and gene products
 ## Contents
 
 The PathGO project has the following filesystem structure:
+<pre>
 .
 ├── CONTRIBUTING.md
 ├── README.md <-- file shown on main GitHub page
@@ -34,6 +35,7 @@ The PathGO project has the following filesystem structure:
 │   └── sparql/
 └── static/
     └── protege_new_entity_settings.png
+</pre>
 
 ## Versions
 
@@ -41,7 +43,7 @@ The PathGO project has the following filesystem structure:
 
 The latest official release of the ontology can always be found at:
 
-[pathgo.owl]
+[pathgo.owl](pathgo.owl)
 
 If/when the ontology gets approved by the OBO Foundry, official releases will also be available at: 
 
