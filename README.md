@@ -12,15 +12,40 @@
 
 This ontology contains terms to describe the function of genes and gene products involved in pathogenesis.  Genes that encode toxins, virulence factors, and antimicrobial resistance have functions that are not represented well by the terms contained within the Gene Ontology or any of the other OBO Foundry ontologies.  This ontology will collect and maintain common terms and descriptions of concepts related to pathogenesis, and could help provide more intuitive descriptions of function for these types of sequences.
 
+## Contents
+
+The PathGO project has the following filesystem structure:
+.
+├── CONTRIBUTING.md
+├── README.md <-- file shown on main GitHub page
+├── bin/ <-- utilities for managing ontology files
+├── imports/ <-- imported ontologies live here
+├── issue_template.md
+├── pathgo.obo <-- distributable versions of the ontology (.obo, .owl)
+├── pathgo.owl
+├── src/
+│   ├── metadata/
+│   ├── ontology/
+│   │   ├── Makefile
+│   │   ├── last_used_id.txt <-- last used term id
+│   │   ├── pathgo-edit.owl <-- working version of the ontologies, most recent updates live here
+│   │   ├── pathgo-idranges.owl
+│   │   ├── ...
+│   └── sparql/
+└── static/
+    └── protege_new_entity_settings.png
+
 ## Versions
 
 ### Stable release versions
 
 The latest official release of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/pathgo.owl
+[pathgo.owl]
 
-(note this will not show up until the request has been approved by OBO Foundry)
+If/when the ontology gets approved by the OBO Foundry, official releases will also be available at: 
+
+http://purl.obolibrary.org/obo/pathgo.owl
 
 ### Editors' version
 
