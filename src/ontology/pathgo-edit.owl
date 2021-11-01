@@ -303,11 +303,11 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000166"/>
-        <obo:IAO_0000115>A mechanism that disrupts cellular structure by damaging the cell membrane.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts cellular structure of another organism by damaging the cell membrane.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0051673</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0052025</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>lysis of host cells</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates membrane damage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates membrane damage of another organism</rdfs:label>
         <skos:editorialNote>consider vacuolization</skos:editorialNote>
     </owl:Class>
     
@@ -317,8 +317,8 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000006"/>
-        <obo:IAO_0000115>A mechanism that modulates protein synthesis by ribosome inactivation.</obo:IAO_0000115>
-        <rdfs:label>mediates ribosome inactivation</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates protein synthesis in another organism by ribosome inactivation.</obo:IAO_0000115>
+        <rdfs:label>mediates ribosome inactivation in another organism</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For example, Ricin toxin.</skos:editorialNote>
     </owl:Class>
     
@@ -328,7 +328,7 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000016"/>
-        <rdfs:label>mediates non-productive immune system activation</rdfs:label>
+        <rdfs:label>mediates non-productive immune system activation in another organism</rdfs:label>
         <skos:editorialNote>evaluate class name and intent; determine how to capture superantigens
 
 Evaluate changing label to &quot;mediates immune system activation&quot;</skos:editorialNote>
@@ -351,10 +351,10 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000147"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables adhesion and colonization by mediating attachment to cells or to surfaces, usually the host they are infecting or living in.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables adhesion and colonization by mediating attachment to cells of the host they are infecting or living in.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044406</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>adhesin</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>mediates adhesion</rdfs:label>
+        <rdfs:label>mediates adhesion to another organism</rdfs:label>
     </owl:Class>
     
 
