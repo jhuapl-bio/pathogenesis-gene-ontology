@@ -435,9 +435,9 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates extracellular matrix binding by binding to collagen.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates extracellular matrix binding of another organism by binding to collagen.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0005518</oboInOwl:hasDbXref>
-        <rdfs:label>mediates host collagen binding</rdfs:label>
+        <rdfs:label>mediates collagen binding in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -446,9 +446,9 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000211"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates cell surface binding by binding to glycoproteins (i.e. sugar-modified proteins) on the surface of a cell</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates cell surface binding of another organism by binding to glycoproteins (i.e. sugar-modified proteins) on the surface of a cell</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0140081</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates surface glycoprotein binding</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates surface glycoprotein binding of another organism</rdfs:label>
     </owl:Class>
     
 
@@ -457,9 +457,9 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000251"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates dissemination by stimulation of host blood vessel generation, or angiogenesis.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates dissemination in another organism by stimulation of host blood vessel generation, or angiogenesis.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0045766</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates induction of angiogenesis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates induction of angiogenesis in another organism</rdfs:label>
         <skos:editorialNote>example Bartonella BafA
 
 evaluate proangiogenic response as a contribution to pathogenesis</skos:editorialNote>
@@ -471,8 +471,8 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates immune evasion and subversion by blocking immature dendritic immune cells from maturing into antigen-presenting, T cell activating cells.</obo:IAO_0000115>
-        <rdfs:label>inhibits dendritic cell maturation</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates immune evasion and subversion in another organism by blocking immature dendritic immune cells from maturing into antigen-presenting, T cell activating cells.</obo:IAO_0000115>
+        <rdfs:label>suppresses dendritic cell maturation in another organism</rdfs:label>
     </owl:Class>
     
 
