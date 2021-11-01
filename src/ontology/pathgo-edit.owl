@@ -1471,8 +1471,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000294">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <rdfs:label xml:lang="en">modulates host NF-kappaB signaling</rdfs:label>
-        <skos:definition>A mechanism that disrupts host cellular signaling by modulating host NF-kappaB signaling.</skos:definition>
+        <rdfs:label xml:lang="en">modulates host NF-kappaB signaling in another organism</rdfs:label>
+        <skos:definition>A mechanism that disrupts cellular signaling in another organism by modulating host NF-kappaB signaling.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1482,8 +1482,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000294"/>
-        <rdfs:label xml:lang="en">disrupts host NF-kappaB signaling</rdfs:label>
-        <skos:definition>A mechanism that modulates host NF-kappaB signaling by disrupting host NF-kappaB signaling so that the effector subunit is not able to initiate transcription in the nucleus.</skos:definition>
+        <rdfs:label xml:lang="en">suppresses NF-kappaB signaling in another organism</rdfs:label>
+        <skos:definition>A mechanism that modulates NF-kappaB signaling in another organism by suppressing NF-kappaB signaling so that the effector subunit is not able to initiate transcription in the nucleus.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1493,8 +1493,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000296">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000294"/>
-        <rdfs:label xml:lang="en">enhances host NF-kappaB signaling</rdfs:label>
-        <skos:definition>A mechanism that modulates host NF-kappaB signaling by enhancing host NF-kappaB signaling by promoting activation.</skos:definition>
+        <rdfs:label xml:lang="en">enhances NF-kappaB signaling in another organism</rdfs:label>
+        <skos:definition>A mechanism that modulates NF-kappaB signaling in another organism by enhancing host NF-kappaB signaling by promoting activation.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1889,8 +1889,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000347">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
-        <obo:IAO_0000115>A mechanism that modulates host endomembrane dynamics by modulating autophagy or xenophagy.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates autophagy or xenophagy in host cell</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates endomembrane dynamics in another organism by modulating autophagy or xenophagy.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates autophagy or xenophagy in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
