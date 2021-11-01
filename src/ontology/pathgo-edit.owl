@@ -190,10 +190,10 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000167"/>
-        <obo:IAO_0000115>A mechanism that disrupts cellular transport by modulating ion channel activity in a host or target organism.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts cellular transport by modulating ion channel activity in another organism.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044069</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0099106</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modulates ion channel activity in other organism</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modulates ion channel activity in another organism</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">direct action on ion channel (voltage or ligand gated) or ion pump,</skos:editorialNote>
     </owl:Class>
     
@@ -203,9 +203,9 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
-        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by modulating protein synthesis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism in another organism by modulating protein synthesis.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044074</oboInOwl:hasDbXref>
-        <rdfs:label>modulates protein synthesis</rdfs:label>
+        <rdfs:label>modulates protein synthesis in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -215,7 +215,7 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000003"/>
         <oboInOwl:hasDbXref>GO:0044762</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts neurotransmitter release in other organism</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts neurotransmitter release in another organism</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example agatoxin, omega conotoxin, dendrotoxin</skos:editorialNote>
         <skos:editorialNote>inconsistent as a subclass as this is a consequence of ion channel activity modulation; should be moved</skos:editorialNote>
     </owl:Class>
@@ -226,7 +226,7 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000031"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates non-specific T-cell activation</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates non-specific T-cell activation in another organism</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example SEB (superantigens)</skos:editorialNote>
     </owl:Class>
     
@@ -281,8 +281,8 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000316"/>
-        <obo:IAO_0000115>A mechanism that modulates eukaryotic translation elongation factors by activating eukaryotic translation elongation factors.</obo:IAO_0000115>
-        <rdfs:label>activates translation elongation factors</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates eukaryotic translation elongation factors in another organism by activating eukaryotic translation elongation factors.</obo:IAO_0000115>
+        <rdfs:label>activates translation elongation factors in another organism</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
@@ -292,9 +292,9 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000166"/>
-        <obo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by altering maintenance of cytoskeleton.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that modulates cytoskeleton dynamics in another organism by altering maintenance of cytoskeleton.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0052039</oboInOwl:hasDbXref>
-        <rdfs:label>modulates cytoskeleton in host cell</rdfs:label>
+        <rdfs:label>modulates cytoskeleton dynamics in another organism</rdfs:label>
     </owl:Class>
     
 
