@@ -481,8 +481,8 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates immune evasion and subversion by preventing lymphocytes from growing via cell division.</obo:IAO_0000115>
-        <rdfs:label>inhibits lymphocyte proliferation</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates immune evasion and subversion in another organism by preventing lymphocytes from growing via cell division.</obo:IAO_0000115>
+        <rdfs:label>inhibits lymphocyte proliferation in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -491,8 +491,8 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000016"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating the availability or function of immune system components to evade or subvert host immune functions.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates immune evasion and subversion</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating the availability or function of immune system components in another organism, to evade or subvert host immune functions.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates immune evasion and subversion in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -501,9 +501,9 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
-        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by disrupting the mitochondrial membrane potential.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism in another organism by disrupting the mitochondrial membrane potential.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0033659</oboInOwl:hasDbXref>
-        <rdfs:label>disrupts mitochondrial membrane potential</rdfs:label>
+        <rdfs:label>disrupts mitochondrial membrane potential in another organism</rdfs:label>
         <skos:editorialNote>For example, during infection Listeria monocytogenes induces a loss of mitochondrial membrane potential by expressing listeriolysin O (LLO) which causes mitochondrial fission.  This change leads to reduced ATP production.</skos:editorialNote>
     </owl:Class>
     
@@ -513,9 +513,9 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000038"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables adhesion by mediating binding to extracellular matrix components such as collagen and fibronectin.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables adhesion to another organism by mediating binding to extracellular matrix components such as collagen and fibronectin.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0050840</oboInOwl:hasDbXref>
-        <rdfs:label>mediates extracellular matrix binding</rdfs:label>
+        <rdfs:label>mediates extracellular matrix binding of another organism</rdfs:label>
         <skos:editorialNote>Mechanism of adherence in which attachment occurs to components of the extracellular matrix as opposed to the target cell directly;
 elaborate subclasses
 
@@ -541,8 +541,8 @@ example:component 1 (C1) protease</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates immune evasion and subversion by preventing antibacterial peptides from binding to their targets.</obo:IAO_0000115>
-        <rdfs:label>disrupts antimicrobial peptide binding</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates immune evasion and subversion in another organism by preventing antibacterial peptides from binding to their targets.</obo:IAO_0000115>
+        <rdfs:label>disrupts antimicrobial peptide binding in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -551,8 +551,8 @@ example:component 1 (C1) protease</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by mediating inhibition of host actin polymerization.</obo:IAO_0000115>
-        <rdfs:label>mediates host actin polymerization inhibition</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in another organism by mediating inhibition of actin polymerization.</obo:IAO_0000115>
+        <rdfs:label>mediates actin polymerization inhibition in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -624,9 +624,9 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
-        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by inhibiting DNA synthesis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism in another organism by inhibiting DNA synthesis.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:2000279</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhibits DNA synthesis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates DNA synthesis inhibition in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -635,9 +635,9 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates extracellular matrix binding by binding to fibronectin.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates extracellular matrix binding of another organism by binding to fibronectin.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0001968</oboInOwl:hasDbXref>
-        <rdfs:label>mediates host fibronectin binding</rdfs:label>
+        <rdfs:label>mediates fibronectin binding in another organism</rdfs:label>
     </owl:Class>
     
 
