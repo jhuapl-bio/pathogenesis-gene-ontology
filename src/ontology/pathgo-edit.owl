@@ -680,10 +680,10 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000331"/>
-        <obo:IAO_0000115>A mechanism that modulates the cell cycle of a host cell by inducing cell cycle arrest</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that modulates the cell cycle in cells of another organism by inducing cell cycle arrest</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0007050</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0044072</oboInOwl:hasDbXref>
-        <rdfs:label>induces cell cycle arrest</rdfs:label>
+        <rdfs:label>induces cell cycle arrest in cells of another organism</rdfs:label>
     </owl:Class>
     
 
@@ -703,12 +703,12 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the adhesion of cells to other cells and/or extracellular matrix components.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the adhesion of cells to other cells and/or extracellular matrix components in another organism.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0022408</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0044067</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0044364</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:1901889</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts cell-cell adhesion</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts cell-cell adhesion in another organism</rdfs:label>
         <skos:editorialNote>evaluate for incorporation to invasion and dissemination
 
 elaborate subclasses</skos:editorialNote>
@@ -720,9 +720,9 @@ elaborate subclasses</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that disrupts tissue structure by damaging the mucosal barrier, permitting microbial products and/or microbes entry into the body.  The intestinal mucosal barrier consists of the intestinal epithelial layer, plus additional physical, biochemical, and immunological components.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that disrupts tissue structure by damaging the mucosal barrier in another organism, permitting microbial products and/or microbes entry into that organism.  The intestinal mucosal barrier consists of the intestinal epithelial layer, plus additional physical, biochemical, and immunological components.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal barrier disruption</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>disrupts mucosal barrier</rdfs:label>
+        <rdfs:label>disrupts mucosal barrier in another organism</rdfs:label>
         <skos:editorialNote>higher level process, not appropriate subclass; evaluate for removal or alternate placement; revise definition</skos:editorialNote>
     </owl:Class>
     
@@ -732,8 +732,8 @@ elaborate subclasses</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that compromises epithelial cell layers, enabling increased permeation of biomolecules and/or bacterial invasion.</obo:IAO_0000115>
-        <rdfs:label>disrupts epithelial layers</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that compromises epithelial cell layers in another organism, enabling increased permeation of biomolecules and/or bacterial invasion.</obo:IAO_0000115>
+        <rdfs:label>disrupts epithelial layers in another organism</rdfs:label>
         <skos:editorialNote>higher level process, not appropriate subclass; evaluate for removal or alternate placement</skos:editorialNote>
     </owl:Class>
     
@@ -743,9 +743,9 @@ elaborate subclasses</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting cellular processes involved in the synthesis or breakdown of cellular constituents or production of energy.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting cellular processes involved in the synthesis or breakdown of cellular constituents or production of energy in another organism.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044068</oboInOwl:hasDbXref>
-        <rdfs:label>disrupts cellular metabolism</rdfs:label>
+        <rdfs:label>disrupts cellular metabolism in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -767,9 +767,9 @@ elaborate subclasses</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the structural integrity of a cell.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the structural integrity of a cell in another organism.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0052111</oboInOwl:hasDbXref>
-        <rdfs:label>disrupts cellular structure</rdfs:label>
+        <rdfs:label>disrupts cellular structure in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -778,9 +778,9 @@ elaborate subclasses</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000167">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting transport of products into, out of, and within host cells.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting transport of products into, out of, and within cells in another organism.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044068</oboInOwl:hasDbXref>
-        <rdfs:label>disrupts cellular transport</rdfs:label>
+        <rdfs:label>disrupts cellular transport in another organism</rdfs:label>
         <skos:editorialNote>elaborate and restructure subclasses using a consistent organizational principle
 
 example concepts to consider in determining organization:
@@ -790,17 +790,6 @@ endocytosis/exocytosis
 active/passive
 intracellular trafficking
 microtubule mediated transport</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000168 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000168">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that disrupts host cell signaling by inhibiting cellular enzymes. For inhibition of metabolic enzymes, see terms under &apos;disruption of cellular metabolism&apos;.</obo:IAO_0000115>
-        <rdfs:label>mediates enzyme inhibition</rdfs:label>
-        <skos:editorialNote>evaluate for placement and provide examples; disambiguate from mediates metabolic enzyme inhibition; revise definition</skos:editorialNote>
     </owl:Class>
     
 
