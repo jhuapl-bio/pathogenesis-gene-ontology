@@ -882,6 +882,7 @@ sialyl Lewis x binding protein is an example</skos:editorialNote>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000062"/>
         <obo:IAO_0000115>A mechanism that enables biofilm formation by contributing to quorum sensing.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates quorum sensing</rdfs:label>
+        <skos:editorialNote>Proposed for removal, since it is not limited to bacteria that are parasites.</skos:editorialNote>
     </owl:Class>
     
 
@@ -963,8 +964,8 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000221">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by mediating microtubule stabilization.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates microtubule stabilization</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by mediating microtubule stabilization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates microtubule stabilization in another organism</rdfs:label>
         <skos:editorialNote>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3625037/</skos:editorialNote>
     </owl:Class>
     
@@ -974,8 +975,8 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by mediating microtubule destabilization.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates microtubule destabilization</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by mediating microtubule destabilization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates microtubule destabilization in another organism</rdfs:label>
         <skos:editorialNote>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3625037/</skos:editorialNote>
     </owl:Class>
     
@@ -991,7 +992,9 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
 
 Intended to capture components that are not directly adhesins, but this class may not be structurally consistent.
 
-No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</skos:editorialNote>
+No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule.
+
+Candidate for removal as the effect here is very indirect.</skos:editorialNote>
     </owl:Class>
     
 
@@ -1001,7 +1004,7 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000226">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
         <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting extracellular matrix components in another organism.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts extracellular matrix</rdfs:label>
+        <rdfs:label xml:lang="en">disrupts extracellular matrix in another organism</rdfs:label>
         <skos:editorialNote>gelatinase, mucinase, sialidase, hyaluronidase, etc.</skos:editorialNote>
     </owl:Class>
     
@@ -1014,6 +1017,7 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
         <obo:IAO_0000115>A mechanism that contributes to quorum sensing by promoting production of autoinducer molecules.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>autoinducer synthase</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">mediates quorum sensing autoinducer production</rdfs:label>
+        <skos:editorialNote>Proposed for removal, since it is not limited to bacteria that are parasites.</skos:editorialNote>
     </owl:Class>
     
 
@@ -1022,8 +1026,8 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000230">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by detoxifying free radicals.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates free radical detoxification</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by detoxifying free radicals in another organism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates free radical detoxification in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -1032,8 +1036,8 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000232"/>
-        <obo:IAO_0000115>A mechanism that inhibits phagocytosis by inhibiting opsonization, the process by which particles are targeted for phagocytosis.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inhibits opsonization</rdfs:label>
+        <obo:IAO_0000115>A mechanism that suppresses phagocytosis by suppressing opsonization, the process by which particles are targeted for phagocytosis.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">suppresses opsonization in another organism</rdfs:label>
         <skos:editorialNote>If a mechanism inhibits opsonization, which is the process of marking foreign particles for phagocytosis by marking them with opsonins, then it necessarily also inhibits phagocytosis.</skos:editorialNote>
     </owl:Class>
     
@@ -1054,8 +1058,8 @@ No term in GO for describing &quot;scaffolding&quot; of a adhesion molecule</sko
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000379"/>
-        <obo:IAO_0000115>A mechanism that disrupts host immune signaling by interfering with host toll-like receptor signaling.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts host toll-like receptor signaling</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts immune signaling in another organism by interfering with toll-like receptor signaling.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts toll-like receptor signaling in another organism</rdfs:label>
         <skos:editorialNote>adaptor protein degradation activator; research and add others
 
 Gene Godbold notes that we may want to add subclasses for &apos;host toll-like receptor agonist&apos; and &apos;host toll-like receptor antagonist&apos; here.  Although these functions could be represented by the GO terms &quot;GO:0034123 positive regulation of toll-like receptor signaling pathway&quot; and &quot;GO:0034122 negative regulation of toll-like receptor signaling pathway&quot;. 
@@ -1070,8 +1074,8 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000234">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000072"/>
         <oboInOwl:hasDbXref>GO:0005178</oboInOwl:hasDbXref>
-        <rdfs:comment>A mechanism that mediates surface glycoprotein binding through integrins.</rdfs:comment>
-        <rdfs:label xml:lang="en">mediates integrin binding</rdfs:label>
+        <rdfs:comment>A mechanism that mediates surface glycoprotein binding of another organism through integrins.</rdfs:comment>
+        <rdfs:label xml:lang="en">mediates integrin binding in another organism</rdfs:label>
         <skos:editorialNote>integrin α2β1 binding protein and integrin αMβ2 binding protein are examples that may be too granular to include</skos:editorialNote>
     </owl:Class>
     
@@ -1093,8 +1097,8 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000236">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
-        <obo:IAO_0000115>A mechanism that mediates pathogenicity by manipulating host cell endomembrane dynamics.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates host cell endomembrane dynamics</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by manipulating cell endomembrane dynamics in another organism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates cell endomembrane dynamics in another organism</rdfs:label>
     </owl:Class>
     
 
