@@ -798,8 +798,8 @@ microtubule mediated transport</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that disrupts cellular metabolism by altering the levels of cyclic adenosine monophosphate (cyclic AMP, or cAMP) in cells.  Cyclic AMP is a second messenger molecule that regulates physiological processes in cells, through, for example, activation of intracellular signaling pathways.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts cellular cAMP levels</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that disrupts cellular metabolism by altering the levels of cyclic adenosine monophosphate (cyclic AMP, or cAMP) in cells of another organism.  Cyclic AMP is a second messenger molecule that regulates physiological processes in cells, through, for example, activation of intracellular signaling pathways.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts cAMP levels within cells of another organism</rdfs:label>
         <skos:editorialNote>redundant to cellular signaling &quot;second messenger disruption&quot;; should be moved; evaluate subclasses</skos:editorialNote>
     </owl:Class>
     
@@ -823,10 +823,10 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000170"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that disrupts cellular cAMP levels through activation of the production or repression of the breakdown of cAMP.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that disrupts cellular cAMP levels within cells of another organism through activation of the production or repression of the breakdown of cAMP.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0051342</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0075106</oboInOwl:hasDbXref>
-        <rdfs:label>modulates cAMP synthesis</rdfs:label>
+        <rdfs:label>modulates cAMP synthesis within cells of another organism</rdfs:label>
     </owl:Class>
     
 
@@ -846,8 +846,8 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <obo:IAO_0000115>A mechanism that disprupts host cell signaling by interfering with host G-protien signaling pathways.</obo:IAO_0000115>
-        <rdfs:label>disrupts G-protein signaling pathways</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts cell signaling in another organism by interfering with G-protein signaling pathways.</obo:IAO_0000115>
+        <rdfs:label>disrupts G-protein signaling pathways in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -856,9 +856,9 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <obo:IAO_0000115>A mechanism that disrupts host cellular signaling by modulating receptor activity in a target or host organism.</obo:IAO_0000115>
-        <rdfs:label>modulates receptor activity in other organism</rdfs:label>
-        <skos:editorialNote>Vague; Evaluate for removal</skos:editorialNote>
+        <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by modulating receptor activity.</obo:IAO_0000115>
+        <rdfs:label>modulates receptor activity in another organism</rdfs:label>
+        <skos:editorialNote>In most cases, this term will be used to reflect interactions with cell surface receptors, such as with eukaryotic toxins or bacterial proteins like superantigens.  However, the term is broad enough that it could also capture effects on intracellular receptors, such as ER localized receptors.</skos:editorialNote>
     </owl:Class>
     
 
@@ -891,10 +891,12 @@ sialyl Lewis x binding protein is an example</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000213">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000159"/>
         <oboInOwl:hasDbXref>GO:0035893</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">inhibits platelet aggregation</rdfs:label>
+        <rdfs:label xml:lang="en">suppresses platelet aggregation in another organism</rdfs:label>
         <skos:editorialNote>for example: coagulation factor V protease, or disintegrins
 
-not an appropriate subclass as this is a specific example, evaluate for class related to inhibition of integrin mediated adhesion &quot;disrupts &quot;integrin-dependent adhesion&quot;</skos:editorialNote>
+not an appropriate subclass as this is a specific example, evaluate for class related to inhibition of integrin mediated adhesion &quot;disrupts &quot;integrin-dependent adhesion&quot;
+
+also, consider combining with &quot;disrupts coagulation in another organism&quot; branch.</skos:editorialNote>
     </owl:Class>
     
 
@@ -918,11 +920,11 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
-        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by inhibiting metabolic enzymes.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by suppressing metabolic enzymes in another organism.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0004857</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0052148</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">inhibits metabolic enzymes</rdfs:label>
-        <skos:editorialNote>Provide examples.</skos:editorialNote>
+        <rdfs:label xml:lang="en">suppressing metabolic enzymes in another organism</rdfs:label>
+        <skos:editorialNote>Provide examples, or consider for removal.  Is metabolic enzyme suppression specifically a common mechanism of pathogenesis?</skos:editorialNote>
     </owl:Class>
     
 
@@ -931,8 +933,8 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by mediating host actin depolymerization.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host actin depolymerization</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by mediating actin depolymerization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates actin depolymerization in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -941,8 +943,8 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by promoting host actin crosslinking.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host actin crosslinking</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by promoting actin crosslinking.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates actin crosslinking in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -951,8 +953,8 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by suppressing release of inflammatory cytokines.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">suppresses inflammatory cytokine release</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion in another organism by suppressing release of inflammatory cytokines.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">suppresses inflammatory cytokine release in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -2008,7 +2010,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
         <obo:IAO_0000115>A mechanism that mediates pathogenicity by interfering with the blood clotting cascade to promote or suppress coagulation in another organism.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts coagulation in other organism</rdfs:label>
+        <rdfs:label xml:lang="en">disrupts coagulation in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2018,8 +2020,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000360">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
-        <obo:IAO_0000115>A mechanism that disrupts coagulation by inhibiting the blood clotting cascade to supress coagulation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Inhibits coagulation in other organism</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts coagulation in another organism by inhibiting the blood clotting cascade to suppress coagulation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">inhibits coagulation in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2029,8 +2031,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000361">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
-        <obo:IAO_0000115>A mechanism that disrupts coagulation by activating the blood clotting cascade to promote coagulation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">promotes coagulation in other organism</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts coagulation in another organism by activating the blood clotting cascade to promote coagulation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">promotes coagulation in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
