@@ -1113,16 +1113,6 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000238 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000238">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
-        <rdfs:label xml:lang="en">mediates evasion of lysosome lysis</rdfs:label>
-        <skos:definition>A mechanism that modulates host cell endomembrane dynamics by mediating evasion of lysosome lysis.</skos:definition>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000239">
