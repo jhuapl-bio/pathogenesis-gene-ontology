@@ -1117,8 +1117,9 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
-        <rdfs:label xml:lang="en">disrupts phagolysosome fusion</rdfs:label>
-        <skos:definition>A mechanism that modulates host cell endomembrane dynamics by disrupting phagolysosome fusion.</skos:definition>
+        <rdfs:label xml:lang="en">disrupts phagosome lysosome fusion in another organism</rdfs:label>
+        <skos:definition>A mechanism that modulates cell endomembrane dynamics in another organism by disrupting phagosome lysosome fusion.</skos:definition>
+        <skos:editorialNote>The key difference between phagolysosome and phagosome is that phagolysosome is a cytoplasmic body formed by the fusion of a phagosome with a lysosome. Meanwhile, phagosome is a vesicle formed around the particles engulfed by a phagocytic cell during phagocytosis.</skos:editorialNote>
     </owl:Class>
     
 
@@ -1127,8 +1128,8 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000240">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
-        <rdfs:label xml:lang="en">disrupts phagosome acidification</rdfs:label>
-        <skos:definition>A mechanism that modulates host cell endomembrane dynamics by disrupting phagosome acidification.</skos:definition>
+        <rdfs:label xml:lang="en">disrupts phagosome acidification in another organism</rdfs:label>
+        <skos:definition>A mechanism that modulates cell endomembrane dynamics in another organism by disrupting phagosome acidification.</skos:definition>
     </owl:Class>
     
 
@@ -1137,8 +1138,8 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
-        <rdfs:label xml:lang="en">disrupts phagosome maturation in host cell</rdfs:label>
-        <skos:definition>A mechanism that modulates host cell endomembrane dynamics by disrupting phagosome maturation in the host cell.</skos:definition>
+        <rdfs:label xml:lang="en">disrupts phagosome maturation in another organism</rdfs:label>
+        <skos:definition>A mechanism that modulates cell endomembrane dynamics in another organism by disrupting phagosome maturations.</skos:definition>
     </owl:Class>
     
 
@@ -1147,8 +1148,8 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000242">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
-        <obo:IAO_0000115>A mechanism that mediates extracellular matrix binding by adhering specifically to vitronectin.  Vitronectin is a multifunctional glycoprotein present in blood and in the extracellular matrix.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host vitronectin binding</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates extracellular matrix binding in another organism by adhering specifically to vitronectin.  Vitronectin is a multifunctional glycoprotein present in blood and in the extracellular matrix.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates vitronectin binding in another organism</rdfs:label>
         <skos:editorialNote>For example, Candida albicans uses its cell surface protein Gpm1 to attach to human endothelial cells through its interaction with vitronectin (PMID: 24625558). 
 
 For instances where vitronectin binding is used to escape host complement processes, the term &apos;indirect host complement inactivation&apos; should be used instead.
@@ -1162,8 +1163,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000244">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000316"/>
-        <rdfs:label xml:lang="en">represses translation elongation factors</rdfs:label>
-        <skos:definition>A mechanism that modulates eukaryotic translation elongation factors by repression of eukaryotic translation elongation factors.</skos:definition>
+        <rdfs:label xml:lang="en">suppresses translation elongation factors in another organism</rdfs:label>
+        <skos:definition>A mechanism that modulates eukaryotic translation elongation factors in another organism by suppressing eukaryotic translation elongation factors.</skos:definition>
         <skos:editorialNote>examples Legionella glycosylating toxins and SidI, SARS-CoV N protein</skos:editorialNote>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
@@ -1174,8 +1175,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000246">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
-        <obo:IAO_0000115>A mechanism that disrupts the host cell endomembrane system by disrupting fusion between vesicles and other cellular compartments that occur as part of normal host function.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts endosomal vesicle fusion</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts the cell endomembrane system in another organism by disrupting fusion between vesicles and other cellular compartments that occur as part of normal cellular function.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts endosomal vesicle fusion in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1188,7 +1189,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <obo:IAO_0000115>A mechanism that mediates pathogenicity by enabling pathogens to spread through host tissues.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044000</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>mediates spreading</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">mediates dissemination</rdfs:label>
+        <rdfs:label xml:lang="en">mediates dissemination in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -1197,9 +1198,9 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000253">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000251"/>
-        <obo:IAO_0000115>A mechanism that mediates dissemination by promoting traversal of host barrier layers.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that mediates dissemination in another organism by mediating traversal of host barrier layers.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044001</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">mediates host barrier traversal</rdfs:label>
+        <rdfs:label xml:lang="en">mediates barrier traversal in another organism</rdfs:label>
         <skos:editorialNote>[Examples Macrophage infectivity potentiator from Legionella; Exylysin from Pseudomonas; Pseudomonas exotoxin S; Pseudomonas exotoxin T; Shigella extracellular protease]
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
