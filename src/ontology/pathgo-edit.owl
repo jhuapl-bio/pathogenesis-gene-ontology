@@ -1107,8 +1107,8 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
-        <rdfs:label xml:lang="en">mediates escape from host phagosome</rdfs:label>
-        <skos:definition>A mechanism that modulates host cell endomembrane dynamics by mediating escape from host phagosome.</skos:definition>
+        <rdfs:label xml:lang="en">mediates escape from phagosome in another organism</rdfs:label>
+        <skos:definition>A mechanism that modulates cell endomembrane dynamics in another organism by mediating escape from the phagosome.</skos:definition>
     </owl:Class>
     
 
