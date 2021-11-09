@@ -1343,8 +1343,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
         <oboInOwl:hasDbXref>GO:0043236</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">mediates host laminin binding</rdfs:label>
-        <skos:definition>A mechanism that mediates extracellular matrix binding by adherence to laminin in the host extracellular matrix.</skos:definition>
+        <rdfs:label xml:lang="en">mediates laminin binding in another organism</rdfs:label>
+        <skos:definition>A mechanism that mediates extracellular matrix binding in another organism by mediating binding to laminin in the host extracellular matrix.</skos:definition>
     </owl:Class>
     
 
@@ -1353,9 +1353,9 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000278">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000175"/>
-        <obo:IAO_0000115>A mechanism that disrupts G-protein signaling pathways by stimulating small, monomeric host GTPase to hydrolyze bound GTP.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts G-protein signaling in another organism by stimulating small, monomeric host GTPase to hydrolyze bound GTP.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>GTPase activating protein (GAP)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">stimulates small GTPase activity</rdfs:label>
+        <rdfs:label xml:lang="en">stimulates small GTPase activity in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1365,8 +1365,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000175"/>
-        <obo:IAO_0000115>A mechanism that disrupts G-protein signaling pathways by stimulating host heterotrimeric GTPase to hydrolyze bound GTP.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">stimulates heterotrimeric GTPase activity</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts G-protein signaling in another organism by stimulating heterotrimeric GTPases to hydrolyze bound GTP.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">stimulates heterotrimeric GTPase activity in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -1375,8 +1375,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000280">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <rdfs:label xml:lang="en">mediates microtubule rearrangement</rdfs:label>
-        <skos:definition>A mechanism that modulates cytoskeleton in host cell by mediating microtubule rearrangement.</skos:definition>
+        <rdfs:label xml:lang="en">mediates microtubule rearrangement in another organism</rdfs:label>
+        <skos:definition>A mechanism that modulates the cytoskeleton in cells of another organism by mediating microtubule rearrangement.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1387,8 +1387,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000284">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000211"/>
         <oboInOwl:hasDbXref>GO:0015485</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">mediates cholesterol binding</rdfs:label>
-        <skos:definition>A mechanism that mediates cell surface binding by enabling binding to host cell surface cholesterol.</skos:definition>
+        <rdfs:label xml:lang="en">mediates cholesterol binding in another organism</rdfs:label>
+        <skos:definition>A mechanism that mediates cell surface binding in another organism by mediating binding to host cell surface cholesterol.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1399,8 +1399,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000211"/>
         <oboInOwl:hasDbXref>GO:0097367</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">mediates carbohydrate-derivative binding</rdfs:label>
-        <skos:definition>A mechanism that mediates cell surface binding by enabling binding to host cell surface carbohydrate components of glycolipids or glycoproteins.</skos:definition>
+        <rdfs:label xml:lang="en">mediates carbohydrate-derivative binding in another organism</rdfs:label>
+        <skos:definition>A mechanism that mediates cell surface binding in another organism by mediating binding to host cell surface carbohydrate components of glycolipids or glycoproteins.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1411,7 +1411,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000289">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by modulating MAPK signaling.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates host MAPK signaling in another organism</rdfs:label>
+        <rdfs:label xml:lang="en">modulates MAPK signaling in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1421,8 +1421,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000289"/>
-        <obo:IAO_0000115>A mechansim that modulates host MAPK signaling by disrupting host MAPK signaling through downregulation of host MAPK signaling by either directly acting on a member of the p38MAPK, JNK, or ERK1/2 pathways or altering the abundance of at least one member of those signaling pathways.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts host MAPK signaling</rdfs:label>
+        <obo:IAO_0000115>A mechansim that modulates MAPK signaling in another organism by disrupting host MAPK signaling through downregulation direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts MAPK signaling in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1432,9 +1432,9 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000291">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000289"/>
-        <obo:IAO_0000115>A mechanism that modulates host MAPK signaling by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">enhances host MAPK signaling</rdfs:label>
-        <skos:editorialNote>Example includes GRA24 from Toxoplasma gondii. It targets host p38 alpha which leads to autophosphorylation and activation. p38 activation leads to the upregulation of proinflammatory cytokine production.
+        <obo:IAO_0000115>A mechanism that modulates MAPK signaling in another organism by enhancing host MAPK signaling through direct action on a member of the p38MAPK, JNK, or ERK1/2 pathways or alteration of the abundance of at least one member of those signaling pathways.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">enhances MAPK signaling in another organism</rdfs:label>
+        <skos:editorialNote>An example would be GRA24 from Toxoplasma gondii. It targets host p38 alpha which leads to autophosphorylation and activation. p38 activation leads to the upregulation of proinflammatory cytokine production.
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -1445,8 +1445,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000292">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000379"/>
-        <obo:IAO_0000115>A mechanism that disrupts host immune signaling by affecting the activity, abundance, or availability of host tumor necrosis factor receptor (TNFR) ligands or by inhibiting TNFR signaling by binding directly to the receptor.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts host TNFR signaling</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts immune signaling in another organism by affecting the activity, abundance, or availability of host tumor necrosis factor receptor (TNFR) ligands or by inhibiting TNFR signaling by binding directly to the receptor.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts TNFR signaling in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1489,8 +1489,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000300">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <rdfs:label xml:lang="en">disrupts host STING signaling</rdfs:label>
-        <skos:definition>A mechanism that disrupts host cellular signaling by disrupting host stimulator of interferon genes (STING) signaling via targeting STING directly or affecting a protein proximal to STING that interferes with the proper recognition of pathogen activity.</skos:definition>
+        <rdfs:label xml:lang="en">disrupts STING signaling in another organism</rdfs:label>
+        <skos:definition>A mechanism that disrupts cellular signaling in another organism by disrupting host stimulator of interferon genes (STING) signaling via targeting STING directly or affecting a protein proximal to STING that interferes with the proper recognition of pathogen activity.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
