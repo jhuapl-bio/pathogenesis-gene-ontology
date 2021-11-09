@@ -1500,8 +1500,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000302">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <rdfs:label xml:lang="en">disrupts host JAK-STAT signaling</rdfs:label>
-        <skos:definition>A mechanism that disrupts host cellular signaling by disrupting host Janus kinase signal transducer and activator of transcription (JAK-STAT) signaling via targeting a sequence proximal to JAKs, STATs, protein inhibitors of activated STATs (PIAS), or suppressors of cytokine signaling (SOCS).</skos:definition>
+        <rdfs:label xml:lang="en">disrupts JAK-STAT signaling in another organism</rdfs:label>
+        <skos:definition>A mechanism that disrupts cellular signaling in another organism by disrupting host Janus kinase signal transducer and activator of transcription (JAK-STAT) signaling via targeting a sequence proximal to JAKs, STATs, protein inhibitors of activated STATs (PIAS), or suppressors of cytokine signaling (SOCS).</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1511,8 +1511,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000304">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <rdfs:label xml:lang="en">disrupts host PKR activity</rdfs:label>
-        <skos:definition>A mechanism that disrupts host cellular signaling by disrupting host protein kinase R (PKR) activity via pre-emptively binding pathogen dsRNA to sequester it from PKR, interfering with the phosphorylation of PKR by proximal effectors, or binding PKR directly.</skos:definition>
+        <rdfs:label xml:lang="en">disrupts PKR activity in another organism</rdfs:label>
+        <skos:definition>A mechanism that disrupts cellular signaling in another organism by disrupting host protein kinase R (PKR) activity via pre-emptively binding pathogen dsRNA to sequester it from PKR, interfering with the phosphorylation of PKR by proximal effectors, or binding PKR directly.</skos:definition>
         <skos:definition>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:definition>
     </owl:Class>
     
@@ -1522,8 +1522,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <rdfs:label xml:lang="en">disrupts host RIG-1 signaling</rdfs:label>
-        <skos:definition>A mechanism that disrupts host cellular signaling by disrupting host cytosolic signaling proximal to the pattern recognition receptor retinoic acid-inducible gene I (RIG-1) via altering the ubiquitination of RIG-1, downregulating RIG-1 activity, reducing RIG-1 abundance, or impeding the interaction of RIG-1 with downstream effectors such as MAVS.</skos:definition>
+        <rdfs:label xml:lang="en">disrupts RIG-1 signaling in another organism</rdfs:label>
+        <skos:definition>A mechanism that disrupts cellular signaling in another organism by disrupting host cytosolic signaling proximal to the pattern recognition receptor retinoic acid-inducible gene I (RIG-1) via altering the ubiquitination of RIG-1, downregulating RIG-1 activity, reducing RIG-1 abundance, or impeding the interaction of RIG-1 with downstream effectors such as MAVS.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1534,7 +1534,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
         <rdfs:label xml:lang="en">disrupts antigen presentation in another organism</rdfs:label>
-        <skos:definition>A mechanism that mediates immune evasion and subversion by disrupting host antigen presentation via inhibiting MHC I/II production or display, manipulating production or display of the antigen or epitope by altering activity of the proteasome or the TAP complex, or specifically targeting a particular parasite antigen for destruction.</skos:definition>
+        <skos:definition>A mechanism that mediates immune evasion and subversion in another organism by disrupting host antigen presentation via inhibiting MHC I/II production or display, manipulating production or display of the antigen or epitope by altering activity of the proteasome or the TAP complex, or specifically targeting a particular parasite antigen for destruction.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1544,8 +1544,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <rdfs:label xml:lang="en">inhibits host cytokine activity</rdfs:label>
-        <skos:definition>A mechanism that mediates immune evasion and subversion by inhibiting host cytokine activity via sequestering or destroying the cytokine so it is not available to participate in host signaling.</skos:definition>
+        <rdfs:label xml:lang="en">suppresses cytokine activity in another organism</rdfs:label>
+        <skos:definition>A mechanism that mediates immune evasion and subversion in another organism by suppressing host cytokine activity via sequestering or destroying the cytokine so it is not available to participate in signaling.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1555,8 +1555,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000312">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <rdfs:label xml:lang="en">enables pathogen nucleic acid concealment</rdfs:label>
-        <skos:editorialNote>A mechanism that mediates immune evasion and subversion by enabling pathogen nucleic acid concealment by the viral protein (typically carried out by dsRNA nucleic acid binding) for evasion of host pathogen recognition receptors.</skos:editorialNote>
+        <rdfs:label xml:lang="en">mediates concealment of foreign nucleic acid in another organism</rdfs:label>
+        <skos:editorialNote>A mechanism that mediates immune evasion and subversion in another organism by mediating concealment of pathogen nucleic acid (typically carried out by dsRNA nucleic acid binding) for evasion of host pathogen recognition receptors.</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1566,8 +1566,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <rdfs:label xml:lang="en">modulates host TRAF signaling</rdfs:label>
-        <skos:definition>A mechanism that disrupts host cellular signaling by modulating host TNF receptor-associated factor (TRAF) signaling.</skos:definition>
+        <rdfs:label xml:lang="en">modulates TRAF signaling in another organism</rdfs:label>
+        <skos:definition>A mechanism that disrupts cellular signaling in another organism by modulating host TNF receptor-associated factor (TRAF) signaling.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1589,8 +1589,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000321">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
-        <obo:IAO_0000115>A mechanism that disrupts the host cell endomembrane system by modulating trafficking of vesicles to other cellular compartments that occur as part of normal host function.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates endosomal vesicle trafficking</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts the cell endomembrane system in another organism by modulating trafficking of vesicles to other cellular compartments that occur as part of normal host function.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates endosomal vesicle trafficking in another organism</rdfs:label>
         <skos:editorialNote>Many parasite proteins, particularly from intracellular bacteria pathogens, inhibit or redirect host vesicle trafficking.
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1627,8 +1627,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000324">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000341"/>
-        <obo:IAO_0000115>A mechanism that mediates indirect host complement inactivation specifically by the recruitment of host vitronectin</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inactivates host complement by recruiting vitronectin</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates complement inactivation specifically by the recruitment of host vitronectin</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">inactivates complement by recruiting vitronectin</rdfs:label>
         <skos:editorialNote>For instances where host vitronectin binding is used to facilitate adhesion and invasion, the term &apos;mediates host vitronectin binding&apos; in the &apos;enables adherence and colonization&apos; branch should be used. 
 
 PMID: 20807208</skos:editorialNote>
@@ -1640,8 +1640,8 @@ PMID: 20807208</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000325">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
-        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism through modulation or redirection of E3 ubiquitin ligase, E3 ubiquitin ligase activity, E2 enzymes, or removal of ubiquitin from a target protein.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates ubiquitin dynamics in host cell</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism in another organism through modulation or redirection of E3 ubiquitin ligase, E3 ubiquitin ligase activity, E2 enzymes, or removal of ubiquitin from a target protein.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates ubiquitin dynamics in another organism</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
     
@@ -1663,10 +1663,10 @@ PMID: 20807208</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
-        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by mediating the cleavage of host DNA.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism in another organism by mediating the cleavage of host DNA.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0090305</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>DNase activity</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">mediates host DNA cleavage</rdfs:label>
+        <rdfs:label xml:lang="en">mediates DNA cleavage in another organism</rdfs:label>
     </owl:Class>
     
 
