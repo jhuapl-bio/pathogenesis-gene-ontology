@@ -2166,8 +2166,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000378">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in host cells by mediating host actin destabilization.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host actin destabilization</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by mediating actin destabilization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates actin destabilization in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2188,8 +2188,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000380">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000379"/>
-        <obo:IAO_0000115>A mechanism that disrupts host immune signaling by interfering with host Z-DNA binding protein 1 (ZBP1) signaling.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts host ZBP1 signaling</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts immune signaling in another organism by interfering with host Z-DNA binding protein 1 (ZBP1) signaling.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts ZBP1 signaling in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2199,8 +2199,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000381">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000379"/>
-        <obo:IAO_0000115>A mechanism that disrupts host immune signaling by modulating interferon signaling in the host cell.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts host interferon signaling</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts immune signaling in another organism by modulating interferon signaling.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates interferon signaling in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2210,8 +2210,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000382">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000381"/>
-        <obo:IAO_0000115>A mechanism that disrupts interferon signaling by enhancing activation through interference with the activation of interferon regulatory factors (IRFs) through IRF kinases such as TANK-binding kinase (TBK1) or with the phosphorylation or abundance of interferon regulatory proteins such as IRF1, IRF3, IRF7, or IRF9, or with the phosphorylation or abundance of JAK-STAT proteins.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inhibits host interferon signaling</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates interferon signaling in another organism by suppressing interferon signaling, for example by modulating 1) the activation of interferon regulatory factors (IRFs) through IRF kinases such as TANK-binding kinase (TBK1), 2) phosphorylation or abundance of interferon regulatory proteins such as IRF1, IRF3, IRF7, or IRF9, or 3) phosphorylation or abundance of JAK-STAT proteins.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">suppresses interferon signaling in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2221,19 +2221,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000383">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000381"/>
-        <obo:IAO_0000115>A mechanism that disrupts interferon signaling by inhibition through interference with the activation of interferon regulatory factors (IRFs) through IRF kinases such as TANK-binding kinase (TBK1) or with the phosphorylation or abundance of interferon regulatory proteins such as IRF1, IRF3, IRF7, or IRF9, or with the phosphorylation or abundance of JAK-STAT proteins.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">enhances host interferon signaling</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000384 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000384">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
-        <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by causing an effect in another organism following secretion from a parasite.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates effect in other organism following secretion from parasite.</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates interferon signaling in another organism by enhancing interferon signaling, for example by modulating 1) activation of interferon regulatory factors (IRFs) through IRF kinases such as TANK-binding kinase (TBK1), 2) phosphorylation or abundance of interferon regulatory proteins such as IRF1, IRF3, IRF7, or IRF9, or 3) phosphorylation or abundance of JAK-STAT proteins.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">enhances interferon signaling in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
