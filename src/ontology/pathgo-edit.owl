@@ -1545,7 +1545,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
         <rdfs:label xml:lang="en">suppresses cytokine activity in another organism</rdfs:label>
-        <skos:definition>A mechanism that mediates immune evasion and subversion in another organism by suppressing host cytokine activity via sequestering or destroying the cytokine so it is not available to participate in signaling.</skos:definition>
+        <skos:definition>A mechanism that mediates immune evasion and subversion in another organism by suppressing cytokine activity, for example by sequestering or destroying the cytokine so it is not available to participate in signaling.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1917,8 +1917,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000352">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <obo:IAO_0000115>A mechanism that disprupts host cell signaling by disrupting host TRIM or TRIM-like proteins signaling pathways.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts host TRIM/TRIM-like signaling</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by disrupting TRIM or TRIM-like protein signaling pathways.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">disrupts TRIM/TRIM-like signaling in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1938,8 +1938,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000354">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000376"/>
-        <obo:IAO_0000115>A mechanism that inhibits nitric oxide radical production by inhibiting nitric oxide synthase.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inhibits nitric oxide synthase</rdfs:label>
+        <obo:IAO_0000115>A mechanism that suppresses nitric oxide radical production in another organism by suppressing nitric oxide synthase.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">suppresses nitric oxide synthase in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1949,8 +1949,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000355">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000328"/>
-        <obo:IAO_0000115>A mechanism that modulates host small GTPase dynamics by mediating deactivation of host small GTPase including, but not limited to, GAP activity.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates deactivation of host small GTPase</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates small GTPase dynamics in another organism by mediating deactivation of small GTPases including, but not limited to, GAP activity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates deactivation of small GTPase in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1960,8 +1960,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000356">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000328"/>
-        <obo:IAO_0000115>A mechanism that modulates host small GTPase dynamics by mediating activation of host small GTPase via deamidation or guanine nucleotide exchange.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates activation of host small GTPase</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates small GTPase dynamics in another organism by mediating activation of host small GTPases via deamidation or guanine nucleotide exchange.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates activation of small GTPase in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1981,8 +1981,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
-        <obo:IAO_0000115>A mechanism that disrupts tissue structure by mediating release of host cells from extracellular matrix.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host cell release from extracellular matrix</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts tissue structure in another organism by mediating release of cells from extracellular matrix.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates release of cell from extracellular matrix in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1992,8 +1992,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
-        <obo:IAO_0000115>A mechanism that mediates pathogenicity by interfering with the blood clotting cascade to promote or suppress coagulation in another organism.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">disrupts coagulation in another organism</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by modulating coagulation in another organism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates coagulation in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2003,8 +2003,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000360">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
-        <obo:IAO_0000115>A mechanism that disrupts coagulation in another organism by inhibiting the blood clotting cascade to suppress coagulation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inhibits coagulation in another organism</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates coagulation in another organism by suppressing the blood clotting cascade.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">suppresses coagulation in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2014,8 +2014,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000361">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000359"/>
-        <obo:IAO_0000115>A mechanism that disrupts coagulation in another organism by activating the blood clotting cascade to promote coagulation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">promotes coagulation in another organism</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates coagulation in another organism by enhancing the blood clotting cascade.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">enhances coagulation in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2025,8 +2025,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000362">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000310"/>
-        <obo:IAO_0000115>A mechanism that mediates host cytokine activity inhibition by inhibiting anti-inflammatory cytokine activity.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inhibits host anti-inflammatory cytokine activity</rdfs:label>
+        <obo:IAO_0000115>A mechanism that suppresses cytokine activity in another organism by suppressing anti-inflammatory cytokine activity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">suppresses anti-inflammatory cytokine activity in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2036,8 +2036,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000363">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000310"/>
-        <obo:IAO_0000115>A mechanism that mediates host cytokine activity inhibition by inhibiting pro-inflammatory cytokine activity.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inhibits host pro-inflammatory cytokine activity</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates suppression of cytokine activity in another organism by suppressing pro-inflammatory cytokine activity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">suppresses pro-inflammatory cytokine activity in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2047,8 +2047,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000364">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by promoting the production of anti-imflammatory cytokines in the host.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host anti-inflammatory cytokine production</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion in another organism by mediating the production of anti-inflammatory cytokines in the host.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates anti-inflammatory cytokine production in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
