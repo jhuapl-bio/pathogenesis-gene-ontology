@@ -809,9 +809,9 @@ microtubule mediated transport</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000353"/>
-        <obo:IAO_0000115>A mechanism that mediates reactive oxygen species production by producing nitric oxide radicals, through activation of nitric oxide synthase or otherwise.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that modulates reactive oxygen species levels in another organism by enhancing nitric oxide radical production, through activation of nitric oxide synthase or otherwise.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0004517</oboInOwl:hasDbXref>
-        <rdfs:label>produces nitric oxide radicals</rdfs:label>
+        <rdfs:label>enhances nitric oxide radical production in another organism</rdfs:label>
         <skos:editorialNote>Nitric oxide radicals destroy iron-dependent enzymes, eventually inhibiting mitochondrial function and DNA synthesis in host cells.
 
 evaluate placement; not appropriate subclass</skos:editorialNote>
@@ -934,7 +934,7 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells in another organism by mediating actin depolymerization.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by mediating actin depolymerization.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates actin depolymerization in another organism</rdfs:label>
     </owl:Class>
     
@@ -1781,7 +1781,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000338">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
-        <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by modulating the activity of virulence factors.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by potentiating the activity of effector molecules that act in another organism.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">potentiates activity of effector molecule that acts in another organism</rdfs:label>
         <skos:editorialNote>Examples include protecting a virulence factor from degradation, increasing the activity of a virulence factor, or assisting with the folding of a virulence factor (chaperone activity).  Note, term label was changed from &apos;mediates virulence factor activity&apos; so that it can be used for annotating snake venom components.
 
@@ -2122,8 +2122,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000374">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates cytoskeleton in host cell by binding host actin.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host actin binding</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by mediating actin binding.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates actin binding in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2133,8 +2133,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000375">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000338"/>
-        <obo:IAO_0000115>A mechanism that modulates virulence factor activity by acting as a chaperone for the virulence factor.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">chaperones virulence factor</rdfs:label>
+        <obo:IAO_0000115>A mechanism that potentiates activity of effector molecules that act in another organism by serving as a chaperone for them.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">serves as chaperone for effector molecule that acts in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2144,8 +2144,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000376">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000353"/>
-        <obo:IAO_0000115>A mechanism that modulates reactive oxygen species levels by inhibiting nitric oxide radical production.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inhibits nitric oxide radical production</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates reactive oxygen species levels in another organism by suppressing nitric oxide radical production.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">suppresses nitric oxide radical production in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
