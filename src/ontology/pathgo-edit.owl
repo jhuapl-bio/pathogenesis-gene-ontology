@@ -551,7 +551,7 @@ example:component 1 (C1) protease</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in another organism by mediating inhibition of actin polymerization.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by mediating inhibition of actin polymerization.</obo:IAO_0000115>
         <rdfs:label>mediates actin polymerization inhibition in another organism</rdfs:label>
     </owl:Class>
     
@@ -934,7 +934,7 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton of cells in another organism by mediating actin depolymerization.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells in another organism by mediating actin depolymerization.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates actin depolymerization in another organism</rdfs:label>
     </owl:Class>
     
@@ -1627,8 +1627,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000324">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000341"/>
-        <obo:IAO_0000115>A mechanism that mediates complement inactivation specifically by the recruitment of host vitronectin</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inactivates complement by recruiting vitronectin</rdfs:label>
+        <obo:IAO_0000115>A mechanism that suppresses formation of the terminal complement complex in another organism by recruitment of host vitronectin</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">suppresses complement system by recruiting vitronectin in another organism</rdfs:label>
         <skos:editorialNote>For instances where host vitronectin binding is used to facilitate adhesion and invasion, the term &apos;mediates host vitronectin binding&apos; in the &apos;enables adherence and colonization&apos; branch should be used. 
 
 PMID: 20807208</skos:editorialNote>
@@ -1688,8 +1688,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000329">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by modulating the post-translational modification of ISGylation of host cell proteins.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates ISGylation in host cell</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion in another organism by modulating the post-translational modification of ISGylation of host cell proteins.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates ISGylation in another organism</rdfs:label>
         <skos:editorialNote>For example, interferon-stimulated gene 15 (ISG15), induced by type I inteferon, acts like a ubiquitin-like tag on host proteins.  The consequences of ISGylation are not well understood, but some studies have shown that ISGylated proteins have antiviral functions.
 
 More functions of ISG15 reviewed in PMID: 30428561</skos:editorialNote>
@@ -1701,8 +1701,8 @@ More functions of ISG15 reviewed in PMID: 30428561</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000330">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000329"/>
-        <rdfs:label xml:lang="en">mediates deISGylation of host proteins</rdfs:label>
-        <skos:editorialNote>A mechanism that modulates ISGylation in host cells by removing or cleaving ISG15 tags from host proteins</skos:editorialNote>
+        <rdfs:label xml:lang="en">mediates deISGylation in another organism</rdfs:label>
+        <skos:editorialNote>A mechanism that modulates ISGylation in another organism by removing or cleaving ISG15 tags from host proteins</skos:editorialNote>
         <skos:editorialNote>SARS-CoV2 and Crimean Congo Hemorrhagic fever both have proteases that act as deubiquitinases but also serve to remove ISG15 units from host proteins.
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1796,8 +1796,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000338">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
         <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by modulating the activity of virulence factors.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates virulence factor activity</rdfs:label>
-        <skos:editorialNote>Examples include protecting a virulence factor from degradation, increasing the activity of a virulence factor, or assisting with the folding of a virulence factor (chaperone activity). 
+        <rdfs:label xml:lang="en">potentiates activity of effector molecule that acts in another organism</rdfs:label>
+        <skos:editorialNote>Examples include protecting a virulence factor from degradation, increasing the activity of a virulence factor, or assisting with the folding of a virulence factor (chaperone activity).  Note, term label was changed from &apos;mediates virulence factor activity&apos; so that it can be used for annotating snake venom components.
 
 Examples genes:
 
@@ -1812,23 +1812,12 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000339 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000339">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000100"/>
-        <rdfs:label xml:lang="en">directly inactivates host complement</rdfs:label>
-        <skos:definition>A mechanism that mediates resistance to the host complement system by direct host complement inactivation via enzymatic activity that inheres in the parasite sequence.</skos:definition>
-        <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000340 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000340">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
-        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in host cells by mediating host actin stabilization.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host actin stabilization</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by mediating host actin stabilization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates actin stabilization in another organism</rdfs:label>
         <skos:editorialNote>Cells infected with enterohemorrhagic Escherichia coli (EHEC) lacking the T3SS effectors EspO1-1 and EspO1-2 display cell rounding phenotypes and lose focal adhesions.  These effectors work with host proteins (like GTPases) to stabilize actin and focal adhesions during infection [PMID 23409096].
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1840,8 +1829,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000100"/>
-        <rdfs:label xml:lang="en">indirectly inactivates host complement</rdfs:label>
-        <skos:definition>A mechanism that mediates resistance to the host complement system by indirect host complement inactivation via recruiting a host enzyme, typically a proteinase, to the parasite surface.</skos:definition>
+        <rdfs:label xml:lang="en">mediates binding of complement regulatory protein in another organism</rdfs:label>
+        <skos:definition>A mechanism that mediates resistance to the complement system in another organism by mediating binding of a complement regulatory protein, such as a host enzyme, to the parasite surface.</skos:definition>
         <skos:editorialNote>PMID: 26808444</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -1863,8 +1852,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000345">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
-        <obo:IAO_0000115>A mechanism that modulates host cell endomembrane dynamics by inhibiting autophagosome formation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inhibits autophagosome formation in host cell</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates host cell endomembrane dynamics in another organism by inhibiting autophagosome formation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">inhibits autophagosome formation in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1885,8 +1874,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000348">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000031"/>
-        <obo:IAO_0000115>A mechanism that mediates non-productive immune system activation by modulating host inflammasome activation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates host inflammasome activation</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates non-productive immune system activation in another organism by modulating inflammasome activity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates inflammasome activity in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1896,8 +1885,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000349">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000348"/>
-        <obo:IAO_0000115>A mechanism that mediates modulation of host inflammasome activation by enhancing host inflammasome activation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">enhances host inflammasome activation</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates inflammasome activity in another organism by enhancing inflammasome activation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">enhances inflammasome activity in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1907,8 +1896,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000350">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000348"/>
-        <obo:IAO_0000115>A mechanism that mediates modulation of host inflammasome activation by inhibiting host inflammasome activation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">inhibits host inflammasome activation</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates inflammasome activity in another organism by suppressing inflammasome activation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">suppresses inflammasome activity in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1918,8 +1907,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000351">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by mediating sequestration of host cytokines.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host cytokine sequestration</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion in another organism by mediating sequestration of host cytokines.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates cytokine sequestration in another organism</rdfs:label>
     </owl:Class>
     
 
