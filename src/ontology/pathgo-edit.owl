@@ -846,8 +846,8 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <obo:IAO_0000115>A mechanism that disrupts cell signaling in another organism by interfering with G-protein signaling pathways.</obo:IAO_0000115>
-        <rdfs:label>disrupts G-protein signaling pathways in another organism</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by modulating G-protein signaling pathways.</obo:IAO_0000115>
+        <rdfs:label>modulates G-protein signaling pathways in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -1085,7 +1085,7 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
-        <obo:IAO_0000115>A mechanism that mediates pathogenicity by facilitating movement into host cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by mediating movement into host cells.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044409</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>invasin</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">mediates host cell invasion</rdfs:label>
@@ -1349,23 +1349,11 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000278 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000278">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000175"/>
-        <obo:IAO_0000115>A mechanism that disrupts G-protein signaling in another organism by stimulating small, monomeric host GTPase to hydrolyze bound GTP.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>GTPase activating protein (GAP)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">stimulates small GTPase activity in another organism</rdfs:label>
-        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000279 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000175"/>
-        <obo:IAO_0000115>A mechanism that disrupts G-protein signaling in another organism by stimulating heterotrimeric GTPases to hydrolyze bound GTP.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts G-protein signaling in another organism by stimulating heterotrimeric G proteins to hydrolyze bound GTP.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stimulates heterotrimeric GTPase activity in another organism</rdfs:label>
     </owl:Class>
     
@@ -1674,12 +1662,10 @@ PMID: 20807208</skos:editorialNote>
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000328">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <rdfs:label xml:lang="en">modulates small GTPase dynamics in another organism</rdfs:label>
-        <skos:definition>A mechanism that disrupts cellular signaling in another organism by modulating host small GTPase dynamics. This manipulation can occur through direct binding of host small GTPases or by alteration of the activity or abundance of the proximal effectors of small GTPases, including GTPase activating proteins (GAPs), guanine exchange factors (GEFs), or guanine dissociation inhibitors (GDIs).</skos:definition>
-        <skos:editorialNote>Shouldn&apos;t this term live under &apos;disrupts G-protein signaling pathways&apos;?
-
-Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000175"/>
+        <rdfs:label xml:lang="en">modulates small GTPase activity in another organism</rdfs:label>
+        <skos:definition>A mechanism that modulates G-protein signaling pathways in another organism by modulating host small GTPase activity.  This manipulation can occur through direct binding of host small GTPases or by alteration of the activity or abundance of the proximal effectors of small GTPases, including GTPase activating proteins (GAPs), guanine exchange factors (GEFs), or guanine dissociation inhibitors (GDIs).</skos:definition>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
@@ -1960,7 +1946,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000356">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000328"/>
-        <obo:IAO_0000115>A mechanism that modulates small GTPase dynamics in another organism by mediating activation of host small GTPases via deamidation or guanine nucleotide exchange.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that modulates small GTPase activity in another organism by mediating activation of host small GTPases via deamidation or guanine nucleotide exchange.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>GTPase activating protein (GAP)</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">mediates activation of small GTPase in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -2058,8 +2045,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000365">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion by removal of ADP-ribose from host proteins.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates de-ADPribosylation of host proteins</rdfs:label>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion in another organism by removal of ADP-ribose from host proteins.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates de-ADPribosylation of proteins in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2069,8 +2056,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000366">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
-        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by catalyzing the addition or the removal of SUMO protein tags. This can be the direct result of the activity of the pathogenic gene product or, indirectly, by the gene product hijacking a host effector to modulate SUMOylation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates SUMOylation in host cell</rdfs:label>
+        <obo:IAO_0000115>A mechanism that disrupts cellular metabolism in another organism by catalyzing the addition or the removal of SUMO protein tags. This can be the direct result of the activity of the pathogenic gene product or, indirectly, by the gene product hijacking a host effector to modulate SUMOylation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modulates SUMOylation in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2081,7 +2068,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000367">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
         <obo:IAO_0000115>A mechanism that disrupts host cellular signaling by ADP-ribosylating host small GTPases thereby preventing them from interacting with downstream effectors.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates ADP-ribosylation of host small GTPase</rdfs:label>
+        <rdfs:label xml:lang="en">mediates ADP-ribosylation of small GTPase in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2091,7 +2078,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000368">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000235"/>
-        <obo:IAO_0000115>A mechanism that mediates host cell invasion by microbes.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that mediates host cell invasion in another organism by microbes.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates host cell invasion by microbe</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -2102,7 +2089,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000369">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000235"/>
-        <obo:IAO_0000115>A mechanism that mediates host cell invasion by macromolecules.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that mediates host cell invasion in another organism by macromolecules.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates host cell invasion by macromolecule</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -2113,8 +2100,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000370">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000006"/>
-        <obo:IAO_0000115>A mechanism that modulates protein synthesis by destruction of host mRNA via cleavage, destabalization, etc.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates host mRNA destruction</rdfs:label>
+        <obo:IAO_0000115>A mechanism that modulates protein synthesis in another organism by destruction of host mRNA via cleavage, destabilization, or other means.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates mRNA destruction in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -2125,7 +2112,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000371">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
         <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by modulating expression of genes in the parasite that contribute to pathogenesis in the host.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">modulates expression of genes that mediate pathogenesis in host</rdfs:label>
+        <rdfs:label xml:lang="en">modulates expression of genes that mediate pathogenesis in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
