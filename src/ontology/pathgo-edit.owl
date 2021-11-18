@@ -192,7 +192,6 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000167"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular transport by modulating ion channel activity in another organism.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044069</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:0099106</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modulates ion channel activity in another organism</rdfs:label>
         <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">direct action on ion channel (voltage or ligand gated) or ion pump,</skos:editorialNote>
     </owl:Class>
@@ -204,7 +203,6 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism in another organism by modulating protein synthesis.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0044074</oboInOwl:hasDbXref>
         <rdfs:label>modulates protein synthesis in another organism</rdfs:label>
     </owl:Class>
     
@@ -237,6 +235,7 @@ NO WARRANTY, NO LIABILITY. THIS MATERIAL IS PROVIDED “AS IS.” JHU/APL MAKES 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating immune system components and processes in another organism.  Immune responses can be at the cellular level, or the organismal level.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0052553</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modulates immune function in another organism</rdfs:label>
     </owl:Class>
     
@@ -341,6 +340,7 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000029"/>
         <obo:IAO_0000115>A mechanism that mediates membrane damage by formation of pores in another organism.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0035915</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0044658</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates pore formation in another organism</rdfs:label>
     </owl:Class>
@@ -364,8 +364,6 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the plasma membrane potential of cells in another organism.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0042391</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:0044662</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts membrane potential in another organism</rdfs:label>
         <skos:editorialNote>Does this fit better anywhere else?</skos:editorialNote>
     </owl:Class>
@@ -377,7 +375,6 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000167"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular transport in another organism by blocking exocytosis.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0045920</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts exocytosis in another organism</rdfs:label>
     </owl:Class>
     
@@ -388,7 +385,6 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000029"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates membrane damage in another organism by cleavage of membrane phospholipids.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0009395</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates membrane phospholipid cleavage in another organism</rdfs:label>
         <skos:editorialNote>evaluate for placement in invasion and dissemination</skos:editorialNote>
     </owl:Class>
@@ -436,7 +432,6 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates extracellular matrix binding of another organism by binding to collagen.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0005518</oboInOwl:hasDbXref>
         <rdfs:label>mediates collagen binding in another organism</rdfs:label>
     </owl:Class>
     
@@ -447,7 +442,6 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000211"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates cell surface binding of another organism by binding to glycoproteins (i.e. sugar-modified proteins) on the surface of a cell</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0140081</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates surface glycoprotein binding of another organism</rdfs:label>
     </owl:Class>
     
@@ -458,7 +452,6 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000251"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates dissemination in another organism by stimulation of host blood vessel generation, or angiogenesis.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0045766</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates induction of angiogenesis in another organism</rdfs:label>
         <skos:editorialNote>example Bartonella BafA
 
@@ -514,7 +507,6 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000038"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that enables adhesion to another organism by mediating binding to extracellular matrix components such as collagen and fibronectin.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0050840</oboInOwl:hasDbXref>
         <rdfs:label>mediates extracellular matrix binding of another organism</rdfs:label>
         <skos:editorialNote>Mechanism of adherence in which attachment occurs to components of the extracellular matrix as opposed to the target cell directly;
 elaborate subclasses
@@ -528,7 +520,8 @@ Collagen binding protein and fibronectin binding protein are examples.  Includin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates immune evasion and subversion by countering the effects of the complement system, a component of the innate immune system.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates immune evasion and subversion in another organism by countering the effects of the complement system, a component of the innate immune system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0042784</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates resistance to complement system in another organism</rdfs:label>
         <skos:editorialNote>resistance to complement-mediated killing
 
@@ -562,8 +555,8 @@ example:component 1 (C1) protease</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity indirectly by contributing to secretion of protein effectors from the pathogen into the extracellular environment or directly into the host cell.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0042000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0044417</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:0050708</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates secretion of protein effectors</rdfs:label>
         <skos:editorialNote>elaborate subclasses and align with determinant branch
 
@@ -614,7 +607,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000058"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of iron acquisition that involves using iron in the environment.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0005506</oboInOwl:hasDbXref>
         <rdfs:label>mediates iron acquisition from environment</rdfs:label>
     </owl:Class>
     
@@ -625,7 +617,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism in another organism by inhibiting DNA synthesis.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:2000279</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediates DNA synthesis inhibition in another organism</rdfs:label>
     </owl:Class>
     
@@ -636,7 +627,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates extracellular matrix binding of another organism by binding to fibronectin.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0001968</oboInOwl:hasDbXref>
         <rdfs:label>mediates fibronectin binding in another organism</rdfs:label>
     </owl:Class>
     
@@ -647,8 +637,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates nutrient acquisition by taking cholesterol from the membranes of target cells.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0051673</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:0052006</oboInOwl:hasDbXref>
         <rdfs:label>mediates acquisition of cholesterol from membrane</rdfs:label>
     </owl:Class>
     
@@ -681,7 +669,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000331"/>
         <obo:IAO_0000115>A mechanism that modulates the cell cycle in cells of another organism by inducing cell cycle arrest.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0007050</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0044072</oboInOwl:hasDbXref>
         <rdfs:label>induces cell cycle arrest in cells of another organism</rdfs:label>
     </owl:Class>
@@ -693,7 +680,6 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000113"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism of nutrient availability or uptake that involves acquisition of manganese.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0005384</oboInOwl:hasDbXref>
         <rdfs:label>mediates manganese acquisition</rdfs:label>
     </owl:Class>
     
@@ -704,10 +690,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000357"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting the adhesion of cells to other cells and/or extracellular matrix components in another organism.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0022408</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0044067</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:0044364</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:1901889</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disrupts cell-cell adhesion in another organism</rdfs:label>
         <skos:editorialNote>evaluate for incorporation to invasion and dissemination
 
@@ -779,7 +762,6 @@ elaborate subclasses</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000167">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by disrupting transport of products into, out of, and within cells in another organism.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0044068</oboInOwl:hasDbXref>
         <rdfs:label>disrupts cellular transport in another organism</rdfs:label>
         <skos:editorialNote>elaborate and restructure subclasses using a consistent organizational principle
 
@@ -810,7 +792,6 @@ microtubule mediated transport</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000353"/>
         <obo:IAO_0000115>A mechanism that modulates reactive oxygen species levels in another organism by enhancing nitric oxide radical production, through activation of nitric oxide synthase or otherwise.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0004517</oboInOwl:hasDbXref>
         <rdfs:label>enhances nitric oxide radical production in another organism</rdfs:label>
         <skos:editorialNote>Nitric oxide radicals destroy iron-dependent enzymes, eventually inhibiting mitochondrial function and DNA synthesis in host cells.
 
@@ -824,8 +805,6 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000170"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that disrupts cellular cAMP levels within cells of another organism through activation of the production or repression of the breakdown of cAMP.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0051342</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:0075106</oboInOwl:hasDbXref>
         <rdfs:label>modulates cAMP synthesis within cells of another organism</rdfs:label>
     </owl:Class>
     
@@ -836,6 +815,7 @@ evaluate placement; not appropriate subclass</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000170"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular cAMP levels within cells of another organism through regulation of adenylate cyclases or phosphodiesterases.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0043963</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0075106</oboInOwl:hasDbXref>
         <rdfs:label>regulates adenylate cyclases/phosphodiesterases in another organism</rdfs:label>
         <skos:editorialNote>evaluate for redundancy with &quot;modulates cAMP synthesis&quot;</skos:editorialNote>
@@ -910,7 +890,6 @@ also, consider combining with &quot;disrupts coagulation in another organism&quo
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000159"/>
         <obo:IAO_0000115>A mechanism that disrupts cell-cell adhesion in another organism by modifying cellular junctional complexes, including tight junctions and/or adherens junctions.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0098864</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:1903347</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modifies host tight or adherens junctions in another organism</rdfs:label>
         <skos:editorialNote>example: Clostridium perfringens type A toxin (targets claudins)  more info: https://doi.org/10.1016/j.bbamem.2008.10.028; https://www.ncbi.nlm.nih.gov/pubmed/11595640
 
@@ -924,9 +903,7 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by suppressing metabolic enzymes in another organism.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0004857</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:0052148</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">suppressing metabolic enzymes in another organism</rdfs:label>
+        <rdfs:label xml:lang="en">suppresses metabolic enzymes in another organism</rdfs:label>
         <skos:editorialNote>Provide examples, or consider for removal.  Is metabolic enzyme suppression specifically a common mechanism of pathogenesis?</skos:editorialNote>
     </owl:Class>
     
@@ -1075,7 +1052,6 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000234">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000072"/>
-        <oboInOwl:hasDbXref>GO:0005178</oboInOwl:hasDbXref>
         <rdfs:comment>A mechanism that mediates surface glycoprotein binding of another organism through integrins.</rdfs:comment>
         <rdfs:label xml:lang="en">mediates integrin binding in another organism</rdfs:label>
         <skos:editorialNote>integrin α2β1 binding protein and integrin αMβ2 binding protein are examples that may be too granular to include</skos:editorialNote>
@@ -1239,7 +1215,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000259">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000159"/>
-        <oboInOwl:hasDbXref>GO:0051895</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modifies cellular focal adhesions in another organism</rdfs:label>
         <skos:definition>A mechanism that disrupts cell-cell adhesion in another organism by modifying focal adhesions.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1332,8 +1307,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
-        <oboInOwl:hasDbXref>GO:0005539</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GO:0043394</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mediates glycosaminoglycan- or proteoglycan-binding in another organism</rdfs:label>
         <skos:definition>A mechanism that mediates extracellular matrix binding in another organism by mediating binding to glycosaminoglycans or proteoglycans in the host extracellular matrix.</skos:definition>
     </owl:Class>
@@ -1344,7 +1317,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
-        <oboInOwl:hasDbXref>GO:0043236</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mediates laminin binding in another organism</rdfs:label>
         <skos:definition>A mechanism that mediates extracellular matrix binding in another organism by mediating binding to laminin in the host extracellular matrix.</skos:definition>
     </owl:Class>
@@ -1376,7 +1348,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000284">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000211"/>
-        <oboInOwl:hasDbXref>GO:0015485</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mediates cholesterol binding in another organism</rdfs:label>
         <skos:definition>A mechanism that mediates cell surface binding in another organism by mediating binding to host cell surface cholesterol.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1388,7 +1359,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000211"/>
-        <oboInOwl:hasDbXref>GO:0097367</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mediates carbohydrate-derivative binding in another organism</rdfs:label>
         <skos:definition>A mechanism that mediates cell surface binding in another organism by mediating binding to host cell surface carbohydrate components of glycolipids or glycoproteins.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1401,6 +1371,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000289">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by modulating MAPK signaling.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0052080</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates MAPK signaling in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -1446,6 +1417,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000294">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
+        <oboInOwl:hasDbXref>GO:0085032</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates host NF-kappaB signaling in another organism</rdfs:label>
         <skos:definition>A mechanism that disrupts cellular signaling in another organism by modulating host NF-kappaB signaling.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1457,6 +1429,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000294"/>
+        <oboInOwl:hasDbXref>GO:0085034</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">suppresses NF-kappaB signaling in another organism</rdfs:label>
         <skos:definition>A mechanism that modulates NF-kappaB signaling in another organism by suppressing NF-kappaB signaling so that the effector subunit is not able to initiate transcription in the nucleus.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1468,6 +1441,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000296">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000294"/>
+        <oboInOwl:hasDbXref>GO:0085033</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">enhances NF-kappaB signaling in another organism</rdfs:label>
         <skos:definition>A mechanism that modulates NF-kappaB signaling in another organism by enhancing host NF-kappaB signaling by promoting activation.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1523,6 +1497,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
+        <oboInOwl:hasDbXref>GO:0042786</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">disrupts antigen presentation in another organism</rdfs:label>
         <skos:definition>A mechanism that mediates immune evasion and subversion in another organism by disrupting host antigen presentation via inhibiting MHC I/II production or display, manipulating production or display of the antigen or epitope by altering activity of the proteasome or the TAP complex, or specifically targeting a particular parasite antigen for destruction.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1568,7 +1543,6 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000006"/>
         <obo:IAO_0000115>A mechanism that modulates protein synthesis in another organism by modulating eukaryotic translation elongation.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0003746</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates eukaryotic translation elongation in another organism</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
@@ -1605,7 +1579,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000167"/>
-        <obo:IAO_0000115>A mechanism that disrupts cellular transport by disrupting intracellular transport.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts cellular transport in another organism by disrupting intracellular transport.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0052038</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:1990215</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">disrupts intracellular transport in another organism</rdfs:label>
@@ -1642,7 +1616,7 @@ PMID: 20807208</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism by modulating transcription in host cells of another organism.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0052018</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0052026</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates transcription in another organism</rdfs:label>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
@@ -1654,7 +1628,6 @@ PMID: 20807208</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000164"/>
         <obo:IAO_0000115>A mechanism that disrupts cellular metabolism in another organism by mediating the cleavage of host DNA.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>GO:0090305</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>DNase activity</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">mediates DNA cleavage in another organism</rdfs:label>
     </owl:Class>
@@ -1715,6 +1688,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000332">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
+        <oboInOwl:hasDbXref>GO:0052040</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0052150</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates apoptosis in another organism</rdfs:label>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating apoptosis in another organism. Gene products produced by pathogenic microbes may activate or prevent apoptosis to enable growth inside the host.</skos:definition>
@@ -1739,6 +1713,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000334">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000332"/>
         <oboInOwl:hasDbXref>GO:0033668</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0052041</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">suppresses apoptosis in another organism</rdfs:label>
         <skos:definition>A mechanism that modulates apoptosis by suppressing apoptosis in host cells of another organism.</skos:definition>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1750,6 +1725,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000335">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000332"/>
+        <oboInOwl:hasDbXref>GO:0052042</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0052151</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">activates apoptosis in another organism</rdfs:label>
         <skos:definition>A mechanism that modulates apoptosis by activating apoptosis in host cells of another organism.</skos:definition>
@@ -1830,6 +1806,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000343">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
         <obo:IAO_0000115>A mechanism that modulates host cell endomembrane dynamics by contributing to the formation and/or maintenance of a vacuole in another organism.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044075</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0085018</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mediates pathogen vacuole formation/maintenance in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -1852,6 +1830,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000347">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
         <obo:IAO_0000115>A mechanism that modulates endomembrane dynamics in another organism by modulating autophagy or xenophagy.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0075071</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates autophagy or xenophagy in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -2069,7 +2048,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000367">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
-        <obo:IAO_0000115>A mechanism that disrupts host cellular signaling by ADP-ribosylating host small GTPases thereby preventing them from interacting with downstream effectors.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by ADP-ribosylating host small GTPases thereby preventing them from interacting with downstream effectors.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates ADP-ribosylation of small GTPase in another organism</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -2081,6 +2060,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000368">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000235"/>
         <obo:IAO_0000115>A mechanism that mediates host cell invasion in another organism by microbes.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044409</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mediates host cell invasion by microbe</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
