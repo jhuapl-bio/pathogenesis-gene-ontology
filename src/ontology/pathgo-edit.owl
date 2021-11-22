@@ -857,17 +857,6 @@ sialyl Lewis x binding protein is an example</skos:editorialNote>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000212 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000212">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000062"/>
-        <obo:IAO_0000115>A mechanism that enables biofilm formation by contributing to quorum sensing.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">mediates quorum sensing</rdfs:label>
-        <skos:editorialNote>Proposed for removal, since it is not limited to bacteria that are parasites.</skos:editorialNote>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATHGO_0000213 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000213">
@@ -985,18 +974,6 @@ Candidate for removal as the effect here is very indirect.</skos:editorialNote>
         <obo:IAO_0000115>A mechanism that mediates pathogenicity by disrupting extracellular matrix components in another organism.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">disrupts extracellular matrix in another organism</rdfs:label>
         <skos:editorialNote>gelatinase, mucinase, sialidase, hyaluronidase, etc.</skos:editorialNote>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATHGO_0000229 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000229">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000212"/>
-        <obo:IAO_0000115>A mechanism that contributes to quorum sensing by promoting production of autoinducer molecules.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>autoinducer synthase</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">mediates quorum sensing autoinducer production</rdfs:label>
-        <skos:editorialNote>Proposed for removal, since it is not limited to bacteria that are parasites.</skos:editorialNote>
     </owl:Class>
     
 
@@ -2205,6 +2182,17 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000381"/>
         <obo:IAO_0000115>A mechanism that modulates interferon signaling in another organism by enhancing interferon signaling, for example by modulating 1) activation of interferon regulatory factors (IRFs) through IRF kinases such as TANK-binding kinase (TBK1), 2) phosphorylation or abundance of interferon regulatory proteins such as IRF1, IRF3, IRF7, or IRF9, or 3) phosphorylation or abundance of JAK-STAT proteins.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">enhances interferon signaling in another organism</rdfs:label>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATHGO_0000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by causing an effect in another organism following secretion from a parasite.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mediates effect in other organism following secretion from parasite.</rdfs:label>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
 </rdf:RDF>
