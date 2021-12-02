@@ -1063,7 +1063,7 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
         <rdfs:label xml:lang="en">mediates escape from phagosome in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates cell endomembrane dynamics in another organism by mediating escape from the phagosome.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates cell endomembrane dynamics in another organism by mediating escape from the phagosome.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1073,7 +1073,7 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
         <rdfs:label xml:lang="en">disrupts phagosome lysosome fusion in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates cell endomembrane dynamics in another organism by disrupting phagosome lysosome fusion.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates cell endomembrane dynamics in another organism by disrupting phagosome lysosome fusion.</obo:IAO_0000115>
         <skos:editorialNote>The key difference between phagolysosome and phagosome is that phagolysosome is a cytoplasmic body formed by the fusion of a phagosome with a lysosome. Meanwhile, phagosome is a vesicle formed around the particles engulfed by a phagocytic cell during phagocytosis.</skos:editorialNote>
     </owl:Class>
     
@@ -1084,7 +1084,7 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000240">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
         <rdfs:label xml:lang="en">disrupts phagosome acidification in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates cell endomembrane dynamics in another organism by disrupting phagosome acidification.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates cell endomembrane dynamics in another organism by disrupting phagosome acidification.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1094,7 +1094,7 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000236"/>
         <rdfs:label xml:lang="en">disrupts phagosome maturation in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates cell endomembrane dynamics in another organism by disrupting phagosome maturations.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates cell endomembrane dynamics in another organism by disrupting phagosome maturations.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1119,7 +1119,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000244">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000316"/>
         <rdfs:label xml:lang="en">suppresses translation elongation factors in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates eukaryotic translation elongation factors in another organism by suppressing eukaryotic translation elongation factors.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates eukaryotic translation elongation factors in another organism by suppressing eukaryotic translation elongation factors.</obo:IAO_0000115>
         <skos:editorialNote>examples Legionella glycosylating toxins and SidI, SARS-CoV N protein</skos:editorialNote>
         <skos:editorialNote>https://orcid.org/0000-0002-5702-4690</skos:editorialNote>
     </owl:Class>
@@ -1193,7 +1193,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000259">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000159"/>
         <rdfs:label xml:lang="en">modifies cellular focal adhesions in another organism</rdfs:label>
-        <skos:definition>A mechanism that disrupts cell-cell adhesion in another organism by modifying focal adhesions.</skos:definition>
+        <obo:IAO_0000115>A mechanism that disrupts cell-cell adhesion in another organism by modifying focal adhesions.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1204,7 +1204,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
         <rdfs:label xml:lang="en">mediates actin rearrangement in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates the cytoskeleton in cells of another organism by mediating actin rearrangement.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by mediating actin rearrangement.</obo:IAO_0000115>
         <skos:editorialNote>Note, in some cases, the extent of actin rearrangement is sufficient to allow for parasitic invasion of a host cell.
 
 Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
@@ -1217,7 +1217,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
         <rdfs:label xml:lang="en">mediates actin polymerization in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates the cytoskeleton in cells of another organism by mediating actin polymerization.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by mediating actin polymerization.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1285,7 +1285,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
         <rdfs:label xml:lang="en">mediates glycosaminoglycan- or proteoglycan-binding in another organism</rdfs:label>
-        <skos:definition>A mechanism that mediates extracellular matrix binding in another organism by mediating binding to glycosaminoglycans or proteoglycans in the host extracellular matrix.</skos:definition>
+        <obo:IAO_0000115>A mechanism that mediates extracellular matrix binding in another organism by mediating binding to glycosaminoglycans or proteoglycans in the host extracellular matrix.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1295,7 +1295,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
         <rdfs:label xml:lang="en">mediates laminin binding in another organism</rdfs:label>
-        <skos:definition>A mechanism that mediates extracellular matrix binding in another organism by mediating binding to laminin in the host extracellular matrix.</skos:definition>
+        <obo:IAO_0000115>A mechanism that mediates extracellular matrix binding in another organism by mediating binding to laminin in the host extracellular matrix.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1315,7 +1315,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000280">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000028"/>
         <rdfs:label xml:lang="en">mediates microtubule rearrangement in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates the cytoskeleton in cells of another organism by mediating microtubule rearrangement.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates the cytoskeleton in cells of another organism by mediating microtubule rearrangement.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1326,7 +1326,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000284">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000211"/>
         <rdfs:label xml:lang="en">mediates cholesterol binding in another organism</rdfs:label>
-        <skos:definition>A mechanism that mediates cell surface binding in another organism by mediating binding to host cell surface cholesterol.</skos:definition>
+        <obo:IAO_0000115>A mechanism that mediates cell surface binding in another organism by mediating binding to host cell surface cholesterol.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1337,7 +1337,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000211"/>
         <rdfs:label xml:lang="en">mediates carbohydrate-derivative binding in another organism</rdfs:label>
-        <skos:definition>A mechanism that mediates cell surface binding in another organism by mediating binding to host cell surface carbohydrate components of glycolipids or glycoproteins.</skos:definition>
+        <obo:IAO_0000115>A mechanism that mediates cell surface binding in another organism by mediating binding to host cell surface carbohydrate components of glycolipids or glycoproteins.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1396,7 +1396,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
         <oboInOwl:hasDbXref>GO:0085032</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates host NF-kappaB signaling in another organism</rdfs:label>
-        <skos:definition>A mechanism that disrupts cellular signaling in another organism by modulating host NF-kappaB signaling.</skos:definition>
+        <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by modulating host NF-kappaB signaling.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1408,7 +1408,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000294"/>
         <oboInOwl:hasDbXref>GO:0085034</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">suppresses NF-kappaB signaling in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates NF-kappaB signaling in another organism by suppressing NF-kappaB signaling so that the effector subunit is not able to initiate transcription in the nucleus.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates NF-kappaB signaling in another organism by suppressing NF-kappaB signaling so that the effector subunit is not able to initiate transcription in the nucleus.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1420,7 +1420,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000294"/>
         <oboInOwl:hasDbXref>GO:0085033</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">enhances NF-kappaB signaling in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates NF-kappaB signaling in another organism by enhancing host NF-kappaB signaling by promoting activation.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates NF-kappaB signaling in another organism by enhancing host NF-kappaB signaling by promoting activation.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1431,7 +1431,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000300">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
         <rdfs:label xml:lang="en">disrupts STING signaling in another organism</rdfs:label>
-        <skos:definition>A mechanism that disrupts cellular signaling in another organism by disrupting host stimulator of interferon genes (STING) signaling via targeting STING directly or affecting a protein proximal to STING that interferes with the proper recognition of pathogen activity.</skos:definition>
+        <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by disrupting host stimulator of interferon genes (STING) signaling via targeting STING directly or affecting a protein proximal to STING that interferes with the proper recognition of pathogen activity.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1442,7 +1442,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000302">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
         <rdfs:label xml:lang="en">disrupts JAK-STAT signaling in another organism</rdfs:label>
-        <skos:definition>A mechanism that disrupts cellular signaling in another organism by disrupting host Janus kinase signal transducer and activator of transcription (JAK-STAT) signaling via targeting a sequence proximal to JAKs, STATs, protein inhibitors of activated STATs (PIAS), or suppressors of cytokine signaling (SOCS).</skos:definition>
+        <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by disrupting host Janus kinase signal transducer and activator of transcription (JAK-STAT) signaling via targeting a sequence proximal to JAKs, STATs, protein inhibitors of activated STATs (PIAS), or suppressors of cytokine signaling (SOCS).</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1453,8 +1453,8 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000304">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
         <rdfs:label xml:lang="en">disrupts PKR activity in another organism</rdfs:label>
-        <skos:definition>A mechanism that disrupts cellular signaling in another organism by disrupting host protein kinase R (PKR) activity via pre-emptively binding pathogen dsRNA to sequester it from PKR, interfering with the phosphorylation of PKR by proximal effectors, or binding PKR directly.</skos:definition>
-        <skos:definition>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:definition>
+        <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by disrupting host protein kinase R (PKR) activity via pre-emptively binding pathogen dsRNA to sequester it from PKR, interfering with the phosphorylation of PKR by proximal effectors, or binding PKR directly.</obo:IAO_0000115>
+        <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
 
@@ -1464,7 +1464,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
         <rdfs:label xml:lang="en">disrupts RIG-1 signaling in another organism</rdfs:label>
-        <skos:definition>A mechanism that disrupts cellular signaling in another organism by disrupting host cytosolic signaling proximal to the pattern recognition receptor retinoic acid-inducible gene I (RIG-1) via altering the ubiquitination of RIG-1, downregulating RIG-1 activity, reducing RIG-1 abundance, or impeding the interaction of RIG-1 with downstream effectors such as MAVS.</skos:definition>
+        <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by disrupting host cytosolic signaling proximal to the pattern recognition receptor retinoic acid-inducible gene I (RIG-1) via altering the ubiquitination of RIG-1, downregulating RIG-1 activity, reducing RIG-1 abundance, or impeding the interaction of RIG-1 with downstream effectors such as MAVS.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1476,7 +1476,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
         <oboInOwl:hasDbXref>GO:0042786</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">disrupts antigen presentation in another organism</rdfs:label>
-        <skos:definition>A mechanism that mediates immune evasion and subversion in another organism by disrupting host antigen presentation via inhibiting MHC I/II production or display, manipulating production or display of the antigen or epitope by altering activity of the proteasome or the TAP complex, or specifically targeting a particular parasite antigen for destruction.</skos:definition>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion in another organism by disrupting host antigen presentation via inhibiting MHC I/II production or display, manipulating production or display of the antigen or epitope by altering activity of the proteasome or the TAP complex, or specifically targeting a particular parasite antigen for destruction.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1487,7 +1487,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000085"/>
         <rdfs:label xml:lang="en">suppresses cytokine activity in another organism</rdfs:label>
-        <skos:definition>A mechanism that mediates immune evasion and subversion in another organism by suppressing cytokine activity, for example by sequestering or destroying the cytokine so it is not available to participate in signaling.</skos:definition>
+        <obo:IAO_0000115>A mechanism that mediates immune evasion and subversion in another organism by suppressing cytokine activity, for example by sequestering or destroying the cytokine so it is not available to participate in signaling.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1509,7 +1509,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000165"/>
         <rdfs:label xml:lang="en">modulates TRAF signaling in another organism</rdfs:label>
-        <skos:definition>A mechanism that disrupts cellular signaling in another organism by modulating host TNF receptor-associated factor (TRAF) signaling.</skos:definition>
+        <obo:IAO_0000115>A mechanism that disrupts cellular signaling in another organism by modulating host TNF receptor-associated factor (TRAF) signaling.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1616,7 +1616,7 @@ PMID: 20807208</skos:editorialNote>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000328">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000175"/>
         <rdfs:label xml:lang="en">modulates small GTPase activity in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates G-protein signaling pathways in another organism by modulating host small GTPase activity.  This manipulation can occur through direct binding of host small GTPases or by alteration of the activity or abundance of the proximal effectors of small GTPases, including GTPase activating proteins (GAPs), guanine exchange factors (GEFs), or guanine dissociation inhibitors (GDIs).</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates G-protein signaling pathways in another organism by modulating host small GTPase activity.  This manipulation can occur through direct binding of host small GTPases or by alteration of the activity or abundance of the proximal effectors of small GTPases, including GTPase activating proteins (GAPs), guanine exchange factors (GEFs), or guanine dissociation inhibitors (GDIs).</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1654,7 +1654,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000333"/>
         <oboInOwl:hasDbXref>GO:0044071</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates cell cycle in another organism</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating the cell cycle of a cell in another organism.</skos:definition>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by modulating the cell cycle of a cell in another organism.</obo:IAO_0000115>
         <skos:editorialNote>Elaborate subclasses</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -1668,7 +1668,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <oboInOwl:hasDbXref>GO:0052040</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0052150</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">modulates apoptosis in another organism</rdfs:label>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanism that mediates pathogenicity by modulating apoptosis in another organism. Gene products produced by pathogenic microbes may activate or prevent apoptosis to enable growth inside the host.</skos:definition>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity by modulating apoptosis in another organism. Gene products produced by pathogenic microbes may activate or prevent apoptosis to enable growth inside the host.</obo:IAO_0000115>
         <skos:editorialNote>Evaluate for placement in proliferation and survival</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
@@ -1692,7 +1692,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <oboInOwl:hasDbXref>GO:0033668</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0052041</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">suppresses apoptosis in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates apoptosis by suppressing apoptosis in host cells of another organism.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates apoptosis by suppressing apoptosis in host cells of another organism.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1705,7 +1705,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
         <oboInOwl:hasDbXref>GO:0052042</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:0052151</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">activates apoptosis in another organism</rdfs:label>
-        <skos:definition>A mechanism that modulates apoptosis by activating apoptosis in host cells of another organism.</skos:definition>
+        <obo:IAO_0000115>A mechanism that modulates apoptosis by activating apoptosis in host cells of another organism.</obo:IAO_0000115>
         <skos:editorialNote>Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
     
@@ -1771,7 +1771,7 @@ Term suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</skos:edi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000100"/>
         <rdfs:label xml:lang="en">mediates binding of complement regulatory protein in another organism</rdfs:label>
-        <skos:definition>A mechanism that mediates resistance to the complement system in another organism by mediating binding of a complement regulatory protein, such as a host enzyme, to the parasite surface.</skos:definition>
+        <obo:IAO_0000115>A mechanism that mediates resistance to the complement system in another organism by mediating binding of a complement regulatory protein, such as a host enzyme, to the parasite surface.</obo:IAO_0000115>
         <skos:editorialNote>PMID: 26808444</skos:editorialNote>
         <skos:editorialNote>Term suggested by Gene Goldbold (https://orcid.org/0000-0002-5702-4690)</skos:editorialNote>
     </owl:Class>
