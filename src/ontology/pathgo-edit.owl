@@ -1029,7 +1029,7 @@ Also, we may also want to distinguish the ones that are acting intracellularly v
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000234">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000072"/>
-        <rdfs:comment>A mechanism that mediates surface glycoprotein binding of another organism through integrins.</rdfs:comment>
+        <obo:IAO_0000115>A mechanism that mediates surface glycoprotein binding of another organism through integrins.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mediates integrin binding in another organism</rdfs:label>
         <skos:editorialNote>integrin α2β1 binding protein and integrin αMβ2 binding protein are examples that may be too granular to include</skos:editorialNote>
     </owl:Class>
