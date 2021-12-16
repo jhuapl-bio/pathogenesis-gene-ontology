@@ -351,7 +351,7 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000147"/>
-        <obo:IAO_0000115>A mechanism that enables adherence to another organism by mediating attachment to cells of the host they are infecting or living in.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that enables adhesion by mediating attachment to cells of the host they are infecting or living in.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044406</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>adhesin</oboInOwl:hasRelatedSynonym>
         <rdfs:label>mediates adhesion to another organism</rdfs:label>
@@ -405,7 +405,7 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000147"/>
-        <obo:IAO_0000115>A mechanism that enables adherence to another organism by promoting synthesis of extracellular polymeric substances to form a biofilm.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that enables adhesion by promoting synthesis of extracellular polymeric substances to form a biofilm.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:1900190</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GO:1900230</oboInOwl:hasDbXref>
         <rdfs:label>mediates biofilm formation</rdfs:label>
@@ -646,9 +646,9 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000336"/>
-        <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by enabling pathogens to attach to cells of another organism and establish growth.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that mediates pathogenicity indirectly by enabling pathogens to attach to substrates and/or cells of another organism to establish growth.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BVF:0000002</oboInOwl:hasDbXref>
-        <rdfs:label>enables adherence to another organism</rdfs:label>
+        <rdfs:label>enables adhesion</rdfs:label>
     </owl:Class>
     
 
