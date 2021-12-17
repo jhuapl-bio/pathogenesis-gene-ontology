@@ -354,7 +354,7 @@ Evaluate changing label to &quot;mediates immune system activation&quot;</skos:e
         <obo:IAO_0000115>A mechanism that enables adhesion by mediating attachment to cells of the host they are infecting or living in.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GO:0044406</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>adhesin</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>mediates adhesion to another organism</rdfs:label>
+        <rdfs:label>mediates adhesion in another organism</rdfs:label>
     </owl:Class>
     
 
@@ -431,7 +431,7 @@ Mechanism of colonization that involves synthesis of extracellular polymeric sub
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
-        <obo:IAO_0000115>A mechanism that mediates extracellular matrix binding of another organism by binding to collagen.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that mediates extracellular matrix binding in another organism by binding to collagen.</obo:IAO_0000115>
         <rdfs:label>mediates collagen binding in another organism</rdfs:label>
     </owl:Class>
     
@@ -506,8 +506,8 @@ evaluate proangiogenic response as a contribution to pathogenesis</skos:editoria
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000038"/>
-        <obo:IAO_0000115>A mechanism that enables adhesion to another organism by mediating binding to extracellular matrix components such as collagen and fibronectin.</obo:IAO_0000115>
-        <rdfs:label>mediates extracellular matrix binding of another organism</rdfs:label>
+        <obo:IAO_0000115>A mechanism that enables adhesion in another organism by mediating binding to extracellular matrix components such as collagen and fibronectin.</obo:IAO_0000115>
+        <rdfs:label>mediates extracellular matrix binding in another organism</rdfs:label>
         <skos:editorialNote>Mechanism of adherence in which attachment occurs to components of the extracellular matrix as opposed to the target cell directly;
 elaborate subclasses
 
@@ -626,7 +626,7 @@ siderophore-chelate and sequester iron from host</skos:editorialNote>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000099"/>
-        <obo:IAO_0000115>A mechanism that mediates extracellular matrix binding of another organism by binding to fibronectin.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that mediates extracellular matrix binding in another organism by binding to fibronectin.</obo:IAO_0000115>
         <rdfs:label>mediates fibronectin binding in another organism</rdfs:label>
     </owl:Class>
     
@@ -954,7 +954,7 @@ Term changes suggested by Gene Godbold (https://orcid.org/0000-0002-5702-4690)</
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATHGO_0000225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATHGO_0000038"/>
-        <obo:IAO_0000115>A mechanism that mediates adhesion to another organism by contributing to the formation of an adhesion appendage.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mechanism that mediates adhesion in another organism by contributing to the formation of an adhesion appendage.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">contributes to adhesion appendage formation</rdfs:label>
         <skos:editorialNote>Fimbriae proteins/subunits are examples.  
 
