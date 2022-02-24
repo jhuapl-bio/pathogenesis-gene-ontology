@@ -95,10 +95,17 @@ def process_pathgo_ontology( ontology ):
 
 
     logger.info("Found %d terms in passed-in ontology." % len(terms) )
-    logger.info( list( terms ) )
+    for term in terms:
+       logger.info( term )
 
     # use the list to set conversion to remove duplicate terms
     return terms
+
+
+def read_annotations( annotations_file ):
+    '''Reads in the annotations into a list and returns that list.'''
+
+    return None
 
 
 if __name__ == '__main__':
@@ -109,9 +116,10 @@ if __name__ == '__main__':
     parser.add_argument('annotations', help="file containing the annotations to propagate.") # positional argument
     args = parser.parse_args()
 
-    process_ontology( args.ontology )
+    process_pathgo_ontology( args.ontology )
 
-    # close the connection to MongoDB
-    client.close()
+    read_annotations( args.annotations )
 
+
+    logger.info("Done.")
 
