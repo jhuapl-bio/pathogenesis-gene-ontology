@@ -16,6 +16,7 @@ import sys
 import argparse # for command-line arguments
 import logging
 import obonet
+import networkx
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -98,14 +99,37 @@ def process_pathgo_ontology( ontology ):
     for term in terms:
        logger.info( term )
 
-    # use the list to set conversion to remove duplicate terms
-    return terms
+    return graph
 
 
-def read_annotations( annotations_file ):
+def propagate_annotations( graph, annotations_file ):
     '''Reads in the annotations into a list and returns that list.'''
 
-    return None
+    with open( annotations_file ) as file:
+       lines = [line.rstrip() for line in file]
+
+    # remove header line
+    lines.pop(0)
+
+    for line in lines:
+       logger.info( line )
+
+       #Uniprot_id,PathGO_id,PathGO_name
+       #Q14U76,PATHGO:0000085,mediates immune evasion and subversion in another organism
+
+       uniprot_id, pathgo_id, pathgo_name = line.split(',')
+
+       id_to_name = {id_: data.get('name') for id_, data in graph.nodes(data=True)}
+       # a little sanity check to make sure the ontology file and the annotations file are in sync
+       if pathgo_name != id_to_name[ pathgo_id ]:
+          print( "Node name not equal to what was found in file." )
+
+       # use the networkx descendants function (which ironically gets the ancestors) to get all the parents
+       print("Parents: " + pathgo_id + " -> ", end='')
+       print( sorted(id_to_name[superterm] for superterm in networkx.descendants(graph, pathgo_id )) )
+
+
+    return lines 
 
 
 if __name__ == '__main__':
@@ -116,9 +140,9 @@ if __name__ == '__main__':
     parser.add_argument('annotations', help="file containing the annotations to propagate.") # positional argument
     args = parser.parse_args()
 
-    process_pathgo_ontology( args.ontology )
+    graph = process_pathgo_ontology( args.ontology )
 
-    read_annotations( args.annotations )
+    propagate_annotations( graph, args.annotations )
 
 
     logger.info("Done.")
