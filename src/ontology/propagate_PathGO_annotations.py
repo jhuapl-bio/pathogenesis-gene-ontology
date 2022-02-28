@@ -22,82 +22,32 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
+def get_parents( graph, term, ids=True ):
+    '''Takes in the graph and the term and returns a list of the parents of the passed-in term'''
+    
+    # use the networkx descendants function (which ironically gets the ancestors) to get all the parents
+    #print("Parents: " + term + " -> ", end='')
+    id_to_name = {id_: data.get('name') for id_, data in graph.nodes(data=True)}
+    parents = sorted( id_to_name[superterm] for superterm in networkx.descendants(graph, term ) )
+    if not ids:
+       return parents
+    else:
+       name_to_id = { data['name']: id_ for id_, data in graph.nodes(data=True) if 'name' in data }
+       parents_ids = []
+       for parent in parents:
+          parents_ids.append( name_to_id[ parent ] )
+
+    #print(parents)
+    return parents_ids
+
+
 def process_pathgo_ontology( ontology ):
     '''Parse the ontology and return a list of PathGO terms'''
 
-    logger.info( "Parsing ontology for terms." )
-
-    excluded_labels = [ 'definition', 'namespace-id-rule', 'database_cross_reference', 'has_obo_format_version',
-                        'has_obo_namespace', 'has_related_synonym', 'participates_in' ]
-    terms = []
+    logger.info( "Parsing ontology file " + ontology + " for terms." )
     file = open(ontology, "r")
-
     graph = obonet.read_obo(ontology)
-
-    for node in graph:
-       
-       if node == "None": continue
-
-       path_go_term = graph.nodes[node]
-       if path_go_term == {}: continue # this can occur if you delete half the ontology, for example. guess the obonet parser creates nodes for terms that aren't defined in the file.
-
-       #print("process_pathgo_ontology(): path_go_term: ")
-       #print(path_go_term)
-       
-       term = {}
-       term['name'] = path_go_term['name']
-       term['label'] = node
-       
-       term['definition'] = ""
-       if 'def' in path_go_term:
-          term['definition'] = path_go_term['def']
-
-       editorialNote = None
-       comment = None
-
-       # {'name': 'cell surface binding factor', 'is_a': ['PATHGO:0000120'],
-       # 'property_value': ['editorialNote "sialyl Lewis x binding protein is an example\\n\\nbuild out subclasses" xsd:string', 'IAO:0000115 "A gene product that mediates adhesion by enabling binding to cell surface receptors or components." xsd:string']}
-       
-       if 'property_value' in path_go_term:
-          # property_value is actually a list that we need to parse
-          for value in path_go_term['property_value']:
-             if value.startswith( "editorialNote" ):
-                editorialNote =  value.replace("editorialNote ", "").replace(" xsd:string", "")
-                #print(editorialNote)
-
-       term['is_a'] = ""
-       if term['name'] != "mechanism of pathogenicity":
-          term['is_a'] = path_go_term['is_a'][0] # for some reason these are stored as an array in the obo.  multiple inheritance???
-
-       if term['name'] != "mechanism of pathogenicity" and term['is_a'] == "":
-          print("Found non-root term without is_a value: " + term['label'] )
-          sys.exit(1)
-
-       if 'comment' in path_go_term:
-          comment = path_go_term['comment']
-
-       # looks like we've used both editorialComment and comment in the ontology.  sort of which one to use for the term here.
-       term['comments'] = ""
-       if editorialNote and comment:
-          print("Term has both editorialNote and comment.  Is this intentional?")
-          term['comments'] = editorialNote
-          #sys.exit()
-       if editorialNote:
-          term['comments'] = editorialNote
-       if comment:
-          term['comments'] = comment
-       
-       term['xref'] = ""
-       if 'xref' in path_go_term:
-          term['xref'] = str(','.join( path_go_term['xref'] ))
-
-       terms.append( [ term['name'], term['label'], term['is_a'], term['definition'], term['xref'], term['comments'] ] )
-       term = None
-
-
-    logger.info("Found %d terms in passed-in ontology." % len(terms) )
-    for term in terms:
-       logger.info( term )
+    file.close()
 
     return graph
 
@@ -105,31 +55,69 @@ def process_pathgo_ontology( ontology ):
 def propagate_annotations( graph, annotations_file ):
     '''Reads in the annotations into a list and returns that list.'''
 
+    annotations_data_structure = {}
     with open( annotations_file ) as file:
-       lines = [line.rstrip() for line in file]
+        lines = [line.rstrip() for line in file]
 
     # remove header line
     lines.pop(0)
 
     for line in lines:
-       logger.info( line )
+        logger.info( line )
 
-       #Uniprot_id,PathGO_id,PathGO_name
-       #Q14U76,PATHGO:0000085,mediates immune evasion and subversion in another organism
+        #Uniprot_id,PathGO_id,PathGO_name
+        #Q14U76,PATHGO:0000085,mediates immune evasion and subversion in another organism
 
-       uniprot_id, pathgo_id, pathgo_name = line.split(',')
+        uniprot_id, pathgo_id, pathgo_name, reference = line.split(',',maxsplit=3)
 
-       id_to_name = {id_: data.get('name') for id_, data in graph.nodes(data=True)}
-       # a little sanity check to make sure the ontology file and the annotations file are in sync
-       if pathgo_name != id_to_name[ pathgo_id ]:
-          print( "Node name not equal to what was found in file." )
+        id_to_name = {id_: data.get('name') for id_, data in graph.nodes(data=True)}
+        # a little sanity check to make sure the ontology file and the annotations file are in sync
+        if pathgo_name != id_to_name[ pathgo_id ]:
+            print( "Node name not equal to what was found in file." )
 
-       # use the networkx descendants function (which ironically gets the ancestors) to get all the parents
-       print("Parents: " + pathgo_id + " -> ", end='')
-       print( sorted(id_to_name[superterm] for superterm in networkx.descendants(graph, pathgo_id )) )
+        # need to create a data structure that will hold the propagated annotations
+        # let's create a dictionary of dictionaries keyed on uniprot id and then on pathgo_id that points to a reference value
+        # that way if we encounter a leaf node term annotation that propagates all the way up to root, followed by another line that has a non-leaf node term, but some other reference
+        # we can append that reference to existing reference
+        # 1ABC, PATHGO:101, Foo 2020
+        # 1ABC, PATHGO:102, Bar 2018 (102 is a child of 101)
+       
+        # then [1ABC][PATHGO:101] would get "Foo 2020, Bar 2018" saved, but
+        # [1ABC][PATHGO:102] would still just have "Bar 2018"
+       
+        if uniprot_id not in annotations_data_structure:
+            annotations_data_structure[ uniprot_id ] = {}
+    
+        if pathgo_id not in annotations_data_structure[ uniprot_id ]:
+            annotations_data_structure[ uniprot_id ][ pathgo_id ] = reference
+        else:
+            annotations_data_structure[ uniprot_id ][ pathgo_id ] += ", " + reference
 
+        parents = get_parents( graph, pathgo_id )
+        for parent in parents:
+            if parent not in annotations_data_structure[ uniprot_id ]:
+                annotations_data_structure[ uniprot_id ][ parent ] = reference
+            else:
+                annotations_data_structure[ uniprot_id ][ parent ] += ", " + reference
 
-    return lines 
+    # iterate over the data structure and write out all the lines
+    propagated_lines = []
+    for id in annotations_data_structure:
+        for term_id in annotations_data_structure[ id ]:
+            propagated_lines.append( id + "," + term_id + "," + id_to_name[ term_id ] + "," + annotations_data_structure[ id][term_id] )
+
+    return propagated_lines
+    
+
+def write_propagated_annotations( annotations_file, lines ):
+
+    output_name = annotations_file.split(".")[0] + ".propagated." + annotations_file.split(".")[1] + "." + annotations_file.split(".")[2]
+    output_file = open( output_name, "w" )
+
+    for line in lines:
+        output_file.write( line + "\n" )
+
+    output_file.close()
 
 
 if __name__ == '__main__':
@@ -141,9 +129,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     graph = process_pathgo_ontology( args.ontology )
-
-    propagate_annotations( graph, args.annotations )
-
-
+    propagated_lines = propagate_annotations( graph, args.annotations )
+    write_propagated_annotations( args.annotations, propagated_lines )
+    
     logger.info("Done.")
 

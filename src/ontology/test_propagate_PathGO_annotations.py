@@ -1,39 +1,66 @@
 import unittest
+import networkx
 
-from propagate_PathGO_annotations import what?
+from propagate_PathGO_annotations import get_parents, process_pathgo_ontology, propagate_annotations
 
 class TestGetTerms(unittest.TestCase):
  
-    def setUp(self):
-        pass
- 
-    def test_process_one_term(self):
-        correct_terms = [ "GO:0048308", "GO:0048311", "GO:0006996", "GO:0007005", "GO:0016043", "GO:0009987", "GO:0008150", "GO:0071840", "GO:0051646", "GO:0051640", "GO:0051641", "GO:0051179" ]
-        correct_terms.sort()
-        self.assertEqual( process_GO_terms( db, ["GO:0000001"]), correct_terms )
- 
-    def test_process_several_terms(self):
-        correct_terms = [ "GO:0005488", "GO:0003674", "GO:0036094", "GO:1901265", "GO:0097159", "GO:1901363", "GO:0005488", "GO:0003674",
-                          "GO:0030597", "GO:0140102", "GO:0140098", "GO:0016799", "GO:0016798", "GO:0016787", "GO:0003824", "GO:0003674",
-                          "GO:0044419", "GO:0051704", "GO:0008150", "GO:0006950", "GO:0050896",
-                          "GO:0044364", "GO:0001906", "GO:0035821", "GO:0044419", "GO:0006417",
-                          "GO:0010629", "GO:0010468", "GO:0010605", "GO:0060255", "GO:0009892", "GO:0019222",
-                          "GO:0048519", "GO:0050789", "GO:0065007", "GO:0032269", "GO:2000113", "GO:0034249", "GO:0006417", "GO:0008150", "GO:0009889", 
-                          "GO:0009890", "GO:0009892", "GO:0010468", "GO:0010556", "GO:0010558", "GO:0010605", 
-                          "GO:0010608", "GO:0010629", "GO:0019222", "GO:0031323", "GO:0031324", "GO:0031326", 
-                          "GO:0031327", "GO:0032268", "GO:0032269", "GO:0034248", "GO:0034249", "GO:0048519", 
-                          "GO:0048523", "GO:0050789", "GO:0050794", "GO:0051171", "GO:0051172", "GO:0051246", 
-                          "GO:0051248", "GO:0060255", "GO:0065007", "GO:0080090", "GO:2000112", "GO:2000113" ]
-        unique_correct_terms = list( set( correct_terms ) )
-        unique_correct_terms.sort()
-        self.assertEqual( process_GO_terms( db, ["GO:0030246", "GO:0000166", "GO:0030598", "GO:0090729", "GO:0006952", "GO:0031640", "GO:0017148"] ), unique_correct_terms )
+    @classmethod
+    def setUpClass(cls):
+        cls.graph = process_pathgo_ontology( "./pathgo.obo" )
 
-    def test_process_multi_inheritance(self):
-        correct_terms = [ "GO:0009372", "GO:0048874", "GO:0044764", "GO:0048872", "GO:0051704", "GO:0008150", "GO:0009987", "GO:0042592", "GO:0065008", "GO:0065007", "GO:0044419" ]
+    def test_get_parents_easy_names(self):
+        correct_terms = [ 'direct mechanism of pathogenicity', 'mechanism of pathogenicity' ]
+        self.assertEqual( get_parents( self.graph, 'PATHGO:0000164', ids=False ), correct_terms )
+ 
+    def test_get_parents_hard_names(self):
+        correct_terms = [ "mediates activation of small GTPase in another organism", "modulates small GTPase activity in another organism",
+        "modulates G-protein signaling pathways in another organism", "disrupts cellular signaling in another organism",
+        "direct mechanism of pathogenicity", "mechanism of pathogenicity" ]
         correct_terms.sort()
-        self.assertEqual( process_GO_terms( db, ["GO:0052097"]), correct_terms )
+        self.assertEqual( get_parents( self.graph, "PATHGO:0000255", ids=False ), correct_terms )
 
+    def test_get_parents_root_names(self):
+        correct_terms = [ ]
+        self.assertEqual( get_parents( self.graph, "PATHGO:0000114", ids=False ), correct_terms )
+
+    def test_get_parents_indirect_branch_names(self):
+        correct_terms = [ "promotes survival in host", "mediates iron acquisition", "mediates nutrient acquisition",
+        "indirect mechanism of pathogenicity", "mechanism of pathogenicity" ]
+        correct_terms.sort()
+        self.assertEqual( get_parents( self.graph, "PATHGO:0000124", ids=False ), correct_terms )
+
+    def test_get_parents_easy(self):
+        correct_terms = [ "PATHGO:0000333", "PATHGO:0000114" ]
+        self.assertEqual( get_parents( self.graph, "PATHGO:0000164" ), correct_terms )
+
+    def test_get_parents_hard(self):
+        correct_terms = [ "PATHGO:0000333", "PATHGO:0000165", "PATHGO:0000114", "PATHGO:0000356", "PATHGO:0000175", "PATHGO:0000328" ]
+        self.assertEqual( get_parents( self.graph, "PATHGO:0000255" ), correct_terms )
+
+    def test_get_parents_root(self):
+        correct_terms = [ ]
+        self.assertEqual( get_parents( self.graph, "PATHGO:0000114" ), correct_terms )
+
+    def test_propagate_annotations_easy(self):
+        correct_lines = [
+            'B8XH01,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 15680238',
+            'B8XH01,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 15680238',
+            'B8XH01,PATHGO:0000114,mechanism of pathogenicity,PMID: 15680238'
+        ]
+        self.assertEqual( propagate_annotations( self.graph, "./annotations_test_easy.txt" ), correct_lines )
+        
+    def test_propagate_annotations_hard(self):
+        correct_lines = [
+            'P01501,PATHGO:0000033,mediates pore formation in another organism,PMID: 4057243; PubMed:6830776',
+            'P01501,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 4057243; PubMed:6830776, PMID: 26983715, PMID6830776; PMID: 30885804',
+            'P01501,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 4057243; PubMed:6830776, PMID6830776; PMID: 30885804',
+            'P01501,PATHGO:0000114,mechanism of pathogenicity,PMID: 4057243; PubMed:6830776, PMID: 26983715, PMID6830776; PMID: 30885804',
+            'P01501,PATHGO:0000029,mediates membrane damage of another organism,PMID: 4057243; PubMed:6830776, PMID6830776; PMID: 30885804',
+            'P01501,PATHGO:0000176,modulates receptor activity in another organism,PMID: 26983715',
+            'P01501,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 26983715'
+        ]
+        self.assertEqual( propagate_annotations( self.graph, "./annotations_test_hard.txt" ), correct_lines )
 
 if __name__ == '__main__':
     unittest.main()
-
