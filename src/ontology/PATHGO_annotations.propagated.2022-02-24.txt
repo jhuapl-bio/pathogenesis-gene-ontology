@@ -1,0 +1,717 @@
+O68703,PATHGO:0000328,modulates small GTPase activity in another organism,PMID: 11705930
+O68703,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 11705930, PMID: 12062101
+O68703,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 11705930
+O68703,PATHGO:0000114,mechanism of pathogenicity,PMID: 11705930, PMID: 12062101
+O68703,PATHGO:0000175,modulates G-protein signaling pathways in another organism,PMID: 11705930
+O68703,PATHGO:0000028,modulates cytoskeleton dynamics in another organism,PMID: 12062101
+O68703,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 12062101
+F5HG98,PATHGO:0000334,suppresses apoptosis in another organism,PMID: 17202209
+F5HG98,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 17202209
+F5HG98,PATHGO:0000114,mechanism of pathogenicity,PMID: 17202209, PMID: 18407068
+F5HG98,PATHGO:0000332,modulates apoptosis in another organism,PMID: 17202209
+F5HG98,PATHGO:0000150,promotes survival in host,PMID: 18407068
+F5HG98,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 18407068
+A3EX94,PATHGO:0000072,mediates surface glycoprotein binding of another organism,PMID: 25211075
+A3EX94,PATHGO:0000147,enables adhesion,PMID: 25211075, PMID: 25211075, PMID: 25114257
+A3EX94,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 25211075, PMID: 25211075, PMID: 25114257
+A3EX94,PATHGO:0000114,mechanism of pathogenicity,PMID: 25211075, PMID: 25211075, PMID: 25114257
+A3EX94,PATHGO:0000038,mediates adhesion in another organism,PMID: 25211075, PMID: 25211075, PMID: 25114257
+A3EX94,PATHGO:0000211,mediates binding to the cell surface of another organism,PMID: 25211075, PMID: 25211075
+B8XH01,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 15680238
+B8XH01,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 15680238
+B8XH01,PATHGO:0000114,mechanism of pathogenicity,PMID: 15680238
+G1UB63,PATHGO:0000066,mediates iron acquisition from host,PMID: 15306022
+G1UB63,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 15306022
+G1UB63,PATHGO:0000114,mechanism of pathogenicity,PMID: 15306022
+G1UB63,PATHGO:0000058,mediates iron acquisition,PMID: 15306022
+G1UB63,PATHGO:0000113,mediates nutrient acquisition,PMID: 15306022
+G1UB63,PATHGO:0000150,promotes survival in host,PMID: 15306022
+L0PQJ9,PATHGO:0000271,mediates resistance to oxidative killing in another organism,PMID: 23147398
+L0PQJ9,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 23147398
+L0PQJ9,PATHGO:0000114,mechanism of pathogenicity,PMID: 23147398, PMID: 23147398
+L0PQJ9,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 23147398
+L0PQJ9,PATHGO:0000016,modulates immune function in another organism,PMID: 23147398
+L0PQJ9,PATHGO:0000150,promotes survival in host,PMID: 23147398
+L0PQJ9,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 23147398
+O06662,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 29109187
+O06662,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 29109187
+O06662,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 29109187
+O06662,PATHGO:0000114,mechanism of pathogenicity,PMID: 29109187
+P01501,PATHGO:0000033,mediates pore formation in another organism,PMID: 4057243, PMID: 6830776
+P01501,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 4057243, PMID: 6830776, PMID: 26983715, PMID: 6830776, PMID: 30885804
+P01501,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 4057243, PMID: 6830776, PMID: 6830776, PMID: 30885804
+P01501,PATHGO:0000114,mechanism of pathogenicity,PMID: 4057243, PMID: 6830776, PMID: 26983715, PMID: 6830776, PMID: 30885804
+P01501,PATHGO:0000029,mediates membrane damage of another organism,PMID: 4057243, PMID: 6830776, PMID: 6830776, PMID: 30885804
+P01501,PATHGO:0000176,modulates receptor activity in another organism,PMID: 26983715
+P01501,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 26983715
+P02879,PATHGO:0000030,mediates ribosome inactivation in another organism,PMID: 31174319, PMID: 31035546
+P02879,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 31174319, PMID: 31035546, PMID: 28722977, PMID: 28722977
+P02879,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 31174319, PMID: 31035546, PMID: 28722977
+P02879,PATHGO:0000114,mechanism of pathogenicity,PMID: 31174319, PMID: 31035546, PMID: 28925387, PMID: 28722977, PMID: 28722977, PMID: 28722977
+P02879,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 31174319, PMID: 31035546, PMID: 28722977
+P02879,PATHGO:0000285,mediates carbohydrate-derivative binding in another organism,PMID: 28925387
+P02879,PATHGO:0000147,enables adhesion,PMID: 28925387, PMID: 28722977
+P02879,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 28925387, PMID: 28722977
+P02879,PATHGO:0000038,mediates adhesion in another organism,PMID: 28925387, PMID: 28722977
+P02879,PATHGO:0000211,mediates binding to the cell surface of another organism,PMID: 28925387
+P02879,PATHGO:0000235,mediates host cell invasion,PMID: 28722977
+P19247,PATHGO:0000033,mediates pore formation in another organism,PMID: 29469977, PMID: 12005177
+P19247,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 29469977, PMID: 12005177
+P19247,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 29469977, PMID: 12005177
+P19247,PATHGO:0000114,mechanism of pathogenicity,PMID: 29469977, PMID: 12005177
+P19247,PATHGO:0000029,mediates membrane damage of another organism,PMID: 29469977, PMID: 12005177
+Q9GV72,PATHGO:0000033,mediates pore formation in another organism,PMID: 10964707, PMID: 19232527
+Q9GV72,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 10964707, PMID: 19232527, PMID: 10964707, PMID: 19232527, PMID: 10964707, PMID: 19232527
+Q9GV72,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 10964707, PMID: 19232527, PMID: 10964707, PMID: 19232527, PMID: 10964707, PMID: 19232527
+Q9GV72,PATHGO:0000114,mechanism of pathogenicity,PMID: 10964707, PMID: 19232527, PMID: 10964707, PMID: 19232527, PMID: 10964707, PMID: 19232527
+Q9GV72,PATHGO:0000029,mediates membrane damage of another organism,PMID: 10964707, PMID: 19232527, PMID: 10964707, PMID: 19232527
+Q9WMB7,PATHGO:0000233,disrupts toll-like receptor signaling in another organism,PMID: 30100358
+Q9WMB7,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 30100358, PMID: 30100358
+Q9WMB7,PATHGO:0000379,disrupts immune signaling in another organism,PMID: 30100358
+Q9WMB7,PATHGO:0000114,mechanism of pathogenicity,PMID: 30100358, PMID: 30100358
+Q9WMB7,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 30100358, PMID: 30100358
+Q9WMB7,PATHGO:0000016,modulates immune function in another organism,PMID: 30100358, PMID: 30100358
+A0A1L1QJU3,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 28320941
+A0A1L1QJU3,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 28320941
+A0A1L1QJU3,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 28320941
+A0A1L1QJU3,PATHGO:0000114,mechanism of pathogenicity,PMID: 28320941
+A8N286,PATHGO:0000176,modulates receptor activity in another organism,PMID: 20071329
+A8N286,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 20071329, PMID: 20071329
+A8N286,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 20071329
+A8N286,PATHGO:0000114,mechanism of pathogenicity,PMID: 20071329, PMID: 20071329
+A8N286,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 20071329
+A8N286,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 20071329
+B8QG00,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 19389159, PMID: 27114612
+B8QG00,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 19389159, PMID: 27114612, PMID: 19389159, PMID: 27114612
+B8QG00,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 19389159, PMID: 27114612
+B8QG00,PATHGO:0000114,mechanism of pathogenicity,PMID: 19389159, PMID: 27114612, PMID: 19389159, PMID: 27114612
+B8QG00,PATHGO:0000176,modulates receptor activity in another organism,PMID: 19389159, PMID: 27114612
+B8QG00,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 19389159, PMID: 27114612
+O61668,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 20810829
+O61668,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 20810829
+O61668,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 20810829
+O61668,PATHGO:0000114,mechanism of pathogenicity,PMID: 20810829
+O88093,PATHGO:0000113,mediates nutrient acquisition,PMID: 9743528, PMID: 11748157
+O88093,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 9743528, PMID: 11748157
+O88093,PATHGO:0000114,mechanism of pathogenicity,PMID: 9743528, PMID: 11748157
+O88093,PATHGO:0000150,promotes survival in host,PMID: 9743528, PMID: 11748157
+O88093,PATHGO:0000058,mediates iron acquisition,PMID: 11748157
+P01521,PATHGO:0000021,disrupts post-synaptic membrane potential in other organism,PMID: 10529206
+P01521,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 10529206, PMID: 10529206, PMID: 10529206
+P01521,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 10529206, PMID: 10529206
+P01521,PATHGO:0000114,mechanism of pathogenicity,PMID: 10529206, PMID: 10529206, PMID: 10529206
+P01521,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 10529206, PMID: 10529206
+P01521,PATHGO:0000176,modulates receptor activity in another organism,PMID: 10529206
+P01521,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 10529206
+Q9UAC8,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 29186022
+Q9UAC8,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 29186022
+Q9UAC8,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 29186022
+Q9UAC8,PATHGO:0000114,mechanism of pathogenicity,PMID: 29186022
+Q9XZK2,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 26344359
+Q9XZK2,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 26344359
+Q9XZK2,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 26344359
+Q9XZK2,PATHGO:0000114,mechanism of pathogenicity,PMID: 26344359
+A0MD28,PATHGO:0000016,modulates immune function in another organism,PMID: 20696193, PMID: 20696193
+A0MD28,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 20696193, PMID: 20696193, PMID: 9971782, PMID: 20655963, PMID: 20006994, PMID: 20504922, PMID: 20504922, PMID: 20696193, PMID: 31043527
+A0MD28,PATHGO:0000114,mechanism of pathogenicity,PMID: 20696193, PMID: 20696193, PMID: 9971782, PMID: 20655963, PMID: 20006994, PMID: 20504922, PMID: 20504922, PMID: 20696193, PMID: 31043527
+A0MD28,PATHGO:0000029,mediates membrane damage of another organism,PMID: 20696193, PMID: 9971782
+A0MD28,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 20696193, PMID: 9971782
+A0MD28,PATHGO:0000302,disrupts JAK-STAT signaling in another organism,PMID: 20655963, PMID: 20006994
+A0MD28,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 20655963, PMID: 20006994, PMID: 20504922
+A0MD28,PATHGO:0000325,modulates ubiquitin dynamics in another organism,PMID: 20504922
+A0MD28,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 20504922, PMID: 31043527
+A0MD28,PATHGO:0000295,suppresses NF-kappaB signaling in another organism,PMID: 20504922
+A0MD28,PATHGO:0000294,modulates host NF-kappaB signaling in another organism,PMID: 20504922
+A0MD28,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 20696193
+A0MD28,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 31043527
+A1Z651,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 26038516
+A1Z651,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 26038516
+A1Z651,PATHGO:0000114,mechanism of pathogenicity,PMID: 26038516
+A7RMN1,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 23895459
+A7RMN1,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 23895459
+A7RMN1,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 23895459
+A7RMN1,PATHGO:0000114,mechanism of pathogenicity,PMID: 23895459
+A7X4T8,PATHGO:0000003,modulates ion channel activity in another organism,DOI: 10.1201/9781420008661.ch16
+A7X4T8,PATHGO:0000333,direct mechanism of pathogenicity,DOI: 10.1201/9781420008661.ch16
+A7X4T8,PATHGO:0000167,disrupts cellular transport in another organism,DOI: 10.1201/9781420008661.ch16
+A7X4T8,PATHGO:0000114,mechanism of pathogenicity,DOI: 10.1201/9781420008661.ch16
+B7S4N9,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 1485334, PMID: 22266484
+B7S4N9,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 1485334, PMID: 22266484
+B7S4N9,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 1485334, PMID: 22266484
+B7S4N9,PATHGO:0000114,mechanism of pathogenicity,PMID: 1485334, PMID: 22266484
+O08738,PATHGO:0000335,activates apoptosis in another organism,PMID: 32298652
+O08738,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 32298652
+O08738,PATHGO:0000114,mechanism of pathogenicity,PMID: 32298652
+O08738,PATHGO:0000332,modulates apoptosis in another organism,PMID: 32298652
+O12164,PATHGO:0000072,mediates surface glycoprotein binding of another organism,PMID: 22908191
+O12164,PATHGO:0000147,enables adhesion,PMID: 22908191
+O12164,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 22908191
+O12164,PATHGO:0000114,mechanism of pathogenicity,PMID: 22908191
+O12164,PATHGO:0000038,mediates adhesion in another organism,PMID: 22908191
+O12164,PATHGO:0000211,mediates binding to the cell surface of another organism,PMID: 22908191
+O12157,PATHGO:0000110,mediates secretion of protein effectors,PMID: 2014240, PMID: 7474093, PMID: 11739676
+O12157,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 2014240, PMID: 7474093, PMID: 11739676
+O12157,PATHGO:0000114,mechanism of pathogenicity,PMID: 2014240, PMID: 7474093, PMID: 11739676, PMID: 2014240, PMID: 7474093, PMID: 11739676
+O12157,PATHGO:0000251,mediates dissemination in another organism,PMID: 2014240, PMID: 7474093, PMID: 11739676
+O12157,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 2014240, PMID: 7474093, PMID: 11739676
+O13318,PATHGO:0000150,promotes survival in host,PMID: 10559174
+O13318,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 10559174
+O13318,PATHGO:0000114,mechanism of pathogenicity,PMID: 10559174
+O22415,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 12023903, PMID: 12023903, PMID: 8631319
+O22415,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 12023903, PMID: 12023903, PMID: 8631319
+O22415,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 12023903, PMID: 12023903, PMID: 8631319
+O22415,PATHGO:0000114,mechanism of pathogenicity,PMID: 12023903, PMID: 12023903, PMID: 8631319
+O22415,PATHGO:0000030,mediates ribosome inactivation in another organism,PMID: 12023903, PMID: 8631319
+O52248,PATHGO:0000150,promotes survival in host,PMID: 9642183
+O52248,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 9642183
+O52248,PATHGO:0000114,mechanism of pathogenicity,PMID: 9642183
+P00981,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 10429207, PMID: 9134213
+P00981,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 10429207, PMID: 9134213
+P00981,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 10429207, PMID: 9134213
+P00981,PATHGO:0000114,mechanism of pathogenicity,PMID: 10429207, PMID: 9134213
+P01379,PATHGO:0000176,modulates receptor activity in another organism,PMID: 26221036
+P01379,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 26221036, PMID: 9305882, PMID: 9305882
+P01379,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 26221036
+P01379,PATHGO:0000114,mechanism of pathogenicity,PMID: 26221036, PMID: 9305882, PMID: 9305882
+P01379,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 9305882, PMID: 9305882
+P01379,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 9305882, PMID: 9305882
+P01379,PATHGO:0000023,disruption of action potential propagation in other organism,PMID: 9305882
+P03081,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 15890927, PMID: 10523837, PMID: 21835797, PMID: 8917510, PMID: 15890927
+P03081,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 15890927, PMID: 10523837, PMID: 8917510, PMID: 21835797, PMID: 8917510, PMID: 15890927
+P03081,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 15890927, PMID: 10523837, PMID: 21835797, PMID: 8917510, PMID: 15890927
+P03081,PATHGO:0000114,mechanism of pathogenicity,PMID: 15890927, PMID: 10523837, PMID: 8917510, PMID: 21835797, PMID: 8917510, PMID: 15890927
+P03081,PATHGO:0000331,modulates cell cycle in another organism,PMID: 8917510
+P03081,PATHGO:0000265,modulates eukaryotic translation initiation in another organism,PMID: 21835797, PMID: 8917510, PMID: 15890927
+P03081,PATHGO:0000267,suppresses translation initiation factors in another organism,PMID: 15890927
+P03217,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 19587049, PMID: 19264771, PMID: 19468299, PMID: 22696660
+P03217,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 19587049, PMID: 19264771, PMID: 19468299, PMID: 22696660, PMID: 19264771, PMID: 21191071, PMID: 32983084
+P03217,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 19587049, PMID: 19264771, PMID: 19468299, PMID: 22696660
+P03217,PATHGO:0000114,mechanism of pathogenicity,PMID: 19587049, PMID: 19264771, PMID: 19468299, PMID: 22696660, PMID: 19264771, PMID: 19264771, PMID: 21191071, PMID: 32983084
+P03217,PATHGO:0000150,promotes survival in host,PMID: 19264771
+P03217,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 19264771
+P03217,PATHGO:0000308,disrupts antigen presentation in another organism,PMID: 19264771
+P03217,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 19264771
+P03217,PATHGO:0000016,modulates immune function in another organism,PMID: 19264771, PMID: 21191071, PMID: 32983084
+P03230,PATHGO:0000296,enhances NF-kappaB signaling in another organism,PMID: 19017798, PMID: 21795333, PMID: 22951831
+P03230,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 25996949, PMID: 12407409, PMID: 15613549, PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 25996949, PMID: 12407409
+P03230,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 19017798, PMID: 21795333, PMID: 22951831
+P03230,PATHGO:0000114,mechanism of pathogenicity,PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 25996949, PMID: 12407409, PMID: 15613549, PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 25996949, PMID: 12407409
+P03230,PATHGO:0000294,modulates host NF-kappaB signaling in another organism,PMID: 19017798, PMID: 21795333, PMID: 22951831
+P03230,PATHGO:0000314,modulates TRAF signaling in another organism,PMID: 19017798, PMID: 21795333, PMID: 22951831
+P03230,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 19017798, PMID: 21795333, PMID: 22951831
+P03230,PATHGO:0000016,modulates immune function in another organism,PMID: 19017798, PMID: 21795333, PMID: 22951831
+P03230,PATHGO:0000326,modulates transcription in another organism,PMID: 19017798, PMID: 21795333, PMID: 22951831
+P03230,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 19017798, PMID: 21795333, PMID: 22951831
+P03230,PATHGO:0000332,modulates apoptosis in another organism,PMID: 25996949, PMID: 12407409, PMID: 15613549, PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 25996949, PMID: 12407409
+P03230,PATHGO:0000334,suppresses apoptosis in another organism,PMID: 15613549, PMID: 19017798, PMID: 21795333, PMID: 22951831, PMID: 25996949, PMID: 12407409
+P03254,PATHGO:0000300,disrupts STING signaling in another organism,PMID: 26405230
+P03254,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 26405230, PMID: 11991831, PMID: 18385237, PMID: 20740004,, PMID: 17168793, PMID: 22018786, PMID: 20504937, PMID: 18385237, PMID: 11991831, PMID: 18385237, PMID: 29717008, PMID: 27307198, PMID: 22704620, PMID: 22704620, PMID: 16037790
+P03254,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 26405230, PMID: 16037790
+P03254,PATHGO:0000114,mechanism of pathogenicity,PMID: 26405230, PMID: 11991831, PMID: 18385237, PMID: 20740004,, PMID: 17168793, PMID: 22018786, PMID: 20504937, PMID: 18385237, PMID: 11991831, PMID: 18385237, PMID: 29717008, PMID: 27307198, PMID: 22704620, PMID: 22704620, PMID: 16037790
+P03254,PATHGO:0000331,modulates cell cycle in another organism,PMID: 11991831, PMID: 18385237, PMID: 20740004,
+P03254,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 17168793, PMID: 22018786, PMID: 20504937, PMID: 18385237
+P03254,PATHGO:0000016,modulates immune function in another organism,PMID: 17168793, PMID: 22018786, PMID: 20504937, PMID: 18385237
+P03254,PATHGO:0000220,suppresses inflammatory cytokine release in another organism,PMID: 18385237
+P03254,PATHGO:0000326,modulates transcription in another organism,PMID: 11991831, PMID: 18385237, PMID: 29717008, PMID: 27307198, PMID: 22704620
+P03254,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 11991831, PMID: 18385237, PMID: 29717008, PMID: 27307198, PMID: 22704620, PMID: 22704620
+P03274,PATHGO:0000321,modulates endosomal vesicle trafficking in another organism,PMID: 26491163
+P03274,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 26491163, PMID: 26491163
+P03274,PATHGO:0000114,mechanism of pathogenicity,PMID: 26491163, PMID: 26491163, PMID: 26491163
+P03274,PATHGO:0000236,modulates cell endomembrane dynamics in another organism,PMID: 26491163
+P03274,PATHGO:0000326,modulates transcription in another organism,PMID: 26491163
+P03274,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 26491163
+P03274,PATHGO:0000150,promotes survival in host,PMID: 26491163
+P03274,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 26491163
+P03370,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 16425963
+P03370,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 16425963
+P03370,PATHGO:0000114,mechanism of pathogenicity,PMID: 16425963, PMID: 8189495
+P03370,PATHGO:0000150,promotes survival in host,PMID: 8189495
+P03370,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 8189495
+P03519,PATHGO:0000150,promotes survival in host,PMID: 15629720
+P03519,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 15629720
+P03519,PATHGO:0000114,mechanism of pathogenicity,PMID: 15629720, PMID: 2162105, PMID: 2820131, PMID: 22002165, PMID: 24927547, PMID: 11711608, PMID: 12692256, PMID: 12033766, PMID: 27643886, PMID: 12663771, PMID: 32838932, PMID: 9733895, PMID: 8985359, PMID: 11046154, PMID: 12351648, PMID: 32838932, PMID: 15629720
+P03519,PATHGO:0000028,modulates cytoskeleton dynamics in another organism,PMID: 2162105
+P03519,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 2162105, PMID: 2820131, PMID: 22002165, PMID: 24927547, PMID: 11711608, PMID: 12692256, PMID: 12033766, PMID: 27643886, PMID: 12663771, PMID: 32838932, PMID: 9733895, PMID: 8985359, PMID: 11046154, PMID: 12351648, PMID: 32838932, PMID: 15629720
+P03519,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 2162105
+P03519,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 2820131, PMID: 22002165, PMID: 24927547
+P03519,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 2820131, PMID: 22002165, PMID: 24927547, PMID: 9733895, PMID: 8985359, PMID: 11046154, PMID: 12351648, PMID: 32838932
+P03519,PATHGO:0000335,activates apoptosis in another organism,PMID: 11711608, PMID: 12692256, PMID: 12033766
+P03519,PATHGO:0000332,modulates apoptosis in another organism,PMID: 11711608, PMID: 12692256, PMID: 12033766
+P03519,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 27643886, PMID: 12663771, PMID: 32838932
+P03519,PATHGO:0000016,modulates immune function in another organism,PMID: 27643886, PMID: 12663771, PMID: 32838932
+P03519,PATHGO:0000326,modulates transcription in another organism,PMID: 9733895, PMID: 8985359, PMID: 11046154, PMID: 12351648, PMID: 32838932
+P03519,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 15629720
+P04958,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 28645943, PMID: 28645943, PMID: 28645943, PMID: 14731268, PMID: 19602728, PMID: 21124874, PMID: 25430769, PMID: 28645943, PMID: 15649138
+P04958,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 28645943, PMID: 28645943, PMID: 28645943, PMID: 14731268, PMID: 19602728, PMID: 21124874, PMID: 25430769, PMID: 28645943, PMID: 15649138
+P04958,PATHGO:0000114,mechanism of pathogenicity,PMID: 28645943, PMID: 28645943, PMID: 28645943, PMID: 14731268, PMID: 19602728, PMID: 21124874, PMID: 25430769, PMID: 28645943, PMID: 15649138
+P04958,PATHGO:0000018,disrupts synaptic vesicle release in another organism,PMID: 28645943
+P04958,PATHGO:0000047,disrupts exocytosis in another organism,PMID: 28645943, PMID: 28645943
+P04958,PATHGO:0000007,disrupts neurotransmitter release in another organism,PMID: 14731268, PMID: 19602728, PMID: 21124874, PMID: 25430769, PMID: 28645943, PMID: 15649138
+P04958,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 14731268, PMID: 19602728, PMID: 21124874, PMID: 25430769, PMID: 28645943, PMID: 15649138
+P05484,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 26344359, PMID: 26344359
+P05484,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 26344359, PMID: 26344359
+P05484,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 26344359, PMID: 26344359
+P05484,PATHGO:0000114,mechanism of pathogenicity,PMID: 26344359, PMID: 26344359
+P05484,PATHGO:0000007,disrupts neurotransmitter release in another organism,PMID: 26344359
+P06750,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 28722977, PMID: 28722977
+P06750,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 28722977, PMID: 20185574, PMID: 28722977, PMID: 28722977, PMID: 20185574
+P06750,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 28722977, PMID: 28722977, PMID: 28722977
+P06750,PATHGO:0000114,mechanism of pathogenicity,PMID: 28722977, PMID: 20185574, PMID: 28722977, PMID: 28722977, PMID: 20185574
+P06750,PATHGO:0000176,modulates receptor activity in another organism,PMID: 20185574
+P06750,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 20185574
+P06750,PATHGO:0000030,mediates ribosome inactivation in another organism,PMID: 28722977
+P06750,PATHGO:0000335,activates apoptosis in another organism,PMID: 20185574
+P06750,PATHGO:0000332,modulates apoptosis in another organism,PMID: 20185574
+P06886,PATHGO:0000016,modulates immune function in another organism,PMID: 29229737, PMID: 23824366, PMID: 21535475, PMID: 24389205
+P06886,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 29229737, PMID: 23824366, PMID: 21535475, PMID: 24389205
+P06886,PATHGO:0000114,mechanism of pathogenicity,PMID: 29229737, PMID: 23824366, PMID: 21535475, PMID: 24389205
+P06886,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 21535475
+P06886,PATHGO:0000010,mediates non-specific T-cell activation in another organism,PMID: 24389205
+P06886,PATHGO:0000031,mediates non-productive immune system activation in another organism,PMID: 24389205
+Q9C1B9,PATHGO:0000337,mediates toxin synthesis,PMID: 4521056, PMID: 12039755
+Q9C1B9,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 4521056, PMID: 12039755
+Q9C1B9,PATHGO:0000114,mechanism of pathogenicity,PMID: 4521056, PMID: 12039755
+Q9BKJ0,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 11321163
+Q9BKJ0,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 11321163, PMID: 11321163
+Q9BKJ0,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 11321163, PMID: 11321163
+Q9BKJ0,PATHGO:0000114,mechanism of pathogenicity,PMID: 11321163, PMID: 11321163
+Q99289,PATHGO:0000029,mediates membrane damage of another organism,PMID: 32808593
+Q99289,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 32808593, PMID: 32808593
+Q99289,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 32808593, PMID: 32808593
+Q99289,PATHGO:0000114,mechanism of pathogenicity,PMID: 32808593, PMID: 32808593
+Q8RSY1,PATHGO:0000334,suppresses apoptosis in another organism,PMID: 12505984, PMID: 12505984, PMID: 19249211, PMID: 12505984, PMID: 24237140
+Q8RSY1,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 12505984, PMID: 12505984, PMID: 19249211, PMID: 12505984, PMID: 24237140, PMID: 12505984, PMID: 19249211, PMID: PMID: 24237140, PMID: 12505984, PMID: 16167902, PMID: 16167902
+Q8RSY1,PATHGO:0000114,mechanism of pathogenicity,PMID: 12505984, PMID: 12505984, PMID: 19249211, PMID: 12505984, PMID: 24237140, PMID: 12505984, PMID: 19249211, PMID: PMID: 24237140, PMID: 12505984, PMID: 16167902, PMID: 16167902
+Q8RSY1,PATHGO:0000332,modulates apoptosis in another organism,PMID: 12505984, PMID: 12505984, PMID: 19249211, PMID: 12505984, PMID: 24237140, PMID: 12505984, PMID: 19249211, PMID: PMID: 24237140
+Q8RSY1,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 12505984
+Q8RSY1,PATHGO:0000016,modulates immune function in another organism,PMID: 12505984
+Q8RSY1,PATHGO:0000326,modulates transcription in another organism,PMID: 16167902
+Q8RSY1,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 16167902, PMID: 16167902
+Q8AZK7,PATHGO:0000326,modulates transcription in another organism,PMID: 17159145, PMID: 29467311
+Q8AZK7,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 17159145, PMID: 29467311, PMID: 17159145, PMID: 29467311
+Q8AZK7,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 17159145, PMID: 29467311, PMID: 17159145, PMID: 29467311
+Q8AZK7,PATHGO:0000114,mechanism of pathogenicity,PMID: 17159145, PMID: 29467311, PMID: 17159145, PMID: 29467311, PMID: 29467311, PMID: 12560563, PMID: 9261383, PMID: 9261384, PMID: 15905610
+Q8AZK7,PATHGO:0000150,promotes survival in host,PMID: 29467311, PMID: 12560563, PMID: 9261383, PMID: 9261384, PMID: 15905610
+Q8AZK7,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 29467311, PMID: 12560563, PMID: 9261383, PMID: 9261384, PMID: 15905610
+Q80A33,PATHGO:0000382,suppresses interferon signaling in another organism,PMID: 15582653
+Q80A33,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 15582653, PMID: 15582653, PMID19812269, PMID15582653, PMID19812269, PMID:15582653, PMID: 15582653, PMID18768974, PMID: 15582653, PMID18768974
+Q80A33,PATHGO:0000379,disrupts immune signaling in another organism,PMID: 15582653, PMID:15582653
+Q80A33,PATHGO:0000114,mechanism of pathogenicity,PMID: 15582653, PMID: 15582653, PMID19812269, PMID15582653, PMID19812269, PMID:15582653, PMID: 15582653, PMID18768974, PMID: 15582653, PMID18768974
+Q80A33,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 15582653, PMID15582653, PMID19812269, PMID:15582653
+Q80A33,PATHGO:0000016,modulates immune function in another organism,PMID: 15582653, PMID: 15582653, PMID19812269, PMID15582653, PMID19812269, PMID:15582653
+Q80A33,PATHGO:0000381,modulates interferon signaling in another organism,PMID: 15582653, PMID:15582653
+Q80A33,PATHGO:0000326,modulates transcription in another organism,PMID: 15582653, PMID18768974
+Q80A33,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 15582653, PMID18768974, PMID: 15582653, PMID18768974
+Q7CQN4,PATHGO:0000235,mediates host cell invasion,PMID: 15213144, PMID: 10426996
+Q7CQN4,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 15213144, PMID: 10426996, PMID: 10426996, PMID: 10426996, PMID: 10426996, PMID: 10426996
+Q7CQN4,PATHGO:0000114,mechanism of pathogenicity,PMID: 15213144, PMID: 10426996, PMID: 10426996, PMID: 10426996, PMID: 10426996, PMID: 10426996
+Q7CQN4,PATHGO:0000379,disrupts immune signaling in another organism,PMID: 10426996, PMID: 10426996
+Q7CQN4,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 10426996, PMID: 10426996, PMID: 10426996
+Q7CQN4,PATHGO:0000016,modulates immune function in another organism,PMID: 10426996, PMID: 10426996, PMID: 10426996, PMID: 10426996
+Q7CQN4,PATHGO:0000233,disrupts toll-like receptor signaling in another organism,PMID: 10426996
+Q79FU2,PATHGO:0000296,enhances NF-kappaB signaling in another organism,PMID: 20176745
+Q79FU2,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 20176745, PMID: 20176745, PMID: 20176745, PMID: 20176745, PMID: 20176745, PMID: 20176745, PMID: 2366304, PMID: 20176745, PMID: 2366304
+Q79FU2,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 20176745, PMID: 20176745, PMID: 20176745, PMID: 20176745, PMID: 20176745
+Q79FU2,PATHGO:0000114,mechanism of pathogenicity,PMID: 20176745, PMID: 20176745, PMID: 20176745, PMID: 20176745, PMID: 20176745, PMID: 20176745, PMID: 2366304, PMID: 20176745, PMID: 2366304
+Q79FU2,PATHGO:0000294,modulates host NF-kappaB signaling in another organism,PMID: 20176745, PMID: 20176745
+Q79FU2,PATHGO:0000291,enhances MAPK signaling in another organism,PMID: 20176745
+Q79FU2,PATHGO:0000289,modulates MAPK signaling in another organism,PMID: 20176745, PMID: 20176745
+Q79FU2,PATHGO:0000010,mediates non-specific T-cell activation in another organism,PMID: 20176745
+Q79FU2,PATHGO:0000031,mediates non-productive immune system activation in another organism,PMID: 20176745, PMID: 2366304
+Q79FU2,PATHGO:0000016,modulates immune function in another organism,PMID: 20176745, PMID: 2366304, PMID: 20176745, PMID: 2366304
+Q77VF1,PATHGO:0000335,activates apoptosis in another organism,PMID: 18796704
+Q77VF1,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 18796704, PMID: 18796704, PMID: 19148178, PMID: 18796704, PMID: 16178512, PMID: 19454348, PMID: 18796704, PMID: 14967035, PMID: 15792636, PMID: 16775317, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 27664935, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 19148178, PMID: 18796704, PMID: 30496325, PMID: 27664935, PMID: 18796704, PMID: 19148178
+Q77VF1,PATHGO:0000114,mechanism of pathogenicity,PMID: 18796704, PMID: 18796704, PMID: 19148178, PMID: 18796704, PMID: 16178512, PMID: 19454348, PMID: 18796704, PMID: 14967035, PMID: 15792636, PMID: 16775317, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 27664935, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 19148178, PMID: 18796704, PMID: 30496325, PMID: 27664935, PMID: 18796704, PMID: 19148178
+Q77VF1,PATHGO:0000332,modulates apoptosis in another organism,PMID: 18796704, PMID: 18796704, PMID: 19148178, PMID: 18796704, PMID: 19148178
+Q77VF1,PATHGO:0000334,suppresses apoptosis in another organism,PMID: 18796704, PMID: 19148178
+Q77VF1,PATHGO:0000306,disrupts RIG-1 signaling in another organism,PMID: 18796704, PMID: 16178512, PMID: 19454348
+Q77VF1,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 18796704, PMID: 16178512, PMID: 19454348, PMID: 18796704, PMID: 14967035, PMID: 15792636, PMID: 16775317, PMID: 18796704, PMID: 19148178
+Q77VF1,PATHGO:0000304,disrupts PKR activity in another organism,PMID: 18796704, PMID: 14967035, PMID: 15792636, PMID: 16775317
+Q77VF1,PATHGO:0000220,suppresses inflammatory cytokine release in another organism,PMID: 18796704, PMID: 30496325
+Q77VF1,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 27664935, PMID: 18796704, PMID: 30496325, PMID: 27664935
+Q77VF1,PATHGO:0000016,modulates immune function in another organism,PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 27664935, PMID: 18796704, PMID: 30496325, PMID: 27664935
+Q77VF1,PATHGO:0000080,suppresses dendritic cell maturation in another organism,PMID: 18796704, PMID: 27664935
+Q77VF1,PATHGO:0000267,suppresses translation initiation factors in another organism,PMID: 18796704, PMID: 30496325
+Q77VF1,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 30496325
+Q77VF1,PATHGO:0000265,modulates eukaryotic translation initiation in another organism,PMID: 18796704, PMID: 30496325
+Q77VF1,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 30496325, PMID: 18796704, PMID: 30496325
+Q77VF1,PATHGO:0000316,modulates eukaryotic translation elongation in another organism,PMID: 18796704, PMID: 30496325
+Q76639,PATHGO:0000308,disrupts antigen presentation in another organism,PMID: 27161574, PMID: 11689877, PMID: 12407409, PMID: 21927636, PMID: 22174682, PMID: 10989308, PMID: 12407409, PMID: 33109760
+Q76639,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 27161574, PMID: 11689877, PMID: 12407409, PMID: 21927636, PMID: 22174682, PMID: 10989308, PMID: 12407409, PMID: 33109760, PMID: 27161574, PMID: 11689877, PMID: 12407409, PMID: 21927636, PMID: 22174682, PMID: 10989308, PMID: 12407409, PMID: 33109760, PMID: 27161574
+Q76639,PATHGO:0000114,mechanism of pathogenicity,PMID: 27161574, PMID: 11689877, PMID: 12407409, PMID: 21927636, PMID: 22174682, PMID: 10989308, PMID: 12407409, PMID: 33109760, PMID: 27161574, PMID: 11689877, PMID: 12407409, PMID: 21927636, PMID: 22174682, PMID: 10989308, PMID: 12407409, PMID: 33109760, PMID: 27161574
+Q76639,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 27161574, PMID: 11689877, PMID: 12407409, PMID: 21927636, PMID: 22174682, PMID: 10989308, PMID: 12407409, PMID: 33109760
+Q76639,PATHGO:0000016,modulates immune function in another organism,PMID: 27161574, PMID: 11689877, PMID: 12407409, PMID: 21927636, PMID: 22174682, PMID: 10989308, PMID: 12407409, PMID: 33109760, PMID: 27161574, PMID: 11689877, PMID: 12407409, PMID: 21927636, PMID: 22174682, PMID: 10989308, PMID: 12407409, PMID: 33109760
+Q76639,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 27161574
+Q75WF2,PATHGO:0000335,activates apoptosis in another organism,PMID: 16973201, PMID: 16973201, PMID: 25047904, PMID: 25952364
+Q75WF2,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 16973201, PMID: 16973201, PMID: 25047904, PMID: 25952364, PMID: 2389250, PMID: 15450924
+Q75WF2,PATHGO:0000114,mechanism of pathogenicity,PMID: 16973201, PMID: 16973201, PMID: 25047904, PMID: 25952364, PMID: 2389250, PMID: 15450924
+Q75WF2,PATHGO:0000332,modulates apoptosis in another organism,PMID: 16973201, PMID: 16973201, PMID: 25047904, PMID: 25952364, PMID: 2389250, PMID: 15450924
+Q6GF37,PATHGO:0000058,mediates iron acquisition,PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996
+Q6GF37,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996
+Q6GF37,PATHGO:0000114,mechanism of pathogenicity,PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996
+Q6GF37,PATHGO:0000113,mediates nutrient acquisition,PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996
+Q6GF37,PATHGO:0000150,promotes survival in host,PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996, PMID: 19150639, PMID: 22411996
+Q6GF37,PATHGO:0000066,mediates iron acquisition from host,PMID: 19150639, PMID: 22411996
+Q68KK0,PATHGO:0000031,mediates non-productive immune system activation in another organism,PMID: 15753912
+Q68KK0,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 15753912, PMID: 15753912, PMID: 15753912, PMID: 15753912
+Q68KK0,PATHGO:0000114,mechanism of pathogenicity,PMID: 15753912, PMID: 15753912, PMID: 15753912, PMID: 15753912
+Q68KK0,PATHGO:0000016,modulates immune function in another organism,PMID: 15753912
+Q68KK0,PATHGO:0000055,mediates membrane phospholipid cleavage in another organism,PMID: 15753912
+Q68KK0,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 15753912, PMID: 15753912, PMID: 15753912
+Q68KK0,PATHGO:0000029,mediates membrane damage of another organism,PMID: 15753912, PMID: 15753912
+Q5SF93,PATHGO:0000235,mediates host cell invasion,PMID: 15557651, PMID: 15557651
+Q5SF93,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 15557651, PMID: 15557651
+Q5SF93,PATHGO:0000114,mechanism of pathogenicity,PMID: 15557651, PMID: 15557651
+Q5SF93,PATHGO:0000368,mediates host cell invasion by microbe,PMID: 15557651
+Q5AD07,PATHGO:0000150,promotes survival in host,PMID: 14617819
+Q5AD07,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 14617819
+Q5AD07,PATHGO:0000114,mechanism of pathogenicity,PMID: 14617819, PMID: 19019164, PMID: 24711423, PMID: 24711423
+Q5AD07,PATHGO:0000031,mediates non-productive immune system activation in another organism,PMID: 19019164, PMID: 24711423
+Q5AD07,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 19019164, PMID: 24711423, PMID: 24711423
+Q5AD07,PATHGO:0000016,modulates immune function in another organism,PMID: 19019164, PMID: 24711423, PMID: 24711423
+Q5AD07,PATHGO:0000230,mediates free radical detoxification in another organism,PMID: 24711423
+Q5AD07,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 24711423
+Q56064,PATHGO:0000150,promotes survival in host,PMID: 12655062
+Q56064,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 12655062
+Q56064,PATHGO:0000114,mechanism of pathogenicity,PMID: 12655062
+Q4LCT0,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 23276943, PMID: 15656785
+Q4LCT0,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 23276943, PMID: 15656785, PMID: 15656785, PMID: 29415410, PMID: 29415410
+Q4LCT0,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 23276943, PMID: 15656785, PMID: 15656785
+Q4LCT0,PATHGO:0000114,mechanism of pathogenicity,PMID: 23276943, PMID: 15656785, PMID: 15656785, PMID: 29415410, PMID: 29415410
+Q4LCT0,PATHGO:0000357,disrupts tissue structure in another organism,PMID: 29415410, PMID: 29415410
+Q4LCT0,PATHGO:0000159,disrupts cell-cell adhesion in another organism,PMID: 29415410
+Q47692,PATHGO:0000133,mediates fibronectin binding in another organism,PMID: 8132344, PMID: 15385451
+Q47692,PATHGO:0000147,enables adhesion,PMID: 8132344, PMID: 15385451, PMID: 8132344, PMID: 15385451, PMID: 9743528, PMID: 11748157, PMID: 8132344, PMID: 15385451, PMID: 9743528, PMID: 11748157, PMID: 21113100, PMID: 15385451, PMID: 8132344, PMID: 15385451
+Q47692,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 8132344, PMID: 15385451, PMID: 10858231, PMID: 8132344, PMID: 15385451, PMID: 9743528, PMID: 11748157, PMID: 8132344, PMID: 15385451, PMID: 9743528, PMID: 11748157, PMID: 10858231, PMID: 10858231, PMID: 21113100, PMID: 10858231, PMID: 15385451, PMID: 8132344, PMID: 15385451
+Q47692,PATHGO:0000114,mechanism of pathogenicity,PMID: 8132344, PMID: 15385451, PMID: 10858231, PMID: 8132344, PMID: 15385451, PMID: 9743528, PMID: 11748157, PMID: 8132344, PMID: 15385451, PMID: 9743528, PMID: 11748157, PMID: 10858231, PMID: 10858231, PMID: 21113100, PMID: 10858231, PMID: 15385451, PMID: 8132344, PMID: 15385451
+Q47692,PATHGO:0000038,mediates adhesion in another organism,PMID: 8132344, PMID: 15385451, PMID: 8132344, PMID: 15385451, PMID: 9743528, PMID: 11748157, PMID: 21113100, PMID: 15385451, PMID: 8132344, PMID: 15385451
+Q47692,PATHGO:0000099,mediates extracellular matrix binding in another organism,PMID: 8132344, PMID: 15385451, PMID: 15385451, PMID: 8132344, PMID: 15385451
+Q47692,PATHGO:0000150,promotes survival in host,PMID: 10858231, PMID: 10858231, PMID: 10858231, PMID: 10858231
+Q47692,PATHGO:0000113,mediates nutrient acquisition,PMID: 10858231, PMID: 10858231, PMID: 10858231
+Q47692,PATHGO:0000058,mediates iron acquisition,PMID: 10858231, PMID: 10858231
+Q47692,PATHGO:0000211,mediates binding to the cell surface of another organism,PMID: 21113100
+Q47692,PATHGO:0000066,mediates iron acquisition from host,PMID: 10858231
+Q47692,PATHGO:0000069,mediates collagen binding in another organism,PMID: 8132344, PMID: 15385451
+Q46669,PATHGO:0000331,modulates cell cycle in another organism,PMID: 15953025, PMID: 15056215, PMID: 31614800, PMID: 11292766, PMID: 10972814, PMID: 15713603, PMID: 15694861, PMID: 16304609, PMID: 16511299, PMID: 11595635
+Q46669,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 15953025, PMID: 15056215, PMID: 31614800, PMID: 11292766, PMID: 10972814, PMID: 15713603, PMID: 15694861, PMID: 16304609, PMID: 16511299, PMID: 11595635
+Q46669,PATHGO:0000114,mechanism of pathogenicity,PMID: 15953025, PMID: 15056215, PMID: 31614800, PMID: 11292766, PMID: 10972814, PMID: 15713603, PMID: 15694861, PMID: 16304609, PMID: 16511299, PMID: 11595635
+Q46669,PATHGO:0000152,induces cell cycle arrest in cells of another organism,PMID: 31614800, PMID: 11292766, PMID: 10972814, PMID: 15713603, PMID: 15694861, PMID: 16304609, PMID: 16511299, PMID: 11595635
+Q45340,PATHGO:0000016,modulates immune function in another organism,PMID: 10482528, PMID: 11292725, PMID: 15385494, PMID: 10482528, PMID: 11292725, PMID: 15385494, PMID: 10482528, PMID: 11292725, PMID: 15385494
+Q45340,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 10482528, PMID: 11292725, PMID: 15385494, PMID: 10482528, PMID: 11292725, PMID: 15385494, PMID: 10482528, PMID: 11292725, PMID: 15385494, PMID: 12511495
+Q45340,PATHGO:0000114,mechanism of pathogenicity,PMID: 10482528, PMID: 11292725, PMID: 15385494, PMID: 10482528, PMID: 11292725, PMID: 15385494, PMID: 10482528, PMID: 11292725, PMID: 15385494, PMID: 12603741, PMID: 7927748, PMID: 12603741, PMID: 7927748, PMID: 12511495
+Q45340,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 10482528, PMID: 11292725, PMID: 15385494, PMID: 10482528, PMID: 11292725, PMID: 15385494
+Q45340,PATHGO:0000100,mediates resistance to complement system in another organism,PMID: 10482528, PMID: 11292725, PMID: 15385494
+Q45340,PATHGO:0000038,mediates adhesion in another organism,PMID: 12603741, PMID: 7927748
+Q45340,PATHGO:0000147,enables adhesion,PMID: 12603741, PMID: 7927748, PMID: 12603741, PMID: 7927748
+Q45340,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 12603741, PMID: 7927748, PMID: 12603741, PMID: 7927748
+Q45340,PATHGO:0000235,mediates host cell invasion,PMID: 12511495
+Q2G0D9,PATHGO:0000150,promotes survival in host,PMID: 18518949
+Q2G0D9,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 18518949, PMID: 18518949
+Q2G0D9,PATHGO:0000114,mechanism of pathogenicity,PMID: 18518949, PMID: 18518949
+Q2G0D9,PATHGO:0000371,modulates expression of genes that mediate pathogenesis in another organism,PMID: 18518949
+Q1W694,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 18207690, PMID: 17296256, PMID: 21590705, PMID: 17296256, PMID: 17296256
+Q1W694,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 18207690, PMID: 17296256, PMID: 21590705, PMID: 17296256, PMID: 17296256
+Q1W694,PATHGO:0000114,mechanism of pathogenicity,PMID: 18207690, PMID: 17296256, PMID: 21590705, PMID: 17296256, PMID: 17296256
+Q1W694,PATHGO:0000055,mediates membrane phospholipid cleavage in another organism,PMID: 17296256
+Q1W694,PATHGO:0000029,mediates membrane damage of another organism,PMID: 17296256, PMID: 17296256
+Q14U76,PATHGO:0000147,enables adhesion,PMID: 10642520, PMID: 21642438, PMID: 10642520, PMID: 21642438, PMID: 10642520, PMID: 21642438, PMID: 10642520
+Q14U76,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 10642520, PMID: 21642438, PMID: 10642520, PMID: 21642438, PMID: 10642520, PMID: 21642438, PMID: 10642520
+Q14U76,PATHGO:0000114,mechanism of pathogenicity,PMID: 10642520, PMID: 21642438, PMID: 10642520, PMID: 21642438, PMID: 10642520, PMID: 21642438, PMID: 10642520, PMID: 24600566, PMID: 24600566, PMID: 24600566, PMID: 24600566, PMID: 24600566
+Q14U76,PATHGO:0000211,mediates binding to the cell surface of another organism,PMID: 10642520, PMID: 21642438, PMID: 10642520
+Q14U76,PATHGO:0000038,mediates adhesion in another organism,PMID: 10642520, PMID: 21642438, PMID: 10642520, PMID: 21642438, PMID: 10642520
+Q14U76,PATHGO:0000072,mediates surface glycoprotein binding of another organism,PMID: 10642520
+Q14U76,PATHGO:0000099,mediates extracellular matrix binding in another organism,PMID: 21642438
+Q14U76,PATHGO:0000231,suppresses opsonization in another organism,PMID: 24600566
+Q14U76,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 24600566, PMID: 24600566, PMID: 24600566, PMID: 24600566, PMID: 24600566
+Q14U76,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 24600566, PMID: 24600566, PMID: 24600566, PMID: 24600566
+Q14U76,PATHGO:0000016,modulates immune function in another organism,PMID: 24600566, PMID: 24600566, PMID: 24600566, PMID: 24600566, PMID: 24600566
+Q14U76,PATHGO:0000232,suppresses phagocytosis in another organism,PMID: 24600566, PMID: 24600566
+Q14U76,PATHGO:0000100,mediates resistance to complement system in another organism,PMID: 24600566
+Q072L6,PATHGO:0000359,modulates coagulation in another organism,PMID: 17994164, PMID: 17994164
+Q072L6,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 17994164, PMID: 17994164
+Q072L6,PATHGO:0000114,mechanism of pathogenicity,PMID: 17994164, PMID: 17994164
+Q072L6,PATHGO:0000361,enhances coagulation in another organism,PMID: 17994164
+Q04IN8,PATHGO:0000029,mediates membrane damage of another organism,PMID: 27026501, PMID: 25973949, PMID: 15851031, PMID: 28081446, PMID: 20528932, PMID: 23860351, PMID: 25973949
+Q04IN8,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 27026501, PMID: 25973949, PMID: 15851031, PMID: 28081446, PMID: 20528932, PMID: 23860351, PMID: 25973949, PMID: 23860351, PMID: 27026501, PMID: 27026501
+Q04IN8,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 27026501, PMID: 25973949, PMID: 15851031, PMID: 28081446, PMID: 20528932, PMID: 23860351, PMID: 25973949, PMID: 23860351
+Q04IN8,PATHGO:0000114,mechanism of pathogenicity,PMID: 27026501, PMID: 25973949, PMID: 15851031, PMID: 28081446, PMID: 20528932, PMID: 23860351, PMID: 25973949, PMID: 23860351, PMID: 27026501, PMID: 27026501
+Q04IN8,PATHGO:0000033,mediates pore formation in another organism,PMID: 15851031, PMID: 28081446, PMID: 20528932, PMID: 23860351, PMID: 25973949
+Q04IN8,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 27026501, PMID: 27026501
+Q04IN8,PATHGO:0000327,mediates DNA cleavage in another organism,PMID: 27026501
+P9WK45,PATHGO:0000113,mediates nutrient acquisition,PMID: 26751071, PMID: 15294983
+P9WK45,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 26751071, PMID: 15294983, PMID: 26751071
+P9WK45,PATHGO:0000114,mechanism of pathogenicity,PMID: 26751071, PMID: 15294983, PMID: 26751071, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712
+P9WK45,PATHGO:0000150,promotes survival in host,PMID: 26751071, PMID: 15294983, PMID: 26751071
+P9WK45,PATHGO:0000233,disrupts toll-like receptor signaling in another organism,PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712
+P9WK45,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712
+P9WK45,PATHGO:0000379,disrupts immune signaling in another organism,PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712
+P9WK45,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712
+P9WK45,PATHGO:0000016,modulates immune function in another organism,PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712, PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712
+P9WK45,PATHGO:0000308,disrupts antigen presentation in another organism,PMID: 25356793, PMID: 15294983, PMID: 20694006, PMID: 19362712
+P9WJ62,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 25847237, PMID: 25847237, PMID: 25847237
+P9WJ62,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 25847237, PMID: 25847237, PMID: 25847237
+P9WJ62,PATHGO:0000114,mechanism of pathogenicity,PMID: 25847237, PMID: 25847237, PMID: 25847237
+P9WJ62,PATHGO:0000016,modulates immune function in another organism,PMID: 25847237, PMID: 25847237, PMID: 25847237
+P9WJ62,PATHGO:0000220,suppresses inflammatory cytokine release in another organism,PMID: 25847237
+P9WJ62,PATHGO:0000310,suppresses cytokine activity in another organism,PMID: 25847237
+P89079,PATHGO:0000331,modulates cell cycle in another organism,PMID: 8189528, PMID: 8189528
+P89079,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 8189528, PMID: 8189528, PMID: 11000240
+P89079,PATHGO:0000114,mechanism of pathogenicity,PMID: 8189528, PMID: 8189528, PMID: 24788832, PMID: 11000240
+P89079,PATHGO:0000152,induces cell cycle arrest in cells of another organism,PMID: 8189528
+P89079,PATHGO:0000150,promotes survival in host,PMID: 24788832
+P89079,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 24788832
+P89079,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 11000240
+P87017,PATHGO:0000337,mediates toxin synthesis,PMID: 11055914, PMID: 15006741
+P87017,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 11055914, PMID: 15006741
+P87017,PATHGO:0000114,mechanism of pathogenicity,PMID: 11055914, PMID: 15006741
+P85421,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 26375431, PMID: 7642577, PMID: 8702941, PMID: 8345464
+P85421,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 26375431, PMID: 7642577, PMID: 8702941, PMID: 8345464
+P85421,PATHGO:0000114,mechanism of pathogenicity,PMID: 26375431, PMID: 7642577, PMID: 8702941, PMID: 8345464
+P85421,PATHGO:0000326,modulates transcription in another organism,PMID: 7642577, PMID: 8702941, PMID: 8345464
+P85208,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 18704492, PMID: 18704492
+P85208,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 18704492, PMID: 18704492
+P85208,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 18704492, PMID: 18704492
+P85208,PATHGO:0000114,mechanism of pathogenicity,PMID: 18704492, PMID: 18704492
+P85208,PATHGO:0000030,mediates ribosome inactivation in another organism,PMID: 18704492
+P83622,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 12220659, PMID: 10669026, PMID: 11792701, PMID: 10669026, PMID: 11792701, PMID: 12220659
+P83622,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 12220659, PMID: 10669026, PMID: 11792701, PMID: 10669026, PMID: 11792701, PMID: 12220659
+P83622,PATHGO:0000114,mechanism of pathogenicity,PMID: 12220659, PMID: 10669026, PMID: 11792701, PMID: 10669026, PMID: 11792701, PMID: 12220659
+P83622,PATHGO:0000029,mediates membrane damage of another organism,PMID: 10669026, PMID: 11792701, PMID: 12220659
+P82683,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 15182350, PMID: 7142144, PMID: 3360143, PMID: 16508080, PMID: 6130311, PMID: 7142144, PMID: 3360143, PMID: 16508080, PMID: 6130311, PMID: 15182350
+P82683,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 15182350, PMID: 7142144, PMID: 3360143, PMID: 16508080, PMID: 6130311, PMID: 7142144, PMID: 3360143, PMID: 16508080, PMID: 6130311, PMID: 15182350
+P82683,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 15182350, PMID: 7142144, PMID: 3360143, PMID: 16508080, PMID: 6130311, PMID: 7142144, PMID: 3360143, PMID: 16508080, PMID: 6130311, PMID: 15182350
+P82683,PATHGO:0000114,mechanism of pathogenicity,PMID: 15182350, PMID: 7142144, PMID: 3360143, PMID: 16508080, PMID: 6130311, PMID: 7142144, PMID: 3360143, PMID: 16508080, PMID: 6130311, PMID: 15182350
+P82683,PATHGO:0000030,mediates ribosome inactivation in another organism,PMID: 7142144, PMID: 3360143, PMID: 16508080, PMID: 6130311, PMID: 15182350
+P61104,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 18234186, PMID: 18234186
+P61104,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 18234186, PMID: 18234186
+P61104,PATHGO:0000114,mechanism of pathogenicity,PMID: 18234186, PMID: 18234186
+P61104,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 18234186
+P59368,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 14757211, PMID: 12770132, PMID: 27077886, PMID: 12770132
+P59368,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 14757211, PMID: 12770132, PMID: 27077886, PMID: 12770132
+P59368,PATHGO:0000114,mechanism of pathogenicity,PMID: 14757211, PMID: 12770132, PMID: 27077886, PMID: 12770132
+P59368,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 12770132, PMID: 27077886, PMID: 12770132
+P59368,PATHGO:0000023,disruption of action potential propagation in other organism,PMID: 12770132
+P58806,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 10604979, PMID: 10604979
+P58806,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 10604979, PMID: 10604979, PMID: 10604979, PMID: 10604979
+P58806,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 10604979, PMID: 10604979
+P58806,PATHGO:0000114,mechanism of pathogenicity,PMID: 10604979, PMID: 10604979, PMID: 10604979, PMID: 10604979
+P58806,PATHGO:0000023,disruption of action potential propagation in other organism,PMID: 10604979
+P58806,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 10604979, PMID: 10604979
+P58806,PATHGO:0000176,modulates receptor activity in another organism,PMID: 10604979
+P56953,PATHGO:0000033,mediates pore formation in another organism,PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218
+P56953,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218, PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218, PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218
+P56953,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218, PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218, PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218
+P56953,PATHGO:0000114,mechanism of pathogenicity,PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218, PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218, PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218
+P56953,PATHGO:0000029,mediates membrane damage of another organism,PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218, PMID: 17198720, doi: 10.2306/scienceasia1513-1874.2010.36.271, PMID: 16530218
+P49343,PATHGO:0000033,mediates pore formation in another organism,PMID: 7826413, PMID: 7826413, PMID: 10336635
+P49343,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 7826413, PMID: 7826413, PMID: 10336635, PMID: 7826413, PMID: 10336635, PMID: 7826413, PMID: 10336635
+P49343,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 7826413, PMID: 7826413, PMID: 10336635, PMID: 7826413, PMID: 10336635, PMID: 7826413, PMID: 10336635
+P49343,PATHGO:0000114,mechanism of pathogenicity,PMID: 7826413, PMID: 7826413, PMID: 10336635, PMID: 7826413, PMID: 10336635, PMID: 7826413, PMID: 10336635
+P49343,PATHGO:0000029,mediates membrane damage of another organism,PMID: 7826413, PMID: 7826413, PMID: 10336635, PMID: 7826413, PMID: 10336635
+P45387,PATHGO:0000038,mediates adhesion in another organism,PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 12183535, PMID: 12183535
+P45387,PATHGO:0000147,enables adhesion,PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 9885571, PMID: 12183535, PMID: 12183535
+P45387,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 9885571, PMID: 12183535, PMID: 12183535
+P45387,PATHGO:0000114,mechanism of pathogenicity,PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 12183535, PMID: 12183535, PMID: 12183535, PMID: 9885571, PMID: 12183535, PMID: 12183535
+P45387,PATHGO:0000099,mediates extracellular matrix binding in another organism,PMID: 12183535, PMID: 12614461, PMID: 12183535, PMID: 12183535, PMID: 12183535
+P45387,PATHGO:0000033,mediates pore formation in another organism,PMID: 12183535
+P45387,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 12183535, PMID: 12183535, PMID: 12183535
+P45387,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 12183535, PMID: 12183535, PMID: 12183535
+P45387,PATHGO:0000029,mediates membrane damage of another organism,PMID: 12183535, PMID: 12183535
+P45387,PATHGO:0000133,mediates fibronectin binding in another organism,PMID: 12183535
+P45387,PATHGO:0000062,mediates biofilm formation,PMID: 9885571
+P45387,PATHGO:0000069,mediates collagen binding in another organism,PMID: 12183535
+P45387,PATHGO:0000275,mediates laminin binding in another organism,PMID: 12183535
+P44969,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 25995193, PMID: 18165266, PMID: 22919571, PMID: 18165266
+P44969,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 25995193, PMID: 18165266, PMID: 25995193, PMID: 18165266, PMID: 22919571, PMID: 18165266, PMID: 25995193, PMID: 25995193, PMID: 25995193
+P44969,PATHGO:0000114,mechanism of pathogenicity,PMID: 25995193, PMID: 18165266, PMID: 25995193, PMID: 18165266, PMID: 22919571, PMID: 18165266, PMID: 25995193, PMID: 25995193, PMID: 25995193
+P44969,PATHGO:0000016,modulates immune function in another organism,PMID: 25995193, PMID: 18165266, PMID: 25995193, PMID: 18165266, PMID: 22919571, PMID: 18165266
+P44969,PATHGO:0000257,mediates immunoglobulin neutralization in another organism,PMID: 22919571, PMID: 18165266
+P44969,PATHGO:0000235,mediates host cell invasion,PMID: 25995193
+P44969,PATHGO:0000029,mediates membrane damage of another organism,PMID: 25995193
+P44969,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 25995193, PMID: 25995193
+P42782,PATHGO:0000029,mediates membrane damage of another organism,PMID: 25995193
+P42782,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 25995193, PMID: 25995193, PMID: 25995193, PMID: 25995193, PMID: 18165266, PMID: 22919571, PMID: 25995193, PMID: 18165266
+P42782,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 25995193, PMID: 25995193
+P42782,PATHGO:0000114,mechanism of pathogenicity,PMID: 25995193, PMID: 25995193, PMID: 25995193, PMID: 25995193, PMID: 18165266, PMID: 22919571, PMID: 25995193, PMID: 18165266
+P42782,PATHGO:0000235,mediates host cell invasion,PMID: 25995193
+P42782,PATHGO:0000016,modulates immune function in another organism,PMID: 25995193, PMID: 18165266, PMID: 22919571, PMID: 25995193, PMID: 18165266
+P42782,PATHGO:0000257,mediates immunoglobulin neutralization in another organism,PMID: 22919571
+P42782,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 22919571, PMID: 25995193, PMID: 18165266
+P08878,PATHGO:0000055,mediates membrane phospholipid cleavage in another organism,PMID: 20109480
+P08878,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 20109480, PMID: 20109480
+P08878,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 20109480
+P08878,PATHGO:0000114,mechanism of pathogenicity,PMID: 20109480, PMID: 20109480
+P08878,PATHGO:0000029,mediates membrane damage of another organism,PMID: 20109480
+P08878,PATHGO:0000007,disrupts neurotransmitter release in another organism,PMID: 20109480
+P08878,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 20109480
+P08878,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 20109480
+P09255,PATHGO:0000016,modulates immune function in another organism,PMID: 20563710, PMID: 1316489
+P09255,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 20563710, PMID: 1316489, PMID: 15843171
+P09255,PATHGO:0000114,mechanism of pathogenicity,PMID: 20563710, PMID: 1316489, PMID: 15843171
+P09255,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 1316489
+P09255,PATHGO:0000326,modulates transcription in another organism,PMID: 15843171
+P09255,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 15843171
+P0A0L8,PATHGO:0000010,mediates non-specific T-cell activation in another organism,PMID: 9632603, PMID: 21059660, PMID: 17427250, PMID: 27801832
+P0A0L8,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 9632603, PMID: 21059660, PMID: 17427250, PMID: 27801832
+P0A0L8,PATHGO:0000114,mechanism of pathogenicity,PMID: 9632603, PMID: 21059660, PMID: 17427250, PMID: 27801832
+P0A0L8,PATHGO:0000031,mediates non-productive immune system activation in another organism,PMID: 9632603, PMID: 21059660, PMID: 17427250, PMID: 27801832
+P0A0L8,PATHGO:0000016,modulates immune function in another organism,PMID: 9632603, PMID: 21059660, PMID: 17427250, PMID: 27801832
+P0C0J0,PATHGO:0000232,suppresses phagocytosis in another organism,PMID: 9864206
+P0C0J0,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 9864206, PMID: 17606031, PMID: 12615219, PMID: 23569114, PMID: 24278414, PMID: 24278414, PMID: 18160402, PMID: 24278414, PMID: 12065540, PMID: 22050223, PMID: 9864206, PMID: 18227168
+P0C0J0,PATHGO:0000114,mechanism of pathogenicity,PMID: 9864206, PMID: 17606031, PMID: 12615219, PMID: 23569114, PMID: 24278414, PMID: 24278414, PMID: 18160402, PMID: 24278414, PMID: 12065540, PMID: 22050223, PMID: 9864206, PMID: 18227168
+P0C0J0,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 9864206, PMID: 24278414, PMID: 18160402, PMID: 12065540
+P0C0J0,PATHGO:0000016,modulates immune function in another organism,PMID: 9864206, PMID: 17606031, PMID: 12615219, PMID: 23569114, PMID: 24278414, PMID: 18160402, PMID: 12065540
+P0C0J0,PATHGO:0000251,mediates dissemination in another organism,PMID: 24278414
+P0C0J0,PATHGO:0000100,mediates resistance to complement system in another organism,PMID: 24278414, PMID: 18160402
+P0C0J0,PATHGO:0000213,suppresses platelet aggregation in another organism,PMID: 24278414
+P0C0J0,PATHGO:0000159,disrupts cell-cell adhesion in another organism,PMID: 24278414
+P0C0J0,PATHGO:0000357,disrupts tissue structure in another organism,PMID: 24278414, PMID: 22050223
+P0C0J0,PATHGO:0000226,disrupts extracellular matrix in another organism,PMID: 22050223
+P0C0J0,PATHGO:0000335,activates apoptosis in another organism,PMID: 9864206, PMID: 18227168
+P0C0J0,PATHGO:0000332,modulates apoptosis in another organism,PMID: 9864206, PMID: 18227168
+P0C1C8,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 16325964, PMID: 16325964
+P0C1C8,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 16325964, PMID: 16325964
+P0C1C8,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 16325964, PMID: 16325964
+P0C1C8,PATHGO:0000114,mechanism of pathogenicity,PMID: 16325964, PMID: 16325964
+P0C1C8,PATHGO:0000023,disruption of action potential propagation in other organism,PMID: 16325964
+P0C2D5,PATHGO:0000335,activates apoptosis in another organism,PMID: 22579637, PMID: 12650671
+P0C2D5,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 22579637, PMID: 12650671
+P0C2D5,PATHGO:0000114,mechanism of pathogenicity,PMID: 22579637, PMID: 12650671
+P0C2D5,PATHGO:0000332,modulates apoptosis in another organism,PMID: 22579637, PMID: 12650671
+P40136,PATHGO:0000170,disrupts cAMP levels within cells of another organism,PMID: 26978402, PMID: 15558214, PMID: 19560485
+P40136,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 26978402, PMID: 15558214, PMID: 18698416, PMID: 15814721, PMID: 19560485, PMID: 18698416
+P40136,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 26978402, PMID: 15558214, PMID: 19560485, PMID: 18698416
+P40136,PATHGO:0000114,mechanism of pathogenicity,PMID: 26978402, PMID: 15558214, PMID: 18698416, PMID: 15814721, PMID: 19560485, PMID: 18698416
+P40136,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 18698416, PMID: 15814721
+P40136,PATHGO:0000173,modulates cAMP synthesis within cells of another organism,PMID: 19560485
+P37045,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 8232218, PMID: 8232218
+P37045,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 8232218, PMID: 8232218, PMID: 8232218
+P37045,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 8232218, PMID: 8232218, PMID: 8232218
+P37045,PATHGO:0000114,mechanism of pathogenicity,PMID: 8232218, PMID: 8232218, PMID: 8232218
+P37045,PATHGO:0000007,disrupts neurotransmitter release in another organism,PMID: 8232218
+P33183,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 8647092, PMID: 9195017, PMID: 12899446, PMID: 8647092
+P33183,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 8647092, PMID: 8647092, PMID: 12899446, PMID: 9195017, PMID: 12899446, PMID: 8647092
+P33183,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 8647092, PMID: 8647092, PMID: 12899446, PMID: 9195017, PMID: 12899446, PMID: 8647092
+P33183,PATHGO:0000114,mechanism of pathogenicity,PMID: 8647092, PMID: 8647092, PMID: 12899446, PMID: 9195017, PMID: 12899446, PMID: 8647092
+P33183,PATHGO:0000030,mediates ribosome inactivation in another organism,PMID: 9195017, PMID: 12899446, PMID: 8647092
+P31100,PATHGO:0000375,serves as chaperone for effector molecule that acts in another organism,PMID: 8835338
+P31100,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 8835338, PMID: 8835338
+P31100,PATHGO:0000114,mechanism of pathogenicity,PMID: 8835338, PMID: 8835338
+P31100,PATHGO:0000338,potentiates activity of effector molecule that acts in another organism,PMID: 8835338, PMID: 8835338
+P0C5F0,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 12459175, PMID: 12459175, PMID: 12504099
+P0C5F0,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 12459175, PMID: 12459175, PMID: 12504099, PMID: 12459175, PMID: 12504099
+P0C5F0,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 12459175, PMID: 12459175, PMID: 12504099, PMID: 12459175, PMID: 12504099
+P0C5F0,PATHGO:0000114,mechanism of pathogenicity,PMID: 12459175, PMID: 12459175, PMID: 12504099, PMID: 12459175, PMID: 12504099
+P0C5F0,PATHGO:0000023,disruption of action potential propagation in other organism,PMID: 12459175, PMID: 12504099
+P29186,PATHGO:0000007,disrupts neurotransmitter release in another organism,PMID: 8098956
+P29186,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 8098956, PMID: 8098956, PMID: 11707459, PMID: 8098956, PMID: 8098956, PMID: 11707459
+P29186,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 8098956, PMID: 8098956, PMID: 11707459, PMID: 8098956, PMID: 8098956, PMID: 11707459
+P29186,PATHGO:0000114,mechanism of pathogenicity,PMID: 8098956, PMID: 8098956, PMID: 11707459, PMID: 8098956, PMID: 8098956, PMID: 11707459
+P29186,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 8098956, PMID: 8098956, PMID: 11707459, PMID: 8098956
+P29186,PATHGO:0000023,disruption of action potential propagation in other organism,PMID: 8098956
+P28878,PATHGO:0000021,disrupts post-synaptic membrane potential in other organism,PMID: 28361878
+P28878,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 28361878, PMID: 28361878, PMID: 28361878, PMID: 9220994, PMID: 9220994
+P28878,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 28361878, PMID: 28361878, PMID: 28361878
+P28878,PATHGO:0000114,mechanism of pathogenicity,PMID: 28361878, PMID: 28361878, PMID: 28361878, PMID: 9220994, PMID: 9220994
+P28878,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 28361878, PMID: 28361878
+P28878,PATHGO:0000176,modulates receptor activity in another organism,PMID: 9220994
+P28878,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 9220994, PMID: 9220994
+P26761,PATHGO:0000110,mediates secretion of protein effectors,PMID: 8181764, PMID: 8409915
+P26761,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 8181764, PMID: 8409915
+P26761,PATHGO:0000114,mechanism of pathogenicity,PMID: 8181764, PMID: 8409915
+P23874,PATHGO:0000062,mediates biofilm formation,PMID: 23329678
+P23874,PATHGO:0000147,enables adhesion,PMID: 23329678, PMID: 23329678
+P23874,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 23329678, PMID: 23329678
+P23874,PATHGO:0000114,mechanism of pathogenicity,PMID: 23329678, PMID: 23329678
+P21698,PATHGO:0000326,modulates transcription in another organism,PMID: 19197350
+P21698,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 19197350, PMID: 23029207, PMID: 19197350, PMID: 24403578, PMID: 23029207, PMID: 23029207, PMID: 23029207, PMID: 28915104, PMID: 19197350, PMID: 28915104
+P21698,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 19197350, PMID: 19197350
+P21698,PATHGO:0000114,mechanism of pathogenicity,PMID: 19197350, PMID: 23029207, PMID: 19197350, PMID: 24403578, PMID: 23029207, PMID: 23029207, PMID: 23029207, PMID: 28915104, PMID: 19197350, PMID: 28915104
+P21698,PATHGO:0000379,disrupts immune signaling in another organism,PMID: 23029207, PMID: 23029207, PMID: 23029207
+P21698,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 23029207, PMID: 19197350, PMID: 24403578, PMID: 23029207, PMID: 23029207, PMID: 23029207
+P21698,PATHGO:0000016,modulates immune function in another organism,PMID: 23029207, PMID: 19197350, PMID: 24403578, PMID: 23029207, PMID: 23029207, PMID: 23029207
+P21698,PATHGO:0000382,suppresses interferon signaling in another organism,PMID: 23029207
+P21698,PATHGO:0000381,modulates interferon signaling in another organism,PMID: 23029207, PMID: 23029207
+P21698,PATHGO:0000152,induces cell cycle arrest in cells of another organism,PMID: 28915104
+P21698,PATHGO:0000331,modulates cell cycle in another organism,PMID: 28915104, PMID: 28915104
+P16913,PATHGO:0000016,modulates immune function in another organism,PMID: 18005698, PMID: 1602551, PMID: 24600006, PMID: 18005698, PMID: 1602551, PMID: 24600006, PMID: 18005698, PMID: 1602551, PMID: 24600006, PMID: 16840345
+P16913,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 18005698, PMID: 1602551, PMID: 24600006, PMID: 18005698, PMID: 1602551, PMID: 24600006, PMID: 18005698, PMID: 1602551, PMID: 24600006, PMID: 16840345, PMID: 28636603, PMID: 28636603
+P16913,PATHGO:0000114,mechanism of pathogenicity,PMID: 18005698, PMID: 1602551, PMID: 24600006, PMID: 18005698, PMID: 1602551, PMID: 24600006, PMID: 18005698, PMID: 1602551, PMID: 24600006, PMID: 16840345, PMID: 28636603, PMID: 28636603
+P16913,PATHGO:0000312,mediates concealment of foreign nucleic acid in another organism,PMID: 18005698, PMID: 1602551, PMID: 24600006
+P16913,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 18005698, PMID: 1602551, PMID: 24600006, PMID: 18005698, PMID: 1602551, PMID: 24600006, PMID: 16840345
+P16913,PATHGO:0000379,disrupts immune signaling in another organism,PMID: 16840345
+P16913,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 28636603
+P16913,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 28636603, PMID: 28636603
+P0C6V6,PATHGO:0000310,suppresses cytokine activity in another organism,PMID: 26773386, PMID: 28715653
+P0C6V6,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 26773386, PMID: 28715653, PMID: 26773386
+P0C6V6,PATHGO:0000114,mechanism of pathogenicity,PMID: 26773386, PMID: 28715653, PMID: 26773386
+P0C6V6,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 26773386, PMID: 28715653
+P0C6V6,PATHGO:0000016,modulates immune function in another organism,PMID: 26773386, PMID: 28715653
+P0C6V6,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 26773386
+P0CG44,PATHGO:0000033,mediates pore formation in another organism,PMID: 19232528
+P0CG44,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 19232528
+P0CG44,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 19232528
+P0CG44,PATHGO:0000114,mechanism of pathogenicity,PMID: 19232528
+P0CG44,PATHGO:0000029,mediates membrane damage of another organism,PMID: 19232528
+P0DKY9,PATHGO:0000176,modulates receptor activity in another organism,PMID: 20572027
+P0DKY9,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 20572027, PMID: 20572027, PMID: 15579001
+P0DKY9,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 20572027
+P0DKY9,PATHGO:0000114,mechanism of pathogenicity,PMID: 20572027, PMID: 20572027, PMID: 15579001
+P0DKY9,PATHGO:0000023,disruption of action potential propagation in other organism,PMID: 20572027
+P0DKY9,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 20572027, PMID: 15579001
+P0DKY9,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 20572027, PMID: 15579001
+P13423,PATHGO:0000033,mediates pore formation in another organism,PMID: 15680766
+P13423,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 15680766, PMID: 15680766, PMID: 22095644, PMID: 15680766, PMID: 15680766, PMID: 22095644, PMID: 22219086, PMID: 15680766
+P13423,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 15680766, PMID: 15680766, PMID: 15680766
+P13423,PATHGO:0000114,mechanism of pathogenicity,PMID: 15680766, PMID: 22219086, PMID: 15680766, PMID: 22095644, PMID: 15680766, PMID: 15680766, PMID: 22219086, PMID: 22095644, PMID: 22219086, PMID: 15680766, PMID: 22219086
+P13423,PATHGO:0000029,mediates membrane damage of another organism,PMID: 15680766, PMID: 15680766
+P13423,PATHGO:0000211,mediates binding to the cell surface of another organism,PMID: 22219086
+P13423,PATHGO:0000147,enables adhesion,PMID: 22219086, PMID: 22219086, PMID: 22219086
+P13423,PATHGO:0000336,indirect mechanism of pathogenicity,PMID: 22219086, PMID: 22219086, PMID: 22219086
+P13423,PATHGO:0000038,mediates adhesion in another organism,PMID: 22219086, PMID: 22219086
+P13423,PATHGO:0000251,mediates dissemination in another organism,PMID: 22095644, PMID: 15680766, PMID: 22095644, PMID: 22219086, PMID: 15680766
+P13423,PATHGO:0000253,mediates barrier traversal in another organism,PMID: 22095644, PMID: 22219086, PMID: 15680766
+P11439,PATHGO:0000244,suppresses translation elongation factors in another organism,PMID: 32695104, PMID: 11123917
+P11439,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 32695104, PMID: 11123917, PMID: 32695104, PMID: 11123917, PMID: 19380469, PMID: 11123917, PMID: 16406634, PMID: 19380469, PMID: 11123917, PMID: 16406634
+P11439,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 32695104, PMID: 11123917, PMID: 32695104, PMID: 11123917, PMID: 19380469, PMID: 11123917, PMID: 16406634, PMID: 19380469, PMID: 11123917, PMID: 16406634
+P11439,PATHGO:0000114,mechanism of pathogenicity,PMID: 32695104, PMID: 11123917, PMID: 32695104, PMID: 11123917, PMID: 19380469, PMID: 11123917, PMID: 16406634, PMID: 19380469, PMID: 11123917, PMID: 16406634
+P11439,PATHGO:0000316,modulates eukaryotic translation elongation in another organism,PMID: 32695104, PMID: 11123917, PMID: 32695104, PMID: 11123917
+P11439,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 32695104, PMID: 11123917, PMID: 32695104, PMID: 11123917, PMID: 19380469, PMID: 11123917, PMID: 16406634
+P0DL41,PATHGO:0000029,mediates membrane damage of another organism,PMID: 23093034
+P0DL41,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 23093034
+P0DL41,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 23093034
+P0DL41,PATHGO:0000114,mechanism of pathogenicity,PMID: 23093034
+P11140,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 29027937, PMID: 30506989, PMID: 29027937, PMID: 19239732
+P11140,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 29027937, PMID: 30506989, PMID: 29027937, PMID: 19239732, PMID: 13129434
+P11140,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 29027937, PMID: 30506989, PMID: 29027937, PMID: 19239732, PMID: 13129434
+P11140,PATHGO:0000114,mechanism of pathogenicity,PMID: 29027937, PMID: 30506989, PMID: 29027937, PMID: 19239732, PMID: 13129434
+P11140,PATHGO:0000030,mediates ribosome inactivation in another organism,PMID: 30506989, PMID: 29027937, PMID: 19239732
+P0DL71,PATHGO:0000003,modulates ion channel activity in another organism,PMID: 28396446
+P0DL71,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 28396446
+P0DL71,PATHGO:0000167,disrupts cellular transport in another organism,PMID: 28396446
+P0DL71,PATHGO:0000114,mechanism of pathogenicity,PMID: 28396446
+P0DMB6,PATHGO:0000055,mediates membrane phospholipid cleavage in another organism,PMID: 10484737
+P0DMB6,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 10484737
+P0DMB6,PATHGO:0000166,disrupts cellular structure in another organism,PMID: 10484737
+P0DMB6,PATHGO:0000114,mechanism of pathogenicity,PMID: 10484737
+P0DMB6,PATHGO:0000029,mediates membrane damage of another organism,PMID: 10484737
+P0DMV7,PATHGO:0000030,mediates ribosome inactivation in another organism,PMID: 27599842
+P0DMV7,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 27599842
+P0DMV7,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 27599842
+P0DMV7,PATHGO:0000114,mechanism of pathogenicity,PMID: 27599842
+P0DMV7,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 27599842
+P10149,PATHGO:0000030,mediates ribosome inactivation in another organism,PMID: 11923370
+P10149,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 11923370
+P10149,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 11923370
+P10149,PATHGO:0000114,mechanism of pathogenicity,PMID: 11923370
+P10149,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 11923370
+P10225,PATHGO:0000300,disrupts STING signaling in another organism,PMID: 28077645
+P10225,PATHGO:0000333,direct mechanism of pathogenicity,PMID: 28077645, PMID: 32430029, PMID: 12163576, PMID: 16477041, PMID: 28077645, PMID: 27928013, PMID: 27681138, PMID: 26625984, PMID: 25078699, PMID: 32430029, PMID: 32430029, PMID: 27928013, PMID: 27681138
+P10225,PATHGO:0000165,disrupts cellular signaling in another organism,PMID: 28077645, PMID: 27928013, PMID: 27681138
+P10225,PATHGO:0000114,mechanism of pathogenicity,PMID: 28077645, PMID: 32430029, PMID: 12163576, PMID: 16477041, PMID: 28077645, PMID: 27928013, PMID: 27681138, PMID: 26625984, PMID: 25078699, PMID: 32430029, PMID: 32430029, PMID: 27928013, PMID: 27681138
+P10225,PATHGO:0000006,modulates protein synthesis in another organism,PMID: 32430029, PMID: 12163576, PMID: 16477041, PMID: 28077645, PMID: 27928013, PMID: 27681138, PMID: 26625984, PMID: 25078699
+P10225,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 32430029, PMID: 12163576, PMID: 16477041, PMID: 28077645, PMID: 27928013, PMID: 27681138, PMID: 26625984, PMID: 25078699
+P10225,PATHGO:0000310,suppresses cytokine activity in another organism,PMID: 32430029
+P10225,PATHGO:0000085,mediates immune evasion and subversion in another organism,PMID: 32430029, PMID: 32430029
+P10225,PATHGO:0000016,modulates immune function in another organism,PMID: 32430029, PMID: 32430029
+P10225,PATHGO:0000308,disrupts antigen presentation in another organism,PMID: 32430029
