@@ -1,0 +1,2 @@
+Uniprot_id,PathGO_id,PathGO_name,Reference
+B8XH01,PATHGO:0000164,disrupts cellular metabolism in another organism,PMID: 15680238
