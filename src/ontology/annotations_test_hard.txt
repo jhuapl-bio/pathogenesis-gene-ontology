@@ -1,0 +1,4 @@
+Uniprot_id,PathGO_id,PathGO_name,Reference
+P01501,PATHGO:0000033,mediates pore formation in another organism,PMID: 4057243; PubMed:6830776
+P01501,PATHGO:0000176,modulates receptor activity in another organism,PMID: 26983715
+P01501,PATHGO:0000029,mediates membrane damage of another organism,PMID6830776; PMID: 30885804
